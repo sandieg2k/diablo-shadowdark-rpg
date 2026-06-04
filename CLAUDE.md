@@ -7,85 +7,84 @@ This file provides guidance to Claude Code when working with this project.
 RPG de mesa homebrew inspirado na franquia **Diablo**. Criado por Paulo Souza (GitHub: Felipe1072-git).
 
 - **Nome do sistema:** Diablo RPG
-- **Documento principal:** `Diablo Homebrew RPG.md`
 - **Versão atual:** 1.0 (Playtest)
 - **Repositório:** https://github.com/Felipe1072-git/diablo-shadowdark-rpg
-
-## Estrutura do Livro (aprovada)
-
-Livro principal: `Diablo Homebrew RPG.md` — inspirado no D&D 5e (2024).
-Sem conceito de raças: todos os personagens são humanos/nephalem. O Cap. 4 explica isso e oferece antecedentes temáticos do universo Diablo.
-
-### Mapeamento: o que existe vs. o que falta
-
-| Capítulo | Status | Localização no .md |
-|---|---|---|
-| Capa | ✅ Pronto | linha 1 |
-| Introdução | ✅ Pronto | linha 7 |
-| **Cap. 1: Jogando o Jogo** | ✅ Pronto | Regras base adicionadas (dados, atributos, testes, salvaguardas, PV). Combate/PA, Mana, Tempo, Viagem, Encontros, Matriz de Resistência já existiam |
-| **Cap. 2: Criando um Personagem** | ✅ Pronto | Passo a passo, kits iniciais das 18 classes, avanço de nível 1–10 (marcos ou XP) |
-| **Cap. 3: Classes** | ✅ Pronto | `01-classes.md` |
-| **Cap. 4: Origens** | ✅ Pronto | Introdução nephalem/humanos, Título de Origem (referência ao sistema existente), 12 Antecedentes com habilidades permanentes |
-| **Cap. 5: Talentos** | ✅ Pronto | 6 tabelas d20 (Combate, Magia, Sobrevivência, Social, Exploração, Fortuna) — alternativa às tabelas de classe ao subir de nível |
-| **Cap. 6: Arsenal** | ✅ Pronto | Arsenal l.382, Tesouros+Tabelas l.761–1101 |
-| **Cap. 7: Magia** | ✅ Pronto | linha 322 |
-| **Apêndice A: Criaturas** | ⚠️ Parcial | Tabelas de encontros l.668 — sem statblocks completos |
-| **Apêndice B: Glossário** | ❌ Faltando | — |
-
-### Arquivos separados (fora do livro principal)
-
-| Conteúdo | Status | Situação |
-|---|---|---|
-| Cenários (7 módulos) | ✅ Escritos | Estão no .md principal (l.1102–1641) — precisam ser movidos para `cenarios/` |
-| Fichas 2.0 | ❌ Vazia | Só o título existe (l.485) |
-| Registro de Campanha | ✅ Escrito | l.1644 — mover para arquivo separado |
-| Forte (NPCs e base) | ✅ Escrito | l.1750 — pode virar módulo separado |
-| Handout - Caverna B | ✅ Escrito | l.1825 — material do cenário O Resgate |
-| Template de Cenário | ✅ Escrito | l.21 — guia para criar aventuras, pode virar apêndice do mestre |
-
-### Conteúdo interno (não entra no livro publicado)
-- `Ideias` l.1714 — rascunhos internos
-
-### Prioridade de trabalho
-1. ~~Regras básicas do Cap. 1~~ ✅
-2. ~~Passo a passo de criação e avanço de nível (Cap. 2)~~ ✅
-3. ~~Cap. 4: Origens~~ ✅
-4. ~~Cap. 5: Talentos~~ ✅
-5. Mover cenários para arquivos individuais em `cenarios/` ← **PRÓXIMO**
-6. Revisar DCs fixas nas classes e Títulos de Origem → substituir por DC 10 + Nível
-7. Revisar referências a "proficiência" nas classes → remover ou substituir
-8. Fichas 2.0
-9. Apêndice de Criaturas e Glossário
+- **Para os jogadores:** link direto do GitHub acima
 
 ## Fluxo de Trabalho
 
-O documento é editado no **Google Docs** e versionado no **GitHub** como Markdown.
+Todo o conteúdo vive no repositório git local:
+**`C:\Users\Paulo Souza\Documents\Claude\Diablo RPG\repo\`**
 
-**Duas pastas distintas — nunca misturar:**
-- `G:\Meu Drive\Cool Side of RPG\Diablo RPG\` → pasta do **Google Drive** (somente arquivos de conteúdo, **sem git**)
-- `C:\Users\Paulo Souza\Documents\Claude\Diablo RPG\repo\` → **repositório git** local (todos os commits e pushes rodam daqui)
+- Paulo e Claude editam os arquivos `.md` diretamente no repo
+- Claude commita e faz push após cada alteração aprovada
+- Nunca rodar git na pasta do Drive (`G:\Meu Drive\...`) — o Google Drive cria `desktop.ini` que corrompe o `.git`
 
-**Passo a passo para salvar uma versão:**
-1. Paulo edita no **Google Docs**
-2. `Arquivo → Fazer download → Markdown (.md)` → salvar em `G:\Meu Drive\Cool Side of RPG\Diablo RPG\`
-3. Claude copia o `.md` do Drive para o repo: `C:\Users\Paulo Souza\Documents\Claude\Diablo RPG\repo\`
-4. Claude commita e faz push a partir do repo (nunca da pasta do Drive)
+**Para gerar o PDF do livro:** instalar o Pandoc e rodar o script `build-pdf.ps1` (a criar).
 
-**Para compartilhar com os jogadores:** link direto do GitHub → https://github.com/Felipe1072-git/diablo-shadowdark-rpg
+## Estrutura de Arquivos
 
-**Atenção:** o Google Drive cria `desktop.ini` em todas as subpastas, inclusive dentro de `.git`, corrompendo o repositório. Por isso o git **nunca deve rodar na pasta do Drive**.
+```
+repo/
+├── Diablo Homebrew RPG.md   ← livro principal (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
+├── 01-classes.md            ← Cap. 3: Classes (18 classes)
+├── cenarios/                ← 7 módulos de aventura
+│   ├── senhor-da-mentira.md
+│   ├── a-torre-esquecida.md
+│   ├── o-abatedouro-profano.md
+│   ├── o-monarca-louco.md
+│   ├── o-carcereiro-das-cinzas.md
+│   ├── sarcofago-escarlate.md
+│   └── o-resgate.md
+└── fichas/
+    ├── fichas-referencia.md ← documentação da estrutura das fichas
+    └── Fichas 2.0.pdf       ← fichas imprimíveis (não entra no git)
+```
+
+**Ordem de compilação para o PDF:**
+1. `Diablo Homebrew RPG.md` (Cap. 1–2, 4–7, Apêndices)
+2. `01-classes.md` (Cap. 3)
+
+Os cenários e fichas são documentos separados, não fazem parte do livro principal.
+
+## Status do Livro
+
+| Capítulo | Status |
+|---|---|
+| Capa | ✅ Pronto |
+| Introdução | ✅ Pronto |
+| Cap. 1: Jogando o Jogo | ✅ Pronto |
+| Cap. 2: Criando um Personagem | ✅ Pronto |
+| Cap. 3: Classes (18 classes) | ✅ Pronto |
+| Cap. 4: Origens | ✅ Pronto |
+| Cap. 5: Talentos | ✅ Pronto |
+| Cap. 6: Arsenal | ✅ Pronto |
+| Cap. 7: Magia | ✅ Pronto |
+| **Apêndice A: Criaturas** | ⚠️ Parcial — tabelas de encontros prontas, statblocks faltando |
+| **Apêndice B: Glossário** | ❌ Faltando |
+
+## Prioridade de Trabalho
+
+1. ~~Regras básicas (Cap. 1)~~ ✅
+2. ~~Criação e avanço de personagem (Cap. 2)~~ ✅
+3. ~~Cap. 4: Origens~~ ✅
+4. ~~Cap. 5: Talentos~~ ✅
+5. ~~Mover cenários para `cenarios/`~~ ✅
+6. ~~Revisar DCs fixas nas classes~~ ✅
+7. ~~Revisar referências a "proficiência"~~ ✅
+8. ~~Fichas 2.0 documentadas~~ ✅
+9. **Apêndice A: Criaturas** ← PRÓXIMO
+10. Apêndice B: Glossário
+11. Script de geração de PDF (`build-pdf.ps1`)
 
 ## Convenções de Commit
 
-Usar prefixos descritivos:
 - `feat:` nova regra, classe, cenário ou mecânica
 - `fix:` correção de erro ou inconsistência nas regras
 - `docs:` atualização de texto, revisão ou reorganização
-- `refactor:` reorganização do documento sem mudança de conteúdo
+- `refactor:` reorganização sem mudança de conteúdo
 
-Sempre passar o link do commit para o usuário conferir as mudanças.
-
-Sempre usar os pop-ups de escolha (AskUserQuestion) para perguntas de sim/não ou múltipla escolha — nunca fazer essas perguntas só em texto.
+Sempre passar o link do commit para o usuário conferir.
 
 ## Criação de Conteúdo
 
@@ -98,42 +97,8 @@ Sempre usar os pop-ups de escolha (AskUserQuestion) para perguntas de sim/não o
 
 - Manter a voz e personalidade do autor (Paulo) — nunca formalizar o tom
 - Corrigir apenas gramática e clareza
-- Mostrar diff (vermelho/verde) antes de commitar alterações de texto
-- Passar o link do commit após cada push para o usuário conferir
+- Mostrar diff antes de commitar alterações de texto
 
-## Status da Revisão do Documento
+## Preferências de Interação
 
-### Concluído
-- **Capa:** nome do sistema atualizado para "Diablo RPG"
-- **Introdução:** correções gramaticais, frase incompleta completada
-- **Template de Cenário:** referência ao "Pearson" removida, cabeçalhos vazios removidos, conteúdo duplicado removido
-- **Classes (todas as 18):** revisão completa
-  - Cabeçalhos duplicados removidos (Amazona, Renegado e todas as classes com `# ---`)
-  - Heading `### Dicas` adicionado em todas as classes
-  - Seção Dicas escrita para o Warlock (única que estava faltando)
-  - Typos, erros de concordância e referências incorretas corrigidos
-  - Todas as referências a "Shadowdark" substituídas por "Diablo RPG"
-  - Estrutura padronizada: Habilidades → Talentos → Dicas → Objetivos
-- **Infraestrutura do repositório:**
-  - `.gitignore` criado (desktop.ini, .gdoc, .docx, .pdf)
-  - Pasta do Drive separada do repositório git
-  - CLAUDE.md atualizado com fluxo definitivo
-
-### Pendente (próxima conversa)
-- **Estrutura do livro:** definir seções de Origens (Antecedentes/Espécies) e Talentos com o usuário
-- **Sistema de Títulos e Renome**
-- **Pontos de Ação**
-- **Mana**
-- **Sistema de Magia**
-- **Arsenal**
-- **Fichas 2.0**
-- **Tempo**
-- **Viagem**
-- **Encontros**
-- **Tesouros**
-- Cenários: Senhor da Mentira, A Torre Esquecida, O Abatedouro Profano, O Monarca Louco, O Carcereiro das Cinzas, Sarcófago Escarlate, O Resgate
-- **Registro de Campanha**
-- **Handout - Caverna B**
-- **Ideias**
-- **Forte**
-- **Matriz de Resistência**
+- Sempre usar pop-ups de escolha (AskUserQuestion) para perguntas de sim/não ou múltipla escolha
