@@ -146,6 +146,102 @@ Estes títulos não são dados na criação; são tomados à força durante o jo
 | **Mestre das Chaves** | Abrir 20 baús ou portas trancadas. | Destrancar fechaduras torna-se uma **Ação Livre** para você (uma vez por turno). |
 | **O Horadrim** | Identificar 10 itens mágicos ou lendários. | **Saber Ancestral:** Você identifica itens instantaneamente ao tocar e ganha \+1d20 em testes de Misticismo. |
 
+# Cap. 1: Jogando o Jogo
+
+## Os Dados
+
+O Diablo RPG usa dados de 4, 6, 8, 10, 12 e 20 lados, referenciados como **d4, d6, d8, d10, d12** e **d20**. Quando você vê **2d6**, role dois dados de 6 lados e some.
+
+O **d20** é o dado central do sistema — ele resolve ataques, testes e salvaguardas. O **d6** e o **d8** aparecem com frequência nos dados de dano.
+
+---
+
+## Os Seis Atributos
+
+Todo personagem é definido por seis atributos:
+
+| Atributo | O que representa |
+| :---- | :---- |
+| **Força (FOR)** | Poder físico, musculatura, capacidade de carregar peso |
+| **Destreza (DES)** | Agilidade, reflexos, precisão |
+| **Constituição (CON)** | Resistência, saúde, capacidade de aguentar punição |
+| **Inteligência (INT)** | Raciocínio, memória, domínio arcano |
+| **Sabedoria (SAB)** | Percepção, instinto, conexão com o mundo natural |
+| **Carisma (CAR)** | Presença, liderança, força de vontade |
+
+**Modificador de Atributo:** é o número somado nos testes. Fórmula: **(valor − 10) ÷ 2**, arredondando para baixo.
+
+| Valor | Modificador |
+| :---- | :---- |
+| 6–7 | −2 |
+| 8–9 | −1 |
+| 10–11 | +0 |
+| 12–13 | +1 |
+| 14–15 | +2 |
+| 16–17 | +3 |
+| 18 | +4 |
+
+---
+
+## Rolando os Atributos
+
+Na criação de personagem, role **3d6** para cada um dos seis atributos, na ordem: FOR, DES, CON, INT, SAB, CAR.
+
+> Santuário não é um lugar para os fracos. Os dados são cruéis, e às vezes o destino também é.
+
+---
+
+## Testes de Atributo
+
+Quando o resultado de uma ação é incerto, o Mestre pede um **Teste de Atributo**:
+
+**1d20 + Modificador do atributo relevante ≥ DC**
+
+| Dificuldade | DC |
+| :---- | :---- |
+| Fácil | 8 |
+| Moderada | 12 |
+| Difícil | 16 |
+| Muito Difícil | 20 |
+| Quase Impossível | 24 |
+
+---
+
+## Vantagem e Desvantagem
+
+- **Vantagem:** role 2d20, fique com o **maior**.
+- **Desvantagem:** role 2d20, fique com o **menor**.
+
+Vantagem e Desvantagem simultâneas se cancelam. Múltiplas fontes não acumulam.
+
+---
+
+## Salvaguardas
+
+Quando uma ameaça tenta derrubar, envenenar ou incapacitar um personagem, o Mestre exige uma **Salvaguarda**:
+
+**1d20 + Modificador do atributo relevante ≥ DC da ameaça**
+
+| Situação | Atributo usado |
+| :---- | :---- |
+| Veneno, doença, exaustão | CON |
+| Explosão, armadilha, queda | DES |
+| Controle mental, medo | SAB ou CAR |
+| Empurrão, forcejamento | FOR |
+| Ilusão, maldição | INT |
+
+---
+
+## Pontos de Vida
+
+Os **Pontos de Vida (PV)** representam quanto punição um personagem aguenta antes de cair. Cada classe tem um **Dado de Vida (DV)**.
+
+**A cada nível (incluindo o nível 1):** role o DV + modificador de CON (mínimo 1).
+
+> *Exemplo: um Bárbaro (d12) com CON 16 (+3) rola 1d12+3 no nível 1.*
+
+---
+
 # Pontos de Ação
 
 # O Fluxo do Combate
