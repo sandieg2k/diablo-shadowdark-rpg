@@ -25,7 +25,7 @@ Sem conceito de raças: todos os personagens são humanos/nephalem. O Cap. 4 exp
 | **Cap. 1: Jogando o Jogo** | ✅ Pronto | Regras base adicionadas (dados, atributos, testes, salvaguardas, PV). Combate/PA, Mana, Tempo, Viagem, Encontros, Matriz de Resistência já existiam |
 | **Cap. 2: Criando um Personagem** | ✅ Pronto | Passo a passo, kits iniciais das 18 classes, avanço de nível 1–10 (marcos ou XP) |
 | **Cap. 3: Classes** | ✅ Pronto | `01-classes.md` |
-| **Cap. 4: Origens** | ❌ Faltando | — |
+| **Cap. 4: Origens** | ✅ Pronto | Introdução nephalem/humanos, Título de Origem (referência ao sistema existente), 12 Antecedentes com habilidades permanentes |
 | **Cap. 5: Talentos** | ❌ Faltando | Só existe dentro das classes |
 | **Cap. 6: Arsenal** | ✅ Pronto | Arsenal l.382, Tesouros+Tabelas l.761–1101 |
 | **Cap. 7: Magia** | ✅ Pronto | linha 322 |
@@ -49,7 +49,7 @@ Sem conceito de raças: todos os personagens são humanos/nephalem. O Cap. 4 exp
 ### Prioridade de trabalho
 1. ~~Regras básicas do Cap. 1~~ ✅
 2. ~~Passo a passo de criação e avanço de nível (Cap. 2)~~ ✅
-3. Cap. 4: Origens (antecedentes temáticos do universo Diablo)
+3. ~~Cap. 4: Origens~~ ✅
 4. Cap. 5: Talentos (capítulo separado)
 5. Mover cenários para arquivos individuais em `cenarios/`
 6. Fichas 2.0
