@@ -51,9 +51,11 @@ Sem conceito de raças: todos os personagens são humanos/nephalem. O Cap. 4 exp
 2. ~~Passo a passo de criação e avanço de nível (Cap. 2)~~ ✅
 3. ~~Cap. 4: Origens~~ ✅
 4. ~~Cap. 5: Talentos~~ ✅
-5. Mover cenários para arquivos individuais em `cenarios/`
-6. Fichas 2.0
-7. Apêndice de Criaturas e Glossário
+5. Mover cenários para arquivos individuais em `cenarios/` ← **PRÓXIMO**
+6. Revisar DCs fixas nas classes e Títulos de Origem → substituir por DC 10 + Nível
+7. Revisar referências a "proficiência" nas classes → remover ou substituir
+8. Fichas 2.0
+9. Apêndice de Criaturas e Glossário
 
 ## Fluxo de Trabalho
 
