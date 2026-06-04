@@ -27,7 +27,7 @@ Cada classe neste sistema foi desenhada para representar um arquétipo clássico
 
 * **Dado de Vida (DV):** Define a robustez física da classe. Representa os Pontos de Vida ganhos por nível.  
 * **Mana (Recurso):** O valor base de mana, calculado como (10 \+ Modificador de Atributo Primário \+ Nível). É o combustível para habilidades especiais.  
-* **Armaduras Permitidas:** Categorizadas pelo peso (Leve, Média, Pesada). Classes com restrição a "Leve" não possuem proficiência em armaduras metálicas complexas, priorizando mobilidade.  
+* **Armaduras Permitidas:** Categorizadas pelo peso (Leve, Média, Pesada). Classes com restrição a "Leve" não podem usar armaduras metálicas complexas, priorizando mobilidade.  
 * **Armas Permitidas:** Categorizadas pelo peso (Leve, Média, Pesada). Determina quais tipos de armamento o personagem é treinado para utilizar com eficiência.  
 * **Atributo Principal:** O pilar mecânico da classe. Define o sucesso em testes de habilidade e o poder das suas técnicas.  
 * **Habilidades de Classe:** As características únicas que definem o estilo de jogo, sejam elas técnicas de combate, magias ou talentos passivos.
@@ -472,7 +472,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
   ### **Habilidades de Classe**
 
 * **Espírito Animal:** Você tem ***um*** **Lobo ou Corvo Espiritual** (1d4 HP, 1d6 de dano). Você pode tomar ações **◈** com ele usando seus PA durante seu turno (Mover, Atacar, etc). **Ele sempre usa seu atributo primário para testes (d20+Sabedoria)**. Se morrer, você pode gastar **◈ \+ 1 Mana** para trazê lo de volta.  
-* **Transmutar:** Como uma ação **◈ \+ 2 Mana**, role **Sabedoria (DC 10\)**. Se passar, mude para a forma de **Lobo** (dobro de movimento e \+1d6 de dano) ou **Urso** (+2 AC e \+5 HP temporários). A forma dura até o fim do combate.  
+* **Transmutar:** Como uma ação **◈ \+ 2 Mana**, role **Sabedoria (DC 10 + Nível\)**. Se passar, mude para a forma de **Lobo** (dobro de movimento e \+1d6 de dano) ou **Urso** (+2 AC e \+5 HP temporários). A forma dura até o fim do combate.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
   ---
 
