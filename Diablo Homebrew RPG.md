@@ -193,7 +193,7 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 
   ### **Habilidades de Classe**
 
-* **Dínamo Arcano(◇):** Sempre que você passar num teste de conjuração, você ganha 1 **Carga Arcana**. É um recurso especial que você pode gastar para aumentar o dano de feitiços (+2 por carga).  
+* **Dínamo Arcano (◇):** Sempre que você passar num teste de conjuração, você ganha 1 **Carga Arcana**. É um recurso especial que você pode gastar para aumentar o dano de feitiços (+2 por carga).  
 * **Mente Protegida (Passiva):** Você pode usar Inteligência em vez de Destreza para calcular sua Classe de Armadura (AC) enquanto não usar armadura.  
 * **Feitiço Básico:** Role 1d6 para definir seu feitiço inicial.  
   ---
@@ -225,7 +225,7 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 
 ### **Dicas**
 
-1. **Manipulação Tátil:** Quando o Arcanista usar o **Buraco Negro** ou **Onda de Força**, o jogador deve fisicamente mover as miniaturas dos inimigos na mesa. Isso dá uma sensação de controle espacial muito forte.  
+1. **Manipulação Tátil:** Quando o Arcanista usar o **Buraco Negro**, o jogador deve fisicamente mover as miniaturas dos inimigos na mesa para o centro. Isso dá uma sensação de controle espacial muito forte.  
 2. **O "Contador de Cargas":** O jogador deve usar dados de cores diferentes (roxos, se possível) na frente dele para representar o **Dínamo Arcano**. Visualizar o poder acumulando aumenta a empolgação.  
 3. **Bolha de Tempo Física:** Se o jogador usar **Slow Time**, coloque um copo transparente virado ou um anel de luz sobre a área. Qualquer miniatura dentro dessa zona age por último na rodada.
 
@@ -272,7 +272,7 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **10** | **Burst of Speed (◈◈◈):** Uma vez por dia, você recupera toda sua mana. |
 | **11** | **Manto de Sombras (◈ \+ 2 Mana):** Escuridão mágica te envolve. Inimigos "Perto" têm Desvantagem para atacar até o início do seu próximo turno. |
 | **12** | **Sentinela de Fogo (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele cospe fogo dano 1d6 em quem passar "Perto". |
-| **13** | **Sentinela de Raios (Armadilha) (◈ \+ 1 Mana por dadoo):** Coloque um marcador na mesa. Ele atira um raio no inimigo mais próximo todo turno (dano 1d6). |
+| **13** | **Sentinela de Raios (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele atira um raio no inimigo mais próximo todo turno (dano 1d6). |
 | **14** | **Sentinela da Morte (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Quando alguém morre perto dela, ela explode o cadáver (1d8 dano). |
 | **15** | **Mestra das Armadilhas (Passiva):** Você pode ter duas armadilhas ativas ao mesmo tempo na mesa. |
 | **16** | **Guerreiro das Sombras (◈◈ \+ 2 Mana):** Invoca uma sombra que repete seu último ataque na rodada (dura 1d4 rodadas). |
@@ -288,9 +288,6 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 1. **Tokens de Armadilha:** Use objetos reais. O jogador da Assassina deve trazer 3 moedas ou arruelas de metal pintadas. Quando ela armar uma *Sentinela*, ela coloca o objeto na mesa. Isso define visualmente a "zona de perigo" para os monstros.  
 2. **Visualizando os Combos:** Use dados de cores diferentes para as Cargas de Combo. Quando a Assassina atingir 3 cargas, o jogador pode trocar por um dado maior (um d20 gigante, por exemplo) para representar o **Finalizador**. Isso cria um "clímax" visual no turno dela.  
 3. **A "Sombra" Tátil:** Se ela usar o *Guerreiro das Sombras*, use uma miniatura igual à dela, mas pintada de preto ou roxo transparente. Ela não tem vida própria; se a Assassina for atingida, a sombra pode desaparecer.
-
-
-
 
 ### **Objetivos & Recompensas**
 
@@ -349,10 +346,8 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 ### **Dicas**
 
 1. **O Ritual do Turbilhão:** Quando o jogador usar o **Turbilhão**, peça para ele literalmente girar a miniatura dele na mesa.  
-2. **Destruição de Cenário:** O Bárbaro deve ser capaz de quebrar coisas. Se ele quiser derrubar uma porta, uma mesa ou uma estátua sobre um inimigo enquanto estiver em fúrias, ele sempre tem **Vantagem**. Isso torna o combate tátil e dinâmico.  
+2. **Destruição de Cenário:** O Bárbaro deve ser capaz de quebrar coisas. Se ele quiser derrubar uma porta, uma mesa ou uma estátua sobre um inimigo enquanto estiver em Fúria, ele sempre tem **Vantagem**. Isso torna o combate tátil e dinâmico.  
 3. **Marcador de Fúria:** Use um dado vermelho grande ou um anel de status para marcar quando o Bárbaro está em Fúria. Isso serve de aviso visual para os outros jogadores: "Ele está causando muito dano, mas também está vulnerável".
-
-
 
 ### **Objetivos & Recompensas**
 
@@ -372,7 +367,7 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas e armadilhas, alimentados por um ódio profundo e uma disciplina férrea.
 
 * **Dado de Vida:** d8 por nível.  
-* **Mana (Recurso):** 10 \+ Modificador de Atributo Primário \+ Nível.   
+* **Mana:** 10 \+ Modificador de Atributo Primário \+ Nível  
 * **Armas:** Leve, Média, Pesadas a Distância.  
 * **Armadura:** Leve, Média.  
 * **Atributo Principal:** Destreza.
@@ -517,7 +512,7 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **7** | **Punição (◇ \+ 2 Mana):** Após bloquear um ataque, seu próximo golpe tem Vantagem e causa \+1d6 de dano. |
 | **8** | **Martelo Abençoado (Feitiço)(◈◈ \+ 2 Mana por dado):** Invoque um martelo de luz que gira ao seu redor, causando 1d4 de dano sagrado a quem se aproximar (dura 1d4 rodadas). |
 | **9** | **Investida de Corcel (◈ \+ 3 Mana):** Você pode se mover o triplo da distância e ignorar ataques de oportunidade. |
-| **10** | **Esmagar com Escudo (◈ \+ 1 Mana):** Faça ataque de escudo, ser caetar, o alvo é derrubado (Prone) automaticamente. |
+| **10** | **Esmagar com Escudo (◈ \+ 1 Mana):** Faça ataque de escudo, se acertar, o alvo é derrubado (Prone) automaticamente. |
 | **11** | **Julgamento (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Longe" no lugar com correntes sagradas por 1d4 rodada (DC 10 \+ Sabedoria para soltar). |
 | **12** | **Leis da Esperança (◈ \+ 2 Mana por Rodada):** Você e aliados "Perto" recuperam 1d4 de HP no início de cada rodada. |
 | **13** | **Leis da Justiça (Passiva):** Você e aliados "Perto" ganham \+1 na AC enquanto você estiver consciente. |
@@ -534,11 +529,8 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 ### **Dicas**
 
 1. **O "Clang" do Metal:** Valorize a sensação de peso. Quando o Cruzado usar **Pele de Ferro** ou bloquear um golpe pesado, descreva o som do metal contra metal. Se o Cruzado usar o escudo para derrubar um monstro, o jogador deve fisicamente tombar a miniatura do inimigo na mesa.  
-2. **Uso de Auras (Leis):** Como no Paladino, use anéis de cores diferentes na base da miniatura para representar qual "Lei" está ativa. Isso evita que o mestre e os jogadores esqueçam os bônus constantes.  
-3. **Sacrifício de Escudo:** No Shadowdark, escudos podem quebrar para evitar um dano fatal (Aparar). É um momento heroico e dramático na mesa.
-
-
-
+2. **Uso de Auras (Leis):** Use anéis de cores diferentes na base da miniatura para representar qual "Lei" está ativa. Isso evita que o mestre e os jogadores esqueçam os bônus constantes.  
+3. **Sacrifício de Escudo:** No Diablo RPG, escudos podem quebrar para evitar um dano fatal (Aparar). É um momento heroico e dramático na mesa.
 
 ### **Objetivos & Recompensas**
 
