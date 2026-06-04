@@ -11,25 +11,49 @@ RPG de mesa homebrew inspirado na franquia **Diablo**. Criado por Paulo Souza (G
 - **Versão atual:** 1.0 (Playtest)
 - **Repositório:** https://github.com/Felipe1072-git/diablo-shadowdark-rpg
 
-## Estrutura do Livro (meta do projeto)
+## Estrutura do Livro (aprovada)
 
-O objetivo é organizar o Diablo RPG como um livro de regras completo, inspirado na estrutura do D&D 5e (2024). Estrutura alvo:
+Livro principal: `Diablo Homebrew RPG.md` — inspirado no D&D 5e (2024).
+Sem conceito de raças: todos os personagens são humanos/nephalem. O Cap. 4 explica isso e oferece antecedentes temáticos do universo Diablo.
 
-1. **Introdução** — Bem-vindo ao Santuário, como usar o livro
-2. **Cap. 1: Jogando o Jogo** — Dados, atributos, testes, ações, combate, Mana, Pontos de Ação
-3. **Cap. 2: Criando um Personagem** — Passo a passo, avanço de nível, Títulos e Renome
-4. **Cap. 3: Classes** — 18 classes (já revisadas)
-5. **Cap. 4: Origens** — Antecedentes e Espécies adaptados ao universo Diablo
-6. **Cap. 5: Talentos** — Talentos de origem e gerais
-7. **Cap. 6: Arsenal** — Armas, armaduras, itens mágicos, Matriz de Resistência
-8. **Cap. 7: Magia** — Sistema de magia, lista de magias por classe
-9. **Apêndice A: Santuário** — Lore, regiões, facções
-10. **Apêndice B: Criaturas** — Estatísticas de monstros, demônios, anjos
-11. **Apêndice C: Glossário**
-12. **Cenários** — Módulos de aventura
-13. **Fichas 2.0** — Ao final do livro
+### Mapeamento: o que existe vs. o que falta
 
-> A estrutura ainda está em discussão. Sempre consultar o usuário antes de reorganizar seções.
+| Capítulo | Status | Localização no .md |
+|---|---|---|
+| Capa | ✅ Pronto | linha 1 |
+| Introdução | ✅ Pronto | linha 7 |
+| **Cap. 1: Jogando o Jogo** | ⚠️ Parcial | Combate/PA l.149, Mana l.238, Tempo l.489, Viagem l.550, Encontros l.649, Matriz de Resistência l.1862 — *faltam: dados, atributos, testes de d20, salvaguardas* |
+| **Cap. 2: Criando um Personagem** | ⚠️ Parcial | Títulos e Renome l.89 — *faltam: passo a passo de criação, avanço de nível* |
+| **Cap. 3: Classes** | ✅ Pronto | `01-classes.md` |
+| **Cap. 4: Origens** | ❌ Faltando | — |
+| **Cap. 5: Talentos** | ❌ Faltando | Só existe dentro das classes |
+| **Cap. 6: Arsenal** | ✅ Pronto | Arsenal l.382, Tesouros+Tabelas l.761–1101 |
+| **Cap. 7: Magia** | ✅ Pronto | linha 322 |
+| **Apêndice A: Criaturas** | ⚠️ Parcial | Tabelas de encontros l.668 — sem statblocks completos |
+| **Apêndice B: Glossário** | ❌ Faltando | — |
+
+### Arquivos separados (fora do livro principal)
+
+| Conteúdo | Status | Situação |
+|---|---|---|
+| Cenários (7 módulos) | ✅ Escritos | Estão no .md principal (l.1102–1641) — precisam ser movidos para `cenarios/` |
+| Fichas 2.0 | ❌ Vazia | Só o título existe (l.485) |
+| Registro de Campanha | ✅ Escrito | l.1644 — mover para arquivo separado |
+| Forte (NPCs e base) | ✅ Escrito | l.1750 — pode virar módulo separado |
+| Handout - Caverna B | ✅ Escrito | l.1825 — material do cenário O Resgate |
+| Template de Cenário | ✅ Escrito | l.21 — guia para criar aventuras, pode virar apêndice do mestre |
+
+### Conteúdo interno (não entra no livro publicado)
+- `Ideias` l.1714 — rascunhos internos
+
+### Prioridade de trabalho
+1. Regras básicas do Cap. 1 (dados, atributos, testes de d20, salvaguardas)
+2. Passo a passo de criação e avanço de nível (Cap. 2)
+3. Cap. 4: Origens (antecedentes temáticos do universo Diablo)
+4. Cap. 5: Talentos (capítulo separado)
+5. Mover cenários para arquivos individuais em `cenarios/`
+6. Fichas 2.0
+7. Apêndice de Criaturas e Glossário
 
 ## Fluxo de Trabalho
 
