@@ -228,10 +228,6 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 2. **O "Contador de Cargas":** O jogador deve usar dados de cores diferentes (roxos, se possível) na frente dele para representar o **Dínamo Arcano**. Visualizar o poder acumulando aumenta a empolgação.  
 3. **Bolha de Tempo Física:** Se o jogador usar **Slow Time**, coloque um copo transparente virado ou um anel de luz sobre a área. Qualquer miniatura dentro dessa zona age por último na rodada.
 
-# ---
-
-**2\. Arcanista**
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -296,10 +292,6 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 
 ### 
 
-# ---
-
-**3\. Assassina**
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -362,10 +354,6 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 
 ### 
 
-# ---
-
-**4\. Bárbaro**
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -426,10 +414,6 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 2. **Uso de "Tokens" de Dispositivos:** O Caçador de Demônios enche a mesa de "tralha". Tenha marcadores pequenos para as **Sentinelas** e **Armadilhas**. "Se está na mesa, existe no mundo". Se um monstro pisar na armadilha, o jogador deve ter o prazer de "retirar" o marcador e rolar o dano.  
 3. **Narrativa Sombria:** Diferente da Amazona que é atlética e solar, o Caçador de Demônios é sombrio. Quando ele usar a **Cortina de Fumaça**, apague as luzes da mesa (se você usar lâmpadas físicas) ou descreva como as sombras da sala se esticam para escondê-lo.
 
-# ---
-
-**5\. Caçador de Demônios**
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -487,10 +471,6 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 1. **O Alcance da Lança:** Enfatize o posicionamento. O Cavaleiro de Sangue deve ser o mestre de "atacar por trás do Bárbaro". Use o alcance da lança para manter o monstro à distância, impedindo que monstros cheguem perto se o Cavaleiro tiver sucesso num teste de Força.  
 2. **O "Rastreador de Sangue":** Se o Cavaleiro de Sangue causar dano em um monstro e ele fugir, o jogador sabe automaticamente para onde o monstro foi. Esse é um "poder passivo" que não exige dados, apenas inteligência narrativa.  
 3. **Visual da Abominação:** Quando usar a transformação em **Abominação**, descreva como a sua armadura se rompe e o corpo cresce. Se você tiver uma miniatura de monstro grande (como um demônio ou lobisomem), coloque-a na mesa para substituir o Cavaleiro. O impacto visual é importante.
-
-# ---
-
-**6\. Cavaleiro de Sangue**
 
 ### **Objetivos & Recompensas**
 
@@ -557,14 +537,6 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 
    ### 
 
-### 
-
-# ---
-
-**7\. Cruzado**
-
-### 
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -624,10 +596,6 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 2. **O Objeto da Rocha Rolante:** Se o jogador usar a **Rocha Rolante**, pegue um dado grande (como um D20 gigante ou uma bola de papel) e role-o fisicamente pelo grid ou mesa. Quem for tocado pelo objeto sofre o efeito. É divertido e visceral.  
 3. **Gestão de Pets (Tokens):** Para demorar em seu turno, trate os 3 lobos como um único "Enxame". Aja com todos de uma só vez. É mais rápido que gerenciar 3 fichas de monstros completas.  
 4. **Uso de Plantas:** Quando usar a **Fissura** ou a **Vinha Venenosa**, use pedaços de barbante verde ou feltro na mesa para marcar onde o terreno mudou. "O terreno é metade da luta".
-
-# ---
-
-**8\. Druida**
 
 ### **Objetivos & Recompensas**
 
@@ -696,10 +664,6 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 
 ### 
 
-# ---
-
-**9\. Natispirito**
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -758,10 +722,6 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 1. **Jarros de Vidro:** Use "props". Se o jogador usar a **Bomba de Fogo** ou a **Nuvem de Gafanhotos**, ele pode colocar uma tampa de garrafa ou um pote pequeno na mesa. "O jarro quebrou aqui", isso define o ponto zero da explosão de forma visual e satisfatória.  
 2. **Máscaras Reais:** Peça para o jogador descrever a máscara dele. O Mestre dará um bônus de \+1 se o jogador fizer uma pose ou uma voz sinistra ao usar os seus talentos. Isso aumenta a imersão na estética tribal de Diablo. Se o jogador trouxer uma máscara tribal para as sessões o bônus é permanente.   
 3. **A Parede de Zumbis:** Use dominós ou bloquinhos de madeira para representar a **Parede de Zumbis**. Se o inimigo tentar passar e falhar no teste, o jogador "derruba" a parede sobre o monstro.
-
-# ---
-
-**10\. Feiticeiro (Witch Doctor)**
 
 ### **Objetivos & Recompensas**
 
@@ -824,10 +784,6 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 
    ### 
 
-# ---
-
-**11\. Guerreiro (Warrior)**
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -887,10 +843,6 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 2. **Modelos de Área Físicos:** Como o Mago usa muita magia de área (Bola de Fogo, Nevasca, Meteoro), use anéis de papelão ou modelos de plástico na mesa. "Se a miniatura do monstro está tocando o anel de fogo, ele queima kkk". Isso evita discussões sobre distância e acelera o jogo.  
 3. **O Risco da Sobrecarga:** Quando o Mago usar a **Sobrecarga Sanguínea**, descreva como o nariz dele sangra ou como seus olhos brilham com a cor do elemento. Foque na narrativa do custo da magia.  
 4. **O "Click" do Teleporte:** Quando o jogador usar o **Teleporte**, ele deve fisicamente "saltar" sua miniatura sobre as outras. Isso dá uma sensação de mobilidade que as outras classes não têm.
-
-# ---
-
-**12\. Mago**
 
 ### **Objetivos & Recompensas**
 
@@ -953,10 +905,6 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 3. **A Dança das Miniaturas:** O Monge é a classe do reposicionamento. O Mestre encoraja o uso do **Ímpeto** para que o Monge esteja sempre se movendo. Se o jogador descrever uma acrobacia épica para atravessar o campo de batalha, ele receberá um bônus de "Estilo" (+1 no próximo dado).  
 4. **Contador de Espírito:** Use contas de oração ou pedras brancas lisas para representar o Espírito. O jogador deve sentir o "gasto" da sua paz interior ao realizar os golpes.
 
-# ---
-
-**13\. Monge**
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva de Disciplina) |
@@ -1016,10 +964,6 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 2. **Tokens de Maldição:** Use marcadores de cores vibrantes (como anéis de garrafa pet roxos) para as Maldições. Se o Necromante usar **Maldizer**, ele coloca o anel na miniatura do inimigo. "Aquele ali morre mais rápido", todos sabem disso instantaneamente.  
 3. **A Grande Foice:** Se o Necromante estiver usando uma miniatura de Necromante com foice, incentive-o a descrever ataques circulares. No Shadowdark, o Necromante é frágil, mas o Mestre recompensará uma descrição épica de "ceifar almas" com um bônus de \+1 na conjuração.  
 4. **Velocidade Total:** Nunca role iniciativa para os esqueletos. Eles são uma extensão da vontade do Necromante. Se ele move, eles movem. Se ele ataca, eles atacam. Isso mantém o ritmo de rápido que o Mestre tanto defende.
-
-# ---
-
-**14\. Necromante**
 
 ### **Objetivos & Recompensas**
 
@@ -1086,10 +1030,6 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 2. **O "Clunk" do Escudo:** Se o Paladino usar o **Escudo Sagrado**, peça para ele colocar um marcador de "Brilho" ou uma pedra amarela sobre o escudo da miniatura. O Mestre adora "exibições físicas" de poder.  
 3. **Liderança na Mesa:** O Paladino deve ser o jogador que coordena o grupo. O Mestre costuma dar um bônus de "Inspirado" (+1 no próximo dado) se o Paladino der uma ordem tática que funcione para o grupo.  
 4. **O Martelo Espiral:** Se ele usar o **Martelo Abençoado**, pegue um barbante ou um compasso e desenhe um círculo rápido na mesa. Quem estiver na linha do martelo sofre o dano. "Física e geometria facilitam o combate".
-
-# ---
-
-**15\. Paladino**
 
 ### Objetivos & Recompensas
 
@@ -1212,10 +1152,6 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 3. **Cantos Rituais:** O Mestre recompensa a imersão. Se o jogador recitar uma pequena frase de oração em latim ou em uma língua fictícia ao curar alguém, ele ganha \+1 no resultado do dado de cura.  
 4. **Martírio:** Se o Sacerdote estiver prestes a morrer, o Mestre permite que ele faça uma "Última Prece": ele morre heroicamente, mas cura todo o grupo e bane todos os demônios menores da sala. É o fim épico que um jogador de Sacerdote respeita.
 
-# ---
-
-**17\. Sacerdote (Priest)**
-
 ### Objetivos & Recompensas
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -1273,10 +1209,6 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | **18** | **Lâminas Espelhadas (◈ \+ 3 Mana por duplicata):** Com apenas uma ação, você ataca com duplicatas da sua arma flutuante. |
 | **19** | **Forma Demoníaca** **(◈ \+ 5 Mana por HP e dado):** Você se transforma em um demônio, Sua For é \+5 e ganhe 20 HP temporários. Com uma ação ◈ você pode fazer 2 ataques de garra ou 1 ataque laser a distância. Ambos causam 3d6 de fogo. A transformação dura 1d4 rodadas. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
-
-# ---
-
-**18\. Warlock (Bruxo)**
 
 ### Objetivos & Recompensas
 
