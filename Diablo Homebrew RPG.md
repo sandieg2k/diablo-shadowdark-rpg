@@ -591,7 +591,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 
 1. **Troca de Miniaturas:** "Show, don't tell". Se o Druida se transformar, o jogador **precisa** trocar a miniatura na mesa. Se ele não tiver, use um marcador de cor diferente. Isso sinaliza para todos que as regras do personagem mudaram.  
 2. **O Objeto da Rocha Rolante:** Se o jogador usar a **Rocha Rolante**, pegue um dado grande (como um D20 gigante ou uma bola de papel) e role-o fisicamente pelo grid ou mesa. Quem for tocado pelo objeto sofre o efeito. É divertido e visceral.  
-3. **Gestão de Pets (Tokens):** Para demorar em seu turno, trate os 3 lobos como um único "Enxame". Aja com todos de uma só vez. É mais rápido que gerenciar 3 fichas de monstros completas.  
+3. **Gestão de Pets (Tokens):** Para não demorar em seu turno, trate os 3 lobos como um único "Enxame". Aja com todos de uma só vez. É mais rápido que gerenciar 3 fichas de monstros completas.  
 4. **Uso de Plantas:** Quando usar a **Fissura** ou a **Vinha Venenosa**, use pedaços de barbante verde ou feltro na mesa para marcar onde o terreno mudou. "O terreno é metade da luta".
 
 ### **Objetivos & Recompensas**
@@ -639,7 +639,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 | **7** | **Mergulho da Águia (◈ \+ 3 Mana):** Salte para um inimigo "Longe" e ataque com Vantagem. |
 | **8** | **Toque da Centopeia (◈ \+ 1 Mana por Rodada):** Seu ataque causa 1d4 de dano veneno por 1 rodada. |
 | **9** | **Pele de Gorila (⟁ \+ 3 Mana):** Ignore o dano de um ataque físico. |
-| **10** | **Voo da Águia (◈ \+ 1 Mana):** Faça um ataque ataques à distância (lanças/glaives) que ignora cobertura. |
+| **10** | **Voo da Águia (◈ \+ 1 Mana):** Faça ataques à distância (lanças/glaives) que ignoram cobertura. |
 | **11** | **Frenesi de Fogo (Jaguar) (◈ \+ 1 Mana):** Ganhe uma ação extra **◈** por rodada durante 1d4 rodadas. |
 | **12** | **Nuvem de Esporos (Centopeia) (◈◈ \+ 4 Mana):** Inimigos "Perto" ficam atordoados por 1 rodada. |
 | **13** | **Retaliação do Espírito (⟁ \+ 1 Mana):** Se um inimigo errar um ataque contra você, você pode contra-atacar imediatamente. |
@@ -658,8 +658,6 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 1. **Tokens de Guardião:** Clareza visual. Crie 4 token coloridos (Ex: Laranja/Jaguar, Azul/Águia, Amarelo/Gorila, Verde/Centopeia). Quando o combate começar, o jogador coloca o token escolhido ao lado da sua miniatura. Assim, todos na mesa sabem qual bônus ele está usando sem precisar perguntar.  
 2. **Combate Acrobático:** O Natispirito deve se mover muito. Se o jogador descrever uma acrobacia (usar o cajado para saltar sobre um inimigo, por exemplo), ele ganha \+1 no dano. Isso incentiva o "estilo" de Nahantu.  
 3. **Visualizando o Veneno:** Use marcadores verdes (como pecinhas de plástico ou dados verdes) para os inimigos atingidos pela Centopeia. "O dano contínuo só é divertido se você vê ele acontecendo". Retirar o HP do monstro no início do turno dele cria expectativa.
-
-
 
 ### **Objetivos & Recompensas**
 
@@ -697,7 +695,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Sabedoria. |
 | **3-4** | \+1 em testes de conjuração ou \+2 de HP. |
-| **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana por dado):** Mãos saem do chão. Inimigos "Perto" sofre 1d4 de dano necrótico e ficam presos por 1d4 rodada. |
+| **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana por dado):** Mãos saem do chão. Inimigos "Perto" sofrem 1d4 de dano necrótico e ficam presos por 1d4 rodada. |
 | **6 (2)** | **Nuvem de Gafanhotos (Feitiço)(◈ \+ 2 Mana por dado):** Uma nuvem de pragas que saltam de inimigo em inimigo, causando 1d4 dano automático em todos os inimigos perto. Dura 1d4 Rodadas. |
 | **7 (3)** | **Bomba de Fogo (Feitiço)(◈ \+ 1 Mana por dado):** Você lança um jarro de explosivos. Escolha um ponto “Perto”. Todas as criaturas adjacentes àquele ponto sofrem 2d6 de dano de fogo. |
 | **8 (4)** | **Caminhada do Espírito (Feitiço)(◈ \+ 3 Mana):** Fique invisível e etéreo por 1d4 rodadas. Você não sofre dano físico nessa forma. |
@@ -707,7 +705,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | **12 (6)** | **Aterrorizar (Feitiço) (◈ \+ 1 Mana por inimigo):** Você usa sua máscara para gritar. Inimigos "Perto" fogem por 1d4 rodada. |
 | **13 (7)** | **Zumbis Suicidas (Feitiço)(◈ \+ 1 Mana por dado):** Uma fila de zumbis corre e explode no primeiro alvo. Dano 2d6. |
 | **14 (8)** | **Piranhas (Feitiço)(◈◈ \+ 2 Mana por dado):** Cria uma poça de água que causa 2d8 de dano de veneno durante 1d4 rodadas. Quem estiver na área sofre um dano extra de 1d4 de todas as fontes (ataques, feitiços, etc). |
-| **15** | **Exército de Fetiche (◈◈◈ \+ 1 Mana por pigmeu):** Invoque pequeno pigmeu com adagas (1d4 HP, CA 13, 1d4 de dano cada). Dura um combate. |
+| **15** | **Exército de Fetiche (◈◈◈ \+ 1 Mana por pigmeu):** Invoque um pequeno pigmeu com adagas (1d4 HP, CA 13, 1d4 de dano cada). Dura um combate. |
 | **16 (9)** | **Vudu Maluco (Feitiço)(◈◈ \+ 1 Mana por Rodada):** Uma estátua que dá **Vantagem** em ataques para todos os aliados "Perto" dela. Dura 1 Rodada. |
 | **17 (10)** | **Parede de Zumbis (Feitiço)(◈◈ \+ 2 Mana por dado):** Cria uma barreira física de corpos na mesa por 1d4 rodadas. Inimigos perto da parede sofrem 1d8 de dano físico. **Extra:** Pode gastar \+1 Mana para mudar o tipo de dano para Fogo, Gelo ou Veneno. |
 | **18 (11)** | **Colheita de Almas (Feitiço)(◈ \+ 2 Mana por Inimigo):** Drene a inteligência de até 5 inimigos próximos. Ganhe \+2 para conjurar, por inimigo, durante 3 rodadas. |
@@ -783,7 +781,6 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 3. **Mecânica de Reparo Tátil:** Se alguém tirar "1" num dado de ataque, a arma fica "cega" ou danificada (-1 no dano). O Guerreiro então brilha ao usar a habilidade de **Reparar** durante o acampamento, consertando as miniaturas/fichas dos amigos. Isso faz o guerreiro se sentir útil fora do combate.  
 4. **Tática de Empurrão:** Como usamos miniaturas, o Guerreiro deve usar o cenário. Ele pode chutar um monstro num buraco ou empurrá-lo contra uma parede de espinhos. O Mestre sempre recompensa jogadores que usam a física do mundo.
 
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
@@ -822,7 +819,7 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | **3-4** | \+1 em testes de conjuração ou \+1 na AC. |
 | **5** | **Calor (◈◈):** Uma vez por dia, você recupera metade do seu Mana sem precisar de descanso. |
 | **6** | **Teleporte (◈ \+ 1 Mana):** Pisque para um lugar "Perto" que você possa ver. |
-| **7 (1)** | **Armadura de Gelo (Feitiço)(◈ \+ 1 Mana por rodada):** Você conjura uma armadura de gelo por 1 rodada, inimigos que te acertarem corpo a corpo ficam sofrem 1d8 de dano de gelo e ficam congelados por 1d4 rodadas. |
+| **7 (1)** | **Armadura de Gelo (Feitiço)(◈ \+ 1 Mana por rodada):** Você conjura uma armadura de gelo por 1 rodada, inimigos que te acertarem corpo a corpo sofrem 1d8 de dano de gelo e ficam congelados por 1d4 rodadas. |
 | **8** | **Saque de Mana (Passivo):** Se matar um inimigo com magia, ganha \+2 no próximo teste de conjuração. |
 | **9 (2)** | **Nova de Gelo (Feitiço)(◈ \+ 2 Mana por dado):** Uma explosão circular que causa 1d10 de dano de gelo a todos "Perto" por 1d4 rodadas. Criaturas que ficarem com HP 0 são congeladas indefinidamente (O mago decide se estão mortas ou não). |
 | **10 (3)** | **Bola de Fogo (Feitiço)(◈ \+ 2 Mana por dado):** Um explosão que causa 1d8 de fogo em uma área "Perto". Deixa os alvos queimando (1d4 dano/turno). Queimando dura 1d4 rodadas ou até o alvo usar uma ação **◈** para apagar. |
@@ -892,11 +889,11 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 | **11** | **Serenidade (◈):** Gaste 3 Espírito, torna-se invulnerável a todo dano até o início da sua próxima rodada |
 | **12** | **Ciclone (◈ \+ 1 Mana por inimigo):** Faça um ataque desarmado que gera um ciclone de vento e puxa inimigos "Perto" para “Adjacentes” a você. |
 | **13** | **Sete Lados  (◈◈◈ \+ 2 Mana):** Gaste 3 Espírito para realizar 7 ataques  distribuídos entre inimigos "Perto" a sua escolha. Você não gera ataques de oportunidade. |
-| **14** | **Golpe de Chicotada (◈ \+ 1 Mana por inimigo):** Faça uma ataque em chute circular que empurra inimigos “Adjacentes” para "Perto". |
+| **14** | **Golpe de Chicotada (◈ \+ 1 Mana por inimigo):** Faça um ataque em chute circular que empurra inimigos “Adjacentes” para "Perto". |
 | **15** | **Pés Ligeiros (◈ \+ 1 Mana):** Seu movimento dobra e você pode andar sobre a água ou paredes nesta rodada. |
 | **16** | **Santuário Interior (◈ \+ 4 Mana):** Cria um círculo na mesa. Inimigos não podem entrar e aliados dentro dele ganham Vantagem em todos os testes. |
 | **17** | **Epifania (◈◈ \+ 5 Mana):** Você recupera 1d4 Espírito no início de cada turno e não precisa gastar uma ação **◈** para se mover durante seu turno. |
-| **18** | **Experiência de Quase Morte (⟁ \+ 5 Mana):** Ao fica com HP 0, o Monge não morre, mas é curado em metade da Vida máxima e tem seu Espírito restaurado para metade (a menos que já possua mais). |
+| **18** | **Experiência de Quase Morte (⟁ \+ 5 Mana):** Ao ficar com HP 0, o Monge não morre, mas é curado em metade da Vida máxima e tem seu Espírito restaurado para metade (a menos que já possua mais). |
 | **19** | **Aliado Místico (◈ \+ 4 Mana) :** Invoca uma cópia espiritual que luta ao seu lado por 1d4 rodadas. Ela tem suas estatísticas, mas não suas habilidades especiais. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -949,9 +946,9 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **6 (2)** | **Lança de Osso (Feitiço) (◈ \+ 2 Mana por dado):** Um projétil que atravessa inimigos em linha reta (perto). Dano 1d8 físico. |
 | **7** | **Armadura de Ossos (Passivo):** Ganhe \+3 na AC enquanto tiver pelo menos 3 esqueletos ativos. |
 | **8** | **Maldizer (Passivo):** Inimigos "Perto" sofrem \+2 de dano de todos os ataques. |
-| **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana por dado):** Causa 1d4 de dano necrotico a um alvo e você recupera a mesma quantia em HP. |
+| **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana por dado):** Causa 1d4 de dano necrótico a um alvo e você recupera a mesma quantia em HP. |
 | **10** | **Golem de Argila (◈ \+ 3 Mana por Golem):** Em vez de 3 esqueletos, você invoca 1 Golem (15 HP, CA15, 1d8 dano). |
-| **11** | **Dama de Ferro (⟁ \+ 1 Mana por dado):** Inimigos que baterem nos seus esqueletos sofre 1d4 de dano de volta. |
+| **11** | **Dama de Ferro (⟁ \+ 1 Mana por dado):** Inimigos que baterem nos seus esqueletos sofrem 1d4 de dano de volta. |
 | **12** | **Sifão de Sangue (⟁ \+ 1 Mana):** Quando um inimigo morre "Perto", você recupera 1d4 de HP. |
 | **13 (4)** | **Espírito de Ossos (Feitiço)(◈ \+ 3 Mana por espírito):** Conjure espíritos que perseguem alvos causando 2d10 necrótico por espírito. |
 | **14 (5)** | **Parede de Ossos (Feitiço)(◈ \+ 2 Mana \+ 1 Mana por 10 HP):** Cria uma barreira de ossos na mesa que bloqueia o movimento por 1d4 rodadas. A Barreira tem CA 16 e 10 HP por **1 Mana**. |
@@ -968,7 +965,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 
 1. **O "Click" da Morte:** Quando um monstro der dano na horda, ele não subtrai HP. Se o monstro deu 4 de dano, o Necromante simplesmente **retira 4 miniaturas de esqueletos da mesa**. É visual, rápido e tátil.  
 2. **Tokens de Maldição:** Use marcadores de cores vibrantes (como anéis de garrafa pet roxos) para as Maldições. Se o Necromante usar **Maldizer**, ele coloca o anel na miniatura do inimigo. "Aquele ali morre mais rápido", todos sabem disso instantaneamente.  
-3. **A Grande Foice:** Se o Necromante estiver usando uma miniatura de Necromante com foice, incentive-o a descrever ataques circulares. No Shadowdark, o Necromante é frágil, mas o Mestre recompensará uma descrição épica de "ceifar almas" com um bônus de \+1 na conjuração.  
+3. **A Grande Foice:** Se o Necromante estiver usando uma miniatura de Necromante com foice, incentive-o a descrever ataques circulares. No Diablo RPG, o Necromante é frágil, mas o Mestre recompensará uma descrição épica de "ceifar almas" com um bônus de \+1 na conjuração.  
 4. **Velocidade Total:** Nunca role iniciativa para os esqueletos. Eles são uma extensão da vontade do Necromante. Se ele move, eles movem. Se ele ataca, eles atacam. Isso mantém o ritmo de rápido que o Mestre tanto defende.
 
 ### **Objetivos & Recompensas**
@@ -1000,7 +997,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
   * *Fanatismo:* \+1 em testes de ataque corpo a corpo.  
   * *Resistência:* \+1 na Classe de Armadura (AC).  
 * **Golpe Sagrado (Smite)(◇ \+ 1 Mana):** Ao acertar um ataque, adicione seu **Nível** como dano Radiante extra.  
-* **Magia Divina:** Caso aprenda feitiços, você usa a **Carisma** para conjura-los.  
+* **Magia Divina:** Caso aprenda feitiços, você usa o **Carisma** para conjurá-los.  
   ---
 
   ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
@@ -1034,7 +1031,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
    * Vermelho \= Fanatismo (Ataque)  
    * Azul \= Resistência (Defesa)  
    * Branco \= Meditação/Cura  
-     Isso permite que o Mestre e demais jogadores vejam o bônus sem precisar perguntar. Se o Necromante estiver perto do Paladino, ele sabe que os esqueletos dele ganham \+1 de ataque.  
+     Isso permite que o Mestre e demais jogadores vejam o bônus ativo sem precisar perguntar.  
 2. **O "Clunk" do Escudo:** Se o Paladino usar o **Escudo Sagrado**, peça para ele colocar um marcador de "Brilho" ou uma pedra amarela sobre o escudo da miniatura. O Mestre adora "exibições físicas" de poder.  
 3. **Liderança na Mesa:** O Paladino deve ser o jogador que coordena o grupo. O Mestre costuma dar um bônus de "Inspirado" (+1 no próximo dado) se o Paladino der uma ordem tática que funcione para o grupo.  
 4. **O Martelo Espiral:** Se ele usar o **Martelo Abençoado**, pegue um barbante ou um compasso e desenhe um círculo rápido na mesa. Quem estiver na linha do martelo sofre o dano. "Física e geometria facilitam o combate".
@@ -1095,10 +1092,10 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 
 ### **Dicas**
 
-1. **Index Cards de Armadilhas:** Usa cartões de índice (fichas de papel) para representar armadilhas ou bombas de fumaça na mesa. Quando a Renegada joga **Abrojos**, coloque o papel no grid. Inimigo pisou no papel? Sofreu o efeito. Isso torna o campo de batalha tático e visível.  
+1. **Index Cards de Armadilhas:** Use cartões de índice (fichas de papel) para representar armadilhas ou bombas de fumaça na mesa. Quando a Renegada joga **Abrojos**, coloque o papel no grid. Inimigo pisou no papel? Sofreu o efeito. Isso torna o campo de batalha tático e visível.  
 2. **Marcadores de Imbuimento:** Use elásticos coloridos ou anéis pequenos para colocar na arma da miniatura (Verde para Veneno, Roxo para Sombras, Azul para Gelo). Isso evita que o jogador esqueça que "carregou" a arma.  
 3. **Ataque Furtivo Visual:** Sempre se pergunte: "Onde você está escondido?". O jogador deve colocar a miniatura atrás de móveis, colunas ou até atrás do Bárbaro. Se a miniatura estiver "escondida" visualmente, ela ganha o bônus de cobertura.  
-4. **Velocidade e Estilo:** O Renegado deve ser a classe mais rápida. Mestre daria um bônus se a jogador descrevesse o ataque de forma cinematográfica (ex: "Eu corro pela parede e caio com as adagas no pescoço do Butcher").
+4. **Velocidade e Estilo:** O Renegado deve ser a classe mais rápida. Mestre daria um bônus se o jogador descrevesse o ataque de forma cinematográfica (ex: "Eu corro pela parede e caio com as adagas no pescoço do Butcher").
 
 ### Objetivos & Recompensas
 
@@ -1126,7 +1123,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
   ### **Habilidades de Classe**
 
 * **Pontos de Fé:** Você possui uma reserva de poder espiritual. Seu máximo é igual ao seu **Nível \+ Modificador de Sabedoria**. Você sempre começa encontros sem fé.  
-  * Oração ◈◈ \- Você pode gastar dua ações para recuperar 1d4 pontos de fé no seu turno.  
+  * Oração ◈◈ \- Você pode gastar duas ações para recuperar 1d4 pontos de fé no seu turno.  
 * **Oração Purificadora (◈):** Gaste 1 Ponto de Fé (sem rolar dados) para curar 1d6 de HP de um aliado "Perto" ou causar 1d6 de dano Radiante em inimigos.  
 * **Voto de Castidade (Passiva):** Se você não usar armas de metal ou armaduras, você ganha **Vantagem** em todos os testes de conjuração de magias sagradas.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
