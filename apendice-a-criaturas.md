@@ -906,4 +906,460 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ---
 
+---
+
+## Duriel, Senhor da Dor
+
+*O Mal que não seduz nem manipula — ele simplesmente destrói. Prisioneiro voluntário nas Tumbas de Tal Rasha, Duriel não precisa de culto: ele tem devotos que se mutilam em sua honra e guardiões eternos que nunca dormem.*
+
+*Como aliado: Duriel não barganha com palavras. Ele respeita força e resistência à dor. Personagens que sobreviverem ao seu teste — levar dano significativo sem fugir ou implorar — ganham sua atenção e talvez sua relutante cooperação.*
+
+---
+
+### Cultistas da Dor
+
+| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+|---|---|---|---|---|---|---|
+| Flagelante | 20 | 12 | +4 | 1d8+2 (correntes) | Perto | 3 |
+| Carrasco | 28 | 13 | +5 | 1d10+3 (ferros/correntes) | Perto | 3 |
+| Arauto da Agonia | 18 | 12 | +4 | 1d6+2 (grito de dor, alcance Perto) | Perto | 3 |
+
+**Flagelante — Fúria da Dor:** A cada vez que é atingido, ganha +1 em ataques e dano pelo restante do encontro (máx +3). Quanto mais apanha, mais perigoso fica.
+
+**Carrasco — Execução Precisa:** Ataques contra alvos Agarrados, Derrubados ou Paralisados causam dano máximo automaticamente.
+
+**Arauto da Agonia — Grito de Agonia** (◈◈): Salvaguarda de Constituição DC 13 ou o alvo entra em estado de Dor — Desvantagem em ataques e Salvaguardas de Constituição por 2 rodadas.
+**Arauto — Aura de Sofrimento (Passivo):** Criaturas a distância Perto que falhem em qualquer Salvaguarda sofrem 1 de dano adicional.
+
+**Loot:** Flagelante = 1d8 po + 20% de Corrente Endurecida (arma leve); Carrasco = 2d8 po + 30% de Ferro em Brasa (arma média); Arauto = 1d8 po + 35% de Relíquia da Dor (foco mágico).
+
+---
+
+### Criaturas das Tumbas Profundas
+
+| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+|---|---|---|---|---|---|---|
+| Larva da Dor | 12 | 11 | +3 | 1d6+1 (mordida ácida) | Perto | 3 |
+| Escorpião de Tumba | 30 | 15 | +5 | 2d6+3 (pinças + ferrão) | Perto | 3 |
+| Verme Colossal de Areia | 55 | 14 | +7 | 3d8+5 (triturar) | Perto | 3 |
+
+**Larva da Dor — Explosão de Larvas:** Quando reduzida a 0 PV, estoura liberando 1d4 Larvas menores (PV 3, CA 9, ATK +1, 1d3 de dano) que agem no próximo turno.
+
+**Escorpião de Tumba — Agarrar e Ferroar** (igual ao Escorpião Gigante do Bioma 3, DC 15). RD 3 contra dano físico.
+
+**Verme Colossal de Areia — Emergir:** Surge do solo sem provocar ataques de oportunidade; no turno em que emerge ataca com Vantagem.
+**Engolir Inteiro:** Acerto crítico → alvo Engolido (incapacitado, 2d6 de ácido por turno, Força DC 17 para escapar).
+
+**Loot:** Larva = nada; Escorpião de Tumba = 1d10 po + 40% de Veneno de Tumba (componente raro); Verme Colossal = 2d10 po + 50% de item mágico incomum no estômago.
+
+---
+
+### Guardiões de Tal Rasha
+
+| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+|---|---|---|---|---|---|---|
+| Guardião de Pedra | 38 | 17 | +6 | 2d8+3 (golpe colossal) | Perto | 3 |
+| Vigília Eterna | 28 | 15 | +5 | 1d10+3 (lança sagrada corrompida) | Perto | 3 |
+
+**Guardião de Pedra — Impassível:** Imune a ser Derrubado, Agarrado ou Empurrado. RD 5 contra dano físico.
+**Guardião de Pedra — Lento mas Implacável:** Só se move distância Curta por turno, mas cada ataque que acerta também empurra o alvo distância Perto (Força DC 15 para resistir).
+
+**Vigília Eterna — Guardião Eterno:** Quando reduzida a 0 PV por dano não-sagrado, faz Salvaguarda de Constituição DC 13 — sucesso: fica com 1 PV. Só pode fazer isso uma vez por encontro.
+**Vigília Eterna:** Imune a veneno, charme e medo.
+
+**Loot:** Guardião de Pedra = nada; Vigília Eterna = 2d8 po + 25% de Armadura Pesada encantada.
+
+---
+
+### Mini-chefe: Guardião da Câmara
+
+*Desafiador para grupos nível 4–6.*
+*O protetor final das tumbas de Tal Rasha — um ser de pedra e osso animado pelo próprio ódio de Duriel pela intrusão.*
+
+**PV** 80 | **CA** 17
+
+**Bônus:** +7 *(força bruta, resistência física, esmagar)*
+**Bônus Fraco:** +3 *(magia, veneno, furtividade)*
+
+**AP:** 3 | **Velocidade:** Perto
+
+**Ações:**
+- **Golpe Esmagador** (◈): +7 para acertar, 2d10+4 de dano contundente. Salvaguarda de Força DC 15 ou alvo Derrubado.
+- **Pisão** (◈◈): Todos a distância Perto fazem Salvaguarda de Força DC 15 ou sofrem 2d8 de dano e ficam Derrubados.
+- **Punhos de Pedra** (◈◈◈, uma vez por encontro): Faz 2 ataques de Golpe Esmagador no mesmo turno.
+
+**Reação:**
+- **Absorver Impacto** (⟁): Reduz 1d8+3 de dano recebido.
+
+**Passivos:**
+- Impassível (igual ao Guardião de Pedra). RD 5 físico. Imune a veneno, charme e medo.
+
+**Loot:** 3d10 po + 1 Runa incomum + 50% de Pedra de Tal Rasha (componente lendário).
+
+---
+
+### Duriel — Forma Enfraquecida
+
+*Desafiador para grupos nível 4–6.*
+*Duriel fora de sua câmara, ainda se recuperando. Rápido demais para seu tamanho, brutal demais para qualquer diálogo.*
+
+> **Vulnerabilidade:** Recebe +4 de dano de todos os ataques de fogo e sagrado.
+
+**PV** 105 | **CA** 17
+
+**Bônus:** +8 *(velocidade, força física, resistir a qualquer impacto)*
+**Bônus Fraco:** +3 *(magia, fogo, sagrado)*
+
+**AP:** 3 | **Velocidade:** Longe
+
+**Ações:**
+- **Garras da Dor** (◈): +8 para acertar, 2d8+5 de dano cortante. Pode fazer este ataque duas vezes por ◈◈.
+- **Investida Colossal** (◈◈): Avança distância Longe em linha reta e atinge todos no caminho — Salvaguarda de Força DC 16 ou sofrem 2d10 de dano e ficam Derrubados.
+- **Frenesi** (◈◈◈, uma vez por encontro): Faz 3 ataques de Garras da Dor consecutivos.
+
+**Reação:**
+- **Suportar** (⟁): Reduz 1d8+4 de dano recebido. *Duriel não esquiva — ele apenas aguenta.*
+
+**Passivos:**
+- **Aura Glacial:** Criaturas a distância Perto têm seu movimento reduzido em 1 categoria (Longe → Perto → Curto) e Desvantagem em Salvaguardas de Destreza.
+- RD 10 contra frio. RD 5 contra dano físico. Imune a charme, medo e veneno.
+
+**Loot:** 4d10 po + 2 Runas incomuns + 60% de item mágico raro.
+
+---
+
+### Duriel — Forma Plena
+
+*Desafiador para grupos nível 8–10.*
+*Duriel em pleno poder nas profundezas de Tal Rasha. Ele não fala. Ele não ameaça. Ele simplesmente começa a matar.*
+
+> **Vulnerabilidade:** Recebe +4 de dano de todos os ataques de fogo e sagrado.
+
+**PV** 165 | **CA** 19
+
+**Bônus:** +10 *(velocidade, força física, resistir a qualquer coisa)*
+**Bônus Fraco:** +4 *(magia, fogo, sagrado)*
+
+**AP:** 3 | **Velocidade:** Longe
+
+**Ações:**
+- **Garras da Dor** (◈): +10 para acertar, 3d8+6 de dano cortante. Pode fazer este ataque duas vezes por ◈◈.
+- **Investida Colossal** (◈◈): Avança distância Longe e atinge todos no caminho — Salvaguarda de Força DC 18 ou sofrem 3d10 de dano e ficam Derrubados.
+- **Frenesi Total** (◈◈◈, duas vezes por encontro): Faz 3 ataques de Garras da Dor consecutivos.
+
+**Reação:**
+- **Suportar** (⟁): Reduz 1d10+5 de dano recebido.
+
+**Habilidades Passivas:**
+- **Aura Glacial Intensa:** Criaturas a distância Perto têm movimento reduzido em 1 categoria e Desvantagem em Salvaguardas de Destreza. Criaturas que iniciarem o turno a distância Perto fazem Salvaguarda de Constituição DC 15 ou ficam Paralisadas por 1 rodada.
+- **Implacável:** Quando reduzido a metade do PV, ganha +2 em ataques e dano pelo resto do encontro.
+- **Senhor da Dor:** Imune a todas as condições de Dor.
+- RD 12 contra frio. RD 8 contra dano físico. Imune a charme, medo, veneno e paralisia.
+
+**Loot:** 5d10 po + 2 Runas raras + 70% de item mágico raro + 40% de Essência de Duriel (componente lendário único).
+
+---
+
+---
+
+## Azmodan, Senhor do Pecado
+
+*O maior general do Inferno Ardente. Onde os outros Males seduzem indivíduos, Azmodan conquista nações inteiras com exércitos demoníacos. Seus cultistas abraçaram voluntariamente um dos Sete Pecados para ganhar poder.*
+
+*Como aliado: Azmodan é o Mal mais disposto a negociar — ele enxerga potencial nos mortais. Oferece força militar, portais para qualquer lugar e acesso a demônios como servos. Em troca, quer expansão do seu domínio e humilhação dos outros Males.*
+
+---
+
+### Cultistas do Pecado
+
+*Cada cultista representa um Pecado Capital abraçado até a transformação.*
+
+| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+|---|---|---|---|---|---|---|
+| Pecador da Gula | 30 | 12 | +5 | 2d6+3 (mordida/soco) | Perto | 3 |
+| Pecador da Ira | 22 | 13 | +6 | 1d10+4 (machado) | Perto | 3 |
+| Pecadora da Luxúria | 18 | 13 | +4 | 1d6+2 (toque) | Perto | 3 |
+| General do Pecado | 35 | 15 | +6 | 1d10+3 (espada de comando) | Perto | 3 |
+
+**Pecador da Gula — Regeneração:** Recupera 2 PV no início de cada turno. **Devorar:** Quando reduz um inimigo a 0 PV, recupera 1d8 PV imediatamente.
+
+**Pecador da Ira — Fúria Acumulada:** Ganha +1 em ataques e dano para cada aliado que morreu no encontro (máx +4). Imune a medo.
+
+**Pecadora da Luxúria — Toque Tentador** (◈◈): Salvaguarda de Sabedoria DC 13 ou o alvo usa sua ◈ para se aproximar dela no próximo turno.
+**Sedução** (◈◈): igual ao Súcubo (DC 13).
+
+**General do Pecado — Comandar** (◈): Um aliado a distância Perto faz um ataque imediato como reação.
+**Tática de Cerco:** Aliados ganham +1 ATK para cada flanco estabelecido ao redor do mesmo alvo (máx +2).
+
+**Loot:** Pecador da Gula = 1d8 po; Pecador da Ira = 1d10 po + arma que carregava; Pecadora da Luxúria = 2d8 po + 30% de Joia da Tentação (foco mágico); General = 3d8 po + 40% de Armadura Média encantada.
+
+---
+
+### Exército do Pecado
+
+| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+|---|---|---|---|---|---|---|
+| Imp do Pecado | 10 | 13 | +4 | 1d6+2 (garras) | Perto | 3 |
+| Tremor Demoníaco | 28 | 14 | +5 | 2d6+2 (golpe pesado) | Perto | 3 |
+| Quebra-Bastião | 50 | 15 | +6 | 3d6+4 (investida/soco) | Perto | 3 |
+
+**Imp do Pecado — Teleporte Curto** (igual ao Diabrete).
+**Imp do Pecado — Portal de Reforço:** Quando reduzido a 0 PV, abre um portal — 1d3 Imps do Pecado surgem no início do próximo turno.
+
+**Tremor Demoníaco — Investida Demoníaca** (◈◈): Avança distância Perto e derruba o alvo (Força DC 14). Imune a medo.
+
+**Quebra-Bastião — Ariete Vivo:** Destrói portas, muros e barreiras mágicas com um ataque bem-sucedido.
+**Pisão** (◈◈): Todos a distância Perto fazem Salvaguarda de Força DC 15 ou sofrem 2d8 de dano e ficam Derrubados.
+
+**Loot:** Imp do Pecado = 1d4 po; Tremor = 1d10 po; Quebra-Bastião = 3d8 po + 35% de item mágico incomum.
+
+---
+
+### Coração do Pecado
+
+*Estrutura demoníaca imóvel — portal vivo que alimenta o exército de Azmodan.*
+
+**PV** 20 | **CA** 10 | **AP** 3
+
+**Imóvel:** Não se move nem ataca diretamente.
+**Portal Ativo:** A cada 2 turnos, invoca 1d4 Imps do Pecado ou 1d2 Tremores Demoníacos.
+**Colapso do Portal:** Quando destruído, todos os demônios invocados por ele neste encontro morrem imediatamente.
+
+*Dica de Mestre: coloque 1–2 Corações do Pecado no campo de batalha junto com o exército. Destruí-los vira objetivo tático imediato.*
+
+**Loot:** 2d6 po + 40% de Fragmento de Portal (componente mágico raro).
+
+---
+
+### Mini-chefe: Cydaea, Dama da Luxúria
+
+*Desafiadora para grupos nível 5–7.*
+*General e amante de Azmodan. Metade mulher, metade aranha — usa o desejo como arma tão eficazmente quanto suas garras.*
+
+**PV** 80 | **CA** 16
+
+**Bônus:** +7 *(sedução, veneno, teia, furtividade)*
+**Bônus Fraco:** +3 *(força bruta, fogo, sagrado)*
+
+**AP:** 3 | **Velocidade:** Voo Perto (move-se pelas paredes e teto)
+
+**Ações:**
+- **Garras da Luxúria** (◈): +7 para acertar, 2d6+4 de dano + Salvaguarda de Sabedoria DC 15 ou o alvo fica Encantado por 1 rodada.
+- **Teia de Desejo** (◈◈): Alcance Longe — Salvaguarda de Destreza DC 14 ou alvo Agarrado e Encantado simultaneamente (não pode se soltar enquanto Encantado).
+- **Dança da Sedução** (◈◈◈, uma vez por encontro): Todos a distância Perto fazem Salvaguarda de Sabedoria DC 15 ou ficam Encantados por 2 rodadas.
+
+**Reação:**
+- **Esquiva Graciosa** (⟁): Cancela 1 ataque físico completamente.
+
+**Passivos:**
+- **Veneno da Luxúria:** Todos os ataques dela aplicam 1d4 de veneno por turno durante 2 turnos além do dano normal.
+- RD 5 veneno. Imune a charme.
+
+**Loot:** 3d10 po + 1 Runa incomum + 60% de Coração de Cydaea (componente lendário).
+
+---
+
+### Azmodan — Forma Enfraquecida
+
+*Desafiador para grupos nível 5–7.*
+*Azmodan ainda não completamente manifesto em Santuário — mas já capaz de esmagar exércitos.*
+
+> **Vulnerabilidade:** Recebe +3 de dano de todos os ataques sagrados.
+
+**PV** 120 | **CA** 17
+
+**Bônus:** +8 *(fogo, comando demoníaco, magia do pecado)*
+**Bônus Fraco:** +3 *(sagrado, combate físico direto, gelo)*
+
+**AP:** 3 | **Velocidade:** Perto
+
+**Ações:**
+- **Bola de Fogo do Inferno** (◈): +8 para acertar, alcance Longe, 2d10+4 de fogo.
+- **Portal do Pecado** (◈◈, uma vez por encontro): Abre 1 Coração do Pecado em qualquer ponto do campo de batalha.
+- **Voz do Pecado** (◈◈): Todos a distância Perto fazem Salvaguarda de Sabedoria DC 15 ou ficam Encantados por 1 rodada (não atacam Azmodan).
+
+**Reação:**
+- **Escudo de Almas** (⟁): Sacrifica 1d4 aliados a distância Perto para cancelar completamente 1 ataque contra ele.
+
+**Passivos:**
+- **General do Inferno:** Demônios a distância Perto ganham +2 em ataques enquanto Azmodan estiver vivo.
+- RD 8 fogo. RD 3 físico. Imune a charme e medo.
+
+**Loot:** 4d10 po + 2 Runas incomuns + 65% de item mágico raro.
+
+---
+
+### Azmodan — Forma Plena
+
+*Desafiador para grupos nível 8–10.*
+*O Senhor do Pecado em toda sua glória abominável — um colosso de carne, fogo e desejo corrompido que comanda o maior exército já visto em Santuário.*
+
+> **Vulnerabilidade:** Recebe +3 de dano de todos os ataques sagrados.
+
+**PV** 170 | **CA** 19
+
+**Bônus:** +10 *(fogo, comando demoníaco, magia do pecado, sedução em massa)*
+**Bônus Fraco:** +4 *(sagrado, combate físico direto, gelo)*
+
+**AP:** 3 | **Velocidade:** Perto
+
+**Ações:**
+- **Raio do Inferno** (◈): +10 para acertar, alcance Longe, 3d8+5 de fogo.
+- **Chuva de Fogo** (◈◈): Marca 3 pontos no campo. No início do próximo turno, explosões atingem cada ponto — Salvaguarda de Destreza DC 17 ou 3d8 de fogo (metade no sucesso).
+- **Portal do Pecado** (◈◈, duas vezes por encontro): Abre 1 Coração do Pecado em qualquer ponto do campo de batalha.
+- **Tentação em Massa** (◈◈◈, uma vez por encontro): Todos os inimigos fazem Salvaguarda de Sabedoria DC 17 ou abraçam um Pecado por 2 rodadas — atacam o aliado mais próximo em vez dos inimigos.
+
+**Reação:**
+- **Escudo de Almas** (⟁): Sacrifica 1d6 aliados a distância Perto para cancelar completamente 1 ataque.
+
+**Habilidades Passivas:**
+- **General Supremo:** Demônios a distância Perto ganham +3 em ataques e dano. Corações do Pecado invocam reforços a cada turno em vez de a cada 2.
+- **Sete Pecados:** Uma vez por rodada, quando atingido, Azmodan ativa um Pecado aleatório (1d6): 1 — Gula: recupera 1d10 PV; 2 — Ira: próximo ataque causa +2d6 de dano; 3 — Luxúria: o atacante fica Encantado por 1 rodada; 4 — Inveja: copia a última habilidade usada pelo atacante; 5 — Soberba: ganha +2 CA por 1 rodada; 6 — Avareza: rouba 1d6 po do atacante e recupera 1 PV para cada po roubado.
+- RD 10 fogo. RD 5 físico. Imune a charme, medo e veneno.
+
+**Loot:** 5d10 po + 2 Runas raras + 70% de item mágico raro + 45% de Essência de Azmodan (componente lendário único).
+
+---
+
+---
+
+## Belial, Senhor das Mentiras
+
+*O Mal mais perigoso não porque seja o mais forte — mas porque ninguém sabe onde ele está. Belial infiltrou a corte imperial de Caldeum como uma criança, governando por anos sem que ninguém percebesse. Seus cultistas parecem comerciantes, guardas, sacerdotes. Qualquer um pode ser um agente de Belial.*
+
+*Como aliado: Belial é o aliado mais traiçoeiro possível. Ele cumpre acordos à letra — nunca ao espírito. Personagens que negociarem com ele devem esperar ser manipulados de formas que tecnicamente não violam o trato. Mas ele oferece informação, infiltração e acesso a qualquer lugar.*
+
+> **Regra Especial — Revelar:** Alguns cultistas e criaturas de Belial começam disfarçados ou ilusórios. Um personagem pode gastar ◈ e rolar um teste de Sabedoria (DC varia) para revelar a verdadeira natureza de uma criatura. Criaturas reveladas perdem certas proteções mas podem ficar mais perigosas.
+
+---
+
+### Cultistas de Belial
+
+| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+|---|---|---|---|---|---|---|
+| Espião Revelado | 16 | 13 | +4 | 1d6+2 (adaga envenenada) | Perto | 3 |
+| Ilusionista de Belial | 14 | 13 | +4 | 1d6+2 (projétil ilusório) | Perto | 3 |
+| Serpente Humana | 20 | 13 | +5 | 1d8+3 (mordida venenosa) | Perto | 3 |
+
+**Espião Revelado — Disfarce:** Começa o combate como um NPC não-combatente (comerciante, guarda, etc.). Quando é atacado ou quando alguém o Revela (Sabedoria DC 13), sua verdadeira forma emerge.
+**Espião — Emboscada:** O primeiro ataque dele no combate tem Vantagem e +2d6 de dano (ele ainda estava "de fora").
+
+**Ilusionista — Duplicatas** (◈◈): Cria 1d3 cópias ilusórias de si mesmo. Atacantes têm 50% de chance de acertar uma cópia (que desaparece no acerto).
+**Ilusionista — Revelar:** Pode gastar ◈ para anular qualquer efeito de ilusão a distância Perto — inclusive as próprias cópias, fingindo cooperar para ganhar confiança.
+
+**Serpente Humana — Mordida Venenosa:** Salvaguarda de Constituição DC 14 ou Paralisado por 1 rodada.
+**Serpente Humana — Escamas:** RD 2 contra dano físico.
+
+**Loot:** Espião = 1d8 po + documentos falsos (podem ter valor narrativo); Ilusionista = 1d6 po + 35% de Cristal de Ilusão (foco mágico); Serpente Humana = 1d8 po + 30% de Veneno de Belial (componente raro).
+
+---
+
+### Criaturas de Ilusão
+
+| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+|---|---|---|---|---|---|---|
+| Duplicata Demoníaca | 12 | 12 | +4 | 1d6+2 (cópia do alvo) | Perto | 3 |
+| Sombra da Mentira | 18 | 14 | +4 | 1d6+2 (toque psíquico) | Voo Perto | 3 |
+| Serpente de Belial | 16 | 13 | +4 | 1d6+2 + veneno (DC 14) | Perto | 3 |
+
+**Duplicata Demoníaca — Cópia:** Ao surgir, copia a aparência de um personagem jogador aleatório e usa o mesmo tipo de dano. Revelar (Sabedoria DC 14) expõe a cópia — após revelada, tem Desvantagem em ataques. Quando reduzida a 0 PV ou revelada, causa 1d6 de dano psíquico a todos que a estavam atacando (choque da ilusão quebrada).
+
+**Sombra da Mentira — Incorporal:** Só pode ser danificada por magia ou por personagens que a Revelaram (◈, Sabedoria DC 12).
+**Sombra — Toque Psíquico:** Acerto → Salvaguarda de Sabedoria DC 13 ou Desvantagem em todos os testes por 1 rodada.
+
+**Serpente de Belial — Veneno Mentiroso:** O alvo não sente os efeitos imediatamente. O dano de veneno começa apenas no 2º turno após o acerto, mas dura 4 turnos.
+
+**Loot:** Duplicata = nada; Sombra = nada; Serpente = 1d6 po + 25% de Veneno Tardio (componente).
+
+---
+
+### Mini-chefe: O Impostador
+
+*Desafiador para grupos nível 4–6.*
+*Um agente de elite de Belial que assumiu a identidade de alguém de confiança do grupo — um NPC aliado, um mercador, talvez até um familiar de um personagem. O Mestre decide quem ele estava fingindo ser.*
+
+**PV** 70 | **CA** 15
+
+**Bônus:** +6 *(enganação, veneno, combate com adagas, ilusão)*
+**Bônus Fraco:** +3 *(força bruta, magia elemental, combate aberto)*
+
+**AP:** 3 | **Velocidade:** Perto
+
+**Ações:**
+- **Adaga Envenenada** (◈): +6 para acertar, 2d6+3 de dano + Salvaguarda de Constituição DC 14 ou sofre 1d6 de veneno por turno durante 3 turnos.
+- **Duplicar** (◈◈): Cria 2 Duplicatas Demoníacas de si mesmo que agem no próximo turno.
+- **Revelar a Verdade** (◈◈◈, uma vez — quando reduzido a metade do PV): Abandona o disfarce completamente. Ganha +2 em ataques e dano pelo resto do encontro mas perde qualquer proteção de ilusão ativa.
+
+**Reação:**
+- **Troca de Lugar** (⟁): Quando atingido, troca de posição com uma Duplicata ativa — o dano vai para a cópia.
+
+**Passivos:**
+- **Identidade Falsa:** Enquanto não for Revelado, aliados do grupo que não o Revelaram têm Desvantagem em ataques contra ele (hesitam em ferir quem reconhecem).
+
+**Loot:** 4d8 po + 1 Runa incomum + 50% de Máscara de Belial (item mágico — permite disfarce uma vez por dia).
+
+---
+
+### Belial — Forma Enfraquecida
+
+*Desafiador para grupos nível 4–6.*
+*Belial em forma humana — uma criança, um ancião, um rosto familiar. Nada do que você vê é real.*
+
+> **Vulnerabilidade:** Recebe +4 de dano sagrado. Ataques de jogadores que o Revelaram ignoram suas ilusões completamente.
+
+**PV** 100 | **CA** 16
+
+**Bônus:** +7 *(ilusão, veneno, enganação, manipulação mental)*
+**Bônus Fraco:** +3 *(combate físico direto, fogo, sagrado)*
+
+**AP:** 3 | **Velocidade:** Perto
+
+**Ações:**
+- **Projétil Venenoso** (◈): +7 para acertar, alcance Longe, 2d6+4 de veneno.
+- **Campo de Ilusões** (◈◈): Cria 1d4 Duplicatas Demoníacas que surgem no próximo turno.
+- **Mentira Convincente** (◈◈): Salvaguarda de Sabedoria DC 15 ou o alvo acredita que Belial é um aliado por 2 rodadas — não pode atacá-lo.
+
+**Reação:**
+- **Forma Fantasma** (⟁): Quando atingido, tem 50% de chance de anular o dano completamente (o ataque acertou uma ilusão).
+
+**Passivos:**
+- **Sempre Mentindo:** No início de cada turno, Belial troca de posição com uma Duplicata ativa (se houver). O Mestre move o token em segredo.
+- RD 8 veneno. Imune a charme e medo.
+
+**Loot:** 4d10 po + 2 Runas incomuns + 60% de item mágico raro.
+
+---
+
+### Belial — Forma Plena
+
+*Desafiador para grupos nível 7–9.*
+*A mentira finalmente se revela. Belial abandona toda forma humana e emerge como o colosso demoníaco que sempre foi — serpentino, imenso, com veneno suficiente para matar uma cidade.*
+
+> **Vulnerabilidade:** Recebe +4 de dano sagrado. Ataques de jogadores que o Revelaram ignoram suas proteções de ilusão.
+
+**PV** 155 | **CA** 18
+
+**Bônus:** +9 *(veneno, ilusão em massa, manipulação, garras colossais)*
+**Bônus Fraco:** +4 *(fogo, sagrado, gelo)*
+
+**AP:** 3 | **Velocidade:** Perto
+
+**Ações:**
+- **Garras Venenosas** (◈): +9 para acertar, 2d10+5 de dano + Salvaguarda de Constituição DC 16 ou sofre 2d6 de veneno por turno durante 3 turnos.
+- **Bafo de Veneno** (◈◈): Cone Perto — Salvaguarda de Constituição DC 16 ou sofre 4d8 de veneno (metade no sucesso). Deixa nuvem venenosa por 2 rodadas (2d4 ao entrar ou iniciar turno na área).
+- **Campo de Ilusões** (◈◈): Cria 1d6 Duplicatas Demoníacas que surgem no próximo turno.
+- **A Grande Mentira** (◈◈◈, uma vez por encontro): Todos fazem Salvaguarda de Sabedoria DC 17. Falha: vê todos os aliados como inimigos por 2 rodadas. Falha por 5 ou menos: Desvantagem em ataques por 1 rodada.
+
+**Reação:**
+- **Forma Fantasma** (⟁): 50% de chance de anular completamente 1 ataque (acertou uma ilusão).
+
+**Habilidades Passivas:**
+- **Senhor das Mentiras:** Criaturas de ilusão a distância Perto ganham +2 em ataques. Duplicatas têm PV 20 em vez de 12.
+- **Sempre Mentindo:** No início de cada turno, troca de posição com uma Duplicata ativa (se houver).
+- RD 10 veneno. RD 5 físico. Imune a charme, medo e paralisia.
+
+**Loot:** 5d10 po + 2 Runas raras + 70% de item mágico raro + 45% de Essência de Belial (componente lendário único).
+
+---
+
 *— Males seguintes em elaboração —*
