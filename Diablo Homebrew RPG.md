@@ -169,14 +169,6 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 2. **O Gancho da Valkíria:** Quando a Valkíria for invocada, use uma miniatura dourada ou translúcida. Ela não tem turno próprio, mas pode atacar o mesmo alvo da Amazona, dando **Vantagem** no ataque  de ambas ou um alvo diferente.  
 3. **Movimento Visual:** A Amazona deve ser a classe que mais se move. Descreva como ela salta sobre mesas ou desliza por baixo de monstros para usar o **Jab**.
 
-   ### 
-
-### 
-
-   ---
-
-# **1\. Amazona**
-
 ### **Objetivos & Recompensas**
 
 | d6 | Objetivo (Tarefa Evocativa) | Recompensa (Dádiva Permanente) |
@@ -1156,11 +1148,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 1. **Index Cards de Armadilhas:** Usa cartões de índice (fichas de papel) para representar armadilhas ou bombas de fumaça na mesa. Quando a Renegada joga **Abrojos**, coloque o papel no grid. Inimigo pisou no papel? Sofreu o efeito. Isso torna o campo de batalha tático e visível.  
 2. **Marcadores de Imbuimento:** Use elásticos coloridos ou anéis pequenos para colocar na arma da miniatura (Verde para Veneno, Roxo para Sombras, Azul para Gelo). Isso evita que o jogador esqueça que "carregou" a arma.  
 3. **Ataque Furtivo Visual:** Sempre se pergunte: "Onde você está escondido?". O jogador deve colocar a miniatura atrás de móveis, colunas ou até atrás do Bárbaro. Se a miniatura estiver "escondida" visualmente, ela ganha o bônus de cobertura.  
-4. **Velocidade e Estilo:** O Renegado deve ser a classe mais rápida. Mestre daria um bônus se a jogador descrevesse o ataque de forma cinematográfica (ex: "Eu corro pela parede e caio com as adagas no pescoço do Butcher").  
-     
-   ---
-
-# **16\. Renegado (Rogue)**
+4. **Velocidade e Estilo:** O Renegado deve ser a classe mais rápida. Mestre daria um bônus se a jogador descrevesse o ataque de forma cinematográfica (ex: "Eu corro pela parede e caio com as adagas no pescoço do Butcher").
 
 ### Objetivos & Recompensas
 
