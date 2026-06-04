@@ -1147,7 +1147,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | **14 (6)** | **Salto de Fé (Feitiço)(◈ \+ 2 Mana por aliado):** Puxe um aliado de "Longe" para o seu lado instantaneamente. |
 | **15** | **Intervenção Divina (⟁):** Gaste 5 Pontos de Fé. Se um aliado ficar com HP 0, ele fica com 1 HP em vez disso. |
 | **16 (7)** | **Anjo da Guarda (Feitiço)(◈ \+ 2 Mana por aliado):** Invoca um espírito de luz que protege o grupo. Ele concede vantagem em testes para aliados “Perto” por 1d4 rodadas. |
-| **17** | **Confissão (◈◈◈):** Gaste 3 Pontos de Fé, por inimigo, para que perca o próximo turno turno "contando seus pecados". |
+| **17** | **Confissão (◈◈◈):** Gaste 3 Pontos de Fé, por inimigo, para que perca o próximo turno "contando seus pecados". |
 | **18 (8)** | **Nova Sagrada (Feitiço) (◈◈ \+ 2 Mana por Dados):** Uma explosão de luz. Cura aliados "Perto" em 1d8 e causa 1d8 de dano em inimigos. |
 | **19** | **Avatar da Luz (◈ \+ 5 Mana):** Torne-se um ser radiante por 3 rodadas. Suas orações não custam Pontos de Fé. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
@@ -1169,7 +1169,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | **2** | **Santificar o Abismo:** Realizar um ritual de purificação em um local onde um massacre ocorreu, impedindo que os mortos se ergam. | **Aura de Proteção:** Enquanto você estiver consciente, aliados perto de você ganham **\+2 de bônus na CA**. |
 | **3** | **O Último Alento:** Encontrar um herói moribundo no ermo e garantir que ele receba os ritos finais para que sua alma não seja corrompida. | **Intervenção Divina:** Uma vez por descanso, quando um aliado a até 9 metros cair para 0 PV, você pode usar sua Reação para que ele fique com **1 PV** em vez disso. |
 | **4** | **Peregrinação do Flagelo:** Atravessar uma zona de corrupção extrema (como um pântano de peste) sem utilizar magias de proteção. | **Corpo Santificado:** Você ganha **RD 5** contra dano necrótico e de veneno permanentemente. |
-| **5** | **Exorcismo de Solo:** Identificar a fonte de uma assombração em uma vila e expulsar a entidade sem destruir a estrutura que ela habita. | **Palavra de Banimento:** Uma vez por dia, você pode forçar um demônio, morto-vivo ou celestial a fazer um teste de Vontade (DC 10 \+ Sab). Se falhar, ele é banido para seu plano de origem e não pode voltar à Santuário por 24h. |
+| **5** | **Exorcismo de Solo:** Identificar a fonte de uma assombração em uma vila e expulsar a entidade sem destruir a estrutura que ela habita. | **Palavra de Banimento:** Uma vez por dia, você pode forçar um demônio, morto-vivo ou celestial a fazer um teste de Vontade (DC 10 \+ Sab). Se falhar, ele é banido para seu plano de origem e não pode voltar a Santuário por 24h. |
 | **6** | **Erigir o Refúgio:** Consagrar uma sala ou ruína, tornando-a um local onde demônios não podem entrar por 24 horas. | **Oração de Vigor:** Sempre que você curar um aliado, ele também ganha **\+1d6 de PV temporários** que duram até o fim do próximo descanso curto. |
 
 ---
@@ -1186,7 +1186,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 
   ### **Habilidades de Classe**
 
-* **Ligação Demoníaca (◈ \+ 2 Mana):** Você pode conjurar um demônios para lutar ao seu lado. Você pode ter um de cada demônio ao mesmo tempo. Eles têm HP igual a seu **Modificador de Inteligência \+ Nível**. Você pode tomar ações **◈** para agir com todos eles de uma vez usando seus PA durante seu turno (Mover, Atacar, etc). **Eles sempre usam seu atributo primário para testes (d20+Atributo)**. Eles duram até zerar o HP.  
+* **Ligação Demoníaca (◈ \+ 2 Mana):** Você pode conjurar demônios para lutar ao seu lado. Você pode ter um de cada demônio ao mesmo tempo. Eles têm HP igual a seu **Modificador de Inteligência \+ Nível**. Você pode tomar ações **◈** para agir com todos eles de uma vez usando seus PA durante seu turno (Mover, Atacar, etc). **Eles sempre usam seu atributo primário para testes (d20+Atributo)**. Eles duram até zerar o HP.  
   * **Sumonar Homem Cabra (Feitiço)(◈ \+ 1 Mana) \-** O mais básico dos demônios, CA 10, causa 1d6 de dano e pode **Empurrar** com uma ação de ataque **◈.**  
 * **Pacto de Sangue (◈):** Você pode usar uma **Ação** para sacrificar **1d6** HP para recuperar **1d4** de Mana.  
 * **Mestre das Maldições (Passiva):** Inimigos sob efeito de suas maldições concedem **Vantagem** para aliados que os atacam corpo a corpo.  
@@ -1201,13 +1201,12 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Carisma. |
-
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de lacaios. |
 | **5** | **Maestria Demoníaca (Passivo):** Seus demônios conjurados e aprisionados ficam mais fortes. Eles somam o dobro da sua inteligência no HP, andam o dobro e causam 1d6 de dano extra. |
 | **6 (1)** | **Marca da Morte (Feitiço) (◈ \+ 1 Mana por demônio):** Teleporta seus demônios para um inimigo perto e os permite fazer um ataque. |
 | **7 (2)** | **Sumonar Corrompido (Feitiço)(◈ \+ 3 Mana):** Você pode conjurar um demônio reptiliano para lutar ao seu lado. Ele tem CA 15; causa **2d6** de dano de fogo extra, RD 5 de Fogo. |
 | **8 (3)** | **Sumonar Profanador (Feitiço)(◈ \+ 3 Mana por inimigo):** Conjurar um demônio de carne flutuante que vincula o HP de inimigos para sofrer dano compartilhado. O compartilhamento dura enquanto o Profanador estiver vivo. |
-| **9 (4)** | **Ferver Sangue (Feitiço)(◈ \+ 1 Mana por 5 HP):** Você consumir 5 HP de um dos seus demônios para causar 1d8 de dano de fogo a inimigos adjacentes. |
+| **9 (4)** | **Ferver Sangue (Feitiço)(◈ \+ 1 Mana por 5 HP):** Você consome 5 HP de um dos seus demônios para causar 1d8 de dano de fogo a inimigos adjacentes. |
 | **10 (5)** | **Engordar (Feitiço)(◈ \+ 1 Mana por dado):** Seu Demônio consome um cadáver conjurado e cura 1d4 HP. |
 | **11 (6)** | **Consumir (Feitiço)(◈ \+ 1 Mana por dado):** Sacrifique um de seus demônios para se curar. Você recupera HP igual ao total quando conjurar essa habilidade. |
 | **12 (7)** | **Aprisionar Demônio (Feitiço)(◈ \+ 1 Mana por 5 HP):** Force um demônio com menos de 5 HP a fazer sua vontade. Use os atributos fornecidos pelo Mestre. Não é possível aprisionar Bosses. |
@@ -1233,7 +1232,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
-| **1** | **O Cálice do Sangue Vil:** Encontrar uma fonte de corrupção demoníaca pura e, em vez de destruí-la, canalizar uma parte dela para o seu próprio sangue. | **Pacto de Vitalidade**:Você aprende a manipular a própria Mana. Uma vez por dia, você pode entrar em um estado de *Fluxo Arcano* por 1 minuto: todas as suas habilidades custam **0 Mana**, mas você não pode recuperar PV durante esse tempo. |
+| **1** | **O Cálice do Sangue Vil:** Encontrar uma fonte de corrupção demoníaca pura e, em vez de destruí-la, canalizar uma parte dela para o seu próprio sangue. | **Pacto de Vitalidade:** Você aprende a manipular a própria Mana. Uma vez por dia, você pode entrar em um estado de *Fluxo Arcano* por 1 minuto: todas as suas habilidades custam **0 Mana**, mas você não pode recuperar PV durante esse tempo. |
 | **2** | **Tomos do Conhecimento Proibido:** Recuperar fragmentos de pergaminhos Horadrim que detalham anatomia demoníaca em uma biblioteca infestada. | **Eficiência Maldita:** Uma vez por rodada, quando você usar uma habilidade que custe Mana, você pode rolar 1d6. Em um resultado 5 ou 6, você não gasta os pontos de Mana daquela habilidade. |
 | **3** | **A Pedra da Alma Estilhaçada:** Localizar um fragmento de Pedra da Alma em uma masmorra e realizar um ritual para aprisionar uma essência menor dentro dela. | **Prisão de Essência:** Quando você desferir um **Golpe Fatal** em um inimigo, você armazena a alma dele. Você pode gastar essa alma para realizar uma ação de ◈ sem gastar seus Pontos de Ação (AP). Você pode armazenar até 3 almas. |
 | **4** | **O Ritual da Noite Eterna:** Bloquear permanentemente a influência da Luz em uma região inteira, criando um santuário para praticantes das artes sombrias. | **Passo do Vazio:** Ao gastar **◈** para se mover, você pode se teletransportar a uma distância **Perto** (ignorando obstáculos e ataques de oportunidade). Se terminar o movimento perto de um inimigo, ele fica **Surpreso**. |
