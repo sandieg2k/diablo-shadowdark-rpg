@@ -643,6 +643,50 @@ Quando um golpe reduziria você a 0 PV, você pode usar sua Reação (**⟁**) p
 
 Ações Livres (**◇**) não custam pontos, mas só podem ser usadas uma vez por turno. Geralmente são usadas para gritos de guerra, soltar itens ou ativar habilidades passivas que não requerem esforço físico.
 
+---
+
+# Distâncias e Alcance
+
+O sistema usa três conceitos distintos para descrever o espaço no campo de batalha. Cada um tem seu próprio vocabulário para evitar ambiguidade.
+
+---
+
+## Zonas
+
+Descrevem **onde algo está** em relação a outro ponto. São a unidade de posição do jogo.
+
+| Zona | Quadrados | cm na mesa | Pés | Metros |
+| :---- | :---- | :---- | :---- | :---- |
+| **Adjacente** | 1 | 2,5cm | 5ft | ~1,5m |
+| **Próximo** | 6 | 15cm | 30ft | ~9m |
+| **Distante** | 12 | 30cm | 60ft | ~18m |
+
+> *Na mesa, use réguas flexíveis de 15cm (Próximo) e 30cm (Distante). Um quadrado padrão mede 2,5cm.*
+
+---
+
+## Velocidade
+
+Descreve **quanto uma criatura se move** por ◈ gasto em movimento. Aparece nos statblocks como **Vel.**
+
+- **Vel. Normal** — move-se até Próximo por ◈ (15cm · 6 quadrados)
+- **Vel. Rápida** — move-se até Distante por ◈ (30cm · 12 quadrados)
+- **Voo Normal / Voo Rápido** — igual às acima, mas a criatura voa e ignora terreno difícil e obstáculos no chão
+
+---
+
+## Alcance
+
+Descreve **até onde uma habilidade, ataque ou magia chega**. Aparece nas descrições de habilidades e magias como **alcance**.
+
+- **Alcance Toque** — apenas Adjacente (2,5cm)
+- **Alcance Curto** — até Próximo (15cm · 6 quadrados)
+- **Alcance Longo** — até Distante (30cm · 12 quadrados)
+
+> *Exemplo: um Mago lança uma Bola de Fogo com **alcance Longo** e área de **alcance Curto** — o projétil viaja até 30cm da miniatura, e a explosão cobre 15cm a partir do ponto de impacto.*
+
+---
+
 # Mana
 
 ## **O Reservatório de Poder: Mana**

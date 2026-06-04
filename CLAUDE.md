@@ -22,12 +22,35 @@ Todo o conteúdo vive no repositório git local:
 
 **Para gerar o PDF do livro:** instalar o Pandoc e rodar o script `build-pdf.ps1` (a criar).
 
+## Sistema de Distâncias (revisado — aplicar em todos os arquivos)
+
+Três vocabulários distintos para evitar ambiguidade:
+
+| Conceito | Termos | Medidas |
+|---|---|---|
+| **Zonas** (posição) | Adjacente · Próximo · Distante | 2,5cm / 15cm / 30cm na mesa |
+| **Velocidade** (por ◈) | Vel. Normal · Vel. Rápida · Voo Normal · Voo Rápido | 1 zona / 2 zonas |
+| **Alcance** (habilidades) | Toque · Curto · Longo | Adjacente / Próximo / Distante |
+
+Substituições pendentes em todos os arquivos:
+- `Perto` (zona) → `Próximo` | `Longe` (zona) → `Distante`
+- `Vel. Perto` → `Vel. Normal` | `Vel. Longe` → `Vel. Rápida`
+- `Voo Perto` → `Voo Normal` | `Voo Longe` → `Voo Rápido`
+- `alcance Perto` → `alcance Curto` | `alcance Longe` → `alcance Longo`
+- `distância Perto` → `1 zona` | `distância Longe` → `2 zonas`
+- `a distância Perto` → `a distância Próximo` | `a distância Longe` → `a distância Distante`
+
+1 quadrado = 2,5cm · 5ft · ~1,5m. Réguas de mesa: 15cm (Próximo) e 30cm (Distante).
+
+---
+
 ## Estrutura de Arquivos
 
 ```
 repo/
 ├── Diablo Homebrew RPG.md   ← livro principal (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
 ├── 01-classes.md            ← Cap. 3: Classes (18 classes)
+├── apendice-b-glossario.md  ← Apêndice B: Glossário
 ├── cenarios/                ← 7 módulos de aventura
 │   ├── senhor-da-mentira.md
 │   ├── a-torre-esquecida.md
@@ -60,8 +83,8 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 | Cap. 5: Talentos | ✅ Pronto |
 | Cap. 6: Arsenal | ✅ Pronto |
 | Cap. 7: Magia | ✅ Pronto |
-| **Apêndice A: Criaturas** | ⚠️ Parcial — tabelas de encontros prontas, statblocks faltando |
-| **Apêndice B: Glossário** | ❌ Faltando |
+| **Apêndice A: Criaturas** | ✅ Pronto |
+| **Apêndice B: Glossário** | ✅ Pronto (parcial — termos de distância revisados, substituições nos demais arquivos pendentes) |
 
 ## Prioridade de Trabalho
 
@@ -73,9 +96,10 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 6. ~~Revisar DCs fixas nas classes~~ ✅
 7. ~~Revisar referências a "proficiência"~~ ✅
 8. ~~Fichas 2.0 documentadas~~ ✅
-9. **Apêndice A: Criaturas** ← PRÓXIMO
-10. Apêndice B: Glossário
-11. Script de geração de PDF (`build-pdf.ps1`)
+9. ~~Apêndice A: Criaturas~~ ✅
+10. ~~Apêndice B: Glossário~~ ✅ (estrutura pronta)
+11. **Revisão de distâncias** ← PRÓXIMO — substituir termos antigos em todos os arquivos
+12. Script de geração de PDF (`build-pdf.ps1`)
 
 ## Convenções de Commit
 
