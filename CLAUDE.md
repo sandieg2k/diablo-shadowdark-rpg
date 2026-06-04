@@ -1,51 +1,40 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code when working with this project.
 
 ## Sobre o Projeto
 
-RPG de mesa homebrew inspirado na franquia **Diablo**, construído sobre o sistema **Shadowdark**. Criado por Paulo Souza (GitHub: Felipe1072-git).
+RPG de mesa homebrew inspirado na franquia **Diablo**. Criado por Paulo Souza (GitHub: Felipe1072-git).
 
-- **Documento principal:** `Diablo Homebrew RPG.docx` — contém todas as regras, cenários e fichas
+- **Nome do sistema:** Diablo RPG
+- **Documento principal:** `Diablo Homebrew RPG.md`
 - **Versão atual:** 1.0 (Playtest)
 - **Repositório:** https://github.com/Felipe1072-git/diablo-shadowdark-rpg
 
 ## Fluxo de Trabalho
 
-Este projeto usa **Google Drive** para edição e **GitHub** para controle de versão:
+O documento é editado no **Google Docs** e versionado no **GitHub** como Markdown:
 
-1. O arquivo `.docx` é editado no **Google Docs** (via Google Drive em `G:\Meu Drive\Cool Side of RPG\Diablo RPG\`)
-2. Após edições, exportar como `.docx` (**Arquivo → Fazer download → Microsoft Word**) e salvar na mesma pasta
-3. Commitar a nova versão no git com mensagem descritiva
+1. Paulo edita o documento no **Google Docs**
+2. Quando quiser salvar: `Arquivo → Fazer download → Markdown (.md)` e salvar na pasta do Drive
+3. O arquivo fica disponível em: `G:\Meu Drive\Cool Side of RPG\Diablo RPG\Diablo Homebrew RPG.md`
+4. Claude lê direto dessa pasta, copia para o repo local e commita no GitHub
 
-## Comandos Git
-
-```bash
-# Ver o que mudou
-git status
-git diff
-
-# Salvar uma nova versão
-git add "Diablo Homebrew RPG.docx"
-git commit -m "descrição do que mudou"
-git push
-
-# Criar um PR para uma mudança
-git checkout -b nome-do-branch
-git add <arquivo>
-git commit -m "descrição"
-git push -u origin nome-do-branch
-gh pr create --base main --head nome-do-branch --title "título" --body "descrição"
-```
+**Repo local clonado em:** `C:\Users\Paulo Souza\Documents\Claude\Diablo RPG\repo\`
 
 ## Convenções de Commit
 
 Usar prefixos descritivos:
 - `feat:` nova regra, classe, cenário ou mecânica
 - `fix:` correção de erro ou inconsistência nas regras
-- `docs:` atualização de README ou documentação
+- `docs:` atualização de texto, revisão ou reorganização
 - `refactor:` reorganização do documento sem mudança de conteúdo
 
-## Arquivo .gdoc
+Sempre passar o link do commit para o usuário conferir as mudanças.
 
-O arquivo `Diablo Homebrew RPG.gdoc` na pasta é apenas um **atalho** para o Google Docs — não contém conteúdo real. O arquivo de trabalho é sempre o `.docx`.
+## Revisão de Texto
+
+- Manter a voz e personalidade do autor (Paulo) — nunca formalizar o tom
+- Corrigir apenas gramática e clareza
+- Mostrar diff (vermelho/verde) antes de commitar alterações de texto
+- Passar o link do commit após cada push para o usuário conferir
