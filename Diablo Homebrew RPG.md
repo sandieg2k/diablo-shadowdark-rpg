@@ -223,6 +223,8 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 
   ---
 
+### **Dicas**
+
 1. **Manipulação Tátil:** Quando o Arcanista usar o **Buraco Negro** ou **Onda de Força**, o jogador deve fisicamente mover as miniaturas dos inimigos na mesa. Isso dá uma sensação de controle espacial muito forte.  
 2. **O "Contador de Cargas":** O jogador deve usar dados de cores diferentes (roxos, se possível) na frente dele para representar o **Dínamo Arcano**. Visualizar o poder acumulando aumenta a empolgação.  
 3. **Bolha de Tempo Física:** Se o jogador usar **Slow Time**, coloque um copo transparente virado ou um anel de luz sobre a área. Qualquer miniatura dentro dessa zona age por último na rodada.
@@ -280,6 +282,8 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **Tokens de Armadilha:** Use objetos reais. O jogador da Assassina deve trazer 3 moedas ou arruelas de metal pintadas. Quando ela armar uma *Sentinela*, ela coloca o objeto na mesa. Isso define visualmente a "zona de perigo" para os monstros.  
 2. **Visualizando os Combos:** Use dados de cores diferentes para as Cargas de Combo. Quando a Assassina atingir 3 cargas, o jogador pode trocar por um dado maior (um d20 gigante, por exemplo) para representar o **Finalizador**. Isso cria um "clímax" visual no turno dela.  
@@ -341,6 +345,8 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **O Ritual do Turbilhão:** Quando o jogador usar o **Turbilhão**, peça para ele literalmente girar a miniatura dele na mesa.  
 2. **Destruição de Cenário:** O Bárbaro deve ser capaz de quebrar coisas. Se ele quiser derrubar uma porta, uma mesa ou uma estátua sobre um inimigo enquanto estiver em fúrias, ele sempre tem **Vantagem**. Isso torna o combate tátil e dinâmico.  
@@ -404,6 +410,8 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 
   ---
 
+### **Dicas**
+
 1. **O Medidor:** Use recursos visuais para que o jogador sinta o peso das escolhas. O jogador deve usar dois tipos de marcadores (ex: pedras vermelhas para Ódio/Ataque e azuis para Disciplina/Defesa) ou apenas dados de cores diferentes. Quando ele usa os recursos, ele remove fisicamente a pedra da mesa.  
 2. **Uso de "Tokens" de Dispositivos:** O Caçador de Demônios enche a mesa de "tralha". Tenha marcadores pequenos para as **Sentinelas** e **Armadilhas**. "Se está na mesa, existe no mundo". Se um monstro pisar na armadilha, o jogador deve ter o prazer de "retirar" o marcador e rolar o dano.  
 3. **Narrativa Sombria:** Diferente da Amazona que é atlética e solar, o Caçador de Demônios é sombrio. Quando ele usar a **Cortina de Fumaça**, apague as luzes da mesa (se você usar lâmpadas físicas) ou descreva como as sombras da sala se esticam para escondê-lo.
@@ -461,6 +469,8 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **O Alcance da Lança:** Enfatize o posicionamento. O Cavaleiro de Sangue deve ser o mestre de "atacar por trás do Bárbaro". Use o alcance da lança para manter o monstro à distância, impedindo que monstros cheguem perto se o Cavaleiro tiver sucesso num teste de Força.  
 2. **O "Rastreador de Sangue":** Se o Cavaleiro de Sangue causar dano em um monstro e ele fugir, o jogador sabe automaticamente para onde o monstro foi. Esse é um "poder passivo" que não exige dados, apenas inteligência narrativa.  
@@ -520,6 +530,8 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **O "Clang" do Metal:** Valorize a sensação de peso. Quando o Cruzado usar **Pele de Ferro** ou bloquear um golpe pesado, descreva o som do metal contra metal. Se o Cruzado usar o escudo para derrubar um monstro, o jogador deve fisicamente tombar a miniatura do inimigo na mesa.  
 2. **Uso de Auras (Leis):** Como no Paladino, use anéis de cores diferentes na base da miniatura para representar qual "Lei" está ativa. Isso evita que o mestre e os jogadores esqueçam os bônus constantes.  
@@ -582,6 +594,8 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **Troca de Miniaturas:** "Show, don't tell". Se o Druida se transformar, o jogador **precisa** trocar a miniatura na mesa. Se ele não tiver, use um marcador de cor diferente. Isso sinaliza para todos que as regras do personagem mudaram.  
 2. **O Objeto da Rocha Rolante:** Se o jogador usar a **Rocha Rolante**, pegue um dado grande (como um D20 gigante ou uma bola de papel) e role-o fisicamente pelo grid ou mesa. Quem for tocado pelo objeto sofre o efeito. É divertido e visceral.  
@@ -647,6 +661,8 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 
   ---
 
+### **Dicas**
+
 1. **Tokens de Guardião:** Clareza visual. Crie 4 token coloridos (Ex: Laranja/Jaguar, Azul/Águia, Amarelo/Gorila, Verde/Centopeia). Quando o combate começar, o jogador coloca o token escolhido ao lado da sua miniatura. Assim, todos na mesa sabem qual bônus ele está usando sem precisar perguntar.  
 2. **Combate Acrobático:** O Natispirito deve se mover muito. Se o jogador descrever uma acrobacia (usar o cajado para saltar sobre um inimigo, por exemplo), ele ganha \+1 no dano. Isso incentiva o "estilo" de Nahantu.  
 3. **Visualizando o Veneno:** Use marcadores verdes (como pecinhas de plástico ou dados verdes) para os inimigos atingidos pela Centopeia. "O dano contínuo só é divertido se você vê ele acontecendo". Retirar o HP do monstro no início do turno dele cria expectativa.
@@ -708,6 +724,8 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 
   ---
 
+### **Dicas**
+
 1. **Jarros de Vidro:** Use "props". Se o jogador usar a **Bomba de Fogo** ou a **Nuvem de Gafanhotos**, ele pode colocar uma tampa de garrafa ou um pote pequeno na mesa. "O jarro quebrou aqui", isso define o ponto zero da explosão de forma visual e satisfatória.  
 2. **Máscaras Reais:** Peça para o jogador descrever a máscara dele. O Mestre dará um bônus de \+1 se o jogador fizer uma pose ou uma voz sinistra ao usar os seus talentos. Isso aumenta a imersão na estética tribal de Diablo. Se o jogador trouxer uma máscara tribal para as sessões o bônus é permanente.   
 3. **A Parede de Zumbis:** Use dominós ou bloquinhos de madeira para representar a **Parede de Zumbis**. Se o inimigo tentar passar e falhar no teste, o jogador "derruba" a parede sobre o monstro.
@@ -765,6 +783,8 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **O Peso do Aço:** O equipamento importa. O Guerreiro deve ser o único que pode carregar muitos itens. Você tem slots de inventário extras baseados na Força. Se o grupo encontrar um "Loot Pesado", é o Guerreiro quem carrega.  
 2. **O Som do Bloqueio:** Quando o Guerreiro bloquear um ataque com o escudo, o jogador bate com o dado na mesa ou faz um som metálico. A imersão sonora ajuda a sentir que o Guerreiro é uma parede.  
@@ -827,6 +847,8 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 
   ---
 
+### **Dicas**
+
 1. **Dados Explosivos:** A regra de **Mestria Elemental** (dados que explodem) faz o Mago se sentir extremamente poderoso, compensando o fato de ele ter apenas d4 de vida.  
 2. **Modelos de Área Físicos:** Como o Mago usa muita magia de área (Bola de Fogo, Nevasca, Meteoro), use anéis de papelão ou modelos de plástico na mesa. "Se a miniatura do monstro está tocando o anel de fogo, ele queima kkk". Isso evita discussões sobre distância e acelera o jogo.  
 3. **O Risco da Sobrecarga:** Quando o Mago usar a **Sobrecarga Sanguínea**, descreva como o nariz dele sangra ou como seus olhos brilham com a cor do elemento. Foque na narrativa do custo da magia.  
@@ -888,6 +910,8 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 
   ---
 
+### **Dicas**
+
 1. **O "Sino" Tátil:** Quando o Monge usar a **Onda de Luz**, o jogador pode literalmente bater um sino pequeno na mesa ou usar uma taça de metal para fazer o som. O impacto sonoro enfatiza o poder da habilidade.  
 2. **Tokens de Mantra:** Use anéis de cores diferentes na base da miniatura (Amarelo para Evasão, Vermelho para Retribuição). Isso ajuda você e o Mestre, a saber instantaneamente quem na mesa está sob o efeito do Monge sem precisar consultar fichas.  
 3. **A Dança das Miniaturas:** O Monge é a classe do reposicionamento. O Mestre encoraja o uso do **Ímpeto** para que o Monge esteja sempre se movendo. Se o jogador descrever uma acrobacia épica para atravessar o campo de batalha, ele receberá um bônus de "Estilo" (+1 no próximo dado).  
@@ -947,6 +971,8 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **O "Click" da Morte:** Quando um monstro der dano na horda, ele não subtrai HP. Se o monstro deu 4 de dano, o Necromante simplesmente **retira 4 miniaturas de esqueletos da mesa**. É visual, rápido e tátil.  
 2. **Tokens de Maldição:** Use marcadores de cores vibrantes (como anéis de garrafa pet roxos) para as Maldições. Se o Necromante usar **Maldizer**, ele coloca o anel na miniatura do inimigo. "Aquele ali morre mais rápido", todos sabem disso instantaneamente.  
@@ -1009,6 +1035,8 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **Anéis de Aura:** Use anéis de plástico coloridos (ou marcadores de plástico de 1 polegada) embaixo da base da miniatura do Paladino.  
    * Vermelho \= Fanatismo (Ataque)  
@@ -1073,6 +1101,8 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 
   ---
 
+### **Dicas**
+
 1. **Index Cards de Armadilhas:** Usa cartões de índice (fichas de papel) para representar armadilhas ou bombas de fumaça na mesa. Quando a Renegada joga **Abrojos**, coloque o papel no grid. Inimigo pisou no papel? Sofreu o efeito. Isso torna o campo de batalha tático e visível.  
 2. **Marcadores de Imbuimento:** Use elásticos coloridos ou anéis pequenos para colocar na arma da miniatura (Verde para Veneno, Roxo para Sombras, Azul para Gelo). Isso evita que o jogador esqueça que "carregou" a arma.  
 3. **Ataque Furtivo Visual:** Sempre se pergunte: "Onde você está escondido?". O jogador deve colocar a miniatura atrás de móveis, colunas ou até atrás do Bárbaro. Se a miniatura estiver "escondida" visualmente, ela ganha o bônus de cobertura.  
@@ -1134,6 +1164,8 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
+
+### **Dicas**
 
 1. **O Rosário de Fé:** O jogador deve usar um rosário físico ou um colar de contas. Cada conta representa 1 Ponto de Fé. O Mestre adora essa conexão física: o jogador literalmente "conta suas preces" enquanto gasta seus recursos.  
 2. **Iluminação Real:** Se o Sacerdote usar o **Halo de Luz**, coloque uma lanterna pequena ou a lanterna do celular (com um filtro amarelo/papel) sobre a mesa se você jogar em ambiente escuro. Isso marca visualmente a área sagrada.  
