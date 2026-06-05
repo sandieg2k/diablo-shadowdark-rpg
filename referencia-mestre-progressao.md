@@ -107,26 +107,92 @@ Salvaguardas usam `1d20 + mod do atributo ≥ DC` — sem bônus de nível. As D
 
 ---
 
-## Resistência Base por Arquétipo
+## Resistência nos Encontros
 
-A Resistência tem três pilares que se somam: **atributo primário + RD de armadura + itens mágicos**.
+Referência cruzada entre as resistências dos PJs (o que aguenta) e os danos dos monstros (o que ameaça). Use em conjunto com a tabela de Dano dos Monstros por Faixa de Nível.
 
-| Arquétipo | Atributo primário | Resistência Física base | Resistência Elemental base | Resistência Sobrenatural base |
-|---|---|---|---|---|
-| Caster (Mago, Arcanista, Necromante) | INT +3 | 0 (Couro, sem bônus) | 3 (INT) | 0 |
-| Suporte (Sacerdote, Warlock) | SAB/CAR +3 | 0–1 (armadura leve) | 0 | 3 (SAB ou CAR) |
-| Híbrido (Amazona, Renegada, Caçador) | DES +3 | 1–2 (armadura leve/média) | 0–1 | 0–1 |
-| Guerreiro (Guerreiro, Monge, Druida) | FOR/SAB +3 | 2 (Cota de Malha RD 2) | 0 | 0–3 (SAB, se Monge/Druida) |
-| Tanque (Bárbaro, Paladino, Cruzado) | FOR/CAR +3 | 3 (Placa Completa RD 3) | 0 | 0–1 |
-
-*Resistência Física vem exclusivamente da armadura e de itens — nenhum atributo se soma a ela. Itens mágicos continuam sendo a principal fonte de crescimento para fechar gaps.*
-
-**Fontes por tipo:**
-- **Física** = RD da armadura + itens (sem atributo)
+**Fontes por tipo (resumo):**
+- **Física** = RD da armadura + itens *(sem atributo)*
 - **Fogo/Gelo/Elétrico** = Mod. INT + itens
 - **Veneno** = Mod. CON + itens
 - **Necrótico/Psíquico** = Mod. SAB + itens
 - **Radiante/Arcano** = Mod. CAR + itens
+
+---
+
+### Vulnerabilidades por Arquétipo
+
+O atributo primário define onde o PJ tem proteção inata. **⚠️ = gap total** (0 sem itens): qualquer dano desse tipo passa integral. Físico nunca tem atributo — depende só de armadura e itens.
+
+| Arquétipo | Classes | Físico | Fogo/Gelo/Elétrico | Veneno | Necrótico/Psíquico | Radiante/Arcano |
+|---|---|---|---|---|---|---|
+| **Intelectual** (INT) | Mago, Arcanista, Necromante | ⚠️ 0 | ✅ 3 | ⚠️ 0–1 | ⚠️ 0 | ⚠️ 0 |
+| **Espiritual** (SAB) | Druida, Monge, Sacerdote | ➖ 1–2 | ⚠️ 0 | ➖ 1–2 | ✅ 3 | ⚠️ 0 |
+| **Profano** (CAR) | Warlock, Paladino | ➖ 1–2 | ⚠️ 0 | ➖ 1 | ⚠️ 0–1 | ✅ 3 |
+| **Ágil** (DES) | Amazona, Assassina, Caçador, Renegada | ➖ 1–2 | ⚠️ 0 | ⚠️ 0–1 | ⚠️ 0 | ⚠️ 0 |
+| **Brutal** (FOR/CON) | Bárbaro, Cavaleiro de Sangue, Cruzado, Guerreiro | ✅ 2–3 | ⚠️ 0 | ✅ 2–3 | ⚠️ 0 | ⚠️ 0–1 |
+
+*✅ = proteção natural (atributo +3) · ➖ = proteção parcial (armadura ou atributo secundário) · ⚠️ = gap total*
+
+*Natispirito (DES + INT) é o único arquétipo com dois atributos defensivos: segue o perfil Ágil no físico e Intelectual no elemental. Feiticeiro (CAR ou INT) varia por build — tende ao perfil Intelectual ou Profano.*
+
+*Arquétipos Ágeis são os mais vulneráveis no geral: DES não protege contra nada. São os que mais dependem de itens para fechar gaps.*
+
+---
+
+### RD esperada por faixa de nível
+
+Modelo: atributo primário (fixo) + itens mágicos acumulados ao longo da campanha. Use para saber se o dano do seu monstro ainda vai doer contra o grupo.
+
+**Resistências mágicas (elemental, veneno, sobrenatural):**
+
+| Faixa de nível | Com atributo (+3) — equipamento típico | Com atributo — bem equipado | Gap (0 atributo) — equipamento típico |
+|---|---|---|---|
+| 1–4 | 3–6 | 7–10 | 0–3 |
+| 5–7 | 5–9 | 10–13 | 2–5 |
+| 8–10 | 8–12 | 13–18 | 4–8 |
+
+**Resistência Física (armadura + itens, sem atributo):**
+
+| Faixa de nível | Armadura Leve | Armadura Média | Armadura Pesada |
+|---|---|---|---|
+| 1–4 | 0–2 | 1–3 | 2–4 |
+| 5–7 | 0–3 | 2–4 | 3–5 |
+| 8–10 | 1–4 | 2–5 | 3–7 |
+
+*Resistência Física cresce mais devagar que as demais — armadura não muda com o nível, só com upgrade de tier e itens. Um tanque de nível 8 com Placa Completa e itens decentes chega a RD 6–7 física, enquanto um Caster ainda fica em 1–2.*
+
+*"Equipamento típico" assume que os PJs encontraram itens de resistência relevante. "Bem equipado" assume itens raros ou lendários com prefixo/sufixo de resistência. Grupos que ignoram resistência específica ficam no lado esquerdo da tabela mesmo em nível alto.*
+
+---
+
+### RD recomendada para monstros
+
+Use ao criar statblocks. A coluna de RD Física segue o padrão Minion / Padrão / Elite / Chefe.
+
+| Arquétipo de Criatura | RD Física | Imune a | Vulnerável a | Observação |
+|---|---|---|---|---|
+| **Humanoide** (bandido, cultista, soldado) | 0 / 1 / 2 / 3 | — | — | Usa armadura como PJs; RD varia pelo equipamento |
+| **Demônio** (Caído, Lamprey, Goatman) | 0 / 1 / 2 / 3 | Fogo (Elite+), Veneno | Gelo | Chefes também resistem a Arcano (2–4) |
+| **Não-morto** (esqueleto, vampiro, liche) | 0 / 1 / 2 / 3 | Necrótico, Veneno | Radiante | Físico normal — ossos quebram, carne corta |
+| **Construto** (Golem, Armadura Animada) | 2 / 3 / 5 / 8 | Veneno, Psíquico | Arcano | Alta RD física é o núcleo do arquétipo; sem fraqueza elemental |
+| **Espectro / Fantasma** | Imune / Imune / Imune / Imune | Físico, Necrótico | Radiante | Força os PJs a usar magia ou armas encantadas |
+| **Elemental** (Fogo, Gelo, etc.) | 0 / 0 / 1 / 2 | Próprio elemento | Elemento oposto | Ex: Elemental de Fogo imune a Fogo, vulnerável a Gelo |
+| **Abissal / Angelical** (servos do Prime Evil, anjos corrompidos) | 2 / 3 / 5 / 8 | Necrótico (Abissal) ou Radiante (Angelical) | Tipo oposto | Arcano reduz 50% para Abissais; Psíquico reduz 50% para Angelicais |
+
+*Não-mortos físicos (esqueleto, zumbi) têm RD física baixa de propósito — a imunidade ao Necrótico já é proteção suficiente. Dar RD física alta também tornaria eles resistentes a dois vetores de ataque, o que é punitivio demais.*
+
+---
+
+### Imunidade e Vulnerabilidade
+
+**Imunidade:** o monstro toma 0 de dano desse tipo. Reservar para identidade temática forte (Demônio de Fogo imune a Fogo, Espectro imune a Físico). Evitar em humanoides comuns — elimina opções táticas dos jogadores.
+
+**Vulnerabilidade:** o monstro toma dano extra ao ser atingido pelo tipo fraco. Dois níveis:
+- **Leve:** +nível do encontro de dano bônus (ex: encontro nível 5 → +5 de dano)
+- **Severa:** dano dobrado — reservar para fraquezas icônicas de chefes (Vampiro Ancião vs Radiante, Golem de Pedra vs Arcano)
+
+*Vulnerabilidade severa em monstros comuns os torna triviais para as classes certas e irrelevantes para as demais. Prefira a versão leve para manter o encontro interessante para o grupo todo.*
 
 ---
 
