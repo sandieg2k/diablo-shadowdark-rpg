@@ -184,6 +184,37 @@ Para ameaçar esses personagens, use efeitos que **não exigem rolagem de ataque
 
 ---
 
+## Riqueza Esperada por Nível
+
+Fórmula do LdM: **Nível Médio × 1d10** ouro por achado de tesouro (média: Nível × 5,5 po).
+
+| Nível | Por achado (méd.) | Por sessão (~3 achados) | Acumulado (3 sessões) |
+|---|---|---|---|
+| 1 | 5 po | 15 po | 45 po |
+| 2 | 11 po | 33 po | 99 po |
+| 3 | 16 po | 48 po | 144 po |
+| 4 | 22 po | 66 po | 198 po |
+| 5 | 27 po | 81 po | 243 po |
+| 6 | 33 po | 99 po | 297 po |
+| 7 | 38 po | 114 po | 342 po |
+| 8 | 44 po | 132 po | 396 po |
+| 9 | 49 po | 147 po | 441 po |
+| 10 | 55 po | 165 po | 495 po |
+
+**Marcos de compra** *(quando o grupo consegue pagar, em média)*
+
+| Item | Preço | Nível típico |
+|---|---|---|
+| Couro Reforçado (set) | 45 po | Nível 1–2 |
+| Brunea (set) | 50 po | Nível 1–2 |
+| Slot Especial (barato) | 50–75 po | Nível 2–3 |
+| Slot Especial (caro) | 150–200 po | Nível 4–5 |
+| Cota de Malha (set) | 400 po | Nível 6–7 |
+| Meia-Placa (set) | 750 po | Nível 8–9 |
+| Placa Completa (set) | 1.500 po | Nível 10+ |
+
+---
+
 ## Parâmetros de Balanceamento de Criaturas *(grupo de 4–5 jogadores)*
 
 | Tier | PV alvo | Referência |
