@@ -119,6 +119,8 @@
 
 # Cap. 2 — Tesouros e Itens
 
+> **ND (Nível de Dificuldade):** sempre que uma tabela pedir `1d20 + ND`, some o **nível médio do grupo** (arredondado para baixo) ao resultado do dado. Exemplo: grupo no nível 5 rola 1d20 e obtém 8 → resultado final 13.
+
 Para cada monstro derrotado pelos jogadores, role na tabela de tesouros abaixo. Esta tabela fractal de tesouros pode revelar alguns itens surpreendentemente poderosos. Somando o valor em ouro de cada aspecto do tesouro, você pode obter um custo que pode ser usado para negociar com mercadores. Lembre-se de que só porque um personagem encontra um tesouro não significa que ele saiba o que ele faz. Os personagens precisarão que ele seja identificado na cidade ou que tenha meios de identificá-lo por conta própria. Sem isso, o tesouro só é tão útil quanto sua contraparte mundana.
 
 ## Bases e Lojas de Magia
@@ -222,7 +224,9 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | **96-97** | Foco Druídico | Totem/Cajado de Yew | 1-10 |
 | **98-00** | Instrumento Musical | Alaúde/Flauta/Gaita | 2-35 |
 
-### Focos de Conjuração e Instrumentos (91-00)
+*Para resultados 91-00, role na sub-tabela abaixo para determinar o item exato.*
+
+### Sub-tabela: Focos de Conjuração e Instrumentos (91-00)
 
 | d8 | Categoria | Dado | Sub-item | Preço (PO) |
 | :---- | :---- | :---- | :---- | :---- |
@@ -361,7 +365,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **26-29** | da Vida | \+4 RD em TODOS os tipos. | 50.000 |
 | **30+** | da Deflexão | \+5 RD em TODOS os tipos. | 100.000 |
 
-### 2\. Reação Quando Atacado ⟁ (21-26)
+### 2\. Reação Quando Atacado ⟁ (21-27)
 
 *Role 1d20 \+ ND.*
 
@@ -370,7 +374,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **1-14** | de Espinhos | Atacante sofre 1d4 físico para cada ataque corpo a corpo contra o usuário | 5000 |
 | **15+** | de Ferrão | Atacante sofre 2d4 físico para cada ataque corpo a corpo contra o usuário | 10.000 |
 
-### 3\. Efeitos de Movimento (28-30)
+### 3\. Efeitos de Movimento (28-32)
 
 *Role 1d20 \+ ND.*
 
@@ -380,7 +384,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **15-19** | da Velocidade | Corre o dobro com uma ação de movimento ◈ e não pode ser surpreendido | 30.000 |
 | **20+** | da Aceleração | Corre o triplo com uma ação de movimento ◈ e não pode ser surpreendido | 100.000 |
 
-### 4\. Aumento de HP (31-35)
+### 4\. Aumento de HP (33-40)
 
 *Role 1d20 \+ ND*
 
@@ -397,7 +401,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **30-31** | da Baleia | \+25 HP Temporários | 22500 |
 | **32+** | do Colosso | \+30 HP Temporários | 25000 |
 
-### 5\. Recuperação (36-45)
+### 5\. Recuperação (41-52)
 
 *Role 1d20*
 
@@ -406,7 +410,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **1-10** | da Regeneração | Usuário cura 1 HP por turno. | 100000 |
 | **11-20** | da Renovação | Usuário recupera 1 ponto de atributo perdido por turno. | 100000 |
 
-### 6\. Preparação Diária (61-70)
+### 6\. Preparação Diária (53-63)
 
 *Role 1d20 \+ ND.*
 
@@ -417,38 +421,38 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **25-35** | da Osmose | O usuário pode usar uma habilidade sem gastar ações ou Mana 1× por dia. | 250000 |
 | **36+** | da Transcendência | O usuário pode usar uma habilidade sem gastar ações ou Mana 2× por dia. | 500000 |
 
-### 7\. Dano Extra (71-85)
+### 7\. Dano Extra (64-80)
 
 | d100 | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
-| **71-72** | do Gelo | \+1d6 de dano de gelo em ataques e feitiços | 2500 |
-| **73-74** | do Fogo | \+1d6 de dano de fogo em ataques e feitiços | 2500 |
-| **75-76** | da Eletricidade | \+1d6 de dano Elétrico em ataques e feitiços | 2500 |
-| **77-78** | do Veneno | \+1d6 de dano de Veneno em ataques e feitiços | 2500 |
-| **79-80** | da Radiância | \+1d6 de dano Radiante em ataques e feitiços | 5000 |
-| **81-82** | da Necromancia | \+1d6 de dano Necrótico em ataques e feitiços | 5000 |
-| **83-84** | da Psique | \+1d6 de dano Psíquico em ataques e feitiços | 5000 |
-| **85** | da Força | \+1d6 de dano de Força em ataques e feitiços | 10000 |
+| **64-65** | do Gelo | \+1d6 de dano de gelo em ataques e feitiços | 2500 |
+| **66-67** | do Fogo | \+1d6 de dano de fogo em ataques e feitiços | 2500 |
+| **68-69** | da Eletricidade | \+1d6 de dano Elétrico em ataques e feitiços | 2500 |
+| **70-71** | do Veneno | \+1d6 de dano de Veneno em ataques e feitiços | 2500 |
+| **72-73** | da Radiância | \+1d6 de dano Radiante em ataques e feitiços | 5000 |
+| **74-75** | da Necromancia | \+1d6 de dano Necrótico em ataques e feitiços | 5000 |
+| **76-77** | da Psique | \+1d6 de dano Psíquico em ataques e feitiços | 5000 |
+| **78-80** | da Força | \+1d6 de dano de Força em ataques e feitiços | 10000 |
 
-### 8\. Efeito de Runas (86-100)
+### 8\. Efeito de Runas (81-100)
 
 | d100 | Runa | Sufixo | Efeito |
 | :---- | :---- | :---- | :---- |
-| **86** | Amn | **Sede de Sangue** | **Roubo de Vida:** Cura 1d4 PV sempre que causar dano crítico ou matar um inimigo. |
-| **87** | Shael | **Rapidez** | **Velocidade:** Reduz o custo de ações ou reações em 1 Mana. |
-| **88** | Pul | **Exorcismo** | **Dano Sagrado:** \+1 dado de dano adicional contra Demônios e Mortos-Vivos. |
-| **89** | Um | **Laceração** | **Ferimentos Abertos:** O alvo sangra, perdendo 1d4 PV por rodada até ser curado ou estabilizado. |
-| **90** | Mal | **Veredito** | **Anticura:** Impede que o alvo regenere vida ou receba cura mágica por 3 rodadas. |
-| **91** | Ist | **Fortuna** | **Busca Mágica:** Aumenta a chance de encontrar itens raros/mágicos em saques em \+10%. |
-| **92** | Gul | **Precisão** | **Foco:** Recebe \+1d4 em todas as jogadas de ataque com esta arma. |
-| **93** | Vex | **Sifão de Éter** | **Roubo de Mana:** Ao causar dano, role 1d6. Em um 5 ou 6, você recupera 1 ponto de Mana. |
-| **94** | Ohm | **Poder Bruto** | **Dano Físico:** A arma causa \+5 de dano fixo em todos os ataques bem-sucedidos. |
-| **95** | Lo | **Golpe Mortal** | **Crítico Devastador:** Chance de causar dano dobrado (além do crítico normal) em um 19 natural. |
-| **96** | Sur | **Aflição** | **Cegueira:** Alvos atingidos devem passar num teste de CON DC 12 ou ficam Cegos por 1 rodada. |
-| **97** | Ber | **Esmagamento** | **Golpe Esmagador:** Reduz a CA do alvo em 2 até o fim do combate. |
-| **98** | Jah | **Aniquilação** | **Ignorar Defesa:** O ataque ignora qualquer bônus de escudo ou armadura natural do inimigo. |
-| **99** | Cham | **Gelo Eterno** | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. |
-| **100** | Zod | **Eternidade** | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. |
+| **81** | Amn | **Sede de Sangue** | **Roubo de Vida:** Cura 1d4 PV sempre que causar dano crítico ou matar um inimigo. |
+| **82** | Shael | **Rapidez** | **Velocidade:** Reduz o custo de ações ou reações em 1 Mana. |
+| **83** | Pul | **Exorcismo** | **Dano Sagrado:** \+1 dado de dano adicional contra Demônios e Mortos-Vivos. |
+| **84** | Um | **Laceração** | **Ferimentos Abertos:** O alvo sangra, perdendo 1d4 PV por rodada até ser curado ou estabilizado. |
+| **85** | Mal | **Veredito** | **Anticura:** Impede que o alvo regenere vida ou receba cura mágica por 3 rodadas. |
+| **86** | Ist | **Fortuna** | **Busca Mágica:** Aumenta a chance de encontrar itens raros/mágicos em saques em \+10%. |
+| **87** | Gul | **Precisão** | **Foco:** Recebe \+1d4 em todas as jogadas de ataque com esta arma. |
+| **88** | Vex | **Sifão de Éter** | **Roubo de Mana:** Ao causar dano, role 1d6. Em um 5 ou 6, você recupera 1 ponto de Mana. |
+| **89** | Ohm | **Poder Bruto** | **Dano Físico:** A arma causa \+5 de dano fixo em todos os ataques bem-sucedidos. |
+| **90** | Lo | **Golpe Mortal** | **Crítico Devastador:** Chance de causar dano dobrado (além do crítico normal) em um 19 natural. |
+| **91** | Sur | **Aflição** | **Cegueira:** Alvos atingidos devem passar num teste de CON DC 12 ou ficam Cegos por 1 rodada. |
+| **92** | Ber | **Esmagamento** | **Golpe Esmagador:** Reduz a CA do alvo em 2 até o fim do combate. |
+| **93** | Jah | **Aniquilação** | **Ignorar Defesa:** O ataque ignora qualquer bônus de escudo ou armadura natural do inimigo. |
+| **94** | Cham | **Gelo Eterno** | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. |
+| **95-100** | Zod | **Eternidade** | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. |
 
 ---
 
