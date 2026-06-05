@@ -235,12 +235,12 @@ Distribuição atual (Cap. 2 Tesouros):
 Expandir o documento com todas as estatísticas relevantes para calibração de encontros e distribuição de recompensas. Ordem de execução:
 
 1. ~~CA por tier com 3 colunas de escudo e min/max por nível~~ ✅ (commit e49ee58)
-2. Dano dos monstros por faixa de nível ← próximo
-3. DC de Salvaguardas recomendadas (fácil / moderado / mortal por nível)
-4. ~~RD disponível por tier~~ ✅ — expandido para Resistência completa por arquétipo (Física/Elemental/Exótica)
-5. Probabilidade de acerto — tabela cruzada ATK × CA com % de chance
-6. Riqueza esperada por nível (ouro e itens para calibrar tesouros e lojas)
-7. Revisão da Matriz de Resistências no LdJ (clareza, consistência, elegância)
+2. ~~Dano dos monstros por faixa de nível~~ ✅ (commit 904d30f)
+3. ~~DC de Salvaguardas recomendadas (fácil / moderado / mortal por nível)~~ ✅ (commit c9d2cbb)
+4. ~~RD disponível por tier~~ ✅ — expandido para Resistência completa por arquétipo (commit 517d0d4)
+5. ~~Probabilidade de acerto — tabela cruzada ATK × CA com % de chance~~ ✅ (commit 5f4f2b9)
+6. ~~Riqueza esperada por nível (ouro e itens para calibrar tesouros e lojas)~~ ✅ (commit 94fc15a)
+7. Revisão da Matriz de Resistências no LdJ (clareza, consistência, elegância) ← próximo
 
 ---
 
