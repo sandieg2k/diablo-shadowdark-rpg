@@ -141,7 +141,7 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 
 | Resultado | Poção de Vida (Recupera PV) | Poção de Mana (Recupera Magia) | Preço |
 | :---- | :---- | :---- | :---- |
-| **1-10** | Comum: 1d4 PV | Comum: Recupera 1d4 mana. | 15 |
+| **1-10** | Normal: 1d4 PV | Normal: Recupera 1d4 mana. | 15 |
 | **11-20** | Forte: 2d4 PV | Forte: Recupera 2d4 mana. | 50 |
 | **21-30** | Grande: 3d4 PV | Grande: Recupera 3d4 mana. | 125 |
 | **31+** | Superior: Recupera tudo | Superior: Recupera 4d4 \+ Vantagem no próximo teste. | 300 |
@@ -150,12 +150,12 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 
 | 1d20 \+ ND | Qualidade do Item | Descrição |
 | :---- | :---- | :---- |
-| **1-10** | Item Comum | Item padrão (Espada, Armadura, etc.). |
-| **11-14** | Item Mágico (Prefixo) | Item padrão \+ Prefixo |
-| **15-18** | Item Raro (Sufixo) | Item padrão \+ Sufixo |
-| **19+** | Item Lendário | Item padrão \+ Prefixo e Sufixo |
-| **A descrição do Mestre** | Item Único | Item com propriedades únicas. |
-| **A descrição do Mestre** | Item de Conjunto | Item com propriedades especiais, ativadas quando o usuário estiver usando duas ou mais peças. |
+| **1-10** | Normal | Item base sem propriedades mágicas. |
+| **11-14** | Mágico | Item base + 1 Prefixo ou 1 Sufixo. |
+| **15-18** | Raro | Item base + 1 Prefixo + 1 Sufixo. |
+| **19+** | Lendário | Item base + 2 Prefixos + 1 Sufixo, ou efeito especial do Mestre. |
+| — | **Único** | Distribuído manualmente. Efeitos fixos exclusivos — ver seção Tesouros Especiais. |
+| — | **Set** | Distribuído manualmente. Bônus progressivos ao completar o conjunto — ver seção Tesouros Especiais. |
 
 ## Tabela de Itens Base (1d100)
 
@@ -453,6 +453,54 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **93** | Jah | **Aniquilação** | **Ignorar Defesa:** O ataque ignora qualquer bônus de escudo ou armadura natural do inimigo. | 3.000 |
 | **94** | Cham | **Gelo Eterno** | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. | 3.000 |
 | **95-100** | Zod | **Eternidade** | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. | 5.000 |
+
+---
+
+## Tesouros Especiais
+
+Itens Únicos e de Set não aparecem em tabelas de loot aleatório. O Mestre os distribui como recompensa de momentos memoráveis — missão concluída, chefe derrotado, tesouro escondido.
+
+### Itens Únicos
+
+Um Item Único tem nome próprio, aparência distinta e efeitos fixos que não usam o sistema de Prefixos e Sufixos. Ele representa um artefato específico do mundo — uma lâmina forjada por um anjo, uma coroa corrompida por Lilith.
+
+**Template de Item Único:**
+
+---
+
+**[Nome do Item]** *(Tipo base: Espada Longa / Armadura Pesada / etc.)*
+
+*[Uma linha de lore — de onde vem, quem o forjou, o que representa.]*
+
+**Efeitos:**
+- [Efeito 1]
+- [Efeito 2]
+- *(opcional)* **Efeito Lendário:** [Efeito poderoso que define o item.]
+
+**Requisito:** [Nível mínimo ou atributo, se houver.]
+
+---
+
+### Itens de Set
+
+Um Item de Set faz parte de um conjunto nomeado. As peças equipadas isoladamente funcionam como itens Raros. O bônus do Set só se ativa ao completar o número de peças indicado.
+
+**Template de Set:**
+
+---
+
+**[Nome do Set]** *(X peças)*
+
+*[Uma linha de lore do conjunto.]*
+
+| Peças equipadas | Bônus |
+| :---- | :---- |
+| **2 peças** | [Bônus menor — a preencher ao criar o set.] |
+| **[X] peças** | [Bônus completo — efeito especial do conjunto.] |
+
+**Peças do Set:**
+- **[Nome da Peça 1]** *(Tipo: ...)*
+- **[Nome da Peça 2]** *(Tipo: ...)*
 
 ---
 
