@@ -31,7 +31,7 @@
 
 | d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| **1-9** | 1d6 Caídos | 2d4 Caídos, 1d4 Xamãs Caídos  | 2d6 Caídos, 1d6 Cães do Inferno | 2d6 Caídos com 1d4+2 Cães do Inferno | 2d4+4 Caídos, 1d4 Supervisores |
+| **1-9** | 1d6 Caídos | 2d4 Caídos, 1d4 Xamãs Caídos  | 2d6 Caídos, 1d6 Cães do Inferno | 2d6 Caídos com 1d4+2 Cães do Inferno | 2d4+4 Caídos, 1d4 Supervisores Caídos |
 | **10-14** | 2d4 Morcegos Carniceiros | 1d6 Heróis Corrompidos | 2d4 Vampiros | 1d6 Vampiros, 1 Vampiro Superior | 3d6 Homens-Bode, 1d4 Clãs da Lua, 1  Empalador Khazra |
 | **15-19** | 2d4 Ratos de Peste | 1d6 Vermes Gigantes | 1d6 Carniçais Famintos | 2d6 Carniçais Famintos | 1d6 Vermes Gigantes, 1 Verme Colossal |
 | **20** | 3d6 Homens-Bode, 1 Clã da Lua | 1d4+1 Vampiros Aprendices | 1 Abominação | 1d4 Vampiros Superiores | 2d6 Vampiros, 1d4 Vampiros Superiores |
@@ -65,9 +65,9 @@
 | d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | **1-9** | 2d4 Moscas de Peste | 2d6 Zumbis de Selva | 2d6 Guerreiros Fetichistas | 4d6 Fetichistas | 4d6 Xamãs Fetichistas |
-| **10-14** | 1d4 Aranhas de Teia | 1d4 Aranhas de Musgo | 3d6 Zumbis | 4d6 Macacos das Trevas | 2d6 Carniçais, 1d4 Horrores de Espinhos |
-| **15-19** | 1d4 Cobras de Árvore | 2d4 Gorilas da Selva | 3d6 Pássaros de Fogo | 2d12 Zumbis, 1d4 Carniçais | 2d4 Homens-Tigre (Lacuni) |
-| **20** | 1d4 Vespas de Areia | 1d4 Carniçais | 2d6 Macacos Gigantes | 2d4 Cobras Constritoras | 2d4 Membros do Conselho |
+| **10-14** | 1d4 Aranhas de Teia | 1d4 Aranhas de Musgo | 3d6 Zumbis | 4d6 Macacos das Trevas | 2d6 Carniçais Famintos, 1d4 Horrores de Espinhos |
+| **15-19** | 1d4 Cobras de Árvore | 2d4 Gorilas da Selva | 3d6 Pássaros de Fogo | 2d12 Zumbis, 1d4 Carniçais Famintos | 2d4 Homens-Tigre (Lacuni) |
+| **20** | 1d4 Vespas de Areia | 1d4 Carniçais Famintos | 2d6 Macacos Gigantes | 2d4 Cobras Constritoras | 1d3+1 Membros do Conselho |
 
 ### Círculos Internos do Inferno (Reino do Terror)
 
@@ -75,7 +75,7 @@
 
 | d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| **1-9** | 1d4 Vermes de Carne | 2d6 Vermes de Carne | 3d6 Almas Penadas | 2d6 Carniçais, 1 Insepulto | 3d6 Diabretes (Imps) |
+| **1-9** | 1d4 Vermes de Carne | 2d6 Vermes de Carne | 3d6 Almas Penadas | 2d6 Carniçais Famintos, 1 Insepulto | 3d6 Diabretes (Imps) |
 | **10-14** | 1d4 Esqueletos Fogosos | 2d6 Esqueletos Fogosos | 3d6 Cavaleiros da Perdição | 3d4 Diabretes de Fogo | 3d4 Demônios Alados |
 | **15-19** | 1d4 Zumbis de Sangue | 2d6 Zumbis de Sangue | 1d6 Súcubos | 2d4 Cavaleiros do Inferno | 2d4 Caras de Carne |
 | **20** | 1 Diabrete | 1d2 Súcubos | 1d4 Algozes | 2d4 Vermes de Carne, 1 Lorde das Chamas | 1 Senhor do Terror (Balrog/Pit Lord) |
