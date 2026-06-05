@@ -127,12 +127,12 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 | **11** | **Escudo de Diamante (⟁ \+ 3 Mana):** Como uma reação, mitigue todo o dano recebido em um ataque. |
 | **12 (3)** | **Desintegrar (Feitiço) (◈ por rodada \+ 1 Mana):** Canalize um raio que causa 1d10 de dano Arcano por turno enquanto mantiver concentração. A cada rodada que a concentração é mantida o dano aumenta em \+1d10. Criaturas mortas por esse feitiço viram pó. |
 | **13** | **Ilusionismo (⟁ \+ 2 Mana):** Quando sofrer dano, cria 2 duplicatas (inimigos têm 50% de chance de errar e acertar uma das duplicatas). As duplicatas duram 1d4 rodadas. |
-| **14 (4)** | **Buraco Negro (Feitiço) (◈◈ \+ 2 Mana por dado):** Puxe todas as miniaturas "Próximo" de um ponto para o centro e cause 2d8 de dano necrótico. |
+| **14 (4)** | **Buraco Negro (Feitiço) (◈◈ \+ 2 Mana por dado):** Puxe todas as miniaturas "Próximo" de um ponto para o centro e cause 2d8 de dano Arcano. |
 | **15** | **Anomalia Instável (⟁ \+ 2 Mana por dado):** Se cair para 0 HP, explode em energia (2d6 dano Arcano adjacente) e fica com 1 HP. |
 | **16 (5)** | **Espada Espectral (Feitiço) (◈◈ \+ 1 Mana por dado):** Uma Lâmina Espectral que atinge um arco curto à frente do Arcanista, todos os inimigos adjacentes a um ponto perto sofrem 1d6 dano Arcano, Fogo, Gelo ou Relâmpago. |
 | **17** | **Arconte (◈◈ \+ 5 Mana):** Transforme-se em energia pura (Vantagem em todos testes de feitiços e \+5 de dano em todos os feitiços) por 1d4 rodadas. |
 | **18** | **Fluxo Temporal (◈◈ \+ 5 Mana):** Você e aliados perto podem usar um PA **◈** extra por turno (4) durante 1d4 rodadas. |
-| **19 (6)** | **Meteoro (Feitiço)(◈◈ \+ 3 Mana por meteoro):** Marque um local na mesa. No próximo turno, um meteoro cai no local e causa 4d10 de dano Arcano a todos os inimigos adjacentes ao ponto escolhido. |
+| **19 (6)** | **Meteoro (Feitiço)(◈◈◈ \+ 3 Mana por meteoro):** Marque um local na mesa. No próximo turno, um meteoro cai no local e causa 4d10 de dano Arcano a todos os inimigos adjacentes ao ponto escolhido. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -623,7 +623,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | **16 (9)** | **Vudu Maluco (Feitiço)(◈◈ \+ 1 Mana por Rodada):** Uma estátua que dá **Vantagem** em ataques para todos os aliados "Próximo" dela. Dura 1 Rodada. |
 | **17 (10)** | **Parede de Zumbis (Feitiço)(◈◈ \+ 2 Mana por dado):** Cria uma barreira física de corpos na mesa por 1d4 rodadas. Inimigos perto da parede sofrem 1d8 de dano físico. **Extra:** Pode gastar \+1 Mana para mudar o tipo de dano para Fogo, Gelo ou Veneno. |
 | **18 (11)** | **Colheita de Almas (Feitiço)(◈ \+ 2 Mana por Inimigo):** Drene a inteligência de até 5 inimigos próximos. Ganhe \+2 para conjurar, por inimigo, durante 3 rodadas. |
-| **19 (12)** | **Assombração (Feitiço)(◈◈ \+ 5 Mana por dado):** Um espírito persegue um alvo, causando 2d8 de dano necrótico todo turno até o alvo morrer. Se o alvo morrer, o espírito vai para outro inimigo. O espírito dura 1d4+1 rodadas. |
+| **19 (12)** | **Assombração (Feitiço)(◈◈◈ \+ 5 Mana por dado):** Um espírito persegue um alvo, causando 2d8 de dano necrótico todo turno até o alvo morrer. Se o alvo morrer, o espírito vai para outro inimigo. O espírito dura 1d4+1 rodadas. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -722,6 +722,7 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 
 * **Afinidade Elemental:** No nível 1, escolha um elemento (Fogo, Gelo ou Raio). Você tem **Vantagem** para conjurar feitiços desse elemento.  
 * **Sobrecarga Sanguínea:** Se falhar num teste de conjuração, você pode escolher sofrer **1d4 de dano por ponto** necessário para alcançar o DC e passar no teste.  
+* **Mestria Elemental (Passiva):** Seus dados de dano mágico "explodem". Para cada dado que rolar e tirar o valor máximo, role um dado extra e some ao dano. O número de explosões é ilimitado.  
 * **Feitiço Básico:** Role 1d10 para definir seu feitiço inicial.  
 ---
 
@@ -745,7 +746,7 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | **16** | **Escudo de Energia (Passivo)(⟁ \+ 1 Mana por 5 Dano):** Se você sofrer dano, você pode criar uma barreira mágica para reduzir o dano em 5\. |
 | **17 (9)** | **Meteoro (Feitiço)(◈◈ \+ 3 Mana por meteoro):** Marque um local na mesa. No próximo turno, um meteoro cai no local e causa 4d10 de fogo a todos os inimigos adjacentes ao ponto escolhido. |
 | **18 (10)** | **Orbe Congelada (Feitiço)(◈ \+ 3 Mana por dados):** Lance uma esfera de área pequena que viaja em linha reta até uma distância “perto”, disparando 1d6 gelo em todas as criaturas adjacentes no caminho. A esfera explode ao final do trajeto causando 3d6 de gelo. |
-| **19** | **Mestria Elemental (Passivo):** Seus dados de dano mágico "explodem". Para cada dado que rolar e tirar o valor máximo, você pode rolar um dado extra e somar ao dano do feitiço. O número de explosões é ilimitado. |
+| **19** | **Bola de Raios (◈◈◈ \+ 6 Mana):** Uma esfera de raios gigante percorre o campo em linha reta até "Distante", causando **2d8 de Relâmpago** em cada inimigo que tocar. Permanece ativa por 1d4 rodadas — no início de cada turno, inimigos adjacentes a ela sofrem **1d6 de Relâmpago** automático. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -867,7 +868,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **13 (4)** | **Espírito de Ossos (Feitiço)(◈ \+ 3 Mana por espírito):** Conjure espíritos que perseguem alvos causando 2d10 necrótico por espírito. |
 | **14 (5)** | **Parede de Ossos (Feitiço)(◈ \+ 2 Mana \+ 1 Mana por 10 HP):** Cria uma barreira de ossos na mesa que bloqueia o movimento por 1d4 rodadas. A Barreira tem CA 16 e 10 HP por **1 Mana**. |
 | **15 (6)** | **Terror (Feitiço)(◈ \+ 1 Mana por inimigo):** Inimigos "Próximo" devem fugir de você por 1d4 rodadas. |
-| **16** | **Maestria de Esqueletos (Passivo):** Todos os seus lacaios agora tem \+5HP, \+1 de CA por nível de personagem e causam \+1 de dano por nível de personagem. |
+| **16** | **Maestria de Esqueletos (Passivo):** Todos os seus lacaios agora têm \+5 HP e \+2 de CA (fixo). O dano deles aumenta em \+1 por faixa de 3 níveis: **+1 (Nv 4) · +2 (Nv 7) · +3 (Nv 10)**. |
 | **17 (7)** | **Escudo de Almas (Feitiço)(⟁ \+ 2 Mana):** Se você ficar com HP 0, você conjura um feitiço para um esqueleto morrer no seu lugar e você ficar com 1 HP. |
 | **18** | **Mago Esqueleto (◈ \+ 2 Mana por Esqueleto):** Em vez de 2 Esqueletos, você invoca 1 Esqueleto Mago (1 HP, CA 12, 1d8 dano Fogo, Gelo, Relâmpago ou Necrótico perto). |
 | **19 (8)** | **Reviver (Feitiço)(◈◈◈ \+ 3 Mana por Monstro):** Ressuscite um monstro morto para lutar por você por 3 rodadas. Ao final das rodadas não é possível ressuscitá-lo novamente. Use os atributos fornecidos pelo Mestre. Não é possível ressuscitar Bosses. |
