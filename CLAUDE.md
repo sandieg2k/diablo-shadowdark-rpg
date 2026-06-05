@@ -92,12 +92,12 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 
 ### Sistema de Armaduras ✅
 
-**Tipo define CA** — nomes de armadura são estéticos dentro do mesmo tipo:
-- **Leve:** CA 14 (+Mod DES). Variantes: Couro (—) · Couro Reforçado (RD 1 físico)
-- **Média:** CA 16. Variantes: Brunea (—) · Cota de Malha (RD 2 físico)
-- **Pesada:** CA 18. Variantes: Meia-Placa (RD 2 físico) · Placa Completa (RD 3 físico)
+**Cada armadura tem CA própria (13–18)** — progressão de 1 ponto por nível de armadura:
+- **Couro** (Leve): CA 13, +Mod DES. · **Couro Reforçado** (Leve): CA 14, +Mod DES, RD 1 físico
+- **Brunea** (Média): CA 15, Requer FOR 11. · **Cota de Malha** (Média): CA 16, Requer FOR 11, RD 2 físico
+- **Meia-Placa** (Pesada): CA 17, Ruído, Requer FOR 13, RD 2 físico. · **Placa Completa** (Pesada): CA 18, Ruído, Requer FOR 13, RD 3 físico
 
-Propriedades de armadura (por tipo): Leve: +Mod DES à CA | Média: Requer FOR 11 | Pesada: Ruído, Requer FOR 13. (Movimento Lento removido — considerado punitivo demais.)
+(Movimento Lento removido — considerado punitivo demais.)
 
 ### Sistema de Escudos ✅
 

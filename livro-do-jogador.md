@@ -468,30 +468,16 @@ Essenciais para Renegadas, Amazonas e caçadores de demônios.
 
 ### **Armaduras**
 
-Cada peça soma o valor indicado à CA base 10\. Se o personagem estiver nu, a CA é 10 \+ bônus de Destreza (se aplicável).
+Cada armadura tem sua própria CA total. O Tipo define as propriedades e quais classes podem usá-la. Armaduras mais caras dentro do mesmo Tipo oferecem CA maior e, em alguns casos, Redução de Dano física adicional.
 
-| Peça (Slot) | Leve | Média | Pesada |
-| :---- | :---- | :---- | :---- |
-| **Peitoral** | \+2 | \+2 | \+3 |
-| **Perneiras** | \+1 | \+2 | \+2 |
-| **Elmo** | \+1 | \+1 | \+1 |
-| **Luvas** | \+0 | \+1 | \+1 |
-| **Botas** | \+0 | \+0 | \+1 |
-| **Total Máximo** | **\+4 (CA 14\)** | **\+6 (CA 16\)** | **\+8 (CA 18\)** |
-| **Propriedades** | \+Modificador de DES à CA | Requer FOR 11 | Ruído (Desvantagem em Furtividade), Requer FOR 13 |
-
-### **Variantes de Armadura**
-
-Armaduras do mesmo tipo têm a mesma CA. A diferença está na propriedade secundária — armaduras mais caras oferecem Redução de Dano física além da CA.
-
-| Item | Tipo | CA Total | Propriedade Secundária | Preço |
-| :---- | :---- | :---- | :---- | :---- |
-| **Couro** | Leve | 14 | — | 10 po |
-| **Couro Reforçado** | Leve | 14 | RD 1 contra dano físico | 45 po |
-| **Brunea** | Média | 16 | — | 50 po |
-| **Cota de Malha** | Média | 16 | RD 2 contra dano físico | 400 po |
-| **Meia-Placa** | Pesada | 18 | RD 2 contra dano físico | 750 po |
-| **Placa Completa** | Pesada | 18 | RD 3 contra dano físico | 1500 po |
+| Item | Tipo | CA | Prop. Secundária | Propriedades do Tipo | Preço |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **Couro** | Leve | 13 | — | \+Mod DES à CA | 10 po |
+| **Couro Reforçado** | Leve | 14 | RD 1 contra dano físico | \+Mod DES à CA | 45 po |
+| **Brunea** | Média | 15 | — | Requer FOR 11 | 50 po |
+| **Cota de Malha** | Média | 16 | RD 2 contra dano físico | Requer FOR 11 | 400 po |
+| **Meia-Placa** | Pesada | 17 | RD 2 contra dano físico | Ruído, Requer FOR 13 | 750 po |
+| **Placa Completa** | Pesada | 18 | RD 3 contra dano físico | Ruído, Requer FOR 13 | 1500 po |
 
 ### **Escudos**
 

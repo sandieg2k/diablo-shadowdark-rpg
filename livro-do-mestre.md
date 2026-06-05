@@ -163,15 +163,15 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 
 ### Armaduras e Escudos (01-39)
 
-*Tipo define CA (Leve 14, Média 16, Pesada 18). Prop. Secundária é bônus adicional — ver tabela completa no Cap. 6 do Livro do Jogador.*
+*Cada armadura tem CA própria (13–18). Tipo define propriedades e acesso de classe — ver tabela completa no Cap. 6 do Livro do Jogador.*
 
 | d100 | Item | Tipo | CA | Prop. Secundária | Preço (PO) |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| **01-08** | Couro | Leve | 14 | — | 10 |
+| **01-08** | Couro | Leve | 13 | — | 10 |
 | **09-12** | Couro Reforçado | Leve | 14 | RD 1 físico | 45 |
-| **13-22** | Brunea | Média | 16 | — | 50 |
+| **13-22** | Brunea | Média | 15 | — | 50 |
 | **23-27** | Cota de Malha | Média | 16 | RD 2 físico | 400 |
-| **28-31** | Meia-Placa | Pesada | 18 | RD 2 físico | 750 |
+| **28-31** | Meia-Placa | Pesada | 17 | RD 2 físico | 750 |
 | **32-34** | Placa Completa | Pesada | 18 | RD 3 físico | 1500 |
 | **35-36** | Broquel | Leve | +1 CA | — | 10 |
 | **37-38** | Escudo | Médio | +2 CA | Quebrável | 15 |
