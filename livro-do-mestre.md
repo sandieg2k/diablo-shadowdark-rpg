@@ -148,6 +148,8 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 
 ### Sub-tabela: Equipamento (1d20 \+ ND)
 
+*Use esta tabela para armas, joias, cintos e focos. Para armaduras (d100 01-34), use a Sub-tabela de Armadura abaixo.*
+
 | 1d20 \+ ND | Qualidade do Item | Descrição |
 | :---- | :---- | :---- |
 | **1-10** | Normal | Item base sem propriedades mágicas. |
@@ -156,6 +158,31 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 | **19+** | Lendário | Item base + 2 Prefixos + 1 Sufixo, ou efeito especial do Mestre. |
 | — | **Único** | Distribuído manualmente. Efeitos fixos exclusivos — ver seção Tesouros Especiais. |
 | — | **Set** | Distribuído manualmente. Bônus progressivos ao completar o conjunto — ver seção Tesouros Especiais. |
+
+### Sub-tabela: Armadura (1d20 \+ ND)
+
+*Usada quando o d100 cair em 01-34 (armaduras). Determina peça avulsa ou set completo e qualidade numa única rolagem.*
+
+| 1d20 \+ ND | Drop | Descrição |
+| :---- | :---- | :---- |
+| **1-8** | Peça avulsa Normal | 1 peça sem propriedades (role 1d6 para qual peça). |
+| **9-12** | Peça avulsa Mágica | 1 peça + 1 Prefixo ou 1 Sufixo. |
+| **13-16** | Peça avulsa Rara | 1 peça + 1 Prefixo + 1 Sufixo. |
+| **17-20** | Peça avulsa Lendária | 1 peça + 2 Prefixos + 1 Sufixo. |
+| **21-24** | Set completo Normal | Todas as 5 peças sem propriedades. |
+| **25-28** | Set completo Mágico | Todas as 5 peças com o mesmo Prefixo. |
+| **29+** | Set completo Raro | Todas as 5 peças com Prefixo e Sufixo. |
+
+**Qual peça? (1d6)**
+
+| 1d6 | Peça |
+| :---- | :---- |
+| **1** | Peitoral |
+| **2** | Perneiras |
+| **3** | Elmo |
+| **4** | Luvas |
+| **5** | Botas |
+| **6** | Mestre escolhe |
 
 ## Tabela de Itens Base (1d100)
 
