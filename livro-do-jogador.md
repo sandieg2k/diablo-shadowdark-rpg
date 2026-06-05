@@ -478,7 +478,7 @@ Cada peça soma o valor indicado à CA base 10\. Se o personagem estiver nu, a C
 | **Luvas** | \+0 | \+1 | \+1 |
 | **Botas** | \+0 | \+0 | \+1 |
 | **Total Máximo** | **\+4 (CA 14\)** | **\+6 (CA 16\)** | **\+8 (CA 18\)** |
-| **Propriedades** | \+Modificador de DES à CA | — | Ruído (Desvantagem em Furtividade), Movimento Lento (não pode Correr), Requer FOR 13 |
+| **Propriedades** | \+Modificador de DES à CA | Requer FOR 11 | Ruído (Desvantagem em Furtividade), Requer FOR 13 |
 
 ### **Variantes de Armadura**
 

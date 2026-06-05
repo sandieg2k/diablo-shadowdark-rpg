@@ -97,7 +97,7 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 - **Média:** CA 16. Variantes: Brunea (—) · Cota de Malha (RD 2 físico)
 - **Pesada:** CA 18. Variantes: Meia-Placa (RD 2 físico) · Placa Completa (RD 3 físico)
 
-Propriedades de armadura (por tipo): Leve: +Mod DES à CA | Pesada: Ruído, Mov. Lento, Requer FOR 13.
+Propriedades de armadura (por tipo): Leve: +Mod DES à CA | Média: Requer FOR 11 | Pesada: Ruído, Requer FOR 13. (Movimento Lento removido — considerado punitivo demais.)
 
 ### Sistema de Escudos ✅
 
