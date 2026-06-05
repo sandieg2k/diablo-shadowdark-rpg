@@ -43,7 +43,7 @@
 | d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | **1-9** | 2d4 Vermes de Pântano | 3d6 Moscas Mutantes | 4d6 Fetichistas | 3d8 Guerreiros Bogad | 4d6 Xamãs Fetichistas |
-| **10-14** | 2d4 Moscas Mutantes | 2d8 Fetichistas | 2d6 Cobras de Pantanal | 2d6 Homens-Peixe, 2d6 Crocodilos de Lama | 2d6 Carniçais Inchados, 1d4 Insepultos |
+| **10-14** | 2d4 Moscas Mutantes | 2d8 Fetichistas | 2d6 Cobras de Pantanal | 2d6 Carniçais Inchados, 2d6 Crocodilos de Lama | 2d6 Carniçais Inchados, 1d4 Insepultos |
 | **15-19** | 2d4 Fetichistas | 2d6 Insepultos | 2d8 Crocodilos de Lama | 2d8 Almas Penadas | 2d4 Aparições de Ódio |
 | **20** | 1d4 Enxame de Insetos | 1 Bruxa de Pântano | 2d10 Enxames de Gafanhotos | 2d4 Aparições | 2d4 Insepultos Gigantes |
 
@@ -56,7 +56,7 @@
 | **1-9** | 2d4 Escorpiões | 3d6 Bandidos | 4d6 Bandidos | 3d8 Esqueletos de Areia | 2d6 Esqueletos, 2d4 Guardas das Tumbas |
 | **10-14** | 2d4 Víboras de Areia | 2d8 Saltadores Lacuni | 3d6 Esqueletos Queimados | 4d6 Sombras de Areia | 2d12 Esqueletos, 2d4 Múmias Maiores |
 | **15-19** | 2d4 Salteadores | 2d6 Esqueletos | 2d4 Sombras | 1d4 Escorpiões Gigantes | 2d4 Múmias, 2d4 Espectros |
-| **20** | 1d4 Esqueletos | 2d4 Sombras | 3d6 Vermes da Areia | 2d4 Múmias Antigas | 1 Lorde das Tumbas (Radament) |
+| **20** | 1d4 Esqueletos | 2d4 Sombras | 3d6 Vermes da Areia | 2d4 Múmias Antigas | 1 Rei das Tumbas |
 
 ### Selva e Floresta Tropical (Kurast / Toraja)
 
@@ -78,7 +78,7 @@
 | **1-9** | 1d4 Vermes de Carne | 2d6 Vermes de Carne | 3d6 Almas Penadas | 2d6 Carniçais, 1 Insepulto | 3d6 Diabretes (Imps) |
 | **10-14** | 1d4 Esqueletos Fogosos | 2d6 Esqueletos Fogosos | 3d6 Cavaleiros da Perdição | 3d4 Diabretes de Fogo | 3d4 Demônios Alados |
 | **15-19** | 1d4 Zumbis de Sangue | 2d6 Zumbis de Sangue | 1d6 Súcubos | 2d4 Cavaleiros do Inferno | 2d4 Caras de Carne |
-| **20** | 1 Diabrete | 1d2 Súcubos | 1d4 Algozes | 2d4 Vermes, 1 Lorde das Chamas | 1 Senhor do Terror (Balrog/Pit Lord) |
+| **20** | 1 Diabrete | 1d2 Súcubos | 1d4 Algozes | 2d4 Vermes de Carne, 1 Lorde das Chamas | 1 Senhor do Terror (Balrog/Pit Lord) |
 
 ## Tesouros e Esconderijos (d6)
 
