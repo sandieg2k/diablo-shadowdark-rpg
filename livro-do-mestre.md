@@ -4,61 +4,7 @@
 
 ---
 
-# Template de Cenário
-
-Use este template ao criar novos módulos de aventura para o Diablo RPG.
-
-## Conceito
-
-* **Título do Cenário:** (Ex: "A Catedral Amaldiçoada", "A Forja de Hellfire")
-* **Narrativa:** Descreva o cenário de forma visceral. Foque em objetos tangíveis e locais reais — um templo em ruínas, um líder corrompido, um edifício em chamas. Evite objetivos abstratos.
-* **Estilo:** Este cenário é focado em narrativa/imersão ou em combate tático?
-
-## Configuração
-
-* **Ambiente:** Descreva o mapa — zonas principais, elementos interativos, fontes de perigo ambiental.
-* **Posicionamento Inicial:** Onde estão os personagens? De onde chegam os inimigos?
-* **Grupos de Inimigos:** Divida os inimigos em grupos e defina quais estão ativos desde o início e quais chegam como reforços (em qual rodada e de onde).
-* **Condições de Vitória:** O que o grupo precisa fazer para vencer? Defina ao menos dois caminhos (ex: eliminar X inimigos *ou* ativar X objetos) para evitar estagnação.
-* **Pressão de Tempo:** Há uma ameaça crescente que force os jogadores a agir? (Ex: reforços chegando, ritual completando, estrutura colapsando)
-
-## Tabela de Reviravoltas (1d6)
-
-Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira morte, abertura de um sarcófago, etc.).
-
-* **1–2 (Sutil):** Mudanças leves no ambiente ou recursos (ex: um tesouro adicional aparece, chuva reduz a visibilidade).
-* **3–4 (Mecânica):** Mudanças que afetam as regras (ex: o chão racha criando terreno difícil, um shrine ativa e cura aliados próximos).
-* **5–6 (Ponto de Virada):** Um evento que vira o jogo — uma traição, um terceiro grupo entrando em cena, a estrutura começando a desabar.
-
----
-
-## [Nome do Cenário]
-
-*[Um parágrafo de atmosfera: onde é, o que aconteceu aqui, por que os heróis estão aqui.]*
-
-**Configuração:**
-* Mapa: [Descrever zonas principais e elementos interativos]
-* Posicionamento inicial: [Heróis entram por onde? Inimigos estão onde?]
-* Reforços: [Chegam quando? Em que quantidade? Por onde?]
-
-**Condições de Vitória:**
-1. [Critério A]
-2. [Critério B]
-
-**Tabela de Reviravoltas (1d6):**
-
-| d6 | Evento |
-| :---- | :---- |
-| **1** | [Sutil] |
-| **2** | [Sutil] |
-| **3** | [Mecânica] |
-| **4** | [Mecânica] |
-| **5** | [Ponto de Virada] |
-| **6** | [Ponto de Virada] |
-
-> **Classes:** Ver arquivo [`cap3-classes.md`](cap3-classes.md)
-
-# Encontros
+# Cap. 1 — Encontros
 
 | Conteúdo do Hexadecimal (d100) |  |
 | :---- | :---- |
@@ -77,9 +23,9 @@ Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira
 
 **Pontos Seguros.** Os Pontos Seguros oferecem um local protegido que permite ao grupo descansar, além de um tesouro escondido. Esses locais, como uma cabana no campo ou um pequeno oásis no deserto, permitem que o grupo faça uma pausa para recuperar magias, pontos de vida e habilidades esgotadas.
 
-# Encontros com Monstros
+## Encontros com Monstros
 
-## Gramados e Pradarias (Caminho de Tristram)
+### Gramados e Pradarias (Caminho de Tristram)
 
 *Foco: Caídos (Fallen), Animais corrompidos e Mortos-vivos básicos.*
 
@@ -90,7 +36,7 @@ Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira
 | **15-19** | 2d4 Ratos de Peste | 1d6 Vermes Gigantes | 1d6 Carniçais Famintos | 2d6 Carniçais Famintos | 1d6 Vermes Gigantes, 1 Verme Colossal |
 | **20** | 3d6 Homens-Bode, 1 Clã da Lua | 1d4+1 Vampiros Aprendices | 1 Abominação | 1d4 Vampiros Superiores | 2d6 Vampiros, 1d4 Vampiros Superiores |
 
-## Pântanos e Lamaçais (Kurast / Scosglen)
+### Pântanos e Lamaçais (Kurast / Scosglen)
 
 *Foco: Fetichistas, Criaturas fétidas e Enxames.*
 
@@ -101,7 +47,7 @@ Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira
 | **15-19** | 2d4 Fetichistas | 2d6 Insepultos | 2d8 Crocodilos de Lama | 2d8 Almas Penadas | 2d4 Aparições de Ódio |
 | **20** | 1d4 Enxame de Insetos | 1 Bruxa de Pântano | 2d10 Enxames de Gafanhotos | 2d4 Aparições | 2d4 Insepultos Gigantes |
 
-## Deserto e Terras Áridas (Lut Gholein / Kehjistan)
+### Deserto e Terras Áridas (Lut Gholein / Kehjistan)
 
 *Foco: Lacuni, Mortos-vivos mumificados e Insetos da areia.*
 
@@ -112,7 +58,7 @@ Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira
 | **15-19** | 2d4 Salteadores | 2d6 Esqueletos | 2d4 Sombras | 1d4 Escorpiões Gigantes | 2d4 Múmias, 2d4 Espectros |
 | **20** | 1d4 Esqueletos | 2d4 Sombras | 3d6 Vermes da Areia | 2d4 Múmias Antigas | 1 Lorde das Tumbas (Radament) |
 
-## Selva e Floresta Tropical (Kurast / Toraja)
+### Selva e Floresta Tropical (Kurast / Toraja)
 
 *Foco: Fetichistas (Nanicos), Zakarum Corrompidos e Feras.*
 
@@ -123,7 +69,7 @@ Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira
 | **15-19** | 1d4 Cobras de Árvore | 2d4 Gorilas da Selva | 3d6 Pássaros de Fogo | 2d12 Zumbis, 1d4 Carniçais | 2d4 Homens-Tigre (Lacuni) |
 | **20** | 1d4 Vespas de Areia | 1d4 Carniçais | 2d6 Macacos Gigantes | 2d4 Cobras Constritoras | 2d4 Membros do Conselho |
 
-## Círculos Internos do Inferno (Reino do Terror)
+### Círculos Internos do Inferno (Reino do Terror)
 
 *Foco: Demônios puros, Cavaleiros do Inferno e Súcubos.*
 
@@ -154,7 +100,7 @@ Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira
 | **1** | **Estrutura em Chamas ou Ruindo** – Invasão demoníaca iminente ou desabamento. |
 | **2** | **Estrutura em Ruínas com Tesouro** – O loot está visível, mas a estrutura cairá se não houver cuidado. |
 | **3** | **Porão Infestado** – Contém um Encontro com Monstro e um Tesouro no subsolo (Cave/Porão). |
-| **4** | **Baú Amaldiçoado (Trap)** – Causa 2d6 de dano por nível médio do grupo. Teste de Resistência para metade.  *Tipo de Dano (d6):* 1-2 Fogo, 3-4 Veneno, 5-6 Eletricidade. |
+| **4** | **Baú Amaldiçoado (Trap)** – Causa 2d6 de dano por nível médio do grupo. Teste de Resistência para metade.  *Tipo de Dano (d6):* 1-2 Fogo, 3-4 Veneno, 5-6 Eletricidade. |
 | **5-6**  | **Covil de Elite** – Área de alta densidade. Role **dois** Encontros de Monstros simultâneos. |
 
 ## Pontos Seguros (d6)
@@ -169,7 +115,9 @@ Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira
 | **4** | **Ruína Estável** – Estrutura segura com um tesouro escondido no sótão ou porão. |
 | **5-6**  | **Acampamento de Refugiados ou Posto Avançado** – Local seguro o suficiente para um **Descanso Longo**. |
 
-# Tesouros
+---
+
+# Cap. 2 — Tesouros e Itens
 
 Para cada monstro derrotado pelos jogadores, role na tabela de tesouros abaixo. Esta tabela fractal de tesouros pode revelar alguns itens surpreendentemente poderosos. Somando o valor em ouro de cada aspecto do tesouro, você pode obter um custo que pode ser usado para negociar com mercadores. Lembre-se de que só porque um personagem encontra um tesouro não significa que ele saiba o que ele faz. Os personagens precisarão que ele seja identificado na cidade ou que tenha meios de identificá-lo por conta própria. Sem isso, o tesouro só é tão útil quanto sua contraparte mundana.
 
@@ -207,11 +155,11 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 | **A descrição do Mestre** | Item Único | Item com propriedades únicas. |
 | **A descrição do Mestre** | Item de Conjunto | Item com propriedades especiais, ativadas quando o usuário estiver usando duas ou mais peças. |
 
-# Tabela de Itens Base (1d100)
+## Tabela de Itens Base (1d100)
 
 Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e sufixos mágicos conforme a raridade do encontro.
 
-## Armaduras e Escudos (01-39)
+### Armaduras e Escudos (01-39)
 
 *Tipo define CA (Leve 14, Média 16, Pesada 18). Prop. Secundária é bônus adicional — ver tabela completa no Cap. 6 do Livro do Jogador.*
 
@@ -227,7 +175,7 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | **37-38** | Escudo | Médio | +2 CA | Quebrável | 15 |
 | **39** | Escudo de Torre | Pesado | +3 CA | Quebrável, \-DES, Mov. \-1 | 60 |
 
-## Armas Corpo a Corpo (40-75)
+### Armas Corpo a Corpo (40-75)
 
 | d100 | Item | Dano Sugerido | Preço (PO) |
 | :---- | :---- | :---- | :---- |
@@ -258,7 +206,7 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | **71** | Cimitarra | 1d6 | 25 |
 | **72+** | Machado Grande | 1d12 | 30 |
 
-## Armas à Distância e Focos (76-00)
+### Armas à Distância e Focos (76-00)
 
 | d100 | Item | Municção / Tipo | Preço (PO) |
 | :---- | :---- | :---- | :---- |
@@ -274,7 +222,7 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | **96-97** | Foco Druídico | Totem/Cajado de Yew | 1-10 |
 | **98-00** | Instrumento Musical | Alaúde/Flauta/Gaita | 2-35 |
 
-## Focos de Conjuração e Instrumentos (91-00)
+### Focos de Conjuração e Instrumentos (91-00)
 
 | d8 | Categoria | Dado | Sub-item | Preço (PO) |
 | :---- | :---- | :---- | :---- | :---- |
@@ -301,13 +249,13 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 |  |  |  | 9: Viola | 30 |
 |  |  |  | 10: Alaúde | 35 |
 
-# Tabela de Prefixos (1d100)
+## Tabela de Prefixos (1d100)
 
 Esta tabela é utilizada para determinar a propriedade mágica inicial de um item. Role na categoria correspondente ao resultado do d100.
 
 ---
 
-## 1\. Melhoria de Armadura (01-20)
+### 1\. Melhoria de Armadura (01-20)
 
 *Role 1d20 \+ ND (Nível de Dificuldade) do monstro/tesouro.*
 
@@ -320,7 +268,7 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 | **25-30** | Santo | \+3 de CA | 12.000 |
 | **31+** | Divino | \+3 de CA (+4 contra projéteis) | 15.000 |
 
-## 2\. Melhoria de Resistências (21-35)
+### 2\. Melhoria de Resistências (21-35)
 
 *Role 1d20 \+ ND.*
 
@@ -331,7 +279,7 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 | **31** | Topázio | \+2 RD em TODOS os tipos. | 15.000 |
 | **32+** | Prismático | \+3 RD em TODOS os tipos. | 18.000 |
 
-## 3\. Efeitos no Inimigo (36-39)
+### 3\. Efeitos no Inimigo (36-39)
 
 *Role 1d20 \+ ND. Afeta o alvo ao acertar um golpe.*
 
@@ -344,7 +292,7 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 | **20** | Caótico | Alvo torna-se aliado por 1d4+1 rodadas (SAB CD 17 nega). | 12.000 |
 | **21+** | Esmagador | Alvo fica sob efeito de Lentidão por 2d4 rodadas (SAB CD 19 nega). | 18.000 |
 
-## 4\. Utilidades e Maldições (40-54)
+### 4\. Utilidades e Maldições (40-54)
 
 *Role nas subcategorias indicadas.*
 
@@ -376,7 +324,7 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 | **5** | Sorrateiro | O usuário pode gastar uma ação ◈ para ficar invisível até tomar uma próxima ação ◈. | 15000 |
 | **6** | Invisível | O usuário pode gastar uma ação ◈ \+ 1 Mana para ficar invisível por 1d4 rodadas. | 20000 |
 
-## 5\. Fluxo de Mana (55-60)
+### 5\. Fluxo de Mana (55-60)
 
 | d20+ND | Prefixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
@@ -386,7 +334,7 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 | **28-29** | Triunfante | Recupere 1 Mana imediatamente ao desferir um golpe fatal. | 25.000 |
 | **30+** | Vulpino | Como Reação ⟁, gaste 1 Mana para ganhar RD 3 a todo dano por 1 turno. | 27.500 |
 
-## 6\. Atributos e Combate (61-100)
+### 6\. Atributos e Combate (61-100)
 
 *Role 1d20 \+ ND.*
 
@@ -397,11 +345,11 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 | **78-89** | Dano | Brutal | \+3 no Dano e Críticos correm em 19-20. |
 | **90-00** | Mestre | Imparável | \+3 no Ataque, \+3 no Dano e Crítico em 19-20. |
 
-# Tabela de Sufixos (1d100)
+## Tabela de Sufixos (1d100)
 
 Esta tabela é utilizada para determinar a propriedade mágica secundária de um item. Role na categoria correspondente ao resultado do d100.
 
-## 1\. Redução de Dano (01-20)
+### 1\. Redução de Dano (01-20)
 
 *Role 1d20 \+ ND (Nível de Dificuldade) do monstro/tesouro.*
 
@@ -413,7 +361,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **26-29** | da Vida | \+4 RD em TODOS os tipos. | 50.000 |
 | **30+** | da Deflexão | \+5 RD em TODOS os tipos. | 100.000 |
 
-## 2\. Reação Quando Atacado ⟁ (21-26)
+### 2\. Reação Quando Atacado ⟁ (21-26)
 
 *Role 1d20 \+ ND.*
 
@@ -422,7 +370,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **1-14** | de Espinhos | Atacante sofre 1d4 físico para cada ataque corpo a corpo contra o usuário | 5000 |
 | **15+** | de Ferrão | Atacante sofre 2d4 físico para cada ataque corpo a corpo contra o usuário | 10.000 |
 
-## 3\. Efeitos de Movimento (28-30)
+### 3\. Efeitos de Movimento (28-30)
 
 *Role 1d20 \+ ND.*
 
@@ -432,7 +380,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **15-19** | da Velocidade | Corre o dobro com uma ação de movimento ◈ e não pode ser surpreendido | 30.000 |
 | **20+** | da Aceleração | Corre o triplo com uma ação de movimento ◈ e não pode ser surpreendido | 100.000 |
 
-## 4\. Aumento de HP (31-35)
+### 4\. Aumento de HP (31-35)
 
 *Role 1d20 \+ ND*
 
@@ -449,7 +397,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **30-31** | da Baleia | \+25 HP Temporários | 22500 |
 | **32+** | do Colosso | \+30 HP Temporários | 25000 |
 
-## 5\. Recuperação (36-45)
+### 5\. Recuperação (36-45)
 
 *Role 1d20*
 
@@ -458,7 +406,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **1-10** | da Regeneração | Usuário cura 1 HP por turno. | 100000 |
 | **11-20** | da Renovação | Usuário recupera 1 ponto de atributo perdido por turno. | 100000 |
 
-## 6\. Preparação Diária (61-70)
+### 6\. Preparação Diária (61-70)
 
 *Role 1d20 \+ ND.*
 
@@ -469,7 +417,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **25-35** | da Osmose | O usuário pode usar uma habilidade sem gastar ações ou Mana 1× por dia. | 250000 |
 | **36+** | da Transcendência | O usuário pode usar uma habilidade sem gastar ações ou Mana 2× por dia. | 500000 |
 
-## 7\. Dano Extra (71-85)
+### 7\. Dano Extra (71-85)
 
 | d100 | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
@@ -482,7 +430,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **83-84** | da Psique | \+1d6 de dano Psíquico em ataques e feitiços | 5000 |
 | **85** | da Força | \+1d6 de dano de Força em ataques e feitiços | 10000 |
 
-## 8\. Efeito de Runas (86-100)
+### 8\. Efeito de Runas (86-100)
 
 | d100 | Runa | Sufixo | Efeito |
 | :---- | :---- | :---- | :---- |
@@ -502,7 +450,9 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **99** | Cham | **Gelo Eterno** | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. |
 | **100** | Zod | **Eternidade** | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. |
 
-# Registro de Campanha
+---
+
+# Cap. 3 — Registro de Campanha
 
 **Era Inicial:** 1337 AK \- Era do Ódio  
 **O Tempo Avança? (Role 1d6):** (1) Agora | (2-3) Próxima Sessão | (4-6) Estável
@@ -510,7 +460,6 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | Sessão | Data | Era | Estação |
 | :---- | :---- | :---- | :---- |
 | \#Zero |  | 1337 AK \- Era do Ódio | Primavera \- Início |
-|  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -572,162 +521,15 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 |  |  |  |  |
 |  |  |  |  |
 
-
-[https://app.lootstudios.com/bundle/voracious-sands/](https://app.lootstudios.com/bundle/voracious-sands/)
-
-Sinister 7 \- Sete heróis (nephalem) que começam a caçar os jogadores do grupo principal
-
-Berserker \- Nega
-
-Warlock \- Nega
-
-Cruzado \- Homem
-
-Renegado (Rogue) \- Homem
-
-Arcanista \- Nega
-
-Caçador de Demônios \- Homem
-
-Cavaleiro de Sangue \- Homem
-
-Colocar uma moça estuprada pelos Ghouls no final de uma dungeon
-
-Criar um clima de solidão
-
-Colocar um portal para o inferno
-
-Colocar runas de proteção em volta do forte para parar as marés infernais
-
-escoltar crianças de um vilarejo até o forte
-
-inimigos com orcrux (Filacterias)
-
-# Forte
-
-## **NPCs do Forte**
-
-## Como os Lobos de Ferro são conhecidos por misturar perícia com espadas e magia elemental, esses NPCs refletem essa versatilidade.
-
-### **1\. Comandante Rayna, a "Voz da Tempestade"**
-
-* **Papel:** Líder do Baluarte e Principal Quest Giver.  
-* **Descrição:** Uma veterana de Caldeum com cicatrizes de queimaduras rúnicas no rosto. Ela não usa armadura pesada, mas sim couros reforçados e uma capa vermelha desbotada.  
-* **Personalidade:** Rígida e pragmática. Ela não envia os heróis por bondade, mas porque seus homens estão exaustos contendo as Marés Infernais.  
-* **Gancho de Missão:** "Mestre, Rayna olha para o mapa das Cavernas do Caos com desprezo. Ela precisa que alguém rompa o bloqueio dos Khazra para estabelecer uma linha de suprimentos com Lut Gholein, ou o Baluarte cairá de fome antes de cair pelas lâminas."
-
-### **2\. Mago Elemental Sorit**
-
-* **Papel:** Intendente de Itens Mágicos e Lore.  
-* **Descrição:** Um estudioso que fugiu da destruição da Biblioteca de Caldeum. Ele está sempre cercado por pergaminhos e tentando purificar fragmentos de pedras corrompidas.  
-* **Personalidade:** Ansioso e fascinado pelo proibido. Ele acredita que os cultistas nas cavernas estão usando rituais de sacrifício para invocar algo ligado a Belial.  
-* **Gancho de Missão:** Ele oferece recompensas por "Corações de Khazra" ou "Grimórios de Cultistas" encontrados nas Cavernas, na esperança de entender como a corrupção está se espalhando tão rápido.
-
-### **3\. Jarek, o Lâmina Quebrada**
-
-* **Papel:** Mestre de Armas e Treinador.  
-* **Descrição:** Um lobo de ferro gigantesco que perdeu uma perna na queda de Caldeum. Agora ele supervisiona a defesa das muralhas.  
-* **Personalidade:** Melancólico, mas protetor. Ele vê os aventureiros como "bucha de canhão" até que provem o contrário.  
-* **Gancho de Missão:** Jarek conhece a entrada secreta das Cavernas (a antiga passagem dos contrabandistas), mas só revelará a localização se os jogadores recuperarem o estandarte de sua unidade, perdido em uma emboscada no sopé das montanhas.
-
-### **4\. Valla, a batedora de Aranoch**
-
-* **Papel:** Guia e informante sobre o mundo exterior.  
-* **Descrição:** Ágil, vestindo roupas de areia que a tornam quase invisível no terreno rochoso. Ela é a única que entra e sai do labirinto das cavernas com vida.  
-* **Personalidade:** Sarcástica e direta. Ela não acredita que o deserto de Aranoch ainda exista como era antes; para ela, tudo agora é domínio dos mortos-vivos.  
-* **Gancho de Missão:** Ela pode dar aos jogadores um mapa parcial das Cavernas do Caos, mas avisa: "O layout muda. O mal lá dentro respira, e as paredes parecem se mover quando o sangue toca o chão."
-
-### **⚒️ O Ferreiro: Harek, o Prisioneiro do Ferro Negro**
-
-* **Papel:**  Ferreiro.  
-* **Onde encontrá-lo:** Nas **Cavernas dos Khazra (Homens-Bode)**.  
-* **A Situação:** Os Khazra não o mataram porque reconheceram sua habilidade. Ele está acorrentado a uma forja improvisada em uma das câmaras mais profundas, sendo forçado a fundir "Aço Infernal" (fragmentos de armas de demônios derrotados) para armar os campeões da tribo.  
-* **Personalidade:** Harek é um homem de poucas palavras, com os pulmões castigados pela fuligem mágica. Ele sente uma culpa imensa por cada lâmina que foi forçada a criar para os monstros.  
-* **O Resgate:** Os jogadores não precisam apenas de uma chave; eles precisam de um martelo específico (o **Martelo de Hephaesto**) que os Khazra roubaram. Sem o martelo, ele não pode quebrar as correntes rúnicas que o prendem à forja.  
-* **Recompensa no Baluarte:** Uma vez resgatado, ele se instala no Forte. Ele poderá **Reparar Itens** (essencial se você usa regras de durabilidade) e **Encantar Equipamentos** usando os materiais que os Lobos de Ferro não sabem manipular.
-
-### **🌿 A Especialista em Poções de Kanduras: Elara, a Erveira de Scosglen**
-
-* **Papel:**  Apotecária.  
-* **Onde encontrá-la (Hexcrawl ao Oeste):** No **Bosque das Sombras Longas**. É uma região de mata fechada onde as árvores parecem observar quem passa.  
-* **A Situação:** Elara não está em uma cabana comum; ela vive dentro de um **Menir oco** (uma pedra antiga de rituais). Ela está tentando conter uma "Infestação de Sangue" que está apodrecendo as raízes da floresta. Os jogadores a encontram tentando desesperadamente manter um círculo de proteção rúnica enquanto criaturas corrompidas (talvez *Walking Corpses* ou lobos possuídos) cercam o local.  
-* **Personalidade:** Ela é direta, ríspida e tem um sotaque carregado das terras do norte. Ela despreza a "magia de cidade" de Caldeum e confia apenas no que a terra provê.  
-* **A Condição para Ajudar:** Ela se recusa a ir para o Baluarte porque "o ferro dos Lobos de Ferro fere o espírito da floresta". No entanto, ela aceita trocar poções se os jogadores trouxerem **Cinzas de Demônio** (obtidas nas Marés Infernais) para que ela use como fertilizante purificador em seu jardim de ervas.
-
-**Serviços:**
-
-* **Poções de Rejuvenescimento:** Aquelas clássicas de *Diablo* que recuperam vida e mana instantaneamente (caras e raras).  
-* **Antídotos Fortes:** Essenciais para sobreviver às aranhas e criaturas peçonhentas das florestas.  
-* **Bênção da Terra:** Um óleo que, aplicado nas armas, causa dano extra contra demônios por um curto período.
-
-### **🎲 O NPC Oportunista: Silas, o "Olho-Furado"**
-
-* **Papel:** Smuggler (Contrabandista), Informante e Apostador (Mecânica de Gheed/Kadala).  
-* **Descrição:** Um homem magro e nervoso, que veste restos de sedas de Caldeum sobre couros imundos. Ele está sempre mascando uma raiz que deixa seus dentes pretos e fala em sussurros rápidos.  
-* **Personalidade:** Cínico, ganancioso e surpreendentemente bem informado. Ele não acredita na "salvação de Santuário", mas acredita firmemente no poder do ouro. Ele trata os Lobos de Ferro com um respeito fingido, mas na verdade os vê como clientes temporários.
-
-**O que ele oferece ao grupo:**
-
-1. **Aposta (Gambling):** Silas vende itens não identificados de qualidade duvidosa por preços altos. "Pode ser uma lâmina lendária de Vizjerei, mestre, ou pode ser uma faca de cozinha enferrujada. O destino decide. O ouro é meu."  
-2. **Mercadorias Proibidas:** Ele é o único lugar no forte onde se pode conseguir coisas como *Pó de Tumba* (para rituais necróticos), *Sangue de Demônio Destilado* (um estimulante perigoso) ou mapas parciais das Cavernas do Caos que mostram as rotas de patrulha dos cultistas (informações que Valla, a batedora, não consegue).
-
-### **O Pacto dos Rejeitados (A Rede de Contatos)**
-
-Silas tem uma rede de "informantes" que ninguém mais quer: os **Fallen (Decaídos)**. Ele descobriu que essas criaturas são covardes e extremamente subornáveis por coisas simples, como carne fresca ou bugigangas brilhantes.
-
-* **Como ele consegue os itens:** Ele tem um ponto de encontro secreto em um bueiro ou em uma fenda nas rochas ao oeste do Forte. Lá, ele troca restos de comida do forte por itens que os Decaídos roubaram de caravanas ou de outros monstros nas Cavernas do Caos.  
-* **O que o jogador vê:** Silas assobiando um tom baixo e estranho perto de uma caverna. Pequenas mãos vermelhas e garras saem das sombras, entregando a ele um embrulho sujo de sangue em troca de um saco de miúdos de porco.
-
-# Handout \- Caverna B
-
-| Letra Humana | Glifo Serpente | Letra Humana | Glifo Serpente |
-| :---: | :---: | :---: | :---: |
-| **A** | 𝛬 | **N** | 𝜈 |
-| **B** | 𝛽 | **O** | 𝜽 |
-| **C** | Ͼ | **P** | 𝜋 |
-| **D** | 𝛿 | **Q** | 𝜙 |
-| **E** | 𝜀 | **R** | 𝜌 |
-| **F** | Ⲙ | **S** | ʃ |
-| **G** | 𝛾 | **T** | 𝜏 |
-| **H** | 𝜂 | **U** | 𝜐 |
-| **I** | 𝜄 | **V** | ψ |
-| **J** | Ѡ | **W** | 𝜔 |
-| **K** | ϰ | **X** | χ |
-| **L** | 𝜆 | **Y** | 𝜓 |
-| **M** | 𝜇 | **Z** | 𝜁 |
-
-*O ar na câmara oculta é pesado, impregnado com o cheiro acre de enxofre e o borbulhar constante de uma poça de ácido esverdeado misturado a sangue que emana da base de um crânio colossal. Escavadas profundamente nas pedras negras e úmidas que circundam a fonte, runas antigas e sibilantes parecem pulsar levemente à medida que a heresia se aproxima do nosso mundo.*
-
-| 𝜽 ʃ𝜀𝜈𝜂𝜽𝜌 𝛿𝛬 𝜇𝜀𝜈𝜏𝜄𝜌𝛬 𝜀χ𝜄𝛾𝜀 ʃ𝛬𝜈𝛾𝜐𝜀. 𝛿𝜽 𝛬Ͼ𝜄𝛿𝜽 𝜀𝜌𝛾𝜐𝜀-ʃ𝜀 𝜽 𝜀𝜈𝛾𝛬𝜈𝛬𝛿𝜽𝜌. 𝛽𝜀𝜆𝜄𝛬𝜆 𝛿𝜽𝜇𝜄𝜈𝛬𝜌𝛬. |
-| :---: |
-
-\[ Transcrição fiel das inscrições rúnicas coletadas ao redor da poça de ácido — Idioma Ofídico-Infernal \]
-
-#### **Dia 12 da Investigação**
-
-*Os boatos estavam certos. Rastreamos a influência do Senhor da Mentira até este maldito complexo de cavernas. O Setor B está mudado. Os pequenos seres que infestavam o lugar originalmente fugiram aterrorizados ou foram massacrados. O ar aqui embaixo está pesado, sufocante, carregado de miragens que fazem os olhos sangrarem. A Capitã disse para mantermos a guarda alta. Sinto que as sombras estão se movendo, mas quando olho diretamente, não há nada. Algo está tecendo uma teia de ilusões ao nosso redor.*
-
-#### **Dia 15 da Investigação**
-
-*Fomos emboscados. Aquelas malditas víboras... as formas delas mudavam diante dos nossos olhos, mimetizando nossos próprios companheiros. Minha espada encantada partiu as escamas de duas delas, mas éramos minoria. Fui arrastado para as profundezas, até uma câmara que cheira a carne queimada. Eles ergueram um altar ao redor de uma poça de fluido esverdeado e corrosivo. Jogaram a Capitã lá dentro. O som da armadura e da carne dela derretendo sob o ácido... os monstros riam enquanto misturavam o sangue dela àquela podridão. Meu turno é o próximo.*
-
-#### **Último Registro (Manchado de Ácido e Sangue Seco)**
-
-*A poça começou a ferver violentamente. Não há salvação para mim. Todos os demais já foram consumidas pelo veneno deles, mas meus olhos ainda veem o horror. Algo está emergindo da mistura de ácido e sangue. Uma silhueta massiva, trocando de pele a cada segundo, revelando garras, escamas e os rostos agonizantes dos meus irmãos mortos. Algo desperta. Sinto a corrupção serpentear pelas minhas veias, arrancando minha alma. Se alguém encontrar este diário... não confie no que seus olhos veem nesta câmara. Tudo aqui é uma terrível mentira. A morte não será o meu fim... ele vai me erguer.*
-
----
-
 ## Tempo — Tabelas do Mestre
 
-### **SITUAÇÕES PENDENTES** *Se uma situação importante permanecer sem solução antes da transição para a próxima Estação ou Era, role **1d6** para determinar como ela evolui sob a influência do Conflito Eterno:*
+*Se uma situação importante permanecer sem solução antes da transição para a próxima Estação ou Era, role **1d6** para determinar como ela evolui sob a influência do Conflito Eterno:*
 
 | PASSAGEM DO TEMPO |  |
 | :---- | :---- |
 | **1** | **Catastrófico:** Termina da pior forma que poderia acontecer. |
 | **2-3** | **Deterioração:** A situação piora significativamente. |
 | **4-6** | **Alívio:** A situação melhora ou se resolve favoravelmente. |
-
----
 
 ## Viagem — Tabelas do Mestre
 
@@ -739,7 +541,7 @@ Ao terminar uma fase em **Regiões Selvagens**, role:
 | :---- | :---- |
 | **1** | Encontre o próximo **Augúrio (Omen)** de um **Mito (Myth)** aleatório neste Reino. |
 | **2-3** | Encontre o próximo **Augúrio (Omen)** do **Mito** mais próximo. |
-| **4-6** | Encontre o **Ponto de Interesse (Landmark)** do Hexágono.**Caso contrário:** Tudo limpo (sem encontros). |
+| **4-6** | Encontre o **Ponto de Interesse (Landmark)** do Hexágono.**Caso contrário:** Tudo limpo (sem encontros). |
 
 ### OUTRAS TABELAS DE VIAGEM
 
@@ -768,3 +570,59 @@ Viajantes que se encontrarem vagando sem senso de direção, ou cercados por esc
 | **1** | **Sob o Jugo do Mal:** O local está ocupado por uma presença demoníaca, um culto ativo ou sofreu um massacre recente. O medo é absoluto. |
 | **2-3** | **Declínio Acentuado:** Há um sentimento de desesperança. Os recursos são escassos, as pessoas estão doentes ou a corrupção está começando a se enraizar nos corações. |
 | **4-6** | **Relativa Calmaria:** O humor é aceitável. Os locais são cautelosos, mas as defesas ainda resistem e a vida segue seu curso penoso. |
+
+---
+
+# Apêndice — Template de Cenário
+
+Use este template ao criar novos módulos de aventura para o Diablo RPG.
+
+## Conceito
+
+* **Título do Cenário:** (Ex: "A Catedral Amaldiçoada", "A Forja de Hellfire")
+* **Narrativa:** Descreva o cenário de forma visceral. Foque em objetos tangíveis e locais reais — um templo em ruínas, um líder corrompido, um edifício em chamas. Evite objetivos abstratos.
+* **Estilo:** Este cenário é focado em narrativa/imersão ou em combate tático?
+
+## Configuração
+
+* **Ambiente:** Descreva o mapa — zonas principais, elementos interativos, fontes de perigo ambiental.
+* **Posicionamento Inicial:** Onde estão os personagens? De onde chegam os inimigos?
+* **Grupos de Inimigos:** Divida os inimigos em grupos e defina quais estão ativos desde o início e quais chegam como reforços (em qual rodada e de onde).
+* **Condições de Vitória:** O que o grupo precisa fazer para vencer? Defina ao menos dois caminhos (ex: eliminar X inimigos *ou* ativar X objetos) para evitar estagnação.
+* **Pressão de Tempo:** Há uma ameaça crescente que force os jogadores a agir? (Ex: reforços chegando, ritual completando, estrutura colapsando)
+
+## Tabela de Reviravoltas (1d6)
+
+Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira morte, abertura de um sarcófago, etc.).
+
+* **1–2 (Sutil):** Mudanças leves no ambiente ou recursos (ex: um tesouro adicional aparece, chuva reduz a visibilidade).
+* **3–4 (Mecânica):** Mudanças que afetam as regras (ex: o chão racha criando terreno difícil, um shrine ativa e cura aliados próximos).
+* **5–6 (Ponto de Virada):** Um evento que vira o jogo — uma traição, um terceiro grupo entrando em cena, a estrutura começando a desabar.
+
+---
+
+## [Nome do Cenário]
+
+*[Um parágrafo de atmosfera: onde é, o que aconteceu aqui, por que os heróis estão aqui.]*
+
+**Configuração:**
+* Mapa: [Descrever zonas principais e elementos interativos]
+* Posicionamento inicial: [Heróis entram por onde? Inimigos estão onde?]
+* Reforços: [Chegam quando? Em que quantidade? Por onde?]
+
+**Condições de Vitória:**
+1. [Critério A]
+2. [Critério B]
+
+**Tabela de Reviravoltas (1d6):**
+
+| d6 | Evento |
+| :---- | :---- |
+| **1** | [Sutil] |
+| **2** | [Sutil] |
+| **3** | [Mecânica] |
+| **4** | [Mecânica] |
+| **5** | [Ponto de Virada] |
+| **6** | [Ponto de Virada] |
+
+> **Classes:** Ver arquivo [`cap3-classes.md`](cap3-classes.md)
