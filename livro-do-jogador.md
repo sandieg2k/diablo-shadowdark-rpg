@@ -477,13 +477,28 @@ Cada peça soma o valor indicado à CA base 10\. Se o personagem estiver nu, a C
 | **Total Máximo** | **\+4 (CA 14\)** | **\+6 (CA 16\)** | **\+8 (CA 18\)** |
 | **Propriedades** | \+Modificador de DES à CA | — | Ruído (Desvantagem em Furtividade), Movimento Lento (não pode Correr), Requer FOR 13 |
 
-### **Escudos e Defesas Especiais**
+### **Variantes de Armadura**
 
-| Item | AC | Propriedades | Preço |
-| :---- | :---- | :---- | :---- |
-| **Broquel (Buckler)** | \+1 | Leve (Pode ser usado com armas Leves) | 10 po |
-| **Escudo de Madeira** | \+2 | Pesado (Requer Força 13), Quebrável (Ignore um golpe, destrua o escudo). | 15 po |
-| **Escudo de Torre (Tower)** | \+3 | Pesado (Requer Força 15), Quebrável, Desvantagem em testes de destreza e movimento \-1.  | 60 po |
+Armaduras do mesmo tipo têm a mesma CA. A diferença está na propriedade secundária — armaduras mais caras oferecem Redução de Dano física além da CA.
+
+| Item | Tipo | CA Total | Propriedade Secundária | Preço |
+| :---- | :---- | :---- | :---- | :---- |
+| **Couro** | Leve | 14 | — | 10 po |
+| **Couro Reforçado** | Leve | 14 | RD 1 contra dano físico | 45 po |
+| **Brunea** | Média | 16 | — | 50 po |
+| **Cota de Malha** | Média | 16 | RD 2 contra dano físico | 400 po |
+| **Meia-Placa** | Pesada | 18 | RD 2 contra dano físico | 750 po |
+| **Placa Completa** | Pesada | 18 | RD 3 contra dano físico | 1500 po |
+
+### **Escudos**
+
+O acesso a escudos acompanha o tipo de armadura da classe: **Leve** → Broquel; **Média** → Broquel e Escudo; **Pesada** → todos os três.
+
+| Item | Tier | CA | Propriedades | Preço |
+| :---- | :---- | :---- | :---- | :---- |
+| **Broquel** | Leve | \+1 | Pode ser usado com armas Leves | 10 po |
+| **Escudo** | Médio | \+2 | Quebrável (Ignore um golpe, destrua o escudo) | 15 po |
+| **Escudo de Torre** | Pesado | \+3 | Quebrável, Desvantagem em testes de DES, Mov. \-1 | 60 po |
 
 
 ### **Catalisadores**
@@ -813,18 +828,18 @@ Cada classe começa com um kit de equipamento definido. Consulte a tabela abaixo
 | **Assassina** | 2× Katar/Garra + Armadura Leve (peitoral + perneiras) + 5 po |
 | **Bárbaro** | Machado Grande + Armadura Leve (peitoral) + 5 po |
 | **Caçador de Demônios** | Besta Leve + Espada Curta + Armadura Leve (peitoral + perneiras) + 10 po |
-| **Cavaleiro de Sangue** | Lança + Armadura Média completa + Escudo de Madeira + 5 po |
-| **Cruzado** | Espada Longa + Armadura Pesada (peitoral + perneiras) + Escudo de Madeira + 5 po |
+| **Cavaleiro de Sangue** | Lança + Armadura Média completa + Escudo + 5 po |
+| **Cruzado** | Espada Longa + Armadura Pesada (peitoral + perneiras) + Escudo + 5 po |
 | **Druida** | Cajado + Armadura Leve (peitoral) + Pedra de Espírito + 5 po |
 | **Natispirito** | Lança + Armadura Leve (peitoral + perneiras) + Broquel + 5 po |
 | **Feiticeiro (Witch Doctor)** | Cajado + Armadura Leve (peitoral) + Crânio Preservado + 10 po |
-| **Guerreiro** | Espada Longa + Armadura Média completa + Escudo de Madeira + 10 po |
+| **Guerreiro** | Espada Longa + Armadura Média completa + Escudo + 10 po |
 | **Mago** | Cajado + Armadura Leve (peitoral) + Orbe de Essência + 10 po |
 | **Monge** | Cestus (par) + Armadura Leve (peitoral + perneiras) + 5 po |
 | **Necromante** | Cajado + Armadura Leve (peitoral) + Crânio Preservado + 5 po |
 | **Paladino** | Espada Longa + Armadura Média completa + Escudo de Zakarum + 5 po |
 | **Renegada** | 2× Adaga + Armadura Leve (peitoral + perneiras) + 10 po |
-| **Sacerdote** | Maça + Armadura Média (peitoral + perneiras) + Escudo de Madeira + 5 po |
+| **Sacerdote** | Maça + Armadura Média (peitoral + perneiras) + Escudo + 5 po |
 | **Warlock** | Varinha + Armadura Leve (peitoral) + 10 po |
 
 ---

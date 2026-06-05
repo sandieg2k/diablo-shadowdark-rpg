@@ -213,24 +213,19 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 
 ## Armaduras e Escudos (01-39)
 
-*O tipo define o bônus de CA por slot (ver Cap. 6 do Livro do Jogador). Nomes de armadura são estéticos — mesmo tipo, mesma CA. O Mestre decide qual slot foi encontrado conforme o contexto.*
+*Tipo define CA (Leve 14, Média 16, Pesada 18). Prop. Secundária é bônus adicional — ver tabela completa no Cap. 6 do Livro do Jogador.*
 
-| d100 | Item | Tipo | CA Total | Preço (PO) |
-| :---- | :---- | :---- | :---- | :---- |
-| **01-03** | Acolchoada | Leve | 14 | 5 |
-| **04-06** | Couro | Leve | 14 | 10 |
-| **07-09** | Couro Batido | Leve | 14 | 10 |
-| **10-12** | Cota de Anéis | Média | 16 | 30 |
-| **13-15** | Couro Tachonado | Leve | 14 | 45 |
-| **16-18** | Camisão de Malha | Média | 16 | 50 |
-| **19-21** | Brunea (Escamas) | Média | 16 | 50 |
-| **22-24** | Peitoral de Aço | Média | 16 | 400 |
-| **25-27** | Meia-Placa | Pesada | 18 | 750 |
-| **28-30** | Cota de Malha | Pesada | 18 | 75 |
-| **31-34** | Armadura de Talas | Pesada | 18 | 200 |
-| **35** | Placa Completa (conjunto) | Pesada | 18 | 1500 |
-| **36-37** | Escudo de Madeira | Defesa | +2 CA | 15 |
-| **38-39** | Escudo de Torre | Defesa | +3 CA | 60 |
+| d100 | Item | Tipo | CA | Prop. Secundária | Preço (PO) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **01-08** | Couro | Leve | 14 | — | 10 |
+| **09-12** | Couro Reforçado | Leve | 14 | RD 1 físico | 45 |
+| **13-22** | Brunea | Média | 16 | — | 50 |
+| **23-27** | Cota de Malha | Média | 16 | RD 2 físico | 400 |
+| **28-31** | Meia-Placa | Pesada | 18 | RD 2 físico | 750 |
+| **32-34** | Placa Completa | Pesada | 18 | RD 3 físico | 1500 |
+| **35-36** | Broquel | Leve | +1 CA | — | 10 |
+| **37-38** | Escudo | Médio | +2 CA | Quebrável | 15 |
+| **39** | Escudo de Torre | Pesado | +3 CA | Quebrável, \-DES, Mov. \-1 | 60 |
 
 ## Armas Corpo a Corpo (40-75)
 
