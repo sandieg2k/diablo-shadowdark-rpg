@@ -42,11 +42,12 @@ Substituições aplicadas em todos os arquivos (commit f53cfef).
 
 ```
 repo/
-├── diablo-rpg-livro-do-jogador.md ← Livro do Jogador (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
-├── diablo-rpg-livro-do-mestre.md  ← Livro do Mestre (encontros, tesouros, forte, handouts…)
-├── 01-classes.md            ← Cap. 3: Classes (18 classes)
-├── apendice-a-criaturas.md  ← Apêndice A: Criaturas
-├── apendice-b-glossario.md  ← Apêndice B: Glossário
+├── livro-do-jogador.md      ← Livro do Jogador (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
+├── livro-do-mestre.md       ← Livro do Mestre (encontros, tesouros, forte, handouts…)
+├── cap3-classes.md          ← Cap. 3: Classes (18 classes)
+├── apendice-criaturas.md    ← Apêndice A: Criaturas
+├── apendice-glossario.md    ← Apêndice B: Glossário
+├── referencia-mestre-progressao.md ← Tabelas de PV/progressão por nível (calibração de criaturas)
 ├── cenarios/                ← 7 módulos de aventura
 │   ├── senhor-da-mentira.md
 │   ├── a-torre-esquecida.md
@@ -61,9 +62,9 @@ repo/
 ```
 
 **Ordem de compilação para o PDF:**
-1. `diablo-rpg-livro-do-jogador.md` (Cap. 1–2, 4–7, Apêndices) — distribuir aos jogadores
-2. `01-classes.md` (Cap. 3)
-3. `diablo-rpg-livro-do-mestre.md` — **não distribuir aos jogadores**
+1. `livro-do-jogador.md` (Cap. 1–2, 4–7, Apêndices) — distribuir aos jogadores
+2. `cap3-classes.md` (Cap. 3)
+3. `livro-do-mestre.md` — **não distribuir aos jogadores**
 
 Os cenários e fichas são documentos separados, não fazem parte do livro principal.
 
