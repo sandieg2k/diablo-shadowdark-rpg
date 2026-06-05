@@ -111,20 +111,22 @@ Salvaguardas usam `1d20 + mod do atributo ≥ DC` — sem bônus de nível. As D
 
 A Resistência tem três pilares que se somam: **atributo primário + RD de armadura + itens mágicos**.
 
-| Arquétipo | Atributo primário | Resistência Física base | Resistência Elemental base | Resistência Exótica base |
+| Arquétipo | Atributo primário | Resistência Física base | Resistência Elemental base | Resistência Sobrenatural base |
 |---|---|---|---|---|
-| Caster (Mago, Arcanista, Necromante) | INT +3 | 0 (Couro, FOR 0) | 3 | 0 |
-| Suporte (Sacerdote, Warlock) | CAR +3 | 0–1 | 0–1 | 3 |
-| Híbrido (Amazona, Renegada, Caçador) | DES +3 | 1–2 (FOR +1 + armadura leve/média) | 0–1 | 0–1 |
-| Guerreiro (Guerreiro, Monge, Druida) | FOR +3 | 5 (FOR +3 + Cota de Malha RD 2) | 0 | 0 |
-| Tanque (Bárbaro, Paladino, Cruzado) | FOR/CAR +3 | 6 (FOR +3 + Placa Completa RD 3) | 0 | 0–1 |
+| Caster (Mago, Arcanista, Necromante) | INT +3 | 0 (Couro, sem bônus) | 3 (INT) | 0 |
+| Suporte (Sacerdote, Warlock) | SAB/CAR +3 | 0–1 (armadura leve) | 0 | 3 (SAB ou CAR) |
+| Híbrido (Amazona, Renegada, Caçador) | DES +3 | 1–2 (armadura leve/média) | 0–1 | 0–1 |
+| Guerreiro (Guerreiro, Monge, Druida) | FOR/SAB +3 | 2 (Cota de Malha RD 2) | 0 | 0–3 (SAB, se Monge/Druida) |
+| Tanque (Bárbaro, Paladino, Cruzado) | FOR/CAR +3 | 3 (Placa Completa RD 3) | 0 | 0–1 |
 
-*Itens mágicos são a principal fonte de crescimento de resistência — especialmente para fechar os gaps elementais dos tanques.*
+*Resistência Física vem exclusivamente da armadura e de itens — nenhum atributo se soma a ela. Itens mágicos continuam sendo a principal fonte de crescimento para fechar gaps.*
 
 **Fontes por tipo:**
-- **Física** = Mod. FOR + RD da armadura + itens
-- **Elemental** (Fogo/Gelo/Elétrico/Veneno/Ácido) = Mod. INT + itens
-- **Exótica** (Necrótico/Radiante/Psíquico/Força) = Mod. CAR + itens
+- **Física** = RD da armadura + itens (sem atributo)
+- **Fogo/Gelo/Elétrico** = Mod. INT + itens
+- **Veneno** = Mod. CON + itens
+- **Necrótico/Psíquico** = Mod. SAB + itens
+- **Radiante/Arcano** = Mod. CAR + itens
 
 ---
 

@@ -717,20 +717,21 @@ Este valor único protege contra todas as formas mundanas de dor: **Corte, Perfu
 
 ### ***B. Resistências Elementais (A Magia)***
 
-As forças primordiais que moldam o mundo.
+As forças primordiais que moldam o mundo — e o corpo que as absorve.
 
 1. 🔥 **Fogo:** Chamas, lava, explosões.  
 2. ❄️ **Gelo:** Congelamento, nevascas, fragmentos de gelo.  
 3. ⚡ **Elétrico:** Relâmpagos, choques estáticos.  
-4. ☣️ **Veneno:** Toxinas, gás, mordidas de aranha.  
-5. 🧪 **Ácido:** Corrosão, bile de demônios.
+4. ☣️ **Veneno:** Toxinas, gás, bile de demônios, mordidas de aranha.
 
-### ***C. Resistências Exóticas (O Sobrenatural)***
+### ***C. Resistências Sobrenaturais***
+
+As forças que transcendem a matéria — morte, divindade, mente e magia pura.
 
 1. 💀 **Necrótico:** A morte, decomposição, toque de espectros.  
 2. ✨ **Radiante:** Luz sagrada, fogo celestial.  
 3. 🧠 **Psíquico:** Medo, loucura, ataques mentais.  
-4. 🔮 **Força/Trovão:** Energia mágica pura e ondas de choque sônico.
+4. 🔮 **Arcano:** Energia mágica bruta, feitiços do Prime Evil, poder de artefatos.
 
 ---
 
@@ -740,11 +741,12 @@ Como preencher os números na sua Matriz? Em Santuário, a resistência vem de t
 
 ### ***I. O Atributo Primário (Regra de Ouro do Diablo)***
 
-Seus atributos definem sua resistência inata.
+Cada atributo protege contra um tipo de ameaça. **Resistência Física é exceção: vem só da armadura e de itens.**
 
-* **Inteligência:** Adicione seu Modificador de Inteligência a **TODAS as Resistências Elementares** (Fogo, Gelo, Elétrico, Veneno, Ácido). *Os Magos sabem como dispersar energia.*  
-* **Força:** Adicione seu Modificador de Força à sua **Resistência Física**. *Músculos duros como pedra absorvem o impacto.*  
-* **Carisma:** Adicione seu Modificador de Carisma às **Resistências Exóticas**. *Uma presença inabalável rejeita a morte e a loucura.*
+* **Inteligência:** Modificador de INT às Resistências de **Fogo, Gelo e Elétrico**. *Quem entende a magia sabe desviar dela.*
+* **Constituição:** Modificador de CON à Resistência de **Veneno**. *O corpo forjado metaboliza a toxina.*
+* **Sabedoria:** Modificador de SAB às Resistências de **Necrótico e Psíquico**. *Instinto aguçado reconhece a sombra antes que ela te consuma.*
+* **Carisma:** Modificador de CAR às Resistências de **Radiante e Arcano**. *Convicção inabalável repele a luz divina e a energia mágica bruta.*
 
 ### ***II. Itemização (Prefixos e Sufixos)***
 
@@ -775,16 +777,15 @@ Esta tabela é o Painel de Personagem para rastrear a Redução de Dano (RD) par
 
 | Categoria | Tipo de Dano | Atributo Base (Modificador) | Bônus de Itemização/Feitiço | RD Total (Valor Final na Matriz) |
 | :---- | :---- | :---- | :---- | :---- |
-| **A. Física (O Básico)** | Físico (Corte, Perfuração, Impacto) | Força | \+ | \= |
+| **A. Física** | Físico (Corte, Perfuração, Impacto) | *(armadura + itens)* | \+ | \= |
 | **B. Elementais** | 🔥 Fogo | Inteligência | \+ | \= |
 |  | ❄️ Gelo | Inteligência | \+ | \= |
 |  | ⚡ Elétrico | Inteligência | \+ | \= |
-|  | ☣️ Veneno | Inteligência | \+ | \= |
-|  | 🧪 Ácido | Inteligência | \+ | \= |
-| **C. Exóticas** | 💀 Necrótico | Carisma | \+ | \= |
+|  | ☣️ Veneno | Constituição | \+ | \= |
+| **C. Sobrenatural** | 💀 Necrótico | Sabedoria | \+ | \= |
+|  | 🧠 Psíquico | Sabedoria | \+ | \= |
 |  | ✨ Radiante | Carisma | \+ | \= |
-|  | 🧠 Psíquico | Carisma | \+ | \= |
-|  | 🔮 Força/Trovão | Carisma | \+ | \= |
+|  | 🔮 Arcano | Carisma | \+ | \= |
 
 ---
 
@@ -794,7 +795,7 @@ Esta tabela resume como os atributos e as regras interagem para calcular o dano 
 
 | Regra / Fonte de Resistência | Efeito (Como Anotar na Matriz) | Ordem de Operação | Fórmula |
 | :---- | :---- | :---- | :---- |
-| **Atributo Primário** | Modificador de INT/FOR/CAR **adicionado** à respectiva categoria de Resistência. | 1º Passo: Cálculo da Matriz | Dano Recebido \- **Valor na Matriz** (Subtração Direta) |
+| **Atributo Primário** | Modificador de INT/CON/SAB/CAR **adicionado** à respectiva categoria. Físico não usa atributo. | 1º Passo: Cálculo da Matriz | Dano Recebido \- **Valor na Matriz** (Subtração Direta) |
 | **Itemização (Loot)** | Valores de itens mágicos (+N) **adicionados** diretamente à Matriz. | 1º Passo: Cálculo da Matriz | **(Mínimo de 0\)** |
 | **Dificuldade (Pesadelo/Inferno)** | Penalidade de \-5 ou \-10 **subtraída** diretamente de **TODAS** as Resistências. | 1º Passo: Cálculo da Matriz |  |
 
