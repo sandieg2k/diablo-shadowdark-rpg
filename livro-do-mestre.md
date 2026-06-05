@@ -6,71 +6,57 @@
 
 # Template de Cenário
 
-#### **O Conceito e o "Gold Standard" (Inspiração)**
+Use este template ao criar novos módulos de aventura para o Diablo RPG.
 
-* **Título do Cenário:** (Ex: "A Capela", "O Sarcófago").  
-* **Narrativa (Set Dressing):** Descreva o cenário de forma visceral. Evite objetivos abstratos; foque em objetos tangíveis e locais reais (um templo em ruínas, um líder embriagado, um edifício em chamas).  
-* **Referência de Estilo:** Este é um cenário focado em narrativa imersiva ou em equilíbrio para torneios?.
+## Conceito
 
-#### **Espaço de Design e Configuração (Página Esquerda)**
+* **Título do Cenário:** (Ex: "A Catedral Amaldiçoada", "A Forja de Hellfire")
+* **Narrativa:** Descreva o cenário de forma visceral. Foque em objetos tangíveis e locais reais — um templo em ruínas, um líder corrompido, um edifício em chamas. Evite objetivos abstratos.
+* **Estilo:** Este cenário é focado em narrativa/imersão ou em combate tático?
 
-* **Tamanho do Campo de Batalha:** Defina as dimensões (ex: 3x3 pés ou 44x30 polegadas).  
-* **Posicionamento (Deployment):** Pearson sugere usar as **diagonais do tabuleiro** para aumentar a distância entre as forças, incentivando a movimentação e a imersão antes do combate.  
-* **Grupos de Batalha:** Divida as forças em grupos (ex: três grupos iguais) e determine quais começam no campo e quais chegam como reforços.  
-* **Condições de Vitória:** O que os jogadores devem fazer para vencer? Tenha pelo menos dois caminhos (ex: coletar X tesouros ou eliminar X inimigos) para evitar que os jogadores fiquem parados ("castling").  
-* **Limite de Turnos:** Considere **remover o limite fixo de turnos** para permitir que a história chegue a uma conclusão natural (em torno de 10 turnos), usando mecânicas para desencorajar o jogo excessivamente defensivo.
+## Configuração
 
+* **Ambiente:** Descreva o mapa — zonas principais, elementos interativos, fontes de perigo ambiental.
+* **Posicionamento Inicial:** Onde estão os personagens? De onde chegam os inimigos?
+* **Grupos de Inimigos:** Divida os inimigos em grupos e defina quais estão ativos desde o início e quais chegam como reforços (em qual rodada e de onde).
+* **Condições de Vitória:** O que o grupo precisa fazer para vencer? Defina ao menos dois caminhos (ex: eliminar X inimigos *ou* ativar X objetos) para evitar estagnação.
+* **Pressão de Tempo:** Há uma ameaça crescente que force os jogadores a agir? (Ex: reforços chegando, ritual completando, estrutura colapsando)
 
-#### **A Tabela de Reviravoltas (Página Direita)**
+## Tabela de Reviravoltas (1d6)
 
-Crie uma tabela (geralmente **1D6**) para adicionar variedade e rejogabilidade. Isso transforma um único cenário em várias combinações possíveis.
+Role no início de uma rodada específica ou quando um gatilho ocorrer (primeira morte, abertura de um sarcófago, etc.).
 
-* **Reviravolta 1-2 (Sutil):** Mudanças leves no ambiente ou recursos (ex: mais tesouros, chuva leve).  
-* **Reviravolta 3-4 (Mecânica):** Mudanças que afetam as regras de jogo (ex: visibilidade reduzida, cura em solo sagrado, bônus de ataque).  
-* **Reviravolta 5-6 (O Ponto de Virada):** Um momento de "promessa e recompensa" que vira o jogo de cabeça para baixo.  
-  * **O Ponto de Virada ("Lifting the Lid"):** Quando uma ação específica ocorre (ex: a primeira morte, abrir um sarcófago), algo imprevisível acontece (um inimigo NPC surge, o turno termina abruptamente, o prédio começa a queimar).
+* **1–2 (Sutil):** Mudanças leves no ambiente ou recursos (ex: um tesouro adicional aparece, chuva reduz a visibilidade).
+* **3–4 (Mecânica):** Mudanças que afetam as regras (ex: o chão racha criando terreno difícil, um shrine ativa e cura aliados próximos).
+* **5–6 (Ponto de Virada):** Um evento que vira o jogo — uma traição, um terceiro grupo entrando em cena, a estrutura começando a desabar.
 
-  ---
+---
 
-  ### **Dicas do Especialista para o seu Cenário:**
+## [Nome do Cenário]
 
-* **Interatividade:** Certifique-se de que os elementos do cenário interajam entre si (ex: uma regra de "nevoeiro" afetando a visibilidade de quem está protegendo um tesouro).  
-* **Recompensas Tangíveis:** Se houver um item especial (como o conteúdo de um sarcófago), garanta que ele tenha um impacto real, como mutações, armas mágicas ou pontos de campanha significativos.  
-* **Restrição de Espaço:** Tente encaixar tudo em um **spread de duas páginas A4** para que os jogadores tenham toda a informação acessível à frente deles durante a partida.
+*[Um parágrafo de atmosfera: onde é, o que aconteceu aqui, por que os heróis estão aqui.]*
 
-  ### **O Cenário (Setup e Regras)**
+**Configuração:**
+* Mapa: [Descrever zonas principais e elementos interativos]
+* Posicionamento inicial: [Heróis entram por onde? Inimigos estão onde?]
+* Reforços: [Chegam quando? Em que quantidade? Por onde?]
 
-  **\[Nome do Cenário\]**
+**Condições de Vitória:**
+1. [Critério A]
+2. [Critério B]
 
-  *Introdução: \[Um parágrafo curto de atmosfera, contando a história do local e por que as gangues estão aqui.\]*
+**Tabela de Reviravoltas (1d6):**
 
-  1\. Configuração do Campo de Batalha
+| d6 | Evento |
+| :---- | :---- |
+| **1** | [Sutil] |
+| **2** | [Sutil] |
+| **3** | [Mecânica] |
+| **4** | [Mecânica] |
+| **5** | [Ponto de Virada] |
+| **6** | [Ponto de Virada] |
 
-* Tamanho sugerido: \[Ex: 90cm x 90 cm/ 120cmx80cm polegadas\]  
-* Terreno: \[Descrição do objetivo central, como a Capela ou o Sarcófago, e onde posicioná-lo.\]  
-  2\. Implantação (Deployment)  
-* Zonas: \[Descrever o início em cantos opostos ou nas diagonais do tabuleiro\].  
-* Grupos de Batalha: \[Ex: Divida seu bando em 3 grupos; role para ver qual entra no turno 1\].  
-  3\. Condições de Vitória  
-* \[Critério A: Ex: Capturar X tesouros\]  
-* \[Critério B: Ex: Derrotar X inimigos\]  
-* *Dica: Mantenha as condições de vitória claras e não focadas apenas em extermínio.*
-
-
-  ### **A Tabela de Reviravoltas (Twists)**
-
-  Eventos da Batalha (Rolagem de D6)
-
-  No início da rodada X (ou quando ocorrer um evento específico, como derramar sangue), role 1d6 para determinar a reviravolta da partida:
-
-1. \[Nome do Evento 1\]: \[Regra rápida\]  
-2. \[Nome do Evento 2\]: \[Regra rápida\]  
-3. \[Nome do Evento 3\]: \[Regra rápida\]  
-4. \[Nome do Evento 4\]: \[Regra rápida\]  
-5. \[Nome do Evento 5\]: \[Regra rápida\]  
-6. \[Nome do Evento 6\]: \[Regra rápida\]
-
-> **Classes:** Ver arquivo [`01-classes.md`](01-classes.md)
+> **Classes:** Ver arquivo [`cap3-classes.md`](cap3-classes.md)
 
 # Encontros
 
@@ -221,30 +207,30 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 | **A descrição do Mestre** | Item Único | Item com propriedades únicas. |
 | **A descrição do Mestre** | Item de Conjunto | Item com propriedades especiais, ativadas quando o usuário estiver usando duas ou mais peças. |
 
-#
-
 # Tabela de Itens Base (1d100)
 
 Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e sufixos mágicos conforme a raridade do encontro.
 
 ## Armaduras e Escudos (01-39)
 
+*Bônus de CA por slot: consultar a tabela de Armaduras no Cap. 6 do Livro do Jogador. O Mestre define qual peça (slot) foi encontrada conforme o contexto.*
+
 | d100 | Item | Tipo | Preço (PO) |
 | :---- | :---- | :---- | :---- |
-| **01-03** | Acolchoada (Padded) | Leve (CA 11 \+ DES) | 5 |
-| **04-06** | Couro (Leather) | Leve (CA 11 \+ DES) | 10 |
-| **07-09** | Couro Batido (Hide) | Média (CA 12 \+ DES) | 10 |
-| **10-12** | Cota de Anéis (Ring Mail) | Média (CA 13 \+ DES) | 30 |
-| **13-15** | Couro Tachonado | Leve (CA 12 \+ DES) | 45 |
-| **16-18** | Camisão de Malha | Média (CA 13 \+ DES) | 50 |
-| **19-21** | Brunea (Scale Mail) | Média (CA 14 \+ DES) | 50 |
-| **22-24** | Peitoral de Aço | Média (CA 14 \+ DES) | 400 |
-| **25-27** | Meia-Placa | Pesada (CA 15\) | 750 |
-| **28-30** | Cota de Malha | Pesada (CA 16\) | 75 |
-| **31-34** | Armadura de Talas | Pesada (CA 17\) | 200 |
-| **35** | Placa Completa | Pesada (CA 18\) | 1500 |
-| **36-37** | Escudo | Defesa (+2 CA) | 10 |
-| **38-39** | Escudo de Torre | Defesa (+3 CA) | 100 |
+| **01-03** | Acolchoada | Leve | 5 |
+| **04-06** | Couro | Leve | 10 |
+| **07-09** | Couro Batido | Leve | 10 |
+| **10-12** | Cota de Anéis | Média | 30 |
+| **13-15** | Couro Tachonado | Leve | 45 |
+| **16-18** | Camisão de Malha | Média | 50 |
+| **19-21** | Brunea (Escamas) | Média | 50 |
+| **22-24** | Peitoral de Aço | Média | 400 |
+| **25-27** | Meia-Placa | Pesada | 750 |
+| **28-30** | Cota de Malha | Pesada | 75 |
+| **31-34** | Armadura de Talas | Pesada | 200 |
+| **35** | Placa Completa (conjunto) | Pesada | 1500 |
+| **36-37** | Escudo de Madeira | Defesa | 15 |
+| **38-39** | Escudo de Torre | Defesa | 60 |
 
 ## Armas Corpo a Corpo (40-75)
 
@@ -319,8 +305,6 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 |  |  |  | 8: Lira | 30 |
 |  |  |  | 9: Viola | 30 |
 |  |  |  | 10: Alaúde | 35 |
-
-#
 
 # Tabela de Prefixos (1d100)
 
@@ -397,9 +381,9 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 | **5** | Sorrateiro | O usuário pode gastar uma ação ◈ para ficar invisível até tomar uma próxima ação ◈. | 15000 |
 | **6** | Invisível | O usuário pode gastar uma ação ◈ \+ 1 Mana para ficar invisível por 1d4 rodadas. | 20000 |
 
-## 5\. Fluxo de Mana e Pontos de Ação (55-60)
+## 5\. Fluxo de Mana (55-60)
 
-| d20+ND | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| d20+ND | Prefixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
 | **1-10** | Do Lagarto | Seu limite máximo de Mana aumenta em \+5. | 2.500 |
 | **11-20** | Da Serpente | Seu limite máximo de Mana aumenta em \+10. | 7.500 |
@@ -426,7 +410,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 
 *Role 1d20 \+ ND (Nível de Dificuldade) do monstro/tesouro.*
 
-| d20+ND | Prefixo | Efeito | Preço (PO) |
+| d20+ND | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
 | **1-12** | da Saúde | \+1 RD em TODOS os tipos. | 5.000 |
 | **13-18** | da Proteção | \+2 RD em TODOS os tipos. | 12.500 |
@@ -434,30 +418,30 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **26-29** | da Vida | \+4 RD em TODOS os tipos. | 50.000 |
 | **30+** | da Deflexão | \+5 RD em TODOS os tipos. | 100.000 |
 
-## 2\. Reação Quando Atacado⟁ (21-26)
+## 2\. Reação Quando Atacado ⟁ (21-26)
 
 *Role 1d20 \+ ND.*
 
-| d20+ND | Prefixo | Efeito | Preço (PO) |
+| d20+ND | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
 | **1-14** | de Espinhos | Atacante sofre 1d4 físico para cada ataque corpo a corpo contra o usuário | 5000 |
 | **15+** | de Ferrão | Atacante sofre 2d4 físico para cada ataque corpo a corpo contra o usuário | 10.000 |
 
 ## 3\. Efeitos de Movimento (28-30)
 
-*Role 1d20 \+ ND. Afeta o alvo ao acertar um golpe.*
+*Role 1d20 \+ ND.*
 
-| d20+ND | Prefixo | Efeito | Preço (PO) |
+| d20+ND | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
 | **1-14** | do Passo | Corre o dobro com uma ação de movimento ◈ | 10.000 |
-| **15-19** | da Velocidade | Corre o dobro com uma ação de movimento ◈ e não pode ser surpreso | 30.000 |
-| **20+** | da Aceleração | Corre o triplo com uma ação de movimento ◈ e não pode ser surpreso | 100.000 |
+| **15-19** | da Velocidade | Corre o dobro com uma ação de movimento ◈ e não pode ser surpreendido | 30.000 |
+| **20+** | da Aceleração | Corre o triplo com uma ação de movimento ◈ e não pode ser surpreendido | 100.000 |
 
 ## 4\. Aumento de HP (31-35)
 
 *Role 1d20 \+ ND*
 
-| d20+ND | Categoria | Efeito | Preço |
+| d20+ND | Sufixo | Efeito | Preço |
 | :---- | :---- | :---- | :---- |
 | **1-8** | do Chacal | \+4 HP Temporários | 2500 |
 | **9-13** | da Raposa | \+6 HP Temporários | 5000 |
@@ -467,32 +451,32 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **24-25** | do Tigre | \+15 HP Temporários | 15000 |
 | **26-27** | do Leão | \+18 HP Temporários | 17500 |
 | **28-29** | do Mamute | \+20 HP Temporários | 20000 |
-| **20-31** | da Baleia | \+25 HP Temporários | 22500 |
+| **30-31** | da Baleia | \+25 HP Temporários | 22500 |
 | **32+** | do Colosso | \+30 HP Temporários | 25000 |
 
 ## 5\. Recuperação (36-45)
 
 *Role 1d20*
 
-| d20 | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| d20 | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
 | **1-10** | da Regeneração | Usuário cura 1 HP por turno. | 100000 |
-| **11-20** | da Renovação | Usuário recupera 1 HP ponto de atributo perdido por turno. | 100000 |
+| **11-20** | da Renovação | Usuário recupera 1 ponto de atributo perdido por turno. | 100000 |
 
 ## 6\. Preparação Diária (61-70)
 
 *Role 1d20 \+ ND.*
 
-| d20+ND | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| d20+ND | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
-| **1-10** | da Poupança | O usuário pode usar uma habilidade sem gastar Mana 1x por dia. | 50000 |
-| **11-25** | da Negociação | O usuário pode usar uma habilidade sem gastar Mana 2x por dia. | 100000 |
-| **25-35** | da Osmose | O usuário pode usar uma habilidade sem gastar Pontos de Ação ou Mana 1x por dia. | 250000 |
-| **36+** | da Transcendência | O usuário pode usar uma habilidade sem gastar Pontos de Ação ou Mana 2x por dia. | 500000 |
+| **1-10** | da Poupança | O usuário pode usar uma habilidade sem gastar Mana 1× por dia. | 50000 |
+| **11-25** | da Negociação | O usuário pode usar uma habilidade sem gastar Mana 2× por dia. | 100000 |
+| **25-35** | da Osmose | O usuário pode usar uma habilidade sem gastar ações ou Mana 1× por dia. | 250000 |
+| **36+** | da Transcendência | O usuário pode usar uma habilidade sem gastar ações ou Mana 2× por dia. | 500000 |
 
 ## 7\. Dano Extra (71-85)
 
-| d100 | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| d100 | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
 | **71-72** | do Gelo | \+1d6 de dano de gelo em ataques e feitiços | 2500 |
 | **73-74** | do Fogo | \+1d6 de dano de fogo em ataques e feitiços | 2500 |
@@ -505,23 +489,23 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 
 ## 8\. Efeito de Runas (86-100)
 
-| d100 | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| d100 | Runa | Sufixo | Efeito |
 | :---- | :---- | :---- | :---- |
-| **86** | Amn	Sede de Sangue | **Roubo de Vida:** Cura 1d4 PV sempre que causar dano crítico ou matar um inimigo. |  |
-| **87** | Shael	Rapidez | **Velocidade:** Reduz o custo de ações  ou reações em 1 Mana. |  |
-| **88** | Pul	Exorcismo | **Dano Sagrado:** \+1 dado de dano adicional contra Demônios e Mortos-Vivos. |  |
-| **89** | Um	Laceração | **Ferimentos Abertos:** O alvo sangra, perdendo 1d4 PV por rodada até ser curado ou estabilizado. |  |
-| **90** | Mal	Veredito | **Anticura:** Impede que o alvo regenere vida ou receba cura mágica por 3 rodadas. |  |
-| **91** | Ist	Fortuna | **Busca Mágica:** Aumenta a chance de encontrar itens raros/mágicos em saques em \+10%. |  |
-| **92** | Gul	Precisão | **Foco:** Recebe \+1d4 em todas as jogadas de ataque com esta arma. |  |
-| **93** | Vex	Sifão de Éter | **Roubo de Mana:** Ao causar dano, role 1d6. Em um 5 ou 6, você recupera 1 ponto de Mana. |  |
-| **94** | Ohm	Poder Bruto | **Dano Físico:** A arma causa \+5 de dano fixo em todos os ataques bem-sucedidos. |  |
-| **95** | Lo	Golpe Mortal | **Crítico Devastador:** Chance de causar dano dobrado (além do crítico normal) em um 19 natural. |  |
-| **96** | Sur	Aflição | **Cegueira:** Alvos atingidos devem passar num teste de Constituição ou ficam Cegos por 1 rodada. |  |
-| **97** | Ber	Esmagamento | **Golpe Esmagador:** Reduz a Armadura (CA) do alvo em 2 permanentemente (até o fim do combate). |  |
-| **98** | Jah	Aniquilação | **Ignorar Defesa:** O ataque ignora qualquer bônus de escudo ou armadura natural do inimigo. |  |
-| **99** | Cham	Gelo Eterno | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. |  |
-| **100** | Zod	Eternidade | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. |  |
+| **86** | Amn | **Sede de Sangue** | **Roubo de Vida:** Cura 1d4 PV sempre que causar dano crítico ou matar um inimigo. |
+| **87** | Shael | **Rapidez** | **Velocidade:** Reduz o custo de ações ou reações em 1 Mana. |
+| **88** | Pul | **Exorcismo** | **Dano Sagrado:** \+1 dado de dano adicional contra Demônios e Mortos-Vivos. |
+| **89** | Um | **Laceração** | **Ferimentos Abertos:** O alvo sangra, perdendo 1d4 PV por rodada até ser curado ou estabilizado. |
+| **90** | Mal | **Veredito** | **Anticura:** Impede que o alvo regenere vida ou receba cura mágica por 3 rodadas. |
+| **91** | Ist | **Fortuna** | **Busca Mágica:** Aumenta a chance de encontrar itens raros/mágicos em saques em \+10%. |
+| **92** | Gul | **Precisão** | **Foco:** Recebe \+1d4 em todas as jogadas de ataque com esta arma. |
+| **93** | Vex | **Sifão de Éter** | **Roubo de Mana:** Ao causar dano, role 1d6. Em um 5 ou 6, você recupera 1 ponto de Mana. |
+| **94** | Ohm | **Poder Bruto** | **Dano Físico:** A arma causa \+5 de dano fixo em todos os ataques bem-sucedidos. |
+| **95** | Lo | **Golpe Mortal** | **Crítico Devastador:** Chance de causar dano dobrado (além do crítico normal) em um 19 natural. |
+| **96** | Sur | **Aflição** | **Cegueira:** Alvos atingidos devem passar num teste de CON DC 12 ou ficam Cegos por 1 rodada. |
+| **97** | Ber | **Esmagamento** | **Golpe Esmagador:** Reduz a CA do alvo em 2 até o fim do combate. |
+| **98** | Jah | **Aniquilação** | **Ignorar Defesa:** O ataque ignora qualquer bônus de escudo ou armadura natural do inimigo. |
+| **99** | Cham | **Gelo Eterno** | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. |
+| **100** | Zod | **Eternidade** | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. |
 
 # Registro de Campanha
 
@@ -593,11 +577,6 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 |  |  |  |  |
 |  |  |  |  |
 
-# Ideias
-
-![][image3]
-
-![][image4]
 
 [https://app.lootstudios.com/bundle/voracious-sands/](https://app.lootstudios.com/bundle/voracious-sands/)
 
