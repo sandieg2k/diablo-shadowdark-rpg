@@ -168,6 +168,28 @@ Cada classe tem um item exclusivo que já funciona em versão Normal, amplifican
 | Guerreiro | Pedra de Afiação | +1 dano com arma de Mestria |
 | Bárbaro | Totem Ancestral | Fúria: +1 HP/turno |
 
+### Tipos de Dano Válidos ✅
+
+O sistema tem **9 tipos** (auditoria completa feita em todos os arquivos, commits desta sessão):
+
+| Categoria | Tipos |
+|---|---|
+| Físico | Físico *(sub-tipos: cortante, perfurante, contundente — não precisam de resistência separada)* |
+| Elemental | Fogo · Gelo · Relâmpago · Veneno |
+| Sobrenatural | Necrótico · Radiante · Psíquico · Arcano |
+
+- **"Sombrio" não existe** — é Necrótico. Todas as ocorrências foram corrigidas.
+- **"Sagrado" não é tipo válido** — usar Radiante.
+- **"Elétrico" não é canônico** — usar Relâmpago.
+- Armas causam **Físico por padrão**, salvo propriedade especial, encantamento ou habilidade de classe.
+- A proteção de atributo: INT → Fogo/Gelo/Relâmpago · CON → Veneno · SAB → Necrótico/Psíquico · CAR → Radiante/Arcano · Físico → só armadura e itens.
+
+### Corrosão de Mundo — Faixas de Dificuldade ✅
+
+- **Nível 1–4 (Normal):** sem penalidade
+- **Nível 5–7 (Pesadelo):** –5 em todas as Resistências
+- **Nível 8–10 (Inferno):** –10 em todas as Resistências
+
 ### Tabela de Tesouros d100 — LdM ✅
 
 Distribuição atual (Cap. 2 Tesouros):
@@ -230,7 +252,7 @@ Distribuição atual (Cap. 2 Tesouros):
 - Handout Caverna B movido para `cenarios/senhor-da-mentira.md`
 - Rascunhos de campanha (Sinister 7, ganchos) movidos para `notas/notas-campanha.md`
 
-### Goal 5 — Tabelas de Referência do Mestre (`referencia-mestre-progressao.md`)
+### Goal 5 — Tabelas de Referência do Mestre (`referencia-mestre-progressao.md`) ✅
 
 Expandir o documento com todas as estatísticas relevantes para calibração de encontros e distribuição de recompensas. Ordem de execução:
 
@@ -240,7 +262,8 @@ Expandir o documento com todas as estatísticas relevantes para calibração de 
 4. ~~RD disponível por tier~~ ✅ — expandido para Resistência completa por arquétipo (commit 517d0d4)
 5. ~~Probabilidade de acerto — tabela cruzada ATK × CA com % de chance~~ ✅ (commit 5f4f2b9)
 6. ~~Riqueza esperada por nível (ouro e itens para calibrar tesouros e lojas)~~ ✅ (commit 94fc15a)
-7. Revisão da Matriz de Resistências no LdJ (clareza, consistência, elegância) ← próximo
+7. ~~Tabela DPT expandida — todas as 18 classes, Nv 1/3/5/7/10, fonte principal por classe~~ ✅ (commit b1b6d08)
+8. ~~Revisão da Matriz de Resistências no LdJ — Sombrio unificado com Necrótico, Corrosão de Mundo corrigida~~ ✅ (commit e3a9f46)
 
 ---
 
@@ -253,6 +276,17 @@ Expandir o documento com todas as estatísticas relevantes para calibração de 
 - Tabela de armaduras convertida para sistema Leve/Média/Pesada consistente com LdJ
 - Sistema de escudos por tier implementado (Broquel/Escudo/Torre)
 - "Escudos" removido das classes — agora é regra implícita pelo tipo de armadura
+
+### Goal 6 — Revisão de Balanceamento das Classes (`cap3-classes.md`) ← próximo
+
+Revisar as 18 classes usando as tabelas de `referencia-mestre-progressao.md` como referência matemática. Objetivo: valores de dano consistentes com o DPT por tier, habilidades com custo de Mana coerente com a escala, identidade de cada classe preservada.
+
+- Usar as tabelas de DPT, CA e dano de monstros como âncora numérica
+- Seguir os princípios do sistema: turnos rápidos, decisões claras, sensação de Diablo
+- Apresentar sugestões de ajuste por classe e aguardar aprovação antes de editar
+- Trabalhar classe por classe ou em grupos temáticos (marciais / casters / summoners)
+
+---
 
 ## Convenções de Commit
 
