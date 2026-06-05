@@ -22,7 +22,7 @@ Todo o conteúdo vive no repositório git local:
 
 **Para gerar o PDF do livro:** instalar o Pandoc e rodar o script `build-pdf.ps1` (a criar).
 
-## Sistema de Distâncias (revisado — aplicar em todos os arquivos)
+## Sistema de Distâncias ✅
 
 Três vocabulários distintos para evitar ambiguidade:
 
@@ -32,15 +32,9 @@ Três vocabulários distintos para evitar ambiguidade:
 | **Velocidade** (por ◈) | Vel. Normal · Vel. Rápida · Voo Normal · Voo Rápido | 1 zona / 2 zonas |
 | **Alcance** (habilidades) | Toque · Curto · Longo | Adjacente / Próximo / Distante |
 
-Substituições pendentes em todos os arquivos:
-- `Perto` (zona) → `Próximo` | `Longe` (zona) → `Distante`
-- `Vel. Perto` → `Vel. Normal` | `Vel. Longe` → `Vel. Rápida`
-- `Voo Perto` → `Voo Normal` | `Voo Longe` → `Voo Rápido`
-- `alcance Perto` → `alcance Curto` | `alcance Longe` → `alcance Longo`
-- `distância Perto` → `1 zona` | `distância Longe` → `2 zonas`
-- `a distância Perto` → `a distância Próximo` | `a distância Longe` → `a distância Distante`
-
 1 quadrado = 2,5cm · 5ft · ~1,5m. Réguas de mesa: 15cm (Próximo) e 30cm (Distante).
+
+Substituições aplicadas em todos os arquivos (commit f53cfef).
 
 ---
 
@@ -51,6 +45,7 @@ repo/
 ├── diablo-rpg-livro-do-jogador.md ← Livro do Jogador (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
 ├── diablo-rpg-livro-do-mestre.md  ← Livro do Mestre (encontros, tesouros, forte, handouts…)
 ├── 01-classes.md            ← Cap. 3: Classes (18 classes)
+├── apendice-a-criaturas.md  ← Apêndice A: Criaturas
 ├── apendice-b-glossario.md  ← Apêndice B: Glossário
 ├── cenarios/                ← 7 módulos de aventura
 │   ├── senhor-da-mentira.md
@@ -78,18 +73,19 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 |---|---|
 | Capa | ✅ Pronto |
 | Introdução | ✅ Pronto |
-| Cap. 1: Jogando o Jogo | ✅ Pronto |
-| Cap. 2: Criando um Personagem | ✅ Pronto |
+| Cap. 1: Jogando o Jogo | ⚠️ Em revisão (ver Goal 2) |
+| Cap. 2: Criando um Personagem | ⚠️ Em revisão (ver Goal 2) |
 | Cap. 3: Classes (18 classes) | ✅ Pronto |
-| Cap. 4: Origens | ✅ Pronto |
-| Cap. 5: Talentos | ✅ Pronto |
-| Cap. 6: Arsenal | ✅ Pronto |
-| Cap. 7: Magia | ✅ Pronto |
+| Cap. 4: Origens | ⚠️ Em revisão (ver Goal 2) |
+| Cap. 5: Talentos | ⚠️ Em revisão (ver Goal 2) |
+| Cap. 6: Arsenal | ⚠️ Em revisão (ver Goal 2) |
+| Cap. 7: Magia | ⚠️ Em revisão (ver Goal 2) |
 | **Apêndice A: Criaturas** | ✅ Pronto |
-| **Apêndice B: Glossário** | ✅ Pronto (parcial — termos de distância revisados, substituições nos demais arquivos pendentes) |
+| **Apêndice B: Glossário** | ✅ Pronto |
 
 ## Prioridade de Trabalho
 
+### Goal 1 — Estrutura e Conteúdo Base
 1. ~~Regras básicas (Cap. 1)~~ ✅
 2. ~~Criação e avanço de personagem (Cap. 2)~~ ✅
 3. ~~Cap. 4: Origens~~ ✅
@@ -99,9 +95,33 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 7. ~~Revisar referências a "proficiência"~~ ✅
 8. ~~Fichas 2.0 documentadas~~ ✅
 9. ~~Apêndice A: Criaturas~~ ✅
-10. ~~Apêndice B: Glossário~~ ✅ (estrutura pronta)
-11. **Revisão de distâncias** ← PRÓXIMO — substituir termos antigos em todos os arquivos
-12. Script de geração de PDF (`build-pdf.ps1`)
+10. ~~Apêndice B: Glossário~~ ✅
+11. ~~Revisão de distâncias~~ ✅
+12. Script de geração de PDF (`build-pdf.ps1`) ← pendente
+
+### Goal 2 — Revisão de Conteúdo (clareza, elegância, princípios)
+
+**Princípios do sistema** (extraídos da Introdução):
+1. Simular a sensação de jogar Diablo
+2. Turnos rápidos — sem demora na tomada de decisão
+3. Desafiador — emular o modo Hardcore
+
+**Fila de ajustes por prioridade:**
+
+🔴 Alta
+- ~~Títulos de Origem — reformatar como tabela legível~~ ✅ (commit d09968c)
+- Propriedades das armas — definir no Arsenal (Finesse, Versátil, Haste, etc. usadas mas não explicadas)
+- Formatação do Cap. 7 Magia — headings virou texto, frase cortada, parágrafo dentro de `##`
+
+🟡 Média
+- Duplicações em Talentos Gerais: "Força da Desesperança" em duas tabelas com efeitos diferentes; "Pele Grossa" e "Pele de Pedra" com efeito idêntico
+- Cap. 4 Origens — consolidar: conteúdo duplicado entre Cap. 2 (Títulos) e Cap. 4
+- Seções vazias: `# Pontos de Ação` (sem conteúdo) e `# Fichas 2.0` (sem conteúdo)
+- `## ---` aparece 3× como subheadings no Cap. 1 — devem ser `---` simples
+
+🟢 Baixa
+- Imagem quebrada `![][image1]` na seção de Mana
+- Ordenação dos capítulos no arquivo (Cap. 1 vem depois de Cap. 2, 4, 5)
 
 ## Convenções de Commit
 
