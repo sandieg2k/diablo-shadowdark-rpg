@@ -156,12 +156,15 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 | :---- | :---- | :---- | :---- |
 | **Ataque Básico** | **◈** | Ação | Ataca com arma ou magia básica. |
 | **Movimento** | **◈** | Ação | Move-se até uma zona Próxima (~15cm na mesa). |
-| **Investida** | **◈◈◈** | Ação | Move-se o dobro em linha reta e ataca com \+2 no acerto. |
+| **Investida** | **◈◈◈** | Ação | Move-se o dobro em linha reta e realiza 1 ataque com \+2 no acerto. Acerto: o alvo cai Deitado ou é empurrado 1 zona (sua escolha). |
 | **Desengajar** | **◈** | Ação | Recua sem provocar Ataque de Oportunidade. |
 | **Interagir** | **◈** | Ação | Abre uma porta, pega um item, aciona uma alavanca ou recarrega uma besta pesada. |
 | **Usar Item** | **◈** | Ação | Bebe uma poção, usa um pergaminho ou aplica óleo em uma arma. |
 | **Derrubar / Empurrar** | **◈** | Ação | Teste de FOR contra o alvo. Se vencer: o alvo cai (Deitado) ou é empurrado 1 zona. |
+| **Levantar** | **◈** | Ação | Sai da condição Deitado. |
 | **Ajudar** | **◈** | Ação | Concede Vantagem no próximo teste de um aliado Adjacente. |
+| **Defesa Total** | **◈◈** | Ação | \+4 CA até o início do seu próximo turno. Você não pode atacar neste turno. |
+| **Provocar** | **◈** | Ação | 1 criatura Próxima visível testa SAB DC 10 \+ seu mod. primário. Falha: deve atacar somente você, com Vantagem, até o início do seu próximo turno. |
 | **Preparar** | **custo da ação** | Ação | Declara uma ação e um gatilho. Se o gatilho ocorrer antes do seu próximo turno, a ação dispara automaticamente. Se não ocorrer, o custo é perdido. |
 | **Troca Rápida** | ◇ | Livre | Troca uma arma leve ou solta algo no chão (1× por turno). |
 | **Esquiva** | **⟁** | Reação | \+3 na CA contra um ataque, ou Vantagem em um teste de DES. |
