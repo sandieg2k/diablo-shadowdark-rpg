@@ -259,7 +259,7 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 | **16** | **Ordens de Batalha (◈+ 2 Mana):** Você grita ordens e até 2 aliados em alcance de audição podem imediatamente se mover até o deslocamento máximo deles como uma reação, sem provocar ataques de oportunidade. |
 | **17** | **Desprezo à Dor (⟁ \+ 2 Mana):** Como uma reação, se cair para 0 HP, você ignora o dano e continua de pé com 1 HP. |
 | **18** | **Dupla Empunhadura (◈ \+ 1 Mana):** Se usar duas armas, você pode gastar 1 Ação e 1 Mana para realizar um ataque extra com a arma secundária. |
-| **19** | **Chamado dos Antigos (◈◈◈ \+ 4 Mana por Ancestral):** Invoca espíritos ancestrais para lutar ao seu lado, máximo de 3\. Até o fim do combate, cada Ancestral ataca um alvo “Próximo” no seu turno, causando **1d8 de dano Físico**. Resolva todos os ataques dos Ancestrais com uma única rolagem. |
+| **19** | **Chamado dos Antigos (◈◈◈ \+ 4 Mana por Ancestral):** Invoca espíritos ancestrais para lutar ao seu lado, máximo de 3\. Até o fim do combate, cada Ancestral ataca um alvo “Próximo” no seu turno, causando **2d6 de dano Físico**. Resolva todos os ataques dos Ancestrais com uma única rolagem. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -372,14 +372,14 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 | **7** | **Lança Empaladora (◈ \+ 3 Mana):** Se acertar um ataque, você pode prender o inimigo no chão. Inimigo faz um Teste de Força **DC 10+Atributo** para escapar. |
 | **8** | **Sanguinar (◈◈ \+ 2 Mana):** Avance em linha reta para "Próximo" e cause 1d6 necrótico automático a todos no caminho. Gaste +2 Mana para cada dado extra. Você não gera ataques de oportunidade. |
 | **9** | **Sentidos Sobrenaturais (Passiva):** Você pode enxergar perfeitamente no escuro total (mesmo sem tochas) em alcance Curto. |
-| **10** | **Drenar Sangue (Feitiço) (◈ \+ 2 Mana) :** Drene 1d4 de HP de um inimigo perto e cure-se. |
+| **10** | **Drenar Sangue (Feitiço) (◈ \+ 1 Mana):** Drene 1d4 de HP de um inimigo perto e cure-se. |
 | **11** | **Esmagar o Fraco (◇ \+ 1 Mana):** Você causa \+1d4 necrótico contra inimigos que não estejam com o HP cheio. |
 | **12** | **Sudário da Noite (Feitiço) (◈ \+ 5 Mana):** Envolva a si mesmo e a aliados “perto” em trevas até o início do seu próximo turno. **Aparições sombrias** de cada criatura afetada surgem em seus turnos para **desferir um Ataque Extra** uma vez por rodada como ação livre **◇**.  |
 | **13** | **Golpe Crítico (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **14** | **Transfusão (◈):** Você pode tocar um aliado e transferir seu próprio HP para ele (ponto por ponto) ou sugar o sangue de um aliado e transferir HP para si. |
 | **15** | **Espinhos de Sangue (⟁ \+ 1 Mana):** Quando sofrer dano, espirre sangue de volta e cause 1d4 necrótico a uma criatura adjacente. |
-| **16** | **Tentáculos de Sangue (Feitiço) (◈ \+ 3 Mana por inimigo):** Dispara tentáculos sangrentos em inimigos “Próximo” e os move para qualquer distância “Próximo” (Teste de FOR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
-| **17** | **Vigor Maléfico (◈ \+ 2 Mana):** Ganhe 1d4 HP Temporário até o próximo descanso longo. Gaste +2 Mana para cada dado extra. Você não precisa comer ou beber por uma semana após beber o sangue de um inimigo morto. |
+| **16** | **Tentáculos de Sangue (Feitiço) (◈ \+ 2 Mana por inimigo):** Dispara tentáculos sangrentos em inimigos “Próximo” e os move para qualquer distância “Próximo” (Teste de FOR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
+| **17** | **Vigor Maléfico (◈ \+ 2 Mana):** Ganhe 1d8 HP Temporário até o próximo descanso longo. Gaste +2 Mana para cada dado extra. Você não precisa comer ou beber por uma semana após beber o sangue de um inimigo morto. |
 | **18** | **Onda de Sangue (Feitiço) (◈◈ \+ 2 Mana):** Uma explosão circular. Todos os inimigos adjacentes sofrem 2d6 necrótico e são empurrados para uma distância “Próximo”. Gaste +2 Mana para cada dado extra. |
 | **19** | **Abominação (Transformação) (◈◈◈ \+ 10 Mana):** Torne-se um monstro por 3 rodadas. Com uma ação de ataque **◈** Você **ataca 2x com garras (2d10 necrótico \+ atributo)**. Com ação livre **◇,** **ganha \+5 HP temporários no início de cada rodada**. Você pode se transformar sem o custo de mana, mas deve fazer um teste de **SAB DC 20 \- Level Atual** ou sucumbir à maldição e se tornar uma abominação descontrolada para sempre. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
@@ -431,7 +431,7 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **5** | **Pele de Ferro (Feitiço)(◈ \+ 2 Mana):** Reduza todo o dano recebido à metade por 1 rodada. |
 | **6** | **Escudo Reluzente (Feitiço) (◈◈ \+ 3 Mana):** Inimigos "Próximo" ficam cegos por 1 rodada. (Desvantagem nos ataques enquanto estiverem na área). |
 | **7** | **Punição (◇ \+ 2 Mana):** Após bloquear um ataque, seu próximo golpe tem Vantagem e causa \+1d6 de dano Físico. |
-| **8** | **Martelo Abençoado (Feitiço)(◈◈ \+ 2 Mana):** Invoque um martelo de luz que gira ao seu redor, causando 1d4 de dano Radiante a quem se aproximar (dura 1d4 rodadas). Gaste +2 Mana para cada dado extra. |
+| **8** | **Martelo Abençoado (Feitiço)(◈◈ \+ 2 Mana):** Invoque um martelo de luz que gira ao seu redor, causando 1d6 de dano Radiante a quem se aproximar (dura 1d4 rodadas). Gaste +2 Mana para cada dado extra. |
 | **9** | **Investida de Corcel (◈ \+ 3 Mana):** Você pode se mover o triplo da distância e ignorar ataques de oportunidade. |
 | **10** | **Esmagar com Escudo (◈ \+ 1 Mana):** Faça ataque de escudo, se acertar, o alvo é derrubado (Prone) automaticamente. |
 | **11** | **Julgamento (Feitiço) (◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Distante" no lugar com correntes sagradas por 1d4 rodada (DC 10 \+ Sabedoria para soltar). |
