@@ -45,13 +45,13 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 * **Armadura:** Leve, Média, Escudos.  
 * **Atributo Principal:** Destreza ou Força.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Mestra de Armas das Ilhas:** \+1 em testes de ataque e dano com armas de haste e arcos.  
 * **Polivalente:** Pode aplicar o modificador de Destreza em ataques com armas de haste.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -74,9 +74,9 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | **19** | **Valkíria (◈◈◈ \+ 3 Mana):** Uma vez por dia, você invoca uma guerreira etérea por 1d4 rodadas. Ela tem status iguais aos seus e ataca junto com você quando você usa uma ação de ataque **◈**. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
-  ### **Dicas**
+### **Dicas**
 
 1. **Munição Simplificada:** Não conte flechas. Use a regra do "Dado de Munição". Comece com um **d12**. Toda vez que a Amazona atirar e tirar "1" no dado de ataque, o dado de munição cai um degrau (d12 → d10 → d8 → d6 → d4). Se tirar 1 no d4, ela ficou sem flechas.  
 2. **O Gancho da Valkíria:** Quando a Valkíria for invocada, use uma miniatura dourada ou translúcida. Ela não tem turno próprio, mas pode atacar o mesmo alvo da Amazona, dando **Vantagem** no ataque  de ambas ou um alvo diferente.  
@@ -105,14 +105,14 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 * **Armadura:** Leve.  
 * **Atributo Principal:** Inteligência.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Dínamo Arcano (◇):** Sempre que você passar num teste de conjuração, você ganha 1 **Carga Arcana**. É um recurso especial que você pode gastar para aumentar o dano de feitiços (+2 por carga).  
 * **Mente Protegida (Passiva):** Você pode usar Inteligência em vez de Destreza para calcular sua Classe de Armadura (AC) enquanto não usar armadura.  
 * **Feitiço Básico:** Role 1d6 para definir seu feitiço inicial.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -135,7 +135,7 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 | **19 (6)** | **Meteoro (Feitiço)(◈◈ \+ 3 Mana por meteoro):** Marque um local na mesa. No próximo turno, um meteoro cai no local e causa 4d10 de força a todos os inimigos adjacentes ao ponto escolhido. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -166,13 +166,13 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 * **Armadura:** Leve, Média.   
 * **Atributo Principal:** Destreza.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Garras Gêmeas:** Se você estiver empunhando duas garras ou adagas, você pode rolar o dano duas vezes e escolher o melhor resultado.  
 * **Cargas de Combo:** Ao acertar um ataque, seu próximo "Finalizador" custa 1 de Mana a menos (cumulativo até 3 cargas).   
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -195,7 +195,7 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **19** | **Bloqueio de Garras (◇ \+ 3 Mana):** Se estiver com duas garras, você pode gastar sua reação para anular um ataque. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -226,13 +226,13 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 * **Armadura:** Leve, Média, Pesada, Escudos.  
 * **Atributo Principal:** Força ou Constituição.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Nervos de Aço:** Enquanto estiver usando apenas armaduras Leves ou nenhuma armadura, você soma o seu modificador de **Constituição** na sua Classe de Armadura (AC).  
 * **Fúria Sanguinária (◇):** Sempre que sofrer dano ou acertar um golpe você pode entrar em Fúria. Você ganha **Vantagem** em ataques e testes físicos (FOR, DES, CON), causa **\+Nível** de dano extra, mas todos os ataques contra você têm **Vantagem**. Ela dura até o final do combate ou você decidir se acalmar.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -255,7 +255,7 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 | **19** | **Chamado dos Antigos (◈◈◈ \+ 6 Mana por Ancestral):** Invoca o espíritos ancestrais para lutar ao seu lado, máximo de 3\. Até o fim do combate, cada Ancestral replica seus ataques corpo a corpo **◈** em um alvo adicional em alcance “Próximo”. Resolva todos os ataques e o dano de você e dos Ancestrais em uma única rolagem. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -286,15 +286,15 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 * **Armadura:** Leve, Média.  
 * **Atributo Principal:** Destreza.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Habilidades de Ódio (Ofensivas):** Ao reduzir um inimigo a 0 PV com uma habilidade de **Ódio**, recupere 1d4 de Mana.  
 * **Habilidades de Disciplina (Defensivas):** Após usar uma habilidade de **Disciplina**, habilidades de **Ódio** custam \-1 Mana (Mínimo de 1).  
 * **Flecha Faminta (Ódio) (◈◈ \+ 2 Mana)**: Dispara uma flecha magicamente imbuída que atravessa inimigos “Próximo”.  
 * **Inimigo Jurado:** Você tem **Vantagem** em ataques contra Demônios e Mortos-vivos.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -317,7 +317,7 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 | **19** | **Chuva de Vingança (◈◈◈ \+ 5 Mana/dado):** Dezenas de flechas caem do céu numa área "Próximo". Causando 3d6 de dano Físico instantaneamente e por mais 1d4 rodadas a todos os inimigos na área.  |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -348,13 +348,13 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 * **Armadura:** Leve, Média, Pesada, Escudos.  
 * **Atributo Principal:** Força ou Constituição.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Mestre da Lança (◈):** Você tem \+1 para atacar com armas de haste. Além disso, você pode fazer um ataque extra com a ponta inversa desse tipo de arma, o dano base é 1d4.   
 * **Sifão de Sangue (◇):** Sempre que você acertar um inimigo ***vivo*** com um ataque corpo a corpo, você recupera 1 de HP.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -377,7 +377,7 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 | **19** | **Abominação (Transformação) (◈◈◈ \+ 10 Mana):** Torne-se um monstro por 3 rodadas. Com uma ação de ataque **◈** Você **ataca 2x com garras (2d10 necrótico \+ atributo)**. Com ação livre **◇,** **ganha \+10 HP temporários no início de cada rodada**. Você pode se transformar sem o custo de mana, mas deve fazer um teste de **SAB DC 20 \- Level Atual** ou sucumbir à maldição e se tornar uma abominação descontrolada para sempre. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -408,14 +408,14 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 * **Armadura:** Leve, Média, Pesada, Escudos.  
 * **Atributo Principal:** Força ou Sabedoria.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Mestre do Escudo:** Enquanto usar um escudo, você ganha \+1 extra na AC e pode usá-lo para atacar (1d4 de dano \+ empurrão).  
 * **Inabalável:** Você tem **Vantagem** em testes de Força para resistir a ser empurrado, derrubado ou movido contra sua vontade.  
 * **Magia Divina:** Caso aprenda feitiços, você usa a **Sabedoria** para conjura-los.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -438,7 +438,7 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **19** | **Campeão de Akarat (◈◈◈ \+ 10 Mana):** Cresça em tamanho e poder. Ganhe um bônus extra igual ao **Atributo Primário** em todos os ataques e danos. Você também regenera **2d10 HP** no início do turno por 1d4 rodadas. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -469,14 +469,14 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 * **Armadura:** Leve, Média, Escudos.  
 * **Atributo Principal:** Sabedoria.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Espírito Animal:** Você tem ***um*** **Lobo ou Corvo Espiritual** (1d4 HP, 1d6 de dano). Você pode tomar ações **◈** com ele usando seus PA durante seu turno (Mover, Atacar, etc). **Ele sempre usa seu atributo primário para testes (d20+Sabedoria)**. Se morrer, você pode gastar **◈ \+ 1 Mana** para trazê lo de volta.  
 * **Transmutar:** Como uma ação **◈ \+ 2 Mana**, role **Sabedoria (DC 15 − Nível\)**. Se passar, mude para a forma de **Lobo** (dobro de movimento e \+1d6 de dano) ou **Urso** (+2 AC e \+5 HP temporários). A forma dura até o fim do combate.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -499,7 +499,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **19** | **Licantropia:** Você pode mudar de forma instantaneamente sem precisar rolar dados. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -531,7 +531,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 * **Armadura:** Leve, Média, Escudos.  
 * **Atributo Principal:** Destreza ou Sabedoria.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Vigor do Espírito (Passiva):** Você tem \+1 para atacar com armas de haste.  
 * **Comunhão com Guardiões (◇):** No início de cada combate, escolha um Guardião para sintonizar. Você ganha o benefício passivo dele até o fim da luta:  
@@ -540,9 +540,9 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
   * **Águia:** Dobra sua distância de movimento.  
   * **Centopeia:** Você recupera 1 de HP sempre que matar um inimigo.
 
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -565,7 +565,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 | **19** | **Golpe Final (◈ \+ 1 Mana por HP):** Consuma sua mana para fazer um golpe que executa automaticamente o inimigo. O alvo deve ter HP restante igual a quantidade de Mana gasta para ser executado. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -596,14 +596,14 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 * **Armadura:** Leve.  
 * **Atributo Principal:** Carisma ou Inteligência.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Mestre das Pragas:** Seus ataques de veneno duram 1 rodada a mais.  
 * **Cães Zumbis:** Você começa o jogo com **dois** Cães Zumbis (1d4 HP cada, CA 11, causam 1d4 de dano). Você pode tomar ações **◈** para agir com todos eles de uma vez usando seus PA durante seu turno (Mover, Atacar, etc). **Eles sempre usam seu atributo primário para testes (d20+Atributo)**. Se morrerem, você pode gastar **◈ \+ 1 Mana por Cão** para trazê los de volta.  
 * **Feitiço Básico:** Role 1d12 para definir seu feitiço inicial.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -626,7 +626,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | **19 (12)** | **Assombração (Feitiço)(◈◈ \+ 5 Mana por dado):** Um espírito persegue um alvo, causando 2d8 de dano necrótico todo turno até o alvo morrer. Se o alvo morrer, o espírito vai para outro inimigo. O espírito dura 1d4+1 rodadas. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -657,13 +657,13 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 * **Armadura:** Leve, Média, Pesada, Escudos.  
 * **Atributo Principal:** Força ou Constituição.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Mestria em Armas:** Escolha um tipo de arma (Espadas, Machados, Maças). Você tem **Vantagem** em ataques com essa arma.  
 * **Reparar Equipamento:** Durante os descansos, você pode reparar armaduras e armas suas e de seus aliados, restaurando a utilidade de itens danificados. Adicionalmente, você concede \+1 de AC ou \+1 Ataque com Armas. Esse bônus dura 1d4 combates.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -686,7 +686,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **19** | **Líder de Batalha (Passiva):** Aliados "Próximo" têm Vantagem em testes para não fugirem (Moral). |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -718,14 +718,14 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 * **Armadura:** Leve.  
 * **Atributo Principal:** Inteligência.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Afinidade Elemental:** No nível 1, escolha um elemento (Fogo, Gelo ou Raio). Você tem **Vantagem** para conjurar feitiços desse elemento.  
 * **Sobrecarga Sanguínea:** Se falhar num teste de conjuração, você pode escolher sofrer **1d4 de dano por ponto** necessário para alcançar o DC e passar no teste.  
 * **Feitiço Básico:** Role 1d10 para definir seu feitiço inicial.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -748,7 +748,7 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | **19** | **Mestria Elemental (Passivo):** Seus dados de dano mágico "explodem". Para cada dado que rolar e tirar o valor máximo, você pode rolar um dado extra e somar ao dano do feitiço. O número de explosões é ilimitado. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -780,15 +780,15 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 * **Armadura:** Leve.  
 * **Atributo Principal:** Destreza ou Sabedoria.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Punhos de Ferro:** Seus ataques desarmados causam 1d6 de dano e são considerados armas mágicas.  
 * **Defesa Iluminada:** Enquanto não usar armaduras médias, pesadas ou escudo, sua AC é **10 \+ Mod. de Destreza \+ Mod. de Sabedoria**.  
 * **Espírito em Fluxo:** Você ganha 1 de Mana sempre que acertar um ataque (limite de ganho por turno igual ao seu Modificador de Sabedoria).   
 * **Alcance Mortal (◈ \+):** Gaste 1 Espírito e lance um projétil de força em direção a inimigos perto. Para cada 1 Espírito adicional, lance um projétil extra. Se lançar 3 projéteis, durante um turno, em um mesmo inimigo, o alvo é arremessado para longe.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -811,7 +811,7 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 | **19** | **Aliado Místico (◈ \+ 4 Mana) :** Invoca uma cópia espiritual que luta ao seu lado por 1d4 rodadas. Ela tem suas estatísticas, mas não suas habilidades especiais. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -843,14 +843,14 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 * **Armadura:** Leve, Média .  
 * **Atributo Principal:** Inteligência ou Sabedoria.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **O Comandante da Horda:** Você pode controlar um número de esqueletos igual ao seu **Modificador de Inteligência \+ Nível**. Eles têm CA 10, **HP \= Nível** e causam **1d4** de dano por esqueleto. Você pode tomar ações **◈** para agir com todos eles de uma vez usando seus PA durante seu turno (Mover, Atacar, etc). **Eles sempre usam seu atributo primário para testes (d20+Atributo)**. Eles duram até zerar o HP.  
 * **Levantar Mortos (Feitiço) (◈ \+ 1 Mana):** Como uma ação, role **Atributo** para erguer esqueletos de cadáveres próximos. Se passar, você ergue 1d4 esqueletos de uma vez (até o seu limite).  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -873,7 +873,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **19 (8)** | **Reviver (Feitiço)(◈◈◈ \+ 3 Mana por Monstro):** Ressuscite um monstro morto para lutar por você por 3 rodadas. Ao final das rodadas não é possível ressuscitá-lo novamente. Use os atributos fornecidos pelo Mestre. Não é possível ressuscitar Bosses. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -905,16 +905,16 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 * **Armadura:** Leve, Média, Pesada, Escudos.  
 * **Atributo Principal:** Força ou Carisma.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Auras de Zakarum:** No seu turno, escolha uma Aura ativa com uma ação (◈). O efeito afeta você e todos os aliados "Próximo". Você só pode ter uma aura ativa por vez. A aura dura até ser trocada.  
   * *Fanatismo:* \+1 em testes de ataque corpo a corpo.  
   * *Resistência:* \+1 na Classe de Armadura (AC).  
 * **Golpe Sagrado (Smite)(◇ \+ 1 Mana):** Ao acertar um ataque, adicione seu **Nível** como dano Radiante extra.  
 * **Magia Divina:** Caso aprenda feitiços, você usa o **Carisma** para conjurá-los.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -937,7 +937,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | **19** | **Avatar da Justiça (◈◈◈ \+ 8 Mana) :** Você canaliza a luz divina pura através de seu corpo, tornando-se um receptáculo de julgamento por 1d4 rodadas. Você torna-se **imune** a efeitos de controle. Todos os inimigos que começarem o turno "Próximo" de você sofrem **1d10** de dano radiante automático. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -973,13 +973,13 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 * **Armadura:** Leve.  
 * **Atributo Principal:** Destreza e Inteligência
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Ataque Furtivo (⟁ \+ 0 Mana):** Uma vez por rodada, cause \+1d6 de dano extra se você tiver **Vantagem** no ataque ou se o inimigo estiver adjacente a um aliado.  
 * **Imbuimento Rápido (◈ \+ 1 Mana):** Como uma ação ◈,  você pode imbuir sua arma com 1d4 de dano de **Veneno** ou **Sombras** (Necrótico). O efeito dura até o próximo ataque bem-sucedido.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -1002,7 +1002,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | **19** | **Mestra da Fuga (Armadilha)(⟁ \+ 5 Mana):** Se for cair para 0 HP, você usa uma bomba de fumaça e se move para "Distante" com 1 HP. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -1034,16 +1034,16 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 * **Armadura:** Leve, Média, Escudos.  
 * **Atributo Principal:** Sabedoria.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Pontos de Fé:** Você possui uma reserva de poder espiritual. Seu máximo é igual ao seu **Nível \+ Modificador de Sabedoria**. Você sempre começa encontros sem fé.  
   * Oração ◈◈ \- Você pode gastar duas ações para recuperar 1d4 pontos de fé no seu turno.  
 * **Oração Purificadora (◈):** Gaste 1 Ponto de Fé (sem rolar dados) para curar 1d6 de HP de um aliado "Próximo" ou causar 1d6 de dano Radiante em inimigos.  
 * **Voto de Castidade (Passiva):** Se você não usar armas de metal ou armaduras, você ganha **Vantagem** em todos os testes de conjuração de magias sagradas.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
@@ -1066,7 +1066,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | **19** | **Avatar da Luz (◈ \+ 5 Mana):** Torne-se um ser radiante por 3 rodadas. Suas orações não custam Pontos de Fé. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
-  ---
+---
 
 ### **Dicas**
 
@@ -1098,7 +1098,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 * **Armadura:** Leve, Média.  
 * **Atributo Principal:** Inteligência ou Carisma.
 
-  ### **Habilidades de Classe**
+### **Habilidades de Classe**
 
 * **Ligação Demoníaca (◈ \+ 2 Mana):** Você pode conjurar demônios para lutar ao seu lado. Você pode ter um de cada demônio ao mesmo tempo. Eles têm HP igual a seu **Modificador de Inteligência \+ Nível**. Você pode tomar ações **◈** para agir com todos eles de uma vez usando seus PA durante seu turno (Mover, Atacar, etc). **Eles sempre usam seu atributo primário para testes (d20+Atributo)**. Eles duram até zerar o HP.  
   * **Sumonar Homem Cabra (Feitiço)(◈ \+ 1 Mana) \-** O mais básico dos demônios, CA 10, causa 1d6 de dano e pode **Empurrar** com uma ação de ataque **◈.**  
@@ -1108,9 +1108,9 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
   * Você pode usar inteligência ou carisma nos ataques com sua arma flutuante.  
   * Você pode equipar outras 2 armas nos slots restantes.  
 * **Feitiço Básico:** Role 1d10 para definir seu feitiço inicial.  
-  ---
+---
 
-  ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
