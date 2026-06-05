@@ -41,14 +41,40 @@ Gerado para calibrar statblocks de criaturas. Atualizar se os Dados de Vida das 
 
 ---
 
-## Dano Médio por Turno *(estimativa, nível 1, 3 AP, 1–2 ataques)*
+## Dano Médio por Turno por Classe *(3 PA, dano sustentável — exclui novas de alto custo)*
 
-| Perfil | Arma típica | Dano/ataque | Total estimado |
+> **Premissas:** Mod. primário +3 (Nv 1–3) → +4 (Nv 5–7) → +5 (Nv 10). Dano "sustentável" = saída realista sem queimar toda a Mana. Inclui habilidade de classe core se o custo de Mana for acessível. ✝ Necromante e Feiticeiro incluem contribuição dos lacaios (horda saudável).
+
+| Classe | Fonte Principal | Nv 1 | Nv 3 | Nv 5 | Nv 7 | Nv 10 |
+|---|---|---|---|---|---|---|
+| Amazona | Arco/Lança 1d8+DEX; Jab 3×1d4 (1 Mana) | 7–9 | 8–10 | 12–14 | 14–17 | 16–20 |
+| Arcanista | Mísseis Arcanos 3×1d4 Arcano + Dínamo (+2/carga) | 7–10 | 10–13 | 13–17 | 16–21 | 20–27 |
+| Assassina | Garras 1d6+DEX (rolar 2×, melhor) + armadilhas | 8–10 | 10–12 | 12–15 | 13–17 | 16–21 |
+| Bárbaro | 1d12+FOR + Fúria +Nível (Vantagem em ataques) | 9–11 | 12–15 | 16–19 | 19–23 | 23–28 |
+| Caçador de Demônios | Arco 1d8+DEX + Sentinela 1d6 Físico/turno | 10–12 | 12–15 | 14–18 | 16–21 | 19–25 |
+| Cavaleiro de Sangue | Lança 1d8+FOR + ponta inversa 1d4 Físico | 9–11 | 11–13 | 13–16 | 15–19 | 18–23 |
+| Cruzado | 1d8+FOR + Escudo 1d4; Fúria Sagrada +2d6 Rad | 9–11 | 12–15 | 16–21 | 19–25 | 23–30 |
+| Druida | Lobo: 1d8+1d6+SAB + Espírito Animal 1d6 | 8–10 | 10–13 | 13–16 | 15–19 | 18–23 |
+| Feiticeiro ✝ | Feitiços de área + Cães Zumbis 2×1d4 auto | 9–11 | 11–14 | 13–17 | 15–19 | 17–23 |
+| Guerreiro | 1d10+FOR (Vantagem/Mestria) + Golpe de Sangue +1d8 | 8–11 | 10–13 | 13–17 | 15–21 | 18–25 |
+| Mago | Seta Elétrica 3×(1d4+1) Relâmpago; Cadeia de Raios | 10–12 | 12–15 | 14–18 | 16–21 | 20–26 |
+| Monge | Punhos 1d6+DEX/SAB; Onda de Luz 2d6 Rad (Espírito) | 7–9 | 10–12 | 12–15 | 14–18 | 18–24 |
+| Natispirito | Haste 1d8+DEX (+1 Vigor); Garras do Jaguar (atq extra) | 8–10 | 11–13 | 13–16 | 15–19 | 18–23 |
+| Necromante ✝ | Horda ×(Nível+Mod INT) lacaios 1d4; Lança de Osso 1d8 | 8–12 | 13–18 | 18–26 | 23–33 | 30–45 |
+| Paladino | 1d8+FOR + Golpe Sagrado +Nível Rad (1 Mana) | 8–10 | 10–13 | 13–17 | 16–22 | 21–27 |
+| Renegada | 1d6+DEX + Ataque Furtivo +1d6; Imbuimento 1d4 | 10–12 | 12–14 | 14–17 | 16–21 | 19–25 |
+| Sacerdote | Oração 1d6 Rad/Fé; Chamas Sagradas +1d6 Rad (talento) | 5–7 | 7–9 | 9–12 | 11–15 | 14–18 |
+| Warlock | Arma flutuante INT/CAR + Homem Cabra 1d6 Físico | 9–11 | 12–14 | 14–18 | 17–22 | 21–27 |
+
+*✝ Necromante: dano distribuído entre lacaios (escala agressivamente com Maestria de Esqueletos). Feiticeiro: cães têm 1d4 HP — frágeis, requerem reposição.*
+
+**Referência rápida por tier de ameaça:**
+
+| Tier | Nível | Faixa de DPT típica | Outlier alto |
 |---|---|---|---|
-| Caster puro (Arcanista, Mago) | Feitiço 1d6 | 3–4 | 5–8 |
-| Arqueiro/Rogue (Caçador, Amazona) | Besta/Arco 1d8 | 4–5 | 6–10 |
-| Guerreiro médio (Guerreiro, Monge) | 1d8+2 | 6–7 | 8–14 |
-| Guerreiro pesado (Bárbaro, Cruzado) | 1d10+3 ou 1d12+3 | 8–10 | 10–18 |
+| Iniciante | 1 | 7–12 | Necromante / Mago (10–12) |
+| Intermediário | 3–5 | 10–21 | Bárbaro em Fúria / Cruzado com Fúria Sagrada |
+| Avançado | 7–10 | 14–45 | Necromante (horda) / Bárbaro (Fúria +Nível) |
 
 ---
 
