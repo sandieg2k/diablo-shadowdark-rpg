@@ -313,7 +313,7 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 | **8** | **Cortina de Fumaça (Disciplina) (◈ \+ 1 Mana):** Invisível por 1 rodada ou até atacar. |
 | **9** | **Sentinela (Ódio) (◈ \+ 1 Mana):** Coloque um sentinela. Ele atira automaticamente no inimigo mais próximo 1d6 de dano Físico. Gaste +1 Mana para cada dado extra. |
 | **10** | **Flecha de Fragmentação (Ódio) (◈◈ \+ 2 Mana):** O projétil causa dano da arma \+ 1d8 de dano de Fogo em área "Próximo". Gaste +2 Mana para cada dado extra. |
-| **11** | **Companheiro Animal (Ódio) (◈ \+ 3 Mana):** Invoca um companheiro animal. **Companheiro:** CA 12 · HP = Nível + 2 · Dano: 1d6 Físico. Age no seu turno com ◈. Dura até zerar o HP. |
+| **11** | **Companheiro Animal (Ódio) (◈ \+ 3 Mana):** Invoca um companheiro animal. **Companheiro:** CA 13 · HP = máx(5, Nível×2) · Dano: 1d6 Físico. Age no seu turno com ◈. Dura até zerar o HP. |
 | **12** | **Poder das Sombras (Disciplina) (◈◈ \+ 2 Mana):** Por 3 rodadas, recupera 1 HP sempre que causar dano.  |
 | **13** | **Armadilha de Estacas (Disciplina) (◈◈ \+ 3 Mana):** Criar uma armadilha em baixo do alvo, ele sofre 2d6 de dano Físico e para de andar até o início do seu próximo turno. Gaste +3 Mana para cada dado extra. |
 | **14** | **Tiro Rápido (Ódio) (◈ \+ 2 Mana):** Mova-se e faça dois ataques à distância.  |
@@ -478,7 +478,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 
 ### **Habilidades de Classe**
 
-* **Espírito Animal:** Você tem ***um*** Lobo ou Corvo Espiritual. Use ◈ para agir com ele durante seu turno (Mover, Atacar). Usa SAB nos testes. Se morrer, gaste ◈ + 1 Mana para trazê-lo de volta. **Espírito Animal:** CA 12 · HP 1d4 · Dano: 1d6 Físico  
+* **Espírito Animal:** Você tem ***um*** Lobo ou Corvo Espiritual. Use ◈ para agir com ele durante seu turno (Mover, Atacar). Usa SAB nos testes. Se morrer, gaste ◈ + 1 Mana para trazê-lo de volta. **Espírito Animal:** CA 13 · HP = máx(5, Nível×2) · Dano: 1d6 Físico  
 * **Transmutar:** Como uma ação **◈ \+ 2 Mana**, role **Sabedoria (DC 15 − Nível\)**. Se passar, mude para a forma de **Lobo** (dobro de movimento e \+1d6 de dano Físico) ou **Urso** (+2 AC e \+5 HP temporários). A forma dura até o fim do combate.  
 * **Licantropia (Passiva):** A partir do nível 5, você pode usar Transmutar sem rolar dados.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
@@ -502,7 +502,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **14 (5)** | **Fissura (Feitiço)(◈ \+ 2 Mana):** Abre uma fenda no chão “Próximo”. Inimigos na área sofrem 1d6 de fogo por turno. Gaste +2 Mana para cada dado extra. A fenda dura 1d4 rodadas. |
 | **15 (6)** | **Furacão (Feitiço) (◈ \+ 2 Mana):** Crie um Furacão poderoso em até um ponto “Distante”. Inimigos que começarem o turno “Próximo” do Furacão sofrem 2d6 de dano físico. Gaste +2 Mana para cada dado extra. |
 | **16 (7)** | **Vinha Venenosa (Feitiço) (◈◈ \+ 2 Mana por inimigo):** Uma planta surge do chão e imobiliza um inimigo por 1d4 rodadas. |
-| **17** | **Chamado do Urso Pardo (◈◈ \+ 3 Mana):** Invoca um Urso Espiritual no lugar do Lobo e Corvo. **Urso Espiritual:** CA 14 · HP 10 · Dano: 1d10 Físico. Dura até zerar o HP. |
+| **17** | **Chamado do Urso Pardo (◈◈ \+ 3 Mana):** Invoca um Urso Espiritual no lugar do Lobo e Corvo. **Urso Espiritual:** CA 15 · HP = máx(10, Nível×3) · Dano: 1d10 Físico. Dura até zerar o HP. |
 | **18 (8)** | **Erupção (Feitiço) (◈◈ \+ 3 Mana):** O chão explode em lava. Dano 3d10 em toda área “Próximo” de um ponto que você escolher. Gaste +3 Mana para cada dado extra. |
 | **19** | **Armagedão (◈◈◈ \+ 8 Mana):** Você chama os céus contra seus inimigos. Por 1d4 rodadas, meteoros de fogo caem sobre todos os inimigos em área "Próximo", causando **2d10 de dano Fogo** por rodada. Inimigos na área devem fazer um teste de CON (DC 10 \+ SAB) ou ficarem atordoados por 1 rodada. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
@@ -607,7 +607,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 ### **Habilidades de Classe**
 
 * **Mestre das Pragas:** Seus ataques de veneno duram 1 rodada a mais.  
-* **Cães Zumbis:** Você começa o jogo com **dois** Cães Zumbis. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam CAR nos testes. Se morrerem, gaste ◈ + 1 Mana por Cão para trazê-los de volta. **Cão Zumbi:** CA 11 · HP 1d4 · Dano: 1d4 Físico  
+* **Cães Zumbis:** Você começa o jogo com **dois** Cães Zumbis. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam CAR nos testes. Se morrerem, gaste ◈ + 1 Mana por Cão para trazê-los de volta. **Cão Zumbi:** CA 12 · HP = máx(1, Nível) · Dano: 1d4 Físico  
 * **Feitiço Básico:** Role 1d12 para definir seu feitiço inicial.  
 ---
 
@@ -623,11 +623,11 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | **8 (4)** | **Caminhada do Espírito (Feitiço)(◈ \+ 3 Mana):** Fique invisível e etéreo por 1d4 rodadas. Você não sofre dano físico nessa forma. |
 | **9 (5)** | **Invasão de Sapos (Feitiço)(◈ \+ 1 Mana):** Uma horda de sapos explosivos cobre o chão causando 1d6 de dano de veneno. Gaste +1 Mana para cada dado extra. A área é de terreno difícil e dura 1d4 Rodadas. |
 | **10** | **Sacrifício (◈ \+ 1 Mana por Cão):** Você explode seus Cães Zumbis. Cada cão causa 1d8 de dano necrótico a criaturas adjacentes. |
-| **11** | **Gargântua (◈ \+ 5 Mana):** No lugar de um dos Cães, invoca 1 Gargântua. **Gargântua:** CA 12 · HP 20 · Dano: 2d8 Físico. Dura até zerar o HP. |
+| **11** | **Gargântua (◈ \+ 5 Mana):** No lugar de um dos Cães, invoca 1 Gargântua. **Gargântua:** CA 15 · HP = máx(10, Nível×3) · Dano: 2d8 Físico. Dura até zerar o HP. |
 | **12 (6)** | **Aterrorizar (Feitiço) (◈ \+ 1 Mana por inimigo):** Você usa sua máscara para gritar. Inimigos "Próximo" fogem por 1d4 rodada. |
 | **13 (7)** | **Zumbis Suicidas (Feitiço)(◈ \+ 1 Mana):** Uma fila de zumbis corre e explode no primeiro alvo. Dano 2d6 Necrótico. Gaste +1 Mana para cada dado extra. |
 | **14 (8)** | **Piranhas (Feitiço)(◈◈ \+ 2 Mana):** Cria uma poça de água que causa 2d8 de dano de veneno durante 1d4 rodadas. Gaste +2 Mana para cada dado extra. Quem estiver na área sofre um dano extra de 1d4 de todas as fontes (ataques, feitiços, etc). |
-| **15** | **Exército de Fetiche (◈◈◈ \+ 1 Mana por Pigmeu):** Invoca pigmeus com adagas para lutar ao seu lado. Duram 1 combate. **Pigmeu:** CA 13 · HP 1d4 · Dano: 1d4 Físico |
+| **15** | **Exército de Fetiche (◈◈◈ \+ 1 Mana por Pigmeu):** Invoca pigmeus com adagas para lutar ao seu lado. Duram 1 combate. **Pigmeu:** CA 13 · HP = máx(1, Nível) · Dano: 1d4 Físico |
 | **16 (9)** | **Vudu Maluco (Feitiço)(◈◈ \+ 1 Mana por Rodada):** Uma estátua que dá **Vantagem** em ataques para todos os aliados "Próximo" dela. Dura 1 Rodada. |
 | **17 (10)** | **Parede de Zumbis (Feitiço)(◈◈ \+ 2 Mana):** Cria uma barreira física de corpos na mesa por 1d4 rodadas. Inimigos perto da parede sofrem 1d8 de dano físico. Gaste +2 Mana para cada dado extra. **Extra:** Pode gastar \+1 Mana para mudar o tipo de dano para Fogo, Gelo ou Veneno. |
 | **18 (11)** | **Colheita de Almas (Feitiço)(◈ \+ 2 Mana por Inimigo):** Drene a inteligência de até 5 inimigos próximos. Ganhe \+2 para conjurar, por inimigo, durante 3 rodadas. |
@@ -854,7 +854,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 
 ### **Habilidades de Classe**
 
-* **O Comandante da Horda:** Você controla até **Mod. INT + Nível** esqueletos. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam INT nos testes. Duram até zerar o HP. **Esqueleto:** CA 10 · HP = Nível · Dano: 1d4 Físico  
+* **O Comandante da Horda:** Você controla até **Mod. INT + Nível** esqueletos. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam INT nos testes. Duram até zerar o HP. **Esqueleto:** CA 12 · HP = Nível · Dano: 1d4 Físico  
 * **Levantar Mortos (Feitiço) (◈ \+ 1 Mana):** Como uma ação, role **Atributo** para erguer esqueletos de cadáveres próximos. Se passar, você ergue 1d4 esqueletos de uma vez (até o seu limite).  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
 ---
@@ -870,7 +870,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **7** | **Armadura de Ossos (Passivo):** Ganhe \+3 na AC enquanto tiver pelo menos 3 esqueletos ativos. |
 | **8** | **Maldizer (Passivo):** Inimigos "Próximo" sofrem \+2 de dano de todos os ataques. |
 | **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana):** Causa 1d6 de dano necrótico a um alvo e você recupera a mesma quantia em HP. Gaste +2 Mana para cada dado extra. |
-| **10** | **Golem de Argila (◈ \+ 3 Mana):** Em vez de 3 esqueletos, invoca 1 Golem. **Golem:** CA 15 · HP 15 · Dano: 1d8 Físico. Dura até zerar o HP. |
+| **10** | **Golem de Argila (◈ \+ 3 Mana):** Em vez de 3 esqueletos, invoca 1 Golem. **Golem:** CA 15 · HP = máx(10, Nível×3) · Dano: 1d8 Físico. Dura até zerar o HP. |
 | **11** | **Dama de Ferro (⟁ \+ 1 Mana):** Inimigos que baterem nos seus esqueletos sofrem 1d4 de dano Físico de volta. |
 | **12** | **Sifão de Sangue (⟁ \+ 1 Mana):** Quando um inimigo morre "Próximo", você recupera 1d4 de HP. |
 | **13 (4)** | **Espírito de Ossos (Feitiço)(◈ \+ 3 Mana):** Dispara um espírito que atravessa um alvo. Dano 2d10 Necrótico. Gaste +3 Mana para cada dado extra. |
@@ -878,7 +878,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **15 (6)** | **Terror (Feitiço)(◈ \+ 1 Mana por inimigo):** Inimigos "Próximo" devem fugir de você por 1d4 rodadas. |
 | **16** | **Maestria de Esqueletos (Passivo):** Todos os seus lacaios agora têm \+5 HP e \+2 de CA (fixo). O dano deles aumenta em \+1 por faixa de 3 níveis: **+1 (Nv 4) · +2 (Nv 7) · +3 (Nv 10)**. |
 | **17 (7)** | **Escudo de Almas (Feitiço)(⟁ \+ 2 Mana):** Se você ficar com HP 0, você conjura um feitiço para um esqueleto morrer no seu lugar e você ficar com 1 HP. |
-| **18** | **Mago Esqueleto (◈ \+ 2 Mana):** Em vez de 2 Esqueletos, invoca 1 Esqueleto Mago. **Esqueleto Mago:** CA 12 · HP = Nível · Dano: 1d8 (Fogo, Gelo, Relâmpago ou Necrótico) · Alcance: Próximo. Dura até zerar o HP. |
+| **18** | **Mago Esqueleto (◈ \+ 2 Mana):** Em vez de 2 Esqueletos, invoca 1 Esqueleto Mago. **Esqueleto Mago:** CA 12 · HP = Nível · Dano: 1d8 Fogo, Gelo, Relâmpago ou Necrótico · Alcance: Próximo. Dura até zerar o HP. |
 | **19 (8)** | **Reviver (Feitiço)(◈◈◈ \+ 3 Mana):** Ressuscita um monstro morto para lutar ao seu lado por 3 rodadas. Usa os atributos do Mestre. Não pode ser usado em Bosses. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -1109,7 +1109,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 ### **Habilidades de Classe**
 
 * **Ligação Demoníaca:** Você pode conjurar demônios para lutar ao seu lado. Um de cada tipo. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam INT nos testes. Duram até zerar o HP.  
-  * **Sumonar Homem Cabra (◈ \+ 1 Mana):** **Homem Cabra:** CA 10 · HP = Mod. INT + Nível · Dano: 1d6 Físico. Pode **Empurrar** com ◈.  
+  * **Sumonar Homem Cabra (◈ \+ 1 Mana):** **Homem Cabra:** CA 13 · HP = máx(5, Nível×2) · Dano: 1d6 Físico. Pode **Empurrar** com ◈.  
 * **Pacto de Sangue (◈):** Você pode usar uma **Ação** para sacrificar **1d6** HP para recuperar **1d4** de Mana.  
 * **Mestre das Maldições (Passiva):** Inimigos sob efeito de suas maldições concedem **Vantagem** para aliados que os atacam corpo a corpo.  
 * **Mestre da Levitação (Passiva):** Você pode levitar sua arma na mão direita com a mente.  
@@ -1126,8 +1126,8 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de lacaios. |
 | **5** | **Maestria Demoníaca (Passivo):** Seus demônios ganham HP dobrado (Mod. INT × 2 + Nível), +1 zona de movimento e +1d6 de dano. |
 | **6 (1)** | **Marca da Morte (Feitiço) (◈ \+ 1 Mana por demônio):** Teleporta seus demônios para um inimigo perto e os permite fazer um ataque. |
-| **7 (2)** | **Sumonar Corrompido (Feitiço)(◈ \+ 3 Mana):** Conjura um demônio reptiliano. **Corrompido:** CA 15 · HP = Mod. INT + Nível · Dano: 2d6 Fogo · RD 5 Fogo. Dura até zerar o HP. |
-| **8 (3)** | **Sumonar Profanador (Feitiço)(◈ \+ 3 Mana por inimigo):** Conjura um demônio de carne flutuante. **Profanador:** CA 12 · HP = Mod. INT + Nível. Enquanto estiver vivo, vincula o HP dos inimigos alvo — todos sofrem o mesmo dano que qualquer um deles receber. |
+| **7 (2)** | **Sumonar Corrompido (Feitiço)(◈ \+ 3 Mana):** Conjura um demônio reptiliano. **Corrompido:** CA 15 · HP = máx(10, Nível×3) · Dano: 2d6 Fogo · RD 5 Fogo. Dura até zerar o HP. |
+| **8 (3)** | **Sumonar Profanador (Feitiço)(◈ \+ 3 Mana por inimigo):** Conjura um demônio de carne flutuante. **Profanador:** CA 15 · HP = máx(10, Nível×3). Enquanto estiver vivo, vincula o HP dos inimigos alvo — todos sofrem o mesmo dano que qualquer um deles receber. |
 | **9 (4)** | **Ferver Sangue (Feitiço)(◈ \+ 1 Mana por 5 HP):** Você consome 5 HP de um dos seus demônios para causar 1d8 de dano de fogo a inimigos adjacentes. |
 | **10 (5)** | **Engordar (Feitiço)(◈ \+ 1 Mana):** Seu Demônio consome um cadáver conjurado e cura 1d4 HP. |
 | **11 (6)** | **Consumir (Feitiço)(◈ \+ 1 Mana):** Sacrifique um de seus demônios para se curar. Você recupera HP igual ao total quando conjurar essa habilidade. |
