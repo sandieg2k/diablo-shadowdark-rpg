@@ -652,7 +652,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 | Algoz | 30 | 15 | +5 | 2d10+3 Físico (machado gigante) | Próximo | 3 |
 
 **Súcubo — Sedução** (◈◈): Alvo faz Salvaguarda de Sabedoria DC 14 ou fica Encantado (não ataca o Súcubo; deve se aproximar). Cancelado por dano.
-**Súcubo — Forma Verdadeira:** Quando atingido por dano sagrado, revela a forma demônica — perde Sedução mas ganha +2 em ataques e +1d6 de dano pelos próximos 2 turnos.
+**Súcubo — Forma Verdadeira:** Quando atingido por dano Radiante, revela a forma demônica — perde Sedução mas ganha +2 em ataques e +1d6 de dano pelos próximos 2 turnos.
 
 **Algoz — Execução:** Ataques contra alvos com menos de 10 PV causam dano máximo automaticamente.
 **Algoz — RD 3 contra dano físico.**

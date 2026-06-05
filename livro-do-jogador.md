@@ -1081,7 +1081,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 10 | **Poder Bruto** | Uma vez por combate, dobre o dado de dano de um feitiço (gaste 4 Mana extra). |
 | 11 | **Catalisador Natural** | Você não precisa de um catalisador físico para conjurar — suas mãos servem como foco. Se sua arma já tiver a propriedade Foco Mágico, ganhe +1 adicional nos testes de conjuração. |
 | 12 | **Mente de Ferro** | Seu Mana máximo não pode ser reduzido por efeitos externos (ex: Drenagem Vital da Malfunção). |
-| 13 | **Explosão de Burnout** | Ao entrar em Burnout (Mana 0), cause 2d6 de dano de força em todos os adjacentes como ⟁. |
+| 13 | **Explosão de Burnout** | Ao entrar em Burnout (Mana 0), cause 2d6 de dano Arcano em todos os adjacentes como ⟁. |
 | 14 | **Absorção Mágica** | Ao sofrer dano de magia, recupere 1 Mana para cada 5 pontos de dano recebido. |
 | 15 | **Conjurador Rápido** | Uma vez por combate, conjure um feitiço de ◈◈ como ◈ (gaste 2 Mana extra). |
 | 16 | **Maestria na Falha** | Ao rolar 1 Natural numa conjuração, gaste 5 Mana para ignorar a Malfunção Mágica. |

@@ -869,7 +869,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **15 (6)** | **Terror (Feitiço)(◈ \+ 1 Mana por inimigo):** Inimigos "Próximo" devem fugir de você por 1d4 rodadas. |
 | **16** | **Maestria de Esqueletos (Passivo):** Todos os seus lacaios agora tem \+5HP, \+1 de CA por nível de personagem e causam \+1 de dano por nível de personagem. |
 | **17 (7)** | **Escudo de Almas (Feitiço)(⟁ \+ 2 Mana):** Se você ficar com HP 0, você conjura um feitiço para um esqueleto morrer no seu lugar e você ficar com 1 HP. |
-| **18** | **Mago Esqueleto (◈ \+ 2 Mana por Esqueleto):** Em vez de 2 Esqueletos, você invoca 1 Esqueleto Mago (1 HP, CA 12, 1d8 dano fogo, gelo, elétrico ou necrótico perto). |
+| **18** | **Mago Esqueleto (◈ \+ 2 Mana por Esqueleto):** Em vez de 2 Esqueletos, você invoca 1 Esqueleto Mago (1 HP, CA 12, 1d8 dano Fogo, Gelo, Relâmpago ou Necrótico perto). |
 | **19 (8)** | **Reviver (Feitiço)(◈◈◈ \+ 3 Mana por Monstro):** Ressuscite um monstro morto para lutar por você por 3 rodadas. Ao final das rodadas não é possível ressuscitá-lo novamente. Use os atributos fornecidos pelo Mestre. Não é possível ressuscitar Bosses. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -1079,7 +1079,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
-| **1** | **O Relicário Perdido:** Localizar uma relíquia sagrada em uma catedral em ruínas e devolvê-la a um altar ativo. | **Chama da Penitência:** Se você fizer apenas um ataque (arma ou magia) no seu turno, o alvo sofre **\+1d8** de dano sagrado e fica **Cego** até o fim do próximo turno dele. |
+| **1** | **O Relicário Perdido:** Localizar uma relíquia sagrada em uma catedral em ruínas e devolvê-la a um altar ativo. | **Chama da Penitência:** Se você fizer apenas um ataque (arma ou magia) no seu turno, o alvo sofre **\+1d8** de dano Radiante e fica **Cego** até o fim do próximo turno dele. |
 | **2** | **Santificar o Abismo:** Realizar um ritual de purificação em um local onde um massacre ocorreu, impedindo que os mortos se ergam. | **Aura de Proteção:** Enquanto você estiver consciente, aliados perto de você ganham **\+2 de bônus na CA**. |
 | **3** | **O Último Alento:** Encontrar um herói moribundo no ermo e garantir que ele receba os ritos finais para que sua alma não seja corrompida. | **Intervenção Divina:** Uma vez por descanso, quando um aliado a até 9 metros cair para 0 PV, você pode usar sua Reação para que ele fique com **1 PV** em vez disso. |
 | **4** | **Peregrinação do Flagelo:** Atravessar uma zona de corrupção extrema (como um pântano de peste) sem utilizar magias de proteção. | **Corpo Santificado:** Você ganha **RD 5** contra dano necrótico e de veneno permanentemente. |
