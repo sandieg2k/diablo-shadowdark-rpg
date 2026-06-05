@@ -217,31 +217,34 @@ Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-ta
 | d100 | Item | Dano Sugerido | Preço (PO) |
 | :---- | :---- | :---- | :---- |
 | **40** | Porrete (Club) | 1d4 | 1 |
-| **41** | Foice (Sickle) | 1d4 | 1 |
-| **42-43** | Lança (Spear) | 1d6 | 1 |
-| **44** | Bordão (Staff) | 1d6 | 1 |
-| **45** | Adaga (Dagger) | 1d4 | 1 |
-| **46-47** | Maça Grande | 1d8 | 2 |
-| **48** | Azagaia (Javelin) | 1d6 | 2 |
-| **49** | Martelo Leve | 1d4 | 2 |
-| **50-51** | Machadinha | 1d6 | 5 |
-| **52** | Maça (Mace) | 1d6 | 5 |
-| **53** | Pica (Pike) | 1d10 | 5 |
-| **54** | Tridente | 1d6 | 5 |
-| **55** | Picareta de Guerra | 1d8 | 5 |
-| **56** | Machado de Batalha | 1d8 | 10 |
-| **57-58** | Mangual (Flail) | 1d8 | 10 |
-| **59** | Lança de Montaria | 1d12 | 10 |
-| **60** | Malho (Maul) | 2d6 | 10 |
-| **61-62** | Espada Curta | 1d6 | 10 |
-| **63** | Espada Longa | 1d8 | 15 |
-| **64** | Estrela da Manhã | 1d8 | 15 |
-| **65-66** | Martelo de Guerra | 1d8 | 15 |
-| **67** | Glaive | 1d10 | 20 |
-| **68** | Alabarda | 1d10 | 20 |
-| **69-70** | Rapieira | 1d8 | 25 |
-| **71** | Cimitarra | 1d6 | 25 |
-| **72-75** | Machado Grande | 1d12 | 30 |
+| **41** | Foice (Sickle) | 1d4 | 2 |
+| **42** | Adaga | 1d4 | 1 |
+| **43** | Martelo Leve | 1d4 | 2 |
+| **44-45** | Lança | 1d8 | 4 |
+| **46** | Cajado | 1d6 | 5 |
+| **47** | Azagaia (Javelin) | 1d6 | 1 |
+| **48** | Machado de Mão | 1d6 | 2 |
+| **49** | Cimitarra | 1d6 | 8 |
+| **50** | Maça | 1d6 | 5 |
+| **51** | Tridente | 1d6 | 5 |
+| **52** | Cestus / Punho | 1d6 | 3 |
+| **53** | Picareta de Guerra | 1d8 | 10 |
+| **54** | Espada Curta | 1d6 | 7 |
+| **55-56** | Espada Longa | 1d8 | 10 |
+| **57** | Maça Grande | 1d8 | 6 |
+| **58** | Estrela da Manhã | 1d8 | 12 |
+| **59** | Mangual (Flail) | 1d8 | 12 |
+| **60** | Machado de Guerra | 1d8 | 8 |
+| **61** | Martelo de Guerra | 1d8 | 10 |
+| **62** | Rapieira | 1d8 | 18 |
+| **63** | Pica (Pike) | 1d10 | 10 |
+| **64** | Alabarda | 1d10 | 12 |
+| **65** | Glaive | 1d10 | 15 |
+| **66** | Lança de Montaria | 1d12 | 20 |
+| **67** | Foice de Guerra | 1d10 | 15 |
+| **68-69** | Maul (Marreta) | 2d8 | 15 |
+| **70-71** | Machado Grande | 2d8 | 18 |
+| **72-75** | Espada Montante | 2d10 | 20 |
 
 ---
 

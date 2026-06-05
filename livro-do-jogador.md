@@ -427,16 +427,25 @@ Ideais para quem usa Escudo ou quer lutar com duas armas (Propriedade Leve).
 
 | Arma | Dano | Propriedades | Preço |
 | :---- | :---- | :---- | :---- |
+| **Porrete (Club)** | 1d4 | Leve | 1 po |
 | **Adaga** | 1d4 | Leve, Finesse, Arremesso (Próximo) | 1 po |
+| **Foice (Sickle)** | 1d4 | Leve, Finesse | 2 po |
 | **Katar / Garra** | 1d4 | Leve, Finesse, Sangramento (Crítico causa \+1d4 de dano por rodada por 3 rodadas) | 4 po |
+| **Martelo Leve** | 1d4 | Leve, Arremesso (Próximo) | 2 po |
 | **Varinha (Wand)** | 1d4 | Foco Mágico | 10 po |
 | **Machado de Mão** | 1d6 | Leve, Arremesso (Próximo) | 2 po |
+| **Cimitarra** | 1d6 | Leve, Finesse | 8 po |
 | **Espada Curta** | 1d6 | Leve, Finesse | 7 po |
 | **Maça** | 1d6 | Arremesso (Próximo) | 5 po |
+| **Tridente** | 1d6 | Versátil (1d8), Arremesso (Próximo) | 5 po |
 | **Cestus / Punho** | 1d6 | Leve, Inapreensível | 3 po |
 | **Espada Longa** | 1d8 | Versátil (1d10) | 10 po |
 | **Machado de Guerra** | 1d8 | Versátil (1d10) | 8 po |
+| **Maça Grande** | 1d8 | — | 6 po |
 | **Mangual (Flail)** | 1d8 | Imparável | 12 po |
+| **Estrela da Manhã** | 1d8 | Penetrante | 12 po |
+| **Martelo de Guerra** | 1d8 | Versátil (1d10) | 10 po |
+| **Rapieira** | 1d8 | Finesse | 18 po |
 | **Picareta de Guerra** | 1d8 | Penetrante | 10 po |
 
 ### **Armas de Duas Mãos (Corpo a Corpo)**
@@ -447,11 +456,14 @@ Poder bruto e o controle de área.
 | :---- | :---- | :---- | :---- |
 | **Cajado** | 1d6 | Duas Mãos, Foco Mágico, Haste | 5 po |
 | **Lança** | 1d8 | Duas Mãos, Haste, Arremesso (Próximo) | 4 po |
-| **Foice** | 1d10 | Duas Mãos, Finesse, **Trespassar** | 15 po |
-| **Machado Grande** | 2d8 | Duas Mãos, **Trespassar** | 18 po |
-| **Espada Montante** | 2d10 | Duas Mãos, Brutal, Pesada | 20 po |
-| **Maul (Marreta)** | 2d8 | Duas Mãos | 15 po |
 | **Alabarda** | 1d10 | Duas Mãos, Haste | 12 po |
+| **Glaive** | 1d10 | Duas Mãos, Haste, **Trespassar** | 15 po |
+| **Pica (Pike)** | 1d10 | Duas Mãos, Haste | 10 po |
+| **Foice de Guerra** | 1d10 | Duas Mãos, Finesse, **Trespassar** | 15 po |
+| **Machado Grande** | 2d8 | Duas Mãos, **Trespassar** | 18 po |
+| **Maul (Marreta)** | 2d8 | Duas Mãos | 15 po |
+| **Lança de Montaria** | 1d12 | Duas Mãos, Haste, Pesada | 20 po |
+| **Espada Montante** | 2d10 | Duas Mãos, Brutal, Pesada | 20 po |
 
 ### **Armas à Distância**
 
