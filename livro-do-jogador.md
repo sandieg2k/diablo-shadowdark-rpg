@@ -514,6 +514,31 @@ O acesso a escudos acompanha o tipo de armadura da classe: **Leve** → Broquel;
 | **Escudo de Zakarum** | Divino | Um escudo com o glifo da luz. Aumenta o alcance de todas as suas **Auras** para "Próximo (Near)". | 25 po |
 | **Pena de Rapina** | Renegada | Presa ao arco ou besta. Ignora a penalidade de cobertura leve dos inimigos (esconder atrás de barris, etc). | 15 po |
 
+### **Joias**
+
+Anéis e Amuletos não têm efeito em sua versão Normal — o valor vem inteiramente dos Prefixos e Sufixos quando o item for Mágico, Raro ou Lendário. Cada personagem possui dois slots de Anel e um slot de Amuleto na ficha.
+
+| Item | Slots | Preço (Normal) |
+| :---- | :---- | :---- |
+| **Anel** | 2 slots na ficha (Anel 1 e Anel 2) | 5 po |
+| **Amuleto** | 1 slot na ficha | 10 po |
+
+### **Cinto**
+
+O Cinto é um slot especial exclusivo para **Consumíveis**. Cabe até 3 itens consumíveis (poções, pergaminhos, etc.).
+
+- Itens no Cinto: gastar custa **◈ Uma Ação**.
+- Itens no Grid de Inventário: gastar custa **◈◈ Duas Ações** (procurar e usar).
+
+| Item | Propriedades | Preço (Normal) |
+| :---- | :---- | :---- |
+| **Cinto** | 3 slots de consumível | 5 po |
+| **Cinto de Couro Reforçado** | 3 slots de consumível | 20 po |
+
+### **Slot Especial**
+
+O slot Especial é reservado para **itens exclusivos de classe** — objetos que amplificam o estilo de combate de uma classe específica. Cada classe define quais itens pode equipar nesse slot. O conteúdo de cada Especial de Classe é detalhado na descrição da classe no Capítulo 3.
+
 # Tempo
 
 Cada **Dia** possui 3 Fases: **Manhã** (Alvorecer ao Meio-dia), **Tarde** (Meio-dia ao Pôr do Sol) e **Noite** (Pôr do Sol ao Alvorecer).

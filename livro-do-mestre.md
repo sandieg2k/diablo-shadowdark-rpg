@@ -206,27 +206,25 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | **68** | Alabarda | 1d10 | 20 |
 | **69-70** | Rapieira | 1d8 | 25 |
 | **71** | Cimitarra | 1d6 | 25 |
-| **72+** | Machado Grande | 1d12 | 30 |
+| **72-75** | Machado Grande | 1d12 | 30 |
 
-### Armas à Distância e Focos (76-00)
+### Armas à Distância e Focos (76-88)
 
-| d100 | Item | Municção / Tipo | Preço (PO) |
+| d100 | Item | Munição / Tipo | Preço (PO) |
 | :---- | :---- | :---- | :---- |
-| **76-80** | Funda (Sling) | Pedras | 1 |
-| **81-82** | Dardos (20) | Arremesso | 10 |
-| **83** | Zarabatana | Dardos | 10 |
-| **84-85** | Besta Leve | Viratons | 25 |
-| **86-87** | Arco Curto | Flechas | 25 |
-| **88-89** | Arco Longo | Flechas | 50 |
-| **90** | Besta Pesada | Viratons | 50 |
-| **91-93** | Foco Arcano | Varinha/Cajado/Cristal | 5-20 |
-| **94-95** | Símbolo Sagrado | Amuleto/Relicário | 5 |
-| **96-97** | Foco Druídico | Totem/Cajado de Yew | 1-10 |
-| **98-00** | Instrumento Musical | Alaúde/Flauta/Gaita | 2-35 |
+| **76** | Funda (Sling) | Pedras | 1 |
+| **77** | Dardos (20) | Arremesso | 10 |
+| **78-79** | Besta Leve | Viratons | 25 |
+| **80-81** | Arco Curto | Flechas | 25 |
+| **82-83** | Arco Longo | Flechas | 50 |
+| **84** | Besta Pesada | Viratons | 50 |
+| **85-86** | Foco Arcano | Varinha/Cajado/Cristal | 5-20 |
+| **87** | Foco Sagrado | Relicário/Emblema/Símbolo | 5 |
+| **88** | Foco Druídico / Musical | Totem/Cajado/Instrumento | 1-35 |
 
-*Para resultados 91-00, role na sub-tabela abaixo para determinar o item exato.*
+*Para resultados 85-88, role na sub-tabela abaixo para determinar o item exato.*
 
-### Sub-tabela: Focos de Conjuração e Instrumentos (91-00)
+### Sub-tabela: Focos de Conjuração e Instrumentos (85-88)
 
 | d8 | Categoria | Dado | Sub-item | Preço (PO) |
 | :---- | :---- | :---- | :---- | :---- |
@@ -235,9 +233,9 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 |  |  |  | 4: Bastão (Rod) | 10 |
 |  |  |  | 5: Cajado (Staff) | 10 |
 |  |  |  | 6: Cristal | 20 |
-| **4-5** | Sagrado | 1d6 | 1-2: Amuleto | 5 |
+| **4-5** | Sagrado | 1d6 | 1-2: Relicário | 5 |
 |  |  |  | 3-4: Emblema | 5 |
-|  |  |  | 5-6: Relicário | 5 |
+|  |  |  | 5-6: Símbolo Sagrado | 5 |
 | **6-7** | Druídico | 1d6 | 1-2: Ramo de Visco | 1 |
 |  |  |  | 3-4: Totem | 1 |
 |  |  |  | 5: Cajado de Madeira | 5 |
@@ -252,6 +250,16 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 |  |  |  | 8: Lira | 30 |
 |  |  |  | 9: Viola | 30 |
 |  |  |  | 10: Alaúde | 35 |
+
+### Joias e Acessórios (89-00)
+
+*Joias não têm efeito em versão Normal. O valor vem dos Prefixos e Sufixos (Mágico+). Usar a qualidade determinada na Sub-tabela de Equipamento.*
+
+| d100 | Item | Slots na Ficha | Preço Normal (PO) |
+| :---- | :---- | :---- | :---- |
+| **89-93** | Anel | Anel 1 ou Anel 2 | 5 |
+| **94-97** | Amuleto | Amuleto | 10 |
+| **98-00** | Cinto | Cinto (3 slots consumível) | 5 |
 
 ## Tabela de Prefixos (1d100)
 
