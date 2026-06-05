@@ -91,6 +91,22 @@ Objetivo: monstro acerta um guerreiro típico em ~55–65% dos ataques.
 
 ---
 
+## DC de Salvaguardas Recomendadas
+
+Salvaguardas usam `1d20 + mod do atributo ≥ DC` — sem bônus de nível. As DCs escalam com o encontro para manter a tensão conforme os personagens avançam.
+
+| Nível do encontro | Fácil | Moderado | Severo | Mortal |
+|---|---|---|---|---|
+| 1 | DC 10 | DC 12 | DC 15 | DC 18 |
+| 2–4 | DC 11 | DC 13 | DC 16 | DC 19 |
+| 5–7 | DC 12 | DC 14 | DC 17 | DC 20 |
+| 8–10 | DC 13 | DC 15 | DC 18 | DC 21 |
+
+*Com mod +3 (atributo primário típico): Fácil ~70% · Moderado ~60% · Severo ~45% · Mortal ~30%*
+*Com mod +0 (atributo secundário): Fácil ~55% · Moderado ~45% · Severo ~30% · Mortal ~15%*
+
+---
+
 ## Dano dos Monstros por Faixa de Nível *(por acerto, grupo de 4–5 jogadores)*
 
 Calibrado para: Minion elimina um caster em 1–2 acertos; Padrão pressiona qualquer PJ em 2–3; Elite é ameaça severa; Chefe pode one-shot casters e elimina tanques em 2–3 acertos.
