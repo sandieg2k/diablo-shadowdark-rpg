@@ -132,12 +132,12 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 | d20 | Resultado | Descrição / Efeito |
 | :---- | :---- | :---- |
 | **1-6** | Nada | Apenas poeira e ossos. |
-| **7-8** | Poção de Vida | Veja a ***sub-tabela de poções*** abaixo. |
-| **9-10** | Poção de Mana | Veja a ***sub-tabela de poções*** abaixo. |
+| **7-8** | Poção de Vida | Role na **Sub-tabela de Poções** abaixo. |
+| **9-10** | Poção de Mana | Role na **Sub-tabela de Poções** abaixo. |
 | **11-16** | Ouro | **Nível Médio × 1d10** moedas de ouro. |
-| **17-20** | Equipamento | Um item de inventário. Role na ***sub-tabela de Equipamento***. |
+| **17-20** | Equipamento | Role no **d100 de Itens Base** abaixo. |
 
-### *Sub-tabela: Poções (1d20 \+ ND*)
+### Sub-tabela: Poções (1d20 \+ ND)
 
 | Resultado | Poção de Vida (Recupera PV) | Poção de Mana (Recupera Magia) | Preço |
 | :---- | :---- | :---- | :---- |
@@ -146,51 +146,21 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 | **21-30** | Grande: 3d4 PV | Grande: Recupera 3d4 mana. | 125 |
 | **31+** | Superior: Recupera tudo | Superior: Recupera 4d4 \+ Vantagem no próximo teste. | 300 |
 
-### Sub-tabela: Equipamento (1d20 \+ ND)
-
-*Use esta tabela para armas, joias, cintos e focos. Para armaduras (d100 01-34), use a Sub-tabela de Armadura abaixo.*
-
-| 1d20 \+ ND | Qualidade do Item | Descrição |
-| :---- | :---- | :---- |
-| **1-10** | Normal | Item base sem propriedades mágicas. |
-| **11-14** | Mágico | Item base + 1 Prefixo ou 1 Sufixo. |
-| **15-18** | Raro | Item base + 1 Prefixo + 1 Sufixo. |
-| **19+** | Lendário | Item base + 2 Prefixos + 1 Sufixo, ou efeito especial do Mestre. |
-| — | **Único** | Distribuído manualmente. Efeitos fixos exclusivos — ver seção Tesouros Especiais. |
-| — | **Set** | Distribuído manualmente. Bônus progressivos ao completar o conjunto — ver seção Tesouros Especiais. |
-
-### Sub-tabela: Armadura (1d20 \+ ND)
-
-*Usada quando o d100 cair em 01-34 (armaduras). Determina peça avulsa ou set completo e qualidade numa única rolagem.*
-
-| 1d20 \+ ND | Drop | Descrição |
-| :---- | :---- | :---- |
-| **1-8** | Peça avulsa Normal | 1 peça sem propriedades (role 1d6 para qual peça). |
-| **9-12** | Peça avulsa Mágica | 1 peça + 1 Prefixo ou 1 Sufixo. |
-| **13-16** | Peça avulsa Rara | 1 peça + 1 Prefixo + 1 Sufixo. |
-| **17-20** | Peça avulsa Lendária | 1 peça + 2 Prefixos + 1 Sufixo. |
-| **21-24** | Set completo Normal | Todas as 5 peças sem propriedades. |
-| **25-28** | Set completo Mágico | Todas as 5 peças com o mesmo Prefixo. |
-| **29+** | Set completo Raro | Todas as 5 peças com Prefixo e Sufixo. |
-
-**Qual peça? (1d6)**
-
-| 1d6 | Peça |
-| :---- | :---- |
-| **1** | Peitoral |
-| **2** | Perneiras |
-| **3** | Elmo |
-| **4** | Luvas |
-| **5** | Botas |
-| **6** | Mestre escolhe |
+---
 
 ## Tabela de Itens Base (1d100)
 
-Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e sufixos mágicos conforme a raridade do encontro.
+Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-tabela de qualidade embutida.
+
+- **01-39** → Armadura ou Escudo — role na **Sub-tabela de Armadura** na mesma seção.
+- **40-88** → Arma ou Foco — role na **Sub-tabela de Qualidade** no final desta tabela.
+- **89-00** → Joia ou Acessório — role na **Sub-tabela de Qualidade** no final desta tabela.
+
+---
 
 ### Armaduras e Escudos (01-39)
 
-*Cada armadura tem CA própria (13–18). Tipo define propriedades e acesso de classe. **RD ativa por peça equipada** — não exige set completo.*
+*CA própria por armadura (13–18). Tipo define propriedades e requisitos de classe. RD ativa por peça equipada — não exige set completo.*
 
 | d100 | Item | Tipo | CA (set) | RD | Req. | Preço (PO) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -204,7 +174,7 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | **37-38** | Escudo | Médio | \+2 CA | — | — | 15 |
 | **39** | Escudo de Torre | Pesado | \+3 CA | — | FOR 13 | 60 |
 
-**Bônus de CA por peça (referência rápida)**
+**Bônus de CA por peça**
 
 | Peça | Couro | C. Reforçado | Brunea | C. Malha | Meia-Placa | Placa Compl. |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -215,7 +185,25 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | Botas | \+0 | \+0 | \+0 | \+0 | \+0 | \+1 |
 | **Set completo** | **13** | **14** | **15** | **16** | **17** | **18** |
 
+**Sub-tabela: Armadura (1d20 \+ ND)**
+
+| 1d20 \+ ND | Drop | Descrição |
+| :---- | :---- | :---- |
+| **1-8** | Peça avulsa Normal | 1 peça sem propriedades — role 1d6 para qual peça. |
+| **9-12** | Peça avulsa Mágica | 1 peça + 1 Prefixo ou 1 Sufixo. |
+| **13-16** | Peça avulsa Rara | 1 peça + 1 Prefixo + 1 Sufixo. |
+| **17-20** | Peça avulsa Lendária | 1 peça + 2 Prefixos + 1 Sufixo. |
+| **21-24** | Set completo Normal | Todas as 5 peças sem propriedades. |
+| **25-28** | Set completo Mágico | Todas as 5 peças com o mesmo Prefixo. |
+| **29+** | Set completo Raro | Todas as 5 peças com Prefixo e Sufixo. |
+
+**Qual peça? (1d6):** 1 Peitoral · 2 Perneiras · 3 Elmo · 4 Luvas · 5 Botas · 6 Mestre escolhe
+
+---
+
 ### Armas Corpo a Corpo (40-75)
+
+*Para qualidade, role na Sub-tabela de Qualidade no final desta seção.*
 
 | d100 | Item | Dano Sugerido | Preço (PO) |
 | :---- | :---- | :---- | :---- |
@@ -246,7 +234,11 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | **71** | Cimitarra | 1d6 | 25 |
 | **72-75** | Machado Grande | 1d12 | 30 |
 
+---
+
 ### Armas à Distância e Focos (76-88)
+
+*Para qualidade, role na Sub-tabela de Qualidade no final desta seção.*
 
 | d100 | Item | Munição / Tipo | Preço (PO) |
 | :---- | :---- | :---- | :---- |
@@ -256,13 +248,11 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 | **80-81** | Arco Curto | Flechas | 25 |
 | **82-83** | Arco Longo | Flechas | 50 |
 | **84** | Besta Pesada | Viratons | 50 |
-| **85-86** | Foco Arcano | Varinha/Cajado/Cristal | 5-20 |
-| **87** | Foco Sagrado | Relicário/Emblema/Símbolo | 5 |
-| **88** | Foco Druídico / Musical | Totem/Cajado/Instrumento | 1-35 |
+| **85-86** | Foco Arcano | Varinha/Cajado/Cristal — role 1d6 abaixo | 5-20 |
+| **87** | Foco Sagrado | Relicário/Emblema/Símbolo — role 1d6 abaixo | 5 |
+| **88** | Foco Druídico / Musical | Totem/Cajado/Instrumento — role 1d8 abaixo | 1-35 |
 
-*Para resultados 85-88, role na sub-tabela abaixo para determinar o item exato.*
-
-### Sub-tabela: Focos de Conjuração e Instrumentos (85-88)
+**Sub-tabela: Focos (85-88)**
 
 | d8 | Categoria | Dado | Sub-item | Preço (PO) |
 | :---- | :---- | :---- | :---- | :---- |
@@ -278,26 +268,35 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 |  |  |  | 3-4: Totem | 1 |
 |  |  |  | 5: Cajado de Madeira | 5 |
 |  |  |  | 6: Varinha de Teixo | 10 |
-| **8** | Musical | 1d10 | 1: Flauta | 2 |
-|  |  |  | 2: Shalm (Xalmua) | 2 |
-|  |  |  | 3: Chifre (Horn) | 3 |
-|  |  |  | 4: Tambor | 6 |
-|  |  |  | 5: Flauta de Pã | 12 |
-|  |  |  | 6: Dulcimer | 25 |
-|  |  |  | 7: Gaita de Fole | 30 |
-|  |  |  | 8: Lira | 30 |
-|  |  |  | 9: Viola | 30 |
-|  |  |  | 10: Alaúde | 35 |
+| **8** | Musical | 1d10 | 1: Flauta · 2: Shalm · 3: Chifre | 2-3 |
+|  |  |  | 4: Tambor · 5: Flauta de Pã | 6-12 |
+|  |  |  | 6: Dulcimer · 7: Gaita de Fole | 25-30 |
+|  |  |  | 8: Lira · 9: Viola · 10: Alaúde | 30-35 |
+
+---
 
 ### Joias e Acessórios (89-00)
 
-*Joias não têm efeito em versão Normal. O valor vem dos Prefixos e Sufixos (Mágico+). Usar a qualidade determinada na Sub-tabela de Equipamento.*
+*Joias sem efeito em versão Normal — valor vem dos afixos. Role na Sub-tabela de Qualidade abaixo.*
 
 | d100 | Item | Slots na Ficha | Preço Normal (PO) |
 | :---- | :---- | :---- | :---- |
 | **89-93** | Anel | Anel 1 ou Anel 2 | 5 |
 | **94-97** | Amuleto | Amuleto | 10 |
 | **98-00** | Cinto | Cinto (3 slots consumível) | 5 |
+
+---
+
+### Sub-tabela: Qualidade (1d20 \+ ND)
+
+*Para armas, focos, joias e acessórios. Itens Únicos e de Set são distribuídos manualmente pelo Mestre.*
+
+| 1d20 \+ ND | Qualidade | Descrição |
+| :---- | :---- | :---- |
+| **1-10** | Normal | Item base sem propriedades mágicas. |
+| **11-14** | Mágico | Item base + 1 Prefixo ou 1 Sufixo. |
+| **15-18** | Raro | Item base + 1 Prefixo + 1 Sufixo. |
+| **19+** | Lendário | Item base + 2 Prefixos + 1 Sufixo, ou efeito especial do Mestre. |
 
 ## Tabela de Prefixos (1d100)
 
