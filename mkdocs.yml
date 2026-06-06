@@ -21,6 +21,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Modo escuro
+  logo: assets/logo.png
+  favicon: assets/logo.png
   font:
     text: Cinzel
     code: Roboto Mono
