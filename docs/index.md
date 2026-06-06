@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/diablo-logo.png" alt="Diablo RPG" style="max-width: 480px; margin: 2rem 0;">
+  <img src="assets/diablo-logo.png" alt="Diablo RPG" style="width: 100%; max-width: 480px; height: auto; margin: 2rem 0;">
 </div>
 
 Bem-vindo ao **Diablo RPG** — um sistema de RPG de mesa homebrew inspirado na franquia Diablo, criado por Paulo Souza. O jogo coloca os heróis no papel de Nephalem enfrentando as hordas do Inferno Ardente em Santuário, com turnos rápidos, decisões claras e uma dificuldade que emula o modo Hardcore dos jogos.
