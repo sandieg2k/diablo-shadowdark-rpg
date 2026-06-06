@@ -78,7 +78,7 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | **16** | **Fúria dos Raios (◈ \+ 2 Mana):** Sua lança arremessada explode em raios, causando 2d6 de dano de Relâmpago em área (perto do alvo). Gaste +2 Mana para cada dado extra. |
 | **17** | **Isca (Decoy) (◈◈ \+ 1 Mana):** Cria uma cópia ilusória. Inimigos devem passar num teste de Sabedoria (DC = 10 \+ Modificador do Atributo Primário) para atacar você em vez da cópia. |
 | **18** | **Esquiva Ativa (⟁ \+ 1 Mana):** Se um inimigo acertar, você pode gastar 1 Mana para reduzir 1d10 \+ Nível pontos de dano. Gaste +1 Mana para cada dado extra. |
-| **19** | **Valkíria (◈◈◈ \+ 6 Mana):** Uma vez por combate, invoca uma guerreira etérea por 1d4 rodadas. No seu turno, como ação livre ◇, ela faz um ataque Próximo. **Valkíria:** CA = sua · HP = Nível × 3 · Dano: 1d8 + Mod. DEX Físico |
+| **19** | **Valkíria (◈◈◈ \+ 6 Mana):** Uma vez por combate, invoca uma guerreira etérea por 1d4 rodadas. No seu turno, como ação livre ◇, ela faz um ataque Próximo. **Valkíria:** CA = sua · HP = Nível × 3 · Dano: 1d8 + Mod. Primário Físico |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -607,7 +607,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 ### **Habilidades de Classe**
 
 * **Mestre das Pragas:** Seus ataques de veneno duram 1 rodada a mais.  
-* **Cães Zumbis:** Você começa o jogo com **dois** Cães Zumbis. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam CAR nos testes. Se morrerem, gaste ◈ + 1 Mana por Cão para trazê-los de volta. **Cão Zumbi:** CA 12 · HP = Nível (mínimo 1) · Dano: 1d4 Físico  
+* **Cães Zumbis:** Você começa o jogo com **dois** Cães Zumbis. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam o Atributo Primário nos testes. Se morrerem, gaste ◈ + 1 Mana por Cão para trazê-los de volta. **Cão Zumbi:** CA 12 · HP = Nível (mínimo 1) · Dano: 1d4 Físico  
 * **Feitiço Básico:** Role 1d12 para definir seu feitiço inicial.  
 ---
 
@@ -854,7 +854,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 
 ### **Habilidades de Classe**
 
-* **O Comandante da Horda:** Você controla até **Mod. INT + Nível** esqueletos. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam INT nos testes. Duram até zerar o HP. **Esqueleto:** CA 12 · HP = Nível · Dano: 1d4 Físico  
+* **O Comandante da Horda:** Você controla até **Mod. Primário + Nível** esqueletos. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam o Atributo Primário nos testes. Duram até zerar o HP. **Esqueleto:** CA 12 · HP = Nível · Dano: 1d4 Físico  
 * **Levantar Mortos (Feitiço) (◈ \+ 1 Mana):** Como uma ação, role **Atributo** para erguer esqueletos de cadáveres próximos. Se passar, você ergue 1d4 esqueletos de uma vez (até o seu limite).  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
 ---
@@ -980,7 +980,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 * **Mana:** 10 \+ Modificador de Atributo Primário \+ Nível  
 * **Armas:** Leve, Média.  
 * **Armadura:** Leve.  
-* **Atributo Principal:** Destreza e Inteligência
+* **Atributo Principal:** Destreza
 
 ### **Habilidades de Classe**
 
@@ -1108,7 +1108,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 
 ### **Habilidades de Classe**
 
-* **Ligação Demoníaca:** Você pode conjurar demônios para lutar ao seu lado. Um de cada tipo. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam INT nos testes. Duram até zerar o HP.  
+* **Ligação Demoníaca:** Você pode conjurar demônios para lutar ao seu lado. Um de cada tipo. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam o Atributo Primário nos testes. Duram até zerar o HP.  
   * **Sumonar Homem Cabra (◈ \+ 1 Mana):** **Homem Cabra:** CA 13 · HP = Nível×2 (mínimo 5) · Dano: 1d6 Físico. Pode **Empurrar** com ◈.  
 * **Pacto de Sangue (◈):** Você pode usar uma **Ação** para sacrificar **1d6** HP para recuperar **1d4** de Mana.  
 * **Mestre das Maldições (Passiva):** Inimigos sob efeito de suas maldições concedem **Vantagem** para aliados que os atacam corpo a corpo.  
@@ -1124,7 +1124,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Carisma. |
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de lacaios. |
-| **5** | **Maestria Demoníaca (Passivo):** Seus demônios ganham HP dobrado (Mod. INT × 2 + Nível), +1 zona de movimento e +1d6 de dano. |
+| **5** | **Maestria Demoníaca (Passivo):** Seus demônios ganham HP dobrado (Mod. Primário × 2 + Nível), +1 zona de movimento e +1d6 de dano. |
 | **6 (1)** | **Marca da Morte (Feitiço) (◈ \+ 1 Mana por demônio):** Teleporta seus demônios para um inimigo perto e os permite fazer um ataque. |
 | **7 (2)** | **Sumonar Corrompido (Feitiço)(◈ \+ 3 Mana):** Conjura um demônio reptiliano. **Corrompido:** CA 15 · HP = Nível×3 (mínimo 10) · Dano: 2d6 Fogo · RD 5 Fogo. Dura até zerar o HP. |
 | **8 (3)** | **Sumonar Profanador (Feitiço)(◈ \+ 3 Mana por inimigo):** Conjura um demônio de carne flutuante. **Profanador:** CA 15 · HP = Nível×3 (mínimo 10). Enquanto estiver vivo, vincula o HP dos inimigos alvo — todos sofrem o mesmo dano que qualquer um deles receber. |
