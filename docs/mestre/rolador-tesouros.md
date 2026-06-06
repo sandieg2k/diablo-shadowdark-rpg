@@ -322,7 +322,7 @@ const RESIST_TITULO = {
   "Prismático":    "Prismático",
 };
 
-function prefixo(nd) {
+function prefixo(nd, noCaprichoso = false) {
   const cat = d(100);
   let nome, titulo, efeito, catNome, subRoll;
 
@@ -357,6 +357,7 @@ function prefixo(nd) {
       nome = "Amaldiçoado"; efeito = maldição;
       titulo = maldição.split(":")[0]; // ex: "Enferrujado", "Vulnerável"
     } else if (cat === 50) {
+      if (noCaprichoso) return prefixo(nd, true);
       nome = "Caprichoso"; efeito = "Role 2× na tabela de prefixos e aplique ambos";
     } else {
       const r = d(6) - 1;
@@ -439,6 +440,13 @@ function afixos(qual, nd, logs) {
     logs.push(p.log);
     prefTitulos.push(p.titulo);
     htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo</span> <b>${p.nome}</b> — ${p.efeito}</div>`);
+    if (p.nome === "Caprichoso") {
+      logs.push(step(`<span style="color:#aaa;">↩ Caprichoso — rolando prefixo bônus automaticamente:</span>`));
+      const extra = prefixo(nd, true);
+      logs.push(extra.log);
+      prefTitulos.push(extra.titulo);
+      htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo ✦</span> <b>${extra.nome}</b> — ${extra.efeito}</div>`);
+    }
   }
   for (let i = 0; i < suf; i++) {
     const s = sufixo(nd);
@@ -482,7 +490,7 @@ window.rolarTesouro = function() {
     const dr = d(100);
     logs.push(step(`<span class="dice">🎲 Equipamento d100 = ${dr}</span>`));
 
-    let nomeBase = "", infoItem = "", qual;
+    let nomeBase = "", infoItem = "", qual, setHandled = false;
 
     if (dr <= 39) {
       const arm = lookup(ARMADURAS, dr);
@@ -507,7 +515,25 @@ window.rolarTesouro = function() {
           infoItem = `${arm.tipo} — ${peca} (${bonus > 0 ? `+${bonus}` : "sem bônus"})`;
         }
       } else {
-        infoItem = `${arm.tipo} · CA completa: ${arm.ca} (set completo)`;
+        // Set completo — rola cada peça individualmente
+        const pecasDoSet = ["Peitoral", "Perneiras", "Elmo", "Luvas", "Botas"];
+        const qualIndiv = { q: qual.q.replace(' (Set)', ''), css: qual.css, pref: qual.pref, suf: qual.suf };
+        let setHtml = `<div style="font-size:0.85rem;color:var(--md-default-fg-color--light);margin-bottom:0.5rem;">🎒 <b>Set completo de ${arm.nome}</b> — peças roladas individualmente</div>`;
+        for (const peca of pecasDoSet) {
+          const { html: afixoP, prefTitulos: ptP, sufTitulos: stP } = afixos(qualIndiv, nd, logs);
+          const bonus = PECA_CA[arm.nome]?.[peca] ?? 0;
+          const pecaInfo = peca === "Peitoral"
+            ? `${arm.tipo} · CA base: ${caBase(arm.tipo)} · CA completa: ${arm.ca} — Peitoral (+${bonus})`
+            : `${arm.tipo} — ${peca} (${bonus > 0 ? `+${bonus}` : "sem bônus"})`;
+          const nomeP = [...ptP, arm.nome, ...stP].join(" ");
+          setHtml += `<div style="margin-top:0.6rem;padding-top:0.6rem;border-top:1px solid var(--md-default-fg-color--lightest);">
+            <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;" class="${qualIndiv.css}">${qualIndiv.q}</div>
+            <div style="font-size:1rem;font-weight:bold;" class="${qualIndiv.css}">${nomeP}</div>
+            <div style="font-size:0.82rem;color:var(--md-default-fg-color--light);">${pecaInfo}</div>
+            ${afixoP}</div>`;
+        }
+        finalHtml = `<div>🗡️ <span class="${qual.css}" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;">${qual.q}</span>${setHtml}</div>`;
+        setHandled = true;
       }
 
     } else if (dr <= 75) {
@@ -543,27 +569,29 @@ window.rolarTesouro = function() {
       qual = lookup(QUAL_GERAL, qr);
     }
 
-    const { html: afixoHtml, prefTitulos, sufTitulos } = qual
-      ? afixos(qual, nd, logs)
-      : { html: "", prefTitulos: [], sufTitulos: [] };
+    if (!setHandled) {
+      const { html: afixoHtml, prefTitulos, sufTitulos } = qual
+        ? afixos(qual, nd, logs)
+        : { html: "", prefTitulos: [], sufTitulos: [] };
 
-    const css   = qual ? qual.css : "q-normal";
-    const qNome = qual ? qual.q   : "Normal";
+      const css   = qual ? qual.css : "q-normal";
+      const qNome = qual ? qual.q   : "Normal";
 
-    const partes = [...prefTitulos, nomeBase, ...sufTitulos];
-    const nomeCompleto = partes.join(" ");
+      const partes = [...prefTitulos, nomeBase, ...sufTitulos];
+      const nomeCompleto = partes.join(" ");
 
-    const infoHtml = infoItem
-      ? `<div style="font-size:0.85rem;color:var(--md-default-fg-color--light);margin-top:0.15rem;">${infoItem}</div>`
-      : "";
+      const infoHtml = infoItem
+        ? `<div style="font-size:0.85rem;color:var(--md-default-fg-color--light);margin-top:0.15rem;">${infoItem}</div>`
+        : "";
 
-    finalHtml = `
-      <div>
-        🗡️ <span class="${css}" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;">${qNome}</span>
-        <div style="font-size:1.15rem;font-weight:bold;margin-top:0.2rem;" class="${css}">${nomeCompleto}</div>
-        ${infoHtml}
-        ${afixoHtml}
-      </div>`;
+      finalHtml = `
+        <div>
+          🗡️ <span class="${css}" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;">${qNome}</span>
+          <div style="font-size:1.15rem;font-weight:bold;margin-top:0.2rem;" class="${css}">${nomeCompleto}</div>
+          ${infoHtml}
+          ${afixoHtml}
+        </div>`;
+    }
   }
 
   document.getElementById('resultado-tesouro').innerHTML = `
