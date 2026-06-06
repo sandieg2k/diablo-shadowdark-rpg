@@ -1150,6 +1150,68 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Sander's Folly *(Necromante — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Sander's Superstition** | Elmo | \+2 CA; Maldizar — *sem o talento:* set concede acesso; *com o talento:* o bônus de dano sobe para \+3 |
+| **Sander's Taboo** | Peitoral (Média) | \+2 CA, RD 1; Drenar Vida — *sem o talento:* set concede acesso; *com o talento:* também envenena o alvo (1d4/turno, 3 turnos) |
+| **Sander's Riprap** | Perneiras | \+1 CA; inimigos sob Maldizar que morrerem Próximo são automaticamente elegíveis para Levantar Mortos (sem precisar de cadáver) |
+| **Sander's Paragon** | Luvas | \+1 conjuração; ao usar Drenar Vida num inimigo envenenado, cura o dobro do dano causado |
+
+**Bônus de Set:**
+- *2 peças:* Maldizar passa a afetar inimigos Distante (em vez de só Próximo)
+- *4 peças:* inimigos sob Maldizar que sofrerem Drenar Vida têm a duração do veneno reiniciada — ciclo de dano sustentado sem custo adicional
+
+---
+
+#### Bones of Rathma *(Necromante — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Rathma's Crown** | Elmo | \+2 CA; Reviver — *sem o talento:* set concede acesso com duração 1d4\+2 rodadas; *com o talento:* duração 1 cena inteira |
+| **Rathma's Ribcage Plate** | Peitoral (Média) | \+2 CA, RD 1; Golem de Argila — *sem o talento:* set concede acesso; *com o talento:* HP = Nível×4 e dano 1d10 |
+| **Rathma's Skeletal Claws** | Luvas | \+1 conjuração; Mago Esqueleto — *sem o talento:* set concede acesso; *com o talento:* cada Mago Esqueleto vale por 3 no limite da Horda |
+| **Rathma's Ossified Sabatons** | Perneiras | \+1 CA; ao usar Reviver, todos os lacaios ativos ganham \+2 dano e \+3 HP até o fim da cena |
+| **Rathma's Macabre Vambraces** | Cinto | 4 slots; agir com todos os lacaios (◈) inclui Golem e criaturas de Reviver automaticamente |
+
+**Bônus de Set:**
+- *2 peças:* Golem de Argila e criaturas de Reviver não contam para o limite de Comandante da Horda
+- *5 peças:* ao usar Reviver, o monstro ressuscitado mantém todos os seus atributos originais (não usa estatísticas de esqueleto padrão)
+
+---
+
+#### Pestilence Master's Shroud *(Necromante — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Pestilence Head** | Elmo | \+2 CA; Explosão de Cadáver causa \+1d6 extra por esqueleto ou cadáver no raio |
+| **Pestilence Defense** | Peitoral (Média) | \+2 CA, RD 1; Lança de Osso — *sem o talento:* set concede acesso; *com o talento:* perfura em cone (atinge todos em linha e 1 zona lateral) |
+| **Pestilence Gloves** | Luvas | \+1 conjuração; ao usar Explosão de Cadáver num esqueleto seu, recupera 1d4 Mana |
+| **Pestilence Boots** | Perneiras | \+1 CA; ao usar Lança de Osso em inimigo sob Maldizar, a lança retorna e pode ser relançada como Ação Livre (◇) no mesmo turno |
+
+**Bônus de Set:**
+- *2 peças:* Explosão de Cadáver e Lança de Osso custam 1 Mana a menos cada
+- *4 peças:* ao destruir um esqueleto próprio com Explosão de Cadáver, invoca automaticamente um novo esqueleto das cinzas no mesmo local (não conta como ação)
+
+---
+
+#### Grace of Inarius *(Necromante — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Inarius's Understanding** | Elmo | \+2 CA; Armadura de Ossos ativa com 1\+ lacaio (em vez de 3\+) |
+| **Inarius's Conviction** | Peitoral (Média) | \+2 CA, RD 2; enquanto Armadura de Ossos estiver ativa, atacantes sofrem 1d4 Físico de volta |
+| **Inarius's Temperance** | Perneiras | \+1 CA; Parede de Ossos — *sem o talento:* set concede acesso; *com o talento:* tem CA 18 e 20 HP (em vez de CA 16 e 10 HP) |
+| **Inarius's Reticence** | Luvas | \+1 conjuração; Escudo de Almas — *sem o talento:* set concede acesso; *com o talento:* pode ser usado sem sacrificar o esqueleto uma vez por cena |
+| **Inarius's Will** | Cinto | 4 slots; ao usar Escudo de Almas, recupera 1d6 Mana |
+
+**Bônus de Set:**
+- *2 peças:* Armadura de Ossos concede \+5 CA em vez de \+3
+- *5 peças:* enquanto Armadura de Ossos estiver ativa, você tem RD 3 contra todo tipo de dano
+
+---
+
 #### M'avina's Battle Hymn *(Amazona — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
