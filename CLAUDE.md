@@ -319,7 +319,7 @@ Revisar as 18 classes usando as tabelas de `referencia-mestre-progressao.md` com
 
 ---
 
-### Goal 8 — Sets Canônicos da Franquia (`livro-do-mestre.md` + `docs/mestre/tesouros.md`) 🔄 Em andamento
+### Goal 8 — Sets Canônicos da Franquia (`livro-do-mestre.md` + `docs/mestre/tesouros.md`) ✅ Concluído
 
 Documentar **todos os sets canônicos** de D1/D2/D3/D4 adaptados para o sistema. Cada set tem:
 - **Peças com afixos fixos próprios** (funcionam como itens Lendários individualmente)
@@ -337,24 +337,24 @@ Documentar **todos os sets canônicos** de D1/D2/D3/D4 adaptados para o sistema.
 
 | Classe | Sets | Status |
 |---|---|---|
-| Amazona | M'avina's Battle Hymn, Vidala's Rig | M'avina ✅ · Vidala ⬜ |
-| Arcanista | Cathan's Traps, Naj's Ancient Vestige, Vyr's Amazing Arcana | ⬜ ⬜ ⬜ |
+| Amazona | M'avina's Battle Hymn, Vidala's Rig | ✅ ✅ |
+| Arcanista | Cathan's Traps, Naj's Ancient Vestige, Vyr's Amazing Arcana | ✅ ✅ ✅ |
 | Assassina | Natalya's Odium | ✅ |
 | Bárbaro | Immortal King, Berserker's Arsenal, Raekor's, Wrath of the Wastes, Might of the Earth, Horde of the Ninety Savages | ✅ ✅ ✅ ✅ ✅ ✅ |
-| Caçador de Demônios | Tancred's Battlegear, Marauder's, Unhallowed Essence, Gears of Dreadlands | ⬜ ⬜ ⬜ ⬜ |
-| Cavaleiro de Sangue | Sazabi's Grand Tribute, Thorns of the Invoker | ⬜ ⬜ |
-| Cruzado | Hsaru's Defense, Roland's Legacy, Seeker of the Light, Aegis of Valor | ⬜ ⬜ ⬜ ⬜ |
-| Druida | Aldur's Watchtower, Cow King's Leathers | ⬜ ⬜ |
-| Feiticeiro | Jade Harvester, Zunimassa's Haunt, Helltooth Harness, Arachyr's Carapace | ⬜ ⬜ ⬜ ⬜ |
-| Guerreiro | Bul-Kathos' Children, Cleglaw's Brace, Isenhart's Armory, Sigon's Complete Steel, Bul-Kathos' Oath | ⬜ ⬜ ⬜ ⬜ ⬜ |
-| Mago | Arcanna's Tricks, Firebird's Finery, Delsere's Magnum Opus, Typhon's Veil | ⬜ ⬜ ⬜ ⬜ |
-| Monge | Raiment of a Thousand Storms, Sunwuko's Guile, Inna's Mantra, Uliana's Stratagem, Patterns of Justice | ⬜ ⬜ ⬜ ⬜ ⬜ |
-| Natispirito | Hwanin's Majesty | ⬜ |
-| Necromante | Trang-Oul's Avatar, Sander's Folly, Bones of Rathma, Pestilence Master's Shroud, Grace of Inarius | Trang-Oul ✅ · restantes ⬜ |
-| Paladino | Griswold's Legacy, Milabrega's Regalia, Angelic Raiment, Armor of Akkhan | Griswold ✅ · restantes ⬜ |
-| Renegada | Death's Disguise, Shadow's Mantle | ⬜ ⬜ |
-| Sacerdote | Civerb's Vestments, Heaven's Brethren | ⬜ ⬜ |
-| Warlock | Infernal Tools, Orphan's Call | ⬜ ⬜ |
+| Caçador de Demônios | Tancred's Battlegear, Marauder's, Unhallowed Essence, Gears of Dreadlands | ✅ ✅ ✅ ✅ |
+| Cavaleiro de Sangue | Sazabi's Grand Tribute, Thorns of the Invoker | ✅ ✅ |
+| Cruzado | Hsaru's Defense, Roland's Legacy, Seeker of the Light, Aegis of Valor | ✅ ✅ ✅ ✅ |
+| Druida | Aldur's Watchtower, Cow King's Leathers | ✅ ✅ |
+| Feiticeiro | Jade Harvester, Zunimassa's Haunt, Helltooth Harness, Arachyr's Carapace | ✅ ✅ ✅ ✅ |
+| Guerreiro | Bul-Kathos' Children, Cleglaw's Brace, Isenhart's Armory, Sigon's Complete Steel, Bul-Kathos' Oath | ✅ ✅ ✅ ✅ ✅ |
+| Mago | Arcanna's Tricks, Firebird's Finery, Delsere's Magnum Opus, Typhon's Veil | ✅ ✅ ✅ ✅ |
+| Monge | Raiment of a Thousand Storms, Sunwuko's Guile, Inna's Mantra, Uliana's Stratagem, Patterns of Justice | ✅ ✅ ✅ ✅ ✅ |
+| Natispirito | Hwanin's Majesty | ✅ |
+| Necromante | Trang-Oul's Avatar, Sander's Folly, Bones of Rathma, Pestilence Master's Shroud, Grace of Inarius | ✅ ✅ ✅ ✅ ✅ |
+| Paladino | Griswold's Legacy, Milabrega's Regalia, Angelic Raiment, Armor of Akkhan | ✅ ✅ ✅ ✅ |
+| Renegada | Death's Disguise, Shadow's Mantle | ✅ ✅ |
+| Sacerdote | Civerb's Vestments, Heaven's Brethren | ✅ ✅ |
+| Warlock | Infernal Tools, Orphan's Call | ✅ ✅ |
 
 **Método de trabalho:**
 1. Ler as habilidades da classe em `cap3-classes.md`

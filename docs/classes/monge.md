@@ -12,7 +12,7 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 
 * **Punhos de Ferro:** Seus ataques desarmados causam 1d6 de dano Físico e são considerados armas mágicas.  
 * **Defesa Iluminada:** Enquanto não usar armaduras médias, pesadas ou escudo, sua CA é **10 \+ Mod. Primário × 2**.  
-* **Espírito em Fluxo:** Você ganha 1 de Mana sempre que acertar um ataque (limite de ganho por turno igual ao seu Modificador de Sabedoria (mínimo 1)).   
+* **Espírito em Fluxo:** Você ganha 1 de Mana sempre que acertar um ataque corpo a corpo ou à distância físico (limite de ganho por turno igual ao seu Modificador de Sabedoria (mínimo 1)). Feitiços e habilidades de Mana não ativam este efeito, salvo indicação contrária.   
 * **Alcance Mortal (◈ \+ 1 Mana):** Lance um projétil de força em um inimigo Próximo. Gaste +1 Mana para cada projétil extra. Se lançar 3 projéteis no mesmo alvo durante o seu turno, ele é arremessado para Próximo.  
 ---
 
