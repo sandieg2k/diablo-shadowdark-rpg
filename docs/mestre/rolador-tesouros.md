@@ -445,11 +445,13 @@ function afixos(qual, nd, logs) {
     prefTitulos.push(p.titulo);
     htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo</span> <b>${p.nome}</b> — ${p.efeito}</div>`);
     if (p.nome === "Caprichoso") {
-      logs.push(step(`<span style="color:#aaa;">↩ Caprichoso — rolando prefixo bônus automaticamente:</span>`));
-      const extra = prefixo(nd, true);
-      logs.push(extra.log);
-      prefTitulos.push(extra.titulo);
-      htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo ✦</span> <b>${extra.nome}</b> — ${extra.efeito}</div>`);
+      logs.push(step(`<span style="color:#aaa;">↩ Caprichoso — rolando 2 prefixos bônus automaticamente:</span>`));
+      for (let c = 0; c < 2; c++) {
+        const extra = prefixo(nd, true);
+        logs.push(extra.log);
+        prefTitulos.push(extra.titulo);
+        htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo ✦</span> <b>${extra.nome}</b> — ${extra.efeito}</div>`);
+      }
     }
   }
   for (let i = 0; i < suf; i++) {
