@@ -252,7 +252,7 @@ const SUF_HP = [
   { min:32, max:999,nome:"do Colosso", efeito:"+30 HP Temporários" },
 ];
 const SUF_REC = [
-  { min:1,  max:10, nome:"da Regeneração", efeito:"Cura 1 HP por turno" },
+  { min:1,  max:10, nome:"da Regeneração", efeito:"Cura 1 HP por turno (só consciente)" },
   { min:11, max:999,nome:"da Renovação",   efeito:"Recupera 1 ponto de atributo perdido por turno" },
 ];
 const SUF_DIARIO = [

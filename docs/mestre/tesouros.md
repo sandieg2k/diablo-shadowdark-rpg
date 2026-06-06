@@ -399,7 +399,7 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 
 | d20 | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
-| **1-10** | da Regeneração | Usuário cura 1 HP por turno. | 20.000 |
+| **1-10** | da Regeneração | Usuário cura 1 HP por turno (apenas enquanto consciente, acima de 0 PV). | 20.000 |
 | **11-20** | da Renovação | Usuário recupera 1 ponto de atributo perdido por turno. | 20.000 |
 
 ### 6\. Preparação Diária (53-63)
