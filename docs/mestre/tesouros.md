@@ -270,7 +270,7 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 
 | d20+ND | Prefixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
-| **1-10** | Gemas Básicas | \+1 RD (escolha o tipo: Ácido, Gelo, Fogo, Raio, Veneno, força radiante, necrótico, etc.) | 400 |
+| **1-10** | Gemas Básicas | \+1 RD (escolha o tipo: Físico, Fogo, Gelo, Relâmpago, Veneno, Necrótico, Radiante, Psíquico ou Arcano) | 400 |
 | **11-30** | Gemas Raras | \+2 RD (escolha o tipo) | 1.200 |
 | **31** | Topázio | \+2 RD em TODOS os tipos. | 3.000 |
 | **32+** | Prismático | \+3 RD em TODOS os tipos. | 3.600 |
@@ -417,14 +417,14 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 
 | d100 | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
-| **64-65** | do Gelo | \+1d6 de dano de gelo em ataques e feitiços | 500 |
-| **66-67** | do Fogo | \+1d6 de dano de fogo em ataques e feitiços | 500 |
-| **68-69** | da Eletricidade | \+1d6 de dano Elétrico em ataques e feitiços | 500 |
+| **64-65** | do Gelo | \+1d6 de dano de Gelo em ataques e feitiços | 500 |
+| **66-67** | do Fogo | \+1d6 de dano de Fogo em ataques e feitiços | 500 |
+| **68-69** | do Relâmpago | \+1d6 de dano de Relâmpago em ataques e feitiços | 500 |
 | **70-71** | do Veneno | \+1d6 de dano de Veneno em ataques e feitiços | 500 |
 | **72-73** | da Radiância | \+1d6 de dano Radiante em ataques e feitiços | 1.000 |
 | **74-75** | da Necromancia | \+1d6 de dano Necrótico em ataques e feitiços | 1.000 |
 | **76-77** | da Psique | \+1d6 de dano Psíquico em ataques e feitiços | 1.000 |
-| **78-80** | da Força | \+1d6 de dano de Força em ataques e feitiços | 2.000 |
+| **78-80** | do Arcano | \+1d6 de dano Arcano em ataques e feitiços | 2.000 |
 
 ### 8\. Efeito de Runas (81-100)
 
@@ -445,54 +445,6 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **93** | Jah | **Aniquilação** | **Ignorar Defesa:** O ataque ignora qualquer bônus de escudo ou armadura natural do inimigo. | 3.000 |
 | **94** | Cham | **Gelo Eterno** | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. | 3.000 |
 | **95-100** | Zod | **Eternidade** | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. | 5.000 |
-
----
-
-## Tesouros Especiais
-
-Itens Únicos e de Set não aparecem em tabelas de loot aleatório. O Mestre os distribui como recompensa de momentos memoráveis — missão concluída, chefe derrotado, tesouro escondido.
-
-### Itens Únicos
-
-Um Item Único tem nome próprio, aparência distinta e efeitos fixos que não usam o sistema de Prefixos e Sufixos. Ele representa um artefato específico do mundo — uma lâmina forjada por um anjo, uma coroa corrompida por Lilith.
-
-**Template de Item Único:**
-
----
-
-**[Nome do Item]** *(Tipo base: Espada Longa / Armadura Pesada / etc.)*
-
-*[Uma linha de lore — de onde vem, quem o forjou, o que representa.]*
-
-**Efeitos:**
-- [Efeito 1]
-- [Efeito 2]
-- *(opcional)* **Efeito Lendário:** [Efeito poderoso que define o item.]
-
-**Requisito:** [Nível mínimo ou atributo, se houver.]
-
----
-
-### Itens de Set
-
-Um Item de Set faz parte de um conjunto nomeado. As peças equipadas isoladamente funcionam como itens Raros. O bônus do Set só se ativa ao completar o número de peças indicado.
-
-**Template de Set:**
-
----
-
-**[Nome do Set]** *(X peças)*
-
-*[Uma linha de lore do conjunto.]*
-
-| Peças equipadas | Bônus |
-| :---- | :---- |
-| **2 peças** | [Bônus menor — a preencher ao criar o set.] |
-| **[X] peças** | [Bônus completo — efeito especial do conjunto.] |
-
-**Peças do Set:**
-- **[Nome da Peça 1]** *(Tipo: ...)*
-- **[Nome da Peça 2]** *(Tipo: ...)*
 
 ---
 

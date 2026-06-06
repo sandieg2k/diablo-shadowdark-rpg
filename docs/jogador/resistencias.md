@@ -7,7 +7,7 @@ Em Santuário, evitar ser atingido (Classe de Armadura) é apenas a primeira lin
 
 Diferente dos aventureiros comuns que dependem da sorte, os Nephalem constroem suas defesas peça por peça. No rodapé do seu Painel de Personagem encontra-se a **Matriz de Resistência**, uma grade numérica que determina o quanto de punição seu corpo pode ignorar antes de começar a sangrar.
 
-## **1\. Como a Matriz Funciona**
+## 1. Como a Matriz Funciona
 
 A regra é absoluta em sua simplicidade: **Subtração Direta**.
 
@@ -29,17 +29,17 @@ Um Xamã Caído lança uma Bola de Fogo que causa 18 de dano.
 ---
 
 
-## **2\. Os Tipos de Dano**
+## 2. Os Tipos de Dano
 
 A Matriz expande os conceitos do D\&D para cobrir o espectro de ameaças de Diablo. Ela é dividida em três categorias:
 
-### ***A. Resistência Física (O Básico)***
+### A. Resistência Física (O Básico)
 
 Este valor único protege contra todas as formas mundanas de dor: **Corte, Perfuração e Impacto**.
 
 * *Fontes Principais:* Armaduras Pesadas, Escudos, Características de Bárbaro/Cruzado.
 
-### ***B. Resistências Elementais (A Magia)***
+### B. Resistências Elementais (A Magia)
 
 As forças primordiais que moldam o mundo — e o corpo que as absorve.
 
@@ -48,7 +48,7 @@ As forças primordiais que moldam o mundo — e o corpo que as absorve.
 3. ⚡ **Relâmpago:** Relâmpagos, choques estáticos.  
 4. ☣️ **Veneno:** Toxinas, gás, bile de demônios, mordidas de aranha.
 
-### ***C. Resistências Sobrenaturais***
+### C. Resistências Sobrenaturais
 
 As forças que transcendem a matéria — morte, divindade, mente e magia pura.
 
@@ -59,11 +59,11 @@ As forças que transcendem a matéria — morte, divindade, mente e magia pura.
 
 ---
 
-## **3\. Fontes de Resistência**
+## 3. Fontes de Resistência
 
 Como preencher os números na sua Matriz? Em Santuário, a resistência vem de três pilares: **Atributos, Equipamento e Magia**.
 
-### ***I. O Atributo Primário (Regra de Ouro do Diablo)***
+### I. O Atributo Primário (Regra de Ouro do Diablo)
 
 Cada atributo protege contra um tipo de ameaça. **Resistência Física é exceção: vem só da armadura e de itens.**
 
@@ -72,7 +72,7 @@ Cada atributo protege contra um tipo de ameaça. **Resistência Física é exce�
 * **Sabedoria:** Modificador de SAB às Resistências de **Necrótico e Psíquico**. *Instinto aguçado reconhece a sombra antes que ela te consuma.*
 * **Carisma:** Modificador de CAR às Resistências de **Radiante e Arcano**. *Convicção inabalável repele a luz divina e a energia mágica bruta.*
 
-### ***II. Itemização (Prefixos e Sufixos)***
+### II. Itemização (Prefixos e Sufixos)
 
 A maior parte da sua resistência virá do saque (*loot*). Itens mágicos possuem propriedades de resistência direta.
 
@@ -80,7 +80,7 @@ A maior parte da sua resistência virá do saque (*loot*). Itens mágicos possue
 * *Exemplo:* Uma "Cota de Malha de Ferro Negro" pode conceder **\+3 Resistência Física**.
 
 
-## **4\. Dificuldade e Penalidades (Opcional)**
+## 4. Dificuldade e Penalidades (Opcional)
 
 Se você quiser emular a progressão de dificuldade de Diablo (Normal, Nightmare, Hell), utilize a regra da **Corrosão de Mundo**.
 
@@ -94,7 +94,7 @@ Conforme os jogadores avançam na história ou entram em áreas amaldiçoadas (c
 
 ---
 
-## **5\. Imunidades e Vulnerabilidades**
+## 5. Imunidades e Vulnerabilidades
 
 Alguns inimigos são **Imunes** a certos tipos de dano — eles tomam **0** de dano desse tipo, independentemente do valor.
 
@@ -107,7 +107,7 @@ O Mestre revela imunidades e vulnerabilidades quando os personagens as identific
 ---
 
 
-## **TABELA 1: MATRIZ DE RESISTÊNCIA DO PERSONAGEM (RD Por Tipo)**
+## Tabela 1 — Matriz de Resistência do Personagem (RD por Tipo)
 
 Esta tabela é o Painel de Personagem para rastrear a Redução de Dano (RD) para cada tipo de ataque.
 
@@ -125,7 +125,7 @@ Esta tabela é o Painel de Personagem para rastrear a Redução de Dano (RD) par
 
 ---
 
-## **TABELA 2: FONTES DE RESISTÊNCIA E ORDEM DE OPERAÇÕES**
+## Tabela 2 — Fontes de Resistência e Ordem de Operações
 
 Esta tabela resume como os atributos e as regras interagem para calcular o dano final.
 

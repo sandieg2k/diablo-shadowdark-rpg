@@ -1,4 +1,4 @@
-# Apêndice A: Criaturas
+# Apêndice A — Criaturas
 
 Este apêndice contém os statblocks de todas as criaturas que aparecem nas tabelas de encontros do livro. As criaturas estão organizadas por bioma, espelhando as tabelas — quando você rolar um encontro, basta abrir a seção correspondente.
 

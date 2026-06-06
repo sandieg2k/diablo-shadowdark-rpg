@@ -1,4 +1,4 @@
-# Cap. 5: Talentos
+# Cap. 5 — Talentos
 
 Ao subir de nível, o jogador escolhe: rolar na **Tabela de Talentos da sua classe** ou rolar numa das **tabelas de Talentos Gerais** abaixo. Talentos Gerais são universais — qualquer herói pode adquiri-los, independente de classe.
 

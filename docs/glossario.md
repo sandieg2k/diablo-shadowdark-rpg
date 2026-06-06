@@ -1,4 +1,4 @@
-# Apêndice B: Glossário
+# Apêndice B — Glossário
 
 *Referência rápida de termos mecânicos e do mundo. Organizado por tema para facilitar a consulta durante o jogo.*
 

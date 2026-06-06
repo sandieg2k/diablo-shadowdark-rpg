@@ -1,4 +1,4 @@
-# Cap. 1: Jogando o Jogo
+# Cap. 1 — Jogando o Jogo
 
 ## Os Dados
 
@@ -224,11 +224,9 @@ Descreve **até onde uma habilidade, ataque ou magia chega**. Aparece nas descri
 
 ## Mana
 
-### **O Reservatório de Poder: Mana**
-
 O Mana representa o fôlego místico, a concentração mental e a estamina heroica. Enquanto qualquer um pode balançar uma espada (**◈**), apenas aqueles tocados pelo destino podem canalizar seu Mana para realizar feitos que desafiam a morte.
 
-### **1\. Cálculo do Reservatório de Mana**
+### 1. Cálculo do Reservatório de Mana
 
 Diferente dos Pontos de Vida, o Mana é influenciado pela força mental do herói. Seu valor máximo é determinado por:
 
@@ -238,25 +236,25 @@ Diferente dos Pontos de Vida, o Mana é influenciado pela força mental do heró
 
 ---
 
-### **2\. Gastando Mana: A Intensidade do Golpe**
+### 2. Gastando Mana — A Intensidade do Golpe
 
 O Mana é gasto em conjunto com os Pontos de Ação (**AP**). Existem três formas principais de utilizar este recurso:
 
-#### **A. Habilidades de Classe e Magias**
+#### A. Habilidades de Classe e Magias
 
 Toda habilidade especial listada em sua classe possui um custo de Mana.
 
 * **Exemplo:** *Flecha de Gelo (Amazon)* – Custo: **◈** \+ 2 Mana.  
 * **Exemplo:** *Teleporte (Arcanista)* – Custo: **◈◈** \+ 4 Mana.
 
-#### **B. Potencializar Ação (Empower)**
+#### B. Potencializar Ação (Empower)
 
 Algumas habilidades de classe permitem você infundir Mana em uma ação básica para torná-la superior. Você decide usar o Mana **após** rolar o dado de ataque, mas antes do mestre descrever o resultado.
 
 * *Ataque Brutal (Bárbaro)* **(2 Mana):** Adiciona \+1d6 de dano do tipo da arma.  
 * **Movimento Veloz (1 Mana):** Ao gastar **◈** para mover, você pode se mover uma distância **Distante** em vez de **Próximo**.
 
-#### **C. Salvaguardas de Emergência**
+#### C. Salvaguardas de Emergência
 
 O Mana pode ser queimado para evitar desastres.
 
@@ -265,7 +263,7 @@ O Mana pode ser queimado para evitar desastres.
 
 ---
 
-### **3\. Recuperação e a "Seca de Mana"**
+### 3. Recuperação e a "Seca de Mana"
 
 Diferente do AP, o Mana **não se recupera** entre os turnos.
 
@@ -274,7 +272,7 @@ Diferente do AP, o Mana **não se recupera** entre os turnos.
 3. **Poções de Mana:** Recuperam Mana instantaneamente (Custo: **◈**).  
 4. **O Roubo de Mana (Mana steal):** Armas com o afixo *Vampírico* ou *Espiritual* recuperam 1 de Mana sempre que você desfere um **Golpe Fatal** ou um **Crítico**.
 
-#### **O Estado de Burnout (Exaustão)**
+#### O Estado de Burnout (Exaustão)
 
 Se o seu Mana chegar a **0**, você entra em um estado de fadiga profunda:
 
@@ -284,7 +282,7 @@ Se o seu Mana chegar a **0**, você entra em um estado de fadiga profunda:
 
 ---
 
-### **Resumo de Interação (AP vs. Mana)**
+### Resumo de Interação (AP vs. Mana)
 
 | Recurso | O que define? | Recuperação |
 | :---- | :---- | :---- |
@@ -293,7 +291,7 @@ Se o seu Mana chegar a **0**, você entra em um estado de fadiga profunda:
 
 ---
 
-### **Exemplo Prático de Turno**
+### Exemplo Prático de Turno
 
 O **Bárbaro** está cercado por 3 Caídos.
 

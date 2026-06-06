@@ -28,7 +28,7 @@ Toda arma possui uma ou mais propriedades que definem como ela se comporta em co
 
 ---
 
-### **Armas de Uma Mão (Corpo a Corpo)**
+### Armas de Uma Mão (Corpo a Corpo)
 
 Ideais para quem usa Escudo ou quer lutar com duas armas (Propriedade Leve).
 
@@ -55,7 +55,7 @@ Ideais para quem usa Escudo ou quer lutar com duas armas (Propriedade Leve).
 | **Rapieira** | 1d8 | Finesse | 18 po |
 | **Picareta de Guerra** | 1d8 | Penetrante | 10 po |
 
-### **Armas de Duas Mãos (Corpo a Corpo)**
+### Armas de Duas Mãos (Corpo a Corpo)
 
 Poder bruto e o controle de área.
 
@@ -72,7 +72,7 @@ Poder bruto e o controle de área.
 | **Lança de Montaria** | 1d12 | Duas Mãos, Haste, Pesada | 20 po |
 | **Espada Montante** | 2d10 | Duas Mãos, Brutal, Pesada | 20 po |
 
-### **Armas à Distância**
+### Armas à Distância
 
 Essenciais para Renegadas, Amazonas e caçadores de demônios.
 
@@ -87,7 +87,7 @@ Essenciais para Renegadas, Amazonas e caçadores de demônios.
 | **Besta Leve** | 1d8 | Distante (Far), Carga | 10 po |
 | **Besta Pesada** | 1d10 | Distante (Far), Carga, Duas Mãos | 20 po |
 
-### **Armaduras**
+### Armaduras
 
 Armaduras podem ser encontradas e equipadas como peças individuais. **Cada peça adiciona seu bônus à CA base do tipo:**
 
@@ -113,7 +113,7 @@ Com uma única peça você já parte da CA base do tipo — exatamente como esta
 | **Prop. do Tipo** | \+Mod DES | \+Mod DES, RD 1 | \+Mod DES (máx \+2), RD 1, Req. FOR 11 | \+Mod DES (máx \+2), RD 2, Req. FOR 11 | Ruído, Req. FOR 13, RD 2 | Ruído, Req. FOR 13, RD 3 |
 | **Preço (set)** | 10 po | 45 po | 50 po | 400 po | 750 po | 1500 po |
 
-### **Escudos**
+### Escudos
 
 O acesso a escudos acompanha o tipo de armadura da classe: **Leve** → Broquel; **Média** → Broquel e Escudo; **Pesada** → todos os três.
 
@@ -124,7 +124,7 @@ O acesso a escudos acompanha o tipo de armadura da classe: **Leve** → Broquel;
 | **Escudo de Torre** | Pesado | \+3 | Quebrável, Desvantagem em testes de DES, Mov. \-1 | 60 po |
 
 
-### **Joias**
+### Joias
 
 Anéis e Amuletos não têm efeito em sua versão Normal — o valor vem inteiramente dos Prefixos e Sufixos quando o item for Mágico, Raro ou Lendário. Cada personagem possui dois slots de Anel e um slot de Amuleto na ficha.
 
@@ -133,7 +133,7 @@ Anéis e Amuletos não têm efeito em sua versão Normal — o valor vem inteira
 | **Anel** | 2 slots na ficha (Anel 1 e Anel 2) | 5 po |
 | **Amuleto** | 1 slot na ficha | 10 po |
 
-### **Cinto**
+### Cinto
 
 O Cinto é um slot especial exclusivo para **Consumíveis**. Cabe até 3 itens consumíveis (poções, pergaminhos, etc.).
 
@@ -145,7 +145,7 @@ O Cinto é um slot especial exclusivo para **Consumíveis**. Cabe até 3 itens c
 | **Cinto** | 3 slots de consumível | 5 po |
 | **Cinto de Couro Reforçado** | 4 slots de consumível | 20 po |
 
-### **Slot Especial**
+### Slot Especial
 
 O slot Especial é reservado para **itens exclusivos de classe** — objetos que amplificam diretamente as habilidades core de cada classe. Já funcionam em versão Normal; versões Mágicas, Raras e Lendárias ampliam o efeito via Prefixos e Sufixos.
 
