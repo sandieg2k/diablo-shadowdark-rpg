@@ -678,20 +678,20 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **1-2** | \+2 de Força ou \+2 de Constituição. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+2 de HP. |
 | **5** | **Golpe de Escudo (◈ \+ 1 Mana):** Se estiver usando escudo, você pode tentar derrubar um alvo usando ação de atacar. |
-| **6** | **Carnificína (◈ \+ 1 Mana por ataque):** Se matar um inimigo, ganha um ataque imediato contra outro "Próximo". |
-| **7** | **Postura Defensiva(◈◈ \+ 1 Mana por Rodada) :** Adicione seu Modificador de Força na CA por 1 rodada. |
+| **6** | **Carnificína (◈ \+ 1 Mana por ataque):** Se matar um inimigo, ganha um ataque imediato contra outro Próximo. |
+| **7** | **Postura Defensiva (◈◈ \+ 1 Mana por Rodada):** Adicione seu Modificador de Força na CA por 1 rodada. |
 | **8** | **Desarmar (◈ \+ 1 ou 5 Mana):** Faça um ataque, se acertar você faz a arma do inimigo voar para longe. Você pode gastar \+5 Mana para arrancar armas naturais ou partes de monstros (Braços, Asas, Olhos). |
 | **9** | **Golpe de Sangue (◇):** Gaste 2 HP para causar \+1d8 de dano Físico em um ataque. |
 | **10** | **Duro de Matar (⟁ \+ 3 Mana):** Reduza o dano físico de um ataque recebido em **1d10 + Nível**. |
-| **11** | **Mestre de Armadura (Passiva):** Enquanto usar armadura pesada, você tem RD 2 para dano físico e o peso das armaduras não reduz seu movimento. |
+| **11** | **Mestre de Armadura (Passiva):** Enquanto usar armadura pesada, você tem RD 2 para dano Físico e o peso das armaduras não reduz seu movimento. |
 | **12** | **Ataque Brutal (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **13** | **Segunda Chance (◇ \+ 2 Mana):** Role novamente um teste de ataque que errou. |
-| **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos "Próximo" devem te atacar no próximo turno (Teste de SAB ou CAR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
+| **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos Próximo devem te atacar no próximo turno (Teste de SAB ou CAR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
 | **15** | **Mestre de Todas as Armas (Passiva):** Você pode trocar sua arma de Mestria após um descanso curto ou longo. |
 | **16** | **Fôlego Renovado (◈ \+ 1 Mana):** Recupere 1d10 \+ Nível de HP como uma ação. Gaste +1 Mana para cada dado extra. |
 | **17** | **Quebra-Armadura (◈◈◈ \+ 3 Mana):** Faça um ataque, se acertar o impacto reduz a CA do inimigo em 2 pelo resto da cena (destrói o couro/metal). |
-| **18** | **Carga Heróica (◈◈ \+ 4 Mana):** Avance para "Distante" e ataque com Vantagem. Se acertar, causa dano máximo. |
-| **19** | **Veterano de Ferro (◈◈◈ \+ 8 Mana):** Por 1d4 rodadas, você entra em estado de combate total. Seus ataques com a arma de Mestria causam dano máximo automático. Uma vez por rodada, se matar um inimigo, pode fazer um ataque imediato contra outro "Próximo" como ação livre **◇**. |
+| **18** | **Carga Heróica (◈◈ \+ 4 Mana):** Avance para Distante e ataque com Vantagem. Se acertar, causa dano máximo. |
+| **19** | **Veterano de Ferro (◈◈◈ \+ 8 Mana):** Por 1d4 rodadas, você entra em estado de combate total. Seus ataques com a arma de Mestria causam dano máximo automático. Uma vez por rodada, se matar um inimigo, pode fazer um ataque imediato contra outro Próximo como ação livre **◇**. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -708,7 +708,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
 | **1** | **Mapear a Fortaleza:** Identificar todos os pontos de entrada, saída e rotas de suprimento de uma masmorra ocupada. | **Golpe de Precisão:** Se você não se mover e fizer apenas um ataque no seu turno, adicione \+5 ao teste de ataque. |
-| **2** | **O Forjar da Lenda:** Recuperar uma arma de família ou uma peça de armadura lendária em um local de grande perigo. | **Aparar Avançado:** Você pode gastar sua Reação (⟁) para reduzir o dano de um ataque físico recebido por você ou um aliado adjacente em 1d8 \+ seu bônus de Força. |
+| **2** | **O Forjar da Lenda:** Recuperar uma arma de família ou uma peça de armadura lendária em um local de grande perigo. | **Aparar Avançado:** Você pode gastar sua Reação (⟁) para reduzir o dano de um ataque físico recebido por você ou um aliado Adjacente em 1d8 \+ seu bônus de Força. |
 | **3** | **Prova de Aço:** Sobreviver a uma armadilha de área ou a um colapso de estrutura usando apenas sua armadura e escudo como abrigo. | **Fortaleza Móvel:** Você ganha Redução de Dano (RD) 2 contra ataques físicos enquanto estiver usando armadura pesada. |
 | **4** | **Veterano de Guerra:** Analisar um campo de batalha antigo e deduzir a tática usada pelos mortos para evitar os mesmos erros. | **Retaliação Tática:** Uma vez por rodada, se um inimigo errar um ataque corpo a corpo contra você, você pode realizar um contra-ataque imediato. |
 | **5** | **Warband:** Crie um grupo de mercenários sob seu comando. O grupo deve ter no mínimo 5 integrantes (Outros jogadores não contam como mercenários). | **Olhos do Combatente:** Você não pode ser surpreendido e você ganha Vantagem em testes para perceber armadilhas e inimigos em uma região. |
