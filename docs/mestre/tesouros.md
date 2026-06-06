@@ -713,6 +713,35 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Aldur's Watchtower *(Druida — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Aldur's Stony Gaze** | Elmo — Cota de Malha | \+1 CA, \+2 SAB; Transmutar: forma Lobo também concede \+1d4 Fogo nos ataques; forma Urso também concede RD 2 Físico |
+| **Aldur's Deception** | Peitoral — Cota de Malha | \+2 CA; Furacão — *sem o talento:* set concede acesso; *com o talento:* causa 2d8 em vez de 2d6 |
+| **Aldur's Rhythm** | Cajado (1d6) | \+2 conjuração; Fissura — *sem o talento:* set concede acesso; *com o talento:* dura 1d4\+2 rodadas |
+| **Aldur's Advance** | Amuleto | \+2 SAB; enquanto transformado, seus feitiços elementais causam \+1d4 do mesmo tipo de dano |
+
+**Bônus de Set:**
+- *2 peças:* Transmutar custa 1 Mana a menos e a forma dura a cena inteira sem precisar ser reativada
+- *4 peças:* enquanto transformado, Armagedão custa 4 Mana a menos (4 Mana em vez de 8)
+
+---
+
+#### Cow King's Leathers *(Druida — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Cow King's Horns** | Elmo — Brunea | \+1 CA, \+2 CON; Lobos Atrozes — *sem o talento:* set concede acesso (1 lobo extra); *com o talento:* lobos extras têm \+2 HP e \+1 dano |
+| **Cow King's Hide** | Peitoral — Brunea | \+2 CA, RD 1; Chamado do Urso Pardo — *sem o talento:* set concede acesso; *com o talento:* Urso Espiritual tem CA 17 e HP = Nível×4 |
+| **Cow King's Hooves** | Perneiras — Brunea | \+1 CA; Coração de Wolverine — *sem o talento:* set concede acesso; *com o talento:* bônus para aliados sobe de \+1 para \+2 |
+
+**Bônus de Set:**
+- *2 peças:* ressuscitar Espírito Animal custa 0 Mana e é ação livre (◇)
+- *3 peças:* você pode ter 1 Lobo/Corvo Espiritual e 1 Urso Espiritual ativos simultaneamente
+
+---
+
 #### Jade Harvester *(Feiticeiro — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
