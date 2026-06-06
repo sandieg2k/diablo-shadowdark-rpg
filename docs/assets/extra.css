@@ -1,0 +1,41 @@
+/* Cinzel — ajuste de peso e espaçamento */
+:root {
+  --md-text-font: "Cinzel", serif;
+}
+
+/* Títulos mais pesados */
+h1, h2, h3, h4 {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Corpo: Cinzel pura em peso normal é legível mas densa — abre um pouco */
+.md-content p,
+.md-content li,
+.md-content td {
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.02em;
+}
+
+/* Tabelas: borda sutil */
+.md-content table {
+  border-collapse: collapse;
+}
+.md-content th,
+.md-content td {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  padding: 0.4em 0.8em;
+}
+
+/* Nav lateral: peso menor para não pesar */
+.md-nav__item {
+  font-weight: 400;
+}
+
+/* Nome do site na barra superior: destaque máximo */
+.md-header__title {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}

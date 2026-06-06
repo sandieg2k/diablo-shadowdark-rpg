@@ -22,7 +22,7 @@ theme:
         icon: material/weather-night
         name: Modo escuro
   font:
-    text: Roboto
+    text: Cinzel
     code: Roboto Mono
   features:
     - navigation.tabs
@@ -34,6 +34,9 @@ theme:
     - search.suggest
     - content.tables
     - toc.follow
+
+extra_css:
+  - assets/extra.css
 
 plugins:
   - search:
