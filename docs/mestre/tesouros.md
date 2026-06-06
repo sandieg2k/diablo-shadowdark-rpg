@@ -1178,3 +1178,47 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *4 peças:* Golpe Sagrado não custa Mana — gratuito em todo acerto
 
 ---
+
+#### Milabrega's Regalia *(Paladino — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Milabrega's Diadem** | Elmo — Meia-Placa | \+1 CA, \+2 CAR; Setas Sagradas causa \+1d6 extra |
+| **Milabrega's Robe** | Peitoral — Meia-Placa | \+2 CA; Punho dos Céus custa 2 Mana a menos |
+| **Milabrega's Rod** | Escudo | \+2 CA, Quebrável; ao quebrar: pulso de cura (1d8, aliados Próximo) |
+| **Milabrega's Orb** | Amuleto | \+2 conjuração; Mãos de Luz — *sem o talento:* set concede acesso (cura 1d8 HP por 2 Mana); *com o talento:* custa 2 Mana a menos |
+
+**Bônus de Set:**
+- *2 peças:* Setas Sagradas afeta 1 alvo extra (cura ou dano) sem custo adicional
+- *4 peças:* Punho dos Céus detona as Setas Sagradas com dano máximo (sem rolar dado)
+
+---
+
+#### Angelic Raiment *(Paladino — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Angelic Sickle** | Espada Curta (1d6) | \+1 Ataque, Finesse; Aura de Redenção — *sem o talento:* set concede acesso; *com o talento:* cura 1d4 HP (em vez de 1) por morte na aura |
+| **Angelic Mantle** | Peitoral — Cota de Malha | \+2 CA, RD 2; Aura de Salvação — *sem o talento:* set concede acesso; *com o talento:* RD 3 Elemental em vez de 2 |
+| **Angelic Wings** | Amuleto | \+2 CAR; sua Aura afeta aliados a Distante (em vez de Próximo) |
+
+**Bônus de Set:**
+- *2 peças:* Trocar de Aura custa ◇ (ação livre) em vez de ◈
+- *3 peças:* Enquanto tiver uma Aura ativa, você recupera 1 HP no início de cada turno
+
+---
+
+#### Armor of Akkhan *(Paladino — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Akkhan's Addendum** | Elmo — Placa Completa | \+1 CA; Avatar da Justiça dura 1d4\+2 rodadas em vez de 1d4 |
+| **Akkhan's Mantle** | Peitoral — Placa Completa | \+2 CA, RD 3; Convicção — *sem o talento:* set concede acesso; *com o talento:* penalidade de CA nos inimigos sobe de 2 para 3 |
+| **Akkhan's Leniency** | Perneiras — Placa Completa | \+2 CA; Carga — *sem o talento:* set concede acesso; *com o talento:* se derrubar o alvo, Golpe Sagrado é gratuito nesse turno |
+| **Talisman of Akkhan** | Amuleto | \+2 CAR; Avatar da Justiça custa 4 Mana a menos (4 Mana em vez de 8) |
+
+**Bônus de Set:**
+- *2 peças:* Durante Avatar da Justiça, Golpe Sagrado adiciona Nível × 2 Radiante em vez de Nível
+- *4 peças:* Avatar da Justiça pode ser ativado sem custo de Mana uma vez por descanso longo
+
+---
