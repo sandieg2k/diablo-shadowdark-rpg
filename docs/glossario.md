@@ -1,4 +1,4 @@
-# Glossário
+﻿# Glossário
 
 *Referência rápida de termos mecânicos e do mundo. Organizado por tema para facilitar a consulta durante o jogo.*
 
@@ -97,9 +97,9 @@ Todo personagem recebe **3 Pontos de Ação (◈◈◈)** no início de cada tur
 
 **◈◈◈ — Três Ações:** Esforço total. Habilidades definitivas que consomem o turno inteiro.
 
-**◇ — Ação Livre:** Instantânea, sem custo de AP. Limite de 1 por turno.
+**◇ — Ação Livre:** Instantânea, sem custo de PA. Limite de 1 por turno.
 
-**⟁ — Reação:** Executada fora do seu turno em resposta a um gatilho. Exige ter pelo menos 1 AP reservado ao fim do turno anterior.
+**⟁ — Reação:** Executada fora do seu turno em resposta a um gatilho. Exige ter pelo menos 1 PA reservado ao fim do turno anterior.
 
 ---
 

@@ -1,4 +1,4 @@
-# Apêndice A: Criaturas
+﻿# Apêndice A: Criaturas
 
 Este apêndice contém os statblocks de todas as criaturas que aparecem nas tabelas de encontros do livro. As criaturas estão organizadas por bioma, espelhando as tabelas — quando você rolar um encontro, basta abrir a seção correspondente.
 
@@ -6,7 +6,7 @@ Este apêndice contém os statblocks de todas as criaturas que aparecem nas tabe
 
 ### Como ler um statblock compacto
 
-> **PV** = Pontos de Vida | **CA** = Classe de Armadura | **Ataque** = bônus para acertar | **Vel.** = Velocidade de movimento | **AP** = Pontos de Ação por turno (mínimo 3 para todas as criaturas)
+> **PV** = Pontos de Vida | **CA** = Classe de Armadura | **Ataque** = bônus para acertar | **Vel.** = Velocidade de movimento | **PA** = Pontos de Ação por turno (mínimo 3 para todas as criaturas)
 
 ---
 
@@ -43,7 +43,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Caídos (Fallen)
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Caído | 5 | 10 | +2 | 1d4 Físico (garra/faca) | Próximo | 3 |
 | Xamã Caído | 8 | 11 | +3 | 1d6+1 Fogo (rajada, alcance Curto) | Próximo | 3 |
@@ -61,7 +61,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Animais Corrompidos
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Rato de Peste | 4 | 10 | +2 | 1d3 Físico + Doença | Próximo | 3 |
 | Morcego Carniceiro | 5 | 12 | +3 | 1d4 Físico (mordida) | Voo Normal | 3 |
@@ -79,7 +79,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Homens-Bode (Khazra)
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Homem-Bode | 16 | 13 | +4 | 1d8+2 Físico (machado) | Próximo | 3 |
 | Clã da Lua | 22 | 15 | +5 | 2d6+3 Físico (alabarda) | Próximo | 3 |
@@ -94,7 +94,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Mortos-Vivos
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Herói Corrompido | 18 | 14 | +4 | 1d8+2 Físico (espada) ou 1d6+1 Físico (arco, alcance Curto) | Próximo | 3 |
 | Carniçal Faminto | 12 | 11 | +3 | 2d4 Físico (mordida) | Próximo | 3 |
@@ -120,7 +120,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Vermes
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Verme Gigante | 20 | 12 | +4 | 1d10+2 Físico (triturar) | Próximo | 3 |
 | Abominação | 38 | 14 | +6 | 2d8+5 Físico (soco de corpo) | Próximo | 3 |
@@ -145,7 +145,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 **Bônus:** +10 *(ataques, chifradas, resistência física, ser derrubado)*
 **Bônus Fraco:** +5 *(esquiva, magia, testes sociais, furtividade)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Lança Gigante** (◈): +10 para acertar, alcance Longo, 3d10+5 de dano perfurante.
@@ -173,7 +173,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Fauna do Pântano
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Verme de Pântano | 6 | 10 | +2 | 1d4 Físico (perfurar) | Próximo | 3 |
 | Mosca Mutante | 5 | 11 | +2 | 1d3 Físico (ferrão) | Voo Normal | 3 |
@@ -194,7 +194,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Fetichistas
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Fetichista | 7 | 11 | +3 | 1d4 Físico (faca envenenada) | Próximo | 3 |
 | Guerreiro Bogad | 24 | 13 | +5 | 1d10+3 Físico (clava de osso) | Próximo | 3 |
@@ -213,7 +213,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Mortos-Vivos do Pântano
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Carniçal Inchado | 28 | 12 | +6 | 2d8+5 Físico (garras) | Próximo | 3 |
 | Insepulto | 25 | 14 | +5 | 1d8+3 Físico (golpe) | Próximo | 3 |
@@ -233,7 +233,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 ### Entidades Espectrais
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Alma Penada | 20 | 12 | +5 | 1d6+2 Gelo (toque frio) | Voo Normal | 3 |
 | Aparição | 32 | 14 | +5 | 1d8+3 Gelo (toque gélido) | Voo Normal | 3 |
@@ -257,7 +257,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comecem o turno dentro de um Enxame sofrem dano automaticamente, sem rolagem de ataque.
 
-| Nome | PV | CA | Dano Automático | Vel. | AP |
+| Nome | PV | CA | Dano Automático | Vel. | PA |
 |---|---|---|---|---|---|
 | Enxame de Insetos | 15 | 12 | 1d6 Físico por turno (todos dentro da área) | Próximo | 3 |
 | Enxame de Gafanhotos | 25 | 13 | 2d6 Físico por turno (todos dentro da área) | Próximo | 3 |
@@ -279,7 +279,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Bônus:** +6 *(magias, maldições, conhecimento arcano)*
 **Bônus Fraco:** +3 *(combate físico, força bruta, resistência a veneno)*
 
-**AP:** 3 | **Velocidade:** Próximo (ou Voo Normal com ritual ativo)
+**PA:** 3 | **Velocidade:** Próximo (ou Voo Normal com ritual ativo)
 
 **Ações:**
 - **Maldição do Pântano** (◈): Alcance Próximo, Salvaguarda de Sabedoria DC 14 ou o alvo sofre −2 em ataques e CA por 3 rodadas. Acumula.
@@ -307,7 +307,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Fauna do Deserto
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Escorpião | 5 | 12 | +2 | 1d4 Físico (ferrão) | Próximo | 3 |
 | Víbora de Areia | 4 | 11 | +2 | 1d4 Físico (mordida) | Próximo | 3 |
@@ -328,7 +328,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Humanos do Deserto
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Salteador | 6 | 11 | +2 | 1d6 Físico (adaga ou arco) | Próximo | 3 |
 | Bandido | 14 | 13 | +4 | 1d8+1 Físico (espada ou besta) | Próximo | 3 |
@@ -343,7 +343,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Lacuni
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Saltador Lacuni | 16 | 14 | +4 | 1d8+2 Físico (garras) | Distante | 3 |
 
@@ -355,7 +355,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Mortos-Vivos Ósseos
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Esqueleto | 8 | 12 | +3 | 1d6+1 Físico (espada ou arco) | Próximo | 3 |
 | Esqueleto Queimado | 12 | 12 | +4 | 1d6 Fogo (toque) | Próximo | 3 |
@@ -378,7 +378,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Entidades de Sombra
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Sombra | 18 | 13 | +4 | 1d6+2 Necrótico (toque sombrio) | Voo Normal | 3 |
 | Sombra de Areia | 28 | 14 | +5 | 2d8+5 Necrótico (toque) | Voo Normal | 3 |
@@ -401,7 +401,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Mumificados
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Múmia | 25 | 14 | +6 | 1d8+3 Físico (garras) | Próximo | 3 |
 | Múmia Maior | 40 | 15 | +7 | 2d10+3 Físico (garras) | Próximo | 3 |
@@ -431,7 +431,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Bônus:** +8 *(magia necrótica, maldições, resistir a ser destruído)*
 **Bônus Fraco:** +4 *(combate físico, velocidade, resistência ao fogo)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Projétil Necrótico** (◈): +8 para acertar, alcance Longo, 3d10+4 de dano necrótico.
@@ -459,7 +459,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Fauna da Selva
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Mosca de Peste | 4 | 11 | +2 | 1d3 Físico + Doença | Voo Normal | 3 |
 | Aranha de Teia | 5 | 12 | +2 | 1d4 Físico (mordida) | Próximo | 3 |
@@ -480,7 +480,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Fauna Maior
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Zumbi de Selva | 12 | 11 | +3 | 2d4 Físico (mordida/garras) | Próximo | 3 |
 | Aranha de Musgo | 14 | 13 | +4 | 1d6+2 Físico (presas) | Próximo | 3 |
@@ -509,7 +509,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Guerreiro Fetichista
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Guerreiro Fetichista | 16 | 12 | +4 | 1d8+2 Físico (lança envenenada) | Próximo | 3 |
 
@@ -523,7 +523,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Criaturas de Médio Porte
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Macaco das Trevas | 25 | 14 | +5 | 1d8+3 Físico (garras/mordida) | Próximo | 3 |
 | Cobra Constritora | 30 | 14 | +5 | 1d8+3 Físico (mordida) | Próximo | 3 |
@@ -538,7 +538,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Criaturas de Elite
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Horror de Espinhos | 40 | 15 | +6 | 2d10+3 Físico (espinhos/golpe) | Próximo | 3 |
 | Homem-Tigre Lacuni | 35 | 15 | +6 | 2d10+3 Físico (garras) | Distante | 3 |
@@ -563,7 +563,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Bônus:** +7 *(magia de fogo, domínio religioso, resistir à corrupção)*
 **Bônus Fraco:** +3 *(combate físico, furtividade, venenos)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Orbe de Fogo** (◈): +7 para acertar, alcance Longo, 3d10+4 de dano de fogo.
@@ -591,7 +591,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Mortos-Vivos do Inferno
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Verme de Carne | 6 | 11 | +4 | 1d8+2 Físico (mordida venenosa) | Próximo | 3 |
 | Esqueleto Fogoso | 8 | 12 | +4 | 1d8+2 Fogo (toque ou arco) | Próximo | 3 |
@@ -612,7 +612,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Demônios Menores
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Diabrete (Imp) | 8 | 12 | +4 | 1d8+2 Físico (garras) | Próximo | 3 |
 | Diabrete de Fogo | 22 | 13 | +5 | 1d10+4 Fogo (garras) | Próximo | 3 |
@@ -629,7 +629,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Guerreiros Demoníacos
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Cavaleiro da Perdição | 20 | 14 | +5 | 1d10+4 Físico (espada flamejante) | Próximo | 3 |
 | Cavaleiro do Inferno | 35 | 16 | +6 | 2d10+3 Físico (espada flamejante) | Próximo | 3 |
@@ -646,7 +646,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Criaturas Especiais
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Súcubo | 25 | 14 | +5 | 1d10+4 Físico (garras) | Voo Normal | 3 |
 | Algoz | 30 | 15 | +5 | 2d10+3 Físico (machado gigante) | Próximo | 3 |
@@ -663,7 +663,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 ### Demônios Maiores
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Demônio Alado | 38 | 15 | +7 | 2d10+3 Físico (garras/chifres) | Voo Rápido | 3 |
 | Cara de Carne | 45 | 14 | +7 | 2d8+5 Físico (bocas múltiplas) | Próximo | 3 |
@@ -686,7 +686,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Bônus:** +7 *(fogo, domínio demoníaco, resistência física)*
 **Bônus Fraco:** +3 *(magia arcana, gelo, furtividade)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Chicote de Fogo** (◈): +7 para acertar, alcance Curto, 2d10+3 de fogo. Acerto → alvo Derrubado.
@@ -713,7 +713,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Bônus:** +9 *(fogo, força bruta, resistir a qualquer coisa)*
 **Bônus Fraco:** +4 *(magia arcana, gelo, enganação)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Chicote Infernal** (◈): +9 para acertar, alcance Curto, 4d8+7 de fogo. Acerto → alvo Derrubado.
@@ -740,7 +740,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Bônus:** +9 *(força física, esmagar, resistir a ser derrubado)*
 **Bônus Fraco:** +4 *(magia, fogo, raciocínio tático)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Smash** (◈): +9 para acertar, 4d8+7 de dano contundente. Acerto → Salvaguarda de Força DC 17 ou alvo é arremessado 1 zona e cai Derrubado.
@@ -783,7 +783,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Servas Corrompidas
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Rogue Corrompida | 18 | 13 | +4 | 1d8+2 Físico (arco envenenado, alcance Longo) | Próximo | 3 |
 | Guardiã das Catacumbas | 22 | 15 | +5 | 1d8+3 Físico (espada) | Próximo | 3 |
@@ -804,7 +804,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Criaturas de Veneno
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Larva de Andariel | 8 | 10 | +3 | 1d4 + veneno | Próximo | 3 |
 | Aranha da Rainha | 20 | 13 | +4 | 1d6+2 (presas) | Próximo | 3 |
@@ -820,7 +820,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Mortos-Vivos das Catacumbas
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Esqueleto do Mosteiro | 14 | 14 | +4 | 1d8+2 Físico (espada ou lança) | Próximo | 3 |
 | Mago Ósseo | 12 | 12 | +4 | 1d6+2 Fogo/Gelo/Relâmpago (feitiço, alcance Longo) | Próximo | 3 |
@@ -844,7 +844,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +6 *(arco, furtividade, magia necrótica)*
 **Bônus Fraco:** +3 *(combate corpo a corpo, força bruta, sagrado)*
 
-**AP:** 3 | **Velocidade:** Voo Normal (forma espectral)
+**PA:** 3 | **Velocidade:** Voo Normal (forma espectral)
 
 **Ações:**
 - **Flecha Sombria** (◈): +6 para acertar, alcance Longo, 2d8+3 de dano necrótico/veneno.
@@ -874,7 +874,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +7 *(veneno, sedução, garras demoníacas)*
 **Bônus Fraco:** +3 *(fogo, sagrado, força bruta)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Garras Venenosas** (◈): +7 para acertar, 2d6+4 de dano Físico + Salvaguarda de Constituição DC 15 ou sofre 1d6 de veneno por turno durante 3 turnos.
@@ -903,7 +903,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +9 *(veneno, sedução, garras, domínio sobre o medo)*
 **Bônus Fraco:** +4 *(fogo, sagrado, força bruta)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Garras Venenosas** (◈): +9 para acertar, 3d6+5 de dano Físico + Salvaguarda de Constituição DC 17 ou sofre 2d6 de veneno por turno durante 3 turnos.
@@ -935,7 +935,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Cultistas da Dor
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Flagelante | 20 | 12 | +4 | 1d8+2 Físico (correntes) | Próximo | 3 |
 | Carrasco | 28 | 13 | +5 | 1d10+3 Físico (ferros/correntes) | Próximo | 3 |
@@ -954,7 +954,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Criaturas das Tumbas Profundas
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Larva da Dor | 12 | 11 | +3 | 1d6+1 Físico (mordida venenosa) | Próximo | 3 |
 | Escorpião de Tumba | 30 | 15 | +5 | 2d10+3 Físico (pinças + ferrão) | Próximo | 3 |
@@ -973,7 +973,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Guardiões de Tal Rasha
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Guardião de Pedra | 38 | 17 | +6 | 2d8+3 Físico (golpe colossal) | Próximo | 3 |
 | Vigília Eterna | 28 | 15 | +5 | 1d10+3 Físico (lança sagrada corrompida) | Próximo | 3 |
@@ -998,7 +998,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +7 *(força bruta, resistência física, esmagar)*
 **Bônus Fraco:** +3 *(magia, veneno, furtividade)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Golpe Esmagador** (◈): +7 para acertar, 2d10+4 de dano contundente. Salvaguarda de Força DC 15 ou alvo Derrubado.
@@ -1027,7 +1027,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +8 *(velocidade, força física, resistir a qualquer impacto)*
 **Bônus Fraco:** +3 *(magia, fogo, sagrado)*
 
-**AP:** 3 | **Velocidade:** Distante
+**PA:** 3 | **Velocidade:** Distante
 
 **Ações:**
 - **Garras da Dor** (◈): +8 para acertar, 2d8+5 de dano cortante. Pode fazer este ataque duas vezes por ◈◈.
@@ -1057,7 +1057,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +10 *(velocidade, força física, resistir a qualquer coisa)*
 **Bônus Fraco:** +4 *(magia, fogo, sagrado)*
 
-**AP:** 3 | **Velocidade:** Distante
+**PA:** 3 | **Velocidade:** Distante
 
 **Ações:**
 - **Garras da Dor** (◈): +10 para acertar, 3d8+6 de dano cortante. Pode fazer este ataque duas vezes por ◈◈.
@@ -1091,7 +1091,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 *Cada cultista representa um Pecado Capital abraçado até a transformação.*
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Pecador da Gula | 30 | 12 | +5 | 2d10+3 Físico (mordida/soco) | Próximo | 3 |
 | Pecador da Ira | 22 | 13 | +6 | 1d10+4 Físico (machado) | Próximo | 3 |
@@ -1114,7 +1114,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Exército do Pecado
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Imp do Pecado | 10 | 13 | +4 | 1d8+2 Físico (garras) | Próximo | 3 |
 | Tremor Demoníaco | 28 | 14 | +5 | 2d6+2 Físico (golpe pesado) | Próximo | 3 |
@@ -1136,7 +1136,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 *Estrutura demoníaca imóvel — portal vivo que alimenta o exército de Azmodan.*
 
-**PV** 20 | **CA** 10 | **AP** 3
+**PV** 20 | **CA** 10 | **PA** 3
 
 **Imóvel:** Não se move nem ataca diretamente.
 **Portal Ativo:** A cada 2 turnos, invoca 1d4 Imps do Pecado ou 1d2 Tremores Demoníacos.
@@ -1158,7 +1158,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +7 *(sedução, veneno, teia, furtividade)*
 **Bônus Fraco:** +3 *(força bruta, fogo, sagrado)*
 
-**AP:** 3 | **Velocidade:** Voo Normal (move-se pelas paredes e teto)
+**PA:** 3 | **Velocidade:** Voo Normal (move-se pelas paredes e teto)
 
 **Ações:**
 - **Garras da Luxúria** (◈): +7 para acertar, 3d8+5 de dano Físico + Salvaguarda de Sabedoria DC 15 ou o alvo fica Encantado por 1 rodada.
@@ -1188,7 +1188,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +8 *(fogo, comando demoníaco, magia do pecado)*
 **Bônus Fraco:** +3 *(sagrado, combate físico direto, gelo)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Bola de Fogo do Inferno** (◈): +8 para acertar, alcance Longo, 2d10+4 de fogo.
@@ -1218,7 +1218,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +10 *(fogo, comando demoníaco, magia do pecado, sedução em massa)*
 **Bônus Fraco:** +4 *(sagrado, combate físico direto, gelo)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Raio do Inferno** (◈): +10 para acertar, alcance Longo, 3d8+5 de fogo.
@@ -1252,7 +1252,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Cultistas de Belial
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Espião Revelado | 16 | 13 | +4 | 1d6+2 Físico (adaga envenenada) | Próximo | 3 |
 | Ilusionista de Belial | 14 | 13 | +4 | 1d6+2 Psíquico (projétil ilusório) | Próximo | 3 |
@@ -1273,7 +1273,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Criaturas de Ilusão
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Duplicata Demoníaca | 12 | 12 | +4 | 1d6+2 (cópia do alvo) | Próximo | 3 |
 | Sombra da Mentira | 18 | 14 | +4 | 1d6+2 Psíquico (toque psíquico) | Voo Normal | 3 |
@@ -1300,7 +1300,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +6 *(enganação, veneno, combate com adagas, ilusão)*
 **Bônus Fraco:** +3 *(força bruta, magia elemental, combate aberto)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Adaga Envenenada** (◈): +6 para acertar, 2d6+3 de dano Físico + Salvaguarda de Constituição DC 14 ou sofre 1d6 de veneno por turno durante 3 turnos.
@@ -1329,7 +1329,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +7 *(ilusão, veneno, enganação, manipulação mental)*
 **Bônus Fraco:** +3 *(combate físico direto, fogo, sagrado)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Projétil Venenoso** (◈): +7 para acertar, alcance Longo, 2d6+4 de veneno.
@@ -1359,7 +1359,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +9 *(veneno, ilusão em massa, manipulação, garras colossais)*
 **Bônus Fraco:** +4 *(fogo, sagrado, gelo)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Garras Venenosas** (◈): +9 para acertar, 2d10+5 de dano Físico + Salvaguarda de Constituição DC 16 ou sofre 2d6 de veneno por turno durante 3 turnos.
@@ -1391,7 +1391,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 *Os fanáticos Zakarum que abraçaram o ódio como virtude sagrada. A maioria não sabe que serve ao Inferno — acredita genuinamente que purifica o mundo.*
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Inquisidor Zakarum | 20 | 14 | +5 | 2d6+2 Físico (mangual corrompido) | Próximo | 3 |
 | Bispo do Ódio | 16 | 13 | +5 | 1d6+3 Relâmpago (maldição, alcance Curto) | Próximo | 3 |
@@ -1414,7 +1414,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 *As almas daqueles que morreram consumidos pelo ódio — permaneceram em Santuário como energia pura de raiva e ressentimento.*
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Alma do Rancor | 18 | 13 | +4 | 2d4+3 Psíquico (toque de ódio) | Voo Normal | 3 |
 | Espectro do Desespero | 30 | 15 | +6 | 2d10+2 Gelo (toque gélido do ódio) | Voo Normal | 3 |
@@ -1438,7 +1438,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Guardiões da Toca do Ódio
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Guardião Zakarum Corrompido | 30 | 16 | +5 | 1d10+3 Físico (maça sagrada corrompida) | Próximo | 3 |
 | Sacerdote Mumificado | 35 | 15 | +6 | 2d6+2 Necrótico (maldição, alcance Curto) | Próximo | 3 |
@@ -1464,7 +1464,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +7 *(relâmpago, maldições, resistência ao dano)*
 **Bônus Fraco:** +3 *(combate físico direto, furtividade, gelo)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Orbe de Relâmpago** (◈): +7 para acertar, alcance Longo, 2d8+4 de relâmpago.
@@ -1494,7 +1494,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +8 *(relâmpago, maldições, corrupção de alma)*
 **Bônus Fraco:** +3 *(combate físico, força bruta, gelo)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Relâmpago do Ódio** (◈): +8 para acertar, alcance Longo, 2d10+4 de relâmpago.
@@ -1524,7 +1524,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +13 *(relâmpago, maldições em massa, corrupção, ódio como força física)*
 **Bônus Fraco:** +4 *(combate físico, força bruta, gelo)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Relâmpago Supremo** (◈): +13 para acertar, alcance Longo, 4d8+7 de relâmpago.
@@ -1557,7 +1557,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 *Fanáticos que não adoram um deus — adoram o ato de destruir. Baal não pede devoção: pede ruínas.*
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Devastador | 24 | 13 | +5 | 1d10+3 Físico (maça de duas mãos) | Próximo | 3 |
 | Sabotador | 16 | 13 | +4 | 1d6+2 Físico (adaga + explosivo) | Próximo | 3 |
@@ -1580,7 +1580,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 *Baal não convoca demônios refinados — ele corrompe o que está perto e usa os cacos.*
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Escravizado de Baal | 22 | 13 | +5 | 1d10+4 Físico (golpe brutal) | Próximo | 3 |
 | Bestial Corrompido | 28 | 14 | +6 | 2d10+3 Físico (mordida/chifrada) | Distante | 3 |
@@ -1602,7 +1602,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Guardiões do Monte Arreat
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Bárbaro Corrompido | 35 | 15 | +6 | 2d10+3 Físico (machado de guerra) | Próximo | 3 |
 | Ancião das Montanhas | 45 | 16 | +7 | 2d8+5 Físico (clava rúnica) | Próximo | 3 |
@@ -1628,7 +1628,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +8 *(força bruta, resistência física, esmagar)*
 **Bônus Fraco:** +3 *(magia, veneno, furtividade)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Golpe do Atormentador** (◈): +8 para acertar, 2d10+5 de dano contundente. Salvaguarda de Força DC 16 ou alvo Derrubado e perde ◈ no próximo turno.
@@ -1659,7 +1659,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +8 *(força destrutiva, tentáculos, resistência física)*
 **Bônus Fraco:** +3 *(magia arcana, sagrado, furtividade)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Chicote Tentacular** (◈): +8 para acertar, alcance Curto, 2d8+5 de dano Físico. Acerto → Salvaguarda de Força DC 16 ou alvo Derrubado.
@@ -1689,7 +1689,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +13 *(força destrutiva, tentáculos, corrupção do ambiente)*
 **Bônus Fraco:** +4 *(magia arcana, sagrado, venenos sutis)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Chicote Tentacular** (◈): +13 para acertar, alcance Curto, 4d8+7 de dano Físico. Acerto → Salvaguarda de Força DC 17 ou alvo Derrubado e arremessado 1 zona.
@@ -1724,7 +1724,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 *Aqueles que abraçaram o medo como caminho espiritual. Não têm medo de nada — porque cederam tudo ao Senhor do Terror.*
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Fanático do Terror | 18 | 13 | +5 | 2d6+2 Físico (lâmina de osso) | Próximo | 3 |
 | Profeta do Pavor | 16 | 13 | +5 | 2d4+4 Fogo (maldição, alcance Curto) | Próximo | 3 |
@@ -1745,7 +1745,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Criaturas do Terror
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Sombra do Medo | 20 | 13 | +5 | 2d4+3 Psíquico (toque de terror) | Voo Normal | 3 |
 | Osso Voador | 14 | 12 | +4 | 1d6+2 Físico (garra) | Voo Normal | 3 |
@@ -1767,7 +1767,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 ### Lacaios do Osso do Inferno
 
-| Nome | PV | CA | Ataque | Dano | Vel. | AP |
+| Nome | PV | CA | Ataque | Dano | Vel. | PA |
 |---|---|---|---|---|---|---|
 | Senhor dos Ossos | 40 | 16 | +7 | 2d8+5 Físico (lança de osso) | Próximo | 3 |
 | Overlord do Inferno | 50 | 16 | +7 | 2d10+4 Fogo (chicote flamejante) | Próximo | 3 |
@@ -1792,7 +1792,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +8 *(terror, fogo, combate corpo a corpo)*
 **Bônus Fraco:** +3 *(magia arcana, gelo, furtividade)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Garras do Terror** (◈): +8 para acertar, 2d8+5 de dano Físico. Acerto → Salvaguarda de Sabedoria DC 15 ou o alvo fica Amedrontado por 1 rodada.
@@ -1822,7 +1822,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +9 *(terror, fogo, garras, domínio sobre o medo)*
 **Bônus Fraco:** +4 *(gelo, sagrado, resistência a veneno)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Garras do Caos** (◈): +9 para acertar, 2d10+5 de dano Físico. Acerto → Salvaguarda de Sabedoria DC 16 ou Amedrontado por 2 rodadas.
@@ -1852,7 +1852,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bônus:** +13 *(terror absoluto, fogo, garras colossais, domínio sobre a alma)*
 **Bônus Fraco:** +5 *(gelo, sagrado, venenos sutis)*
 
-**AP:** 3 | **Velocidade:** Próximo
+**PA:** 3 | **Velocidade:** Próximo
 
 **Ações:**
 - **Garras do Caos** (◈): +13 para acertar, 4d10+8 de dano Físico. Acerto → Salvaguarda de Sabedoria DC 18 ou Amedrontado por 2 rodadas e perde ◈ no próximo turno.

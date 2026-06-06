@@ -1,4 +1,4 @@
-# Jogando o Jogo
+﻿# Jogando o Jogo
 
 ## Os Dados
 
@@ -238,7 +238,7 @@ Diferente dos Pontos de Vida, o Mana é influenciado pela força mental do heró
 
 ### 2. Gastando Mana — A Intensidade do Golpe
 
-O Mana é gasto em conjunto com os Pontos de Ação (**AP**). Existem três formas principais de utilizar este recurso:
+O Mana é gasto em conjunto com os Pontos de Ação (**PA**). Existem três formas principais de utilizar este recurso:
 
 #### A. Habilidades de Classe e Magias
 
@@ -265,7 +265,7 @@ O Mana pode ser queimado para evitar desastres.
 
 ### 3. Recuperação e a "Seca de Mana"
 
-Diferente do AP, o Mana **não se recupera** entre os turnos.
+Diferente do PA, o Mana **não se recupera** entre os turnos.
 
 1. **Descanso Curto (1 hora):** Recupera uma quantidade de Mana igual ao seu Nível \+ Modificador de Atributo.  
 2. **Descanso Longo (8 horas):** Recupera o Mana totalmente.  
@@ -282,11 +282,11 @@ Se o seu Mana chegar a **0**, você entra em um estado de fadiga profunda:
 
 ---
 
-### Resumo de Interação (AP vs. Mana)
+### Resumo de Interação (PA vs. Mana)
 
 | Recurso | O que define? | Recuperação |
 | :---- | :---- | :---- |
-| **Pontos de Ação (AP)** | Quantidade de coisas que você faz por turno. | Início de cada turno (sempre 3). |
+| **Pontos de Ação (PA)** | Quantidade de coisas que você faz por turno. | Início de cada turno (sempre 3). |
 | **Mana** | Qualidade/Poder das coisas que você faz. | Poções, Descansos e Habilidades. |
 
 ---
@@ -299,7 +299,7 @@ O **Bárbaro** está cercado por 3 Caídos.
 2. Ele vê que o Chefe Caído vai fugir, então gasta **◈**  **(Movimento)** para alcançá-lo.  
 3. Ele gasta seu último **◈** para um *Ataque Berserk* (Custo: 2 Mana). Como ele quer garantir a morte do Chefe, ele gasta 2 Mana adicionais para rolar \+1d10 de força extra, para um total de dano da arma \+ 2d10 força no ataque.
 
-**Total do Turno:** 3 AP gastos, 7 Mana consumidos.
+**Total do Turno:** 3 PA gastos, 7 Mana consumidos.
 
 ## Sistema de Magia
 

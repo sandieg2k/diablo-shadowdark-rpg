@@ -1,4 +1,4 @@
-# Talentos
+﻿# Talentos
 
 Ao subir de nível, o jogador escolhe: rolar na **Tabela de Talentos da sua classe** ou rolar numa das **tabelas de Talentos Gerais** abaixo. Talentos Gerais são universais — qualquer herói pode adquiri-los, independente de classe.
 
@@ -19,7 +19,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 7 | **Instinto de Predador** | Vantagem em ataques contra alvos que ainda não agiram no combate (primeiro turno do encontro). |
 | 8 | **Guerreiro Veterano** | Uma vez por cena, role novamente uma jogada de ataque e fique com o melhor resultado. |
 | 9 | **Sangue Frio** | Sem Desvantagem em ataques por estar adjacente a múltiplos inimigos. |
-| 10 | **Perseguidor** | Quando um inimigo usa Desengajar, você pode se mover Próximo como ⟁ sem custo de AP. |
+| 10 | **Perseguidor** | Quando um inimigo usa Desengajar, você pode se mover Próximo como ⟁ sem custo de PA. |
 | 11 | **Marca de Morte** | Ao reduzir um inimigo a 0 PV, seu próximo ataque no mesmo turno tem Vantagem. |
 | 12 | **Agressor** | Ao se mover em direção a um inimigo e atacar no mesmo turno, adicione +1d4 ao dano. |
 | 13 | **Ataque Giratório** | Como ◈◈, ataque todos os inimigos adjacentes. Role um ataque para cada um. |
@@ -91,7 +91,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 
 | d20 | Talento | Efeito |
 | :---- | :---- | :---- |
-| 1 | **Voz de Comando** | Uma vez por cena, como ◇, dê uma ordem a um aliado — ele pode se mover Próximo como ⟁ sem custo de AP. |
+| 1 | **Voz de Comando** | Uma vez por cena, como ◇, dê uma ordem a um aliado — ele pode se mover Próximo como ⟁ sem custo de PA. |
 | 2 | **Intimidação** | Como ◈, force um inimigo (que possa te ouvir) a rolar Salvaguarda de SAB ou CAR (DC 10 + Nível) ou ficar com Desvantagem nos ataques até o fim do turno dele. |
 | 3 | **Presença Imponente** | Vantagem em testes de CAR para intimidar, persuadir ou impressionar NPCs. |
 | 4 | **Grito de Guerra** | Como ◇, todos os aliados que puderem te ouvir ganham +1 em ataques no próximo turno. |
