@@ -1,11 +1,11 @@
-﻿# Cap. 3 â€” Registro de Campanha
+# Cap. 3 — Registro de Campanha
 
-**Era Inicial:** 1337 AK \- Era do Ã“dio  
-**O Tempo AvanÃ§a? (Role 1d6):** (1) Agora | (2-3) PrÃ³xima SessÃ£o | (4-6) EstÃ¡vel
+**Era Inicial:** 1337 AK \- Era do Ódio  
+**O Tempo Avança? (Role 1d6):** (1) Agora | (2-3) Próxima Sessão | (4-6) Estável
 
-| SessÃ£o | Data | Era | EstaÃ§Ã£o |
+| Sessão | Data | Era | Estação |
 | :---- | :---- | :---- | :---- |
-| \#Zero |  | 1337 AK \- Era do Ã“dio | Primavera \- InÃ­cio |
+| \#Zero |  | 1337 AK \- Era do Ódio | Primavera \- Início |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -31,13 +31,13 @@
 |  |  |  |  |
 |  |  |  |  |
 
-**SITUAÃ‡Ã•ES PENDENTES**
+**SITUAÇÕES PENDENTES**
 
-*Role 1d6 ao avanÃ§ar o tempo: 1 (CatÃ¡strofe), 2-3 (Piora), 4-6 (AlÃ­vio/Melhora).*
+*Role 1d6 ao avançar o tempo: 1 (Catástrofe), 2-3 (Piora), 4-6 (Alívio/Melhora).*
 
-| AmeaÃ§a / SituaÃ§Ã£o Oculta | LocalizaÃ§Ã£o | Rolagem (1d6) | Novo Status (CatastrÃ³fico, Piorou, AlÃ­vio) |
+| Ameaça / Situação Oculta | Localização | Rolagem (1d6) | Novo Status (Catastrófico, Piorou, Alívio) |
 | :---- | :---- | :---- | :---- |
-| *Ex: Culto Velado de Belial* | *Esgotos de Caldeum* | *2 (Piorou)* | *O culto assassinou o capitÃ£o da guarda.* |
+| *Ex: Culto Velado de Belial* | *Esgotos de Caldeum* | *2 (Piorou)* | *O culto assassinou o capitão da guarda.* |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -49,13 +49,13 @@
 |  |  |  |  |
 |  |  |  |  |
 
-**ATIVIDADES DE INTERSTÃCIO (HERÃ“IS)**
+**ATIVIDADES DE INTERSTÍCIO (HERÓIS)**
 
-*O que cada herÃ³i faz quando o tempo avanÃ§a entre as aventuras.*
+*O que cada herói faz quando o tempo avança entre as aventuras.*
 
-| HerÃ³i / Classe | PerÃ­odo (EstaÃ§Ã£o/Era) | Atividade Escolhida | Resultado / BenefÃ­cio Adquirido |
+| Herói / Classe | Período (Estação/Era) | Atividade Escolhida | Resultado / Benefício Adquirido |
 | :---- | :---- | :---- | :---- |
-| *Ex: Kael (BÃ¡rbaro)* | *Jovem* | *ServiÃ§o* | *Fortificou os portÃµes do acampamento.* |
+| *Ex: Kael (Bárbaro)* | *Jovem* | *Serviço* | *Fortificou os portões do acampamento.* |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -67,55 +67,55 @@
 |  |  |  |  |
 |  |  |  |  |
 
-## Tempo â€” Tabelas do Mestre
+## Tempo — Tabelas do Mestre
 
-*Se uma situaÃ§Ã£o importante permanecer sem soluÃ§Ã£o antes da transiÃ§Ã£o para a prÃ³xima EstaÃ§Ã£o ou Era, role **1d6** para determinar como ela evolui sob a influÃªncia do Conflito Eterno:*
+*Se uma situação importante permanecer sem solução antes da transição para a próxima Estação ou Era, role **1d6** para determinar como ela evolui sob a influência do Conflito Eterno:*
 
 | PASSAGEM DO TEMPO |  |
 | :---- | :---- |
-| **1** | **CatastrÃ³fico:** Termina da pior forma que poderia acontecer. |
-| **2-3** | **DeterioraÃ§Ã£o:** A situaÃ§Ã£o piora significativamente. |
-| **4-6** | **AlÃ­vio:** A situaÃ§Ã£o melhora ou se resolve favoravelmente. |
+| **1** | **Catastrófico:** Termina da pior forma que poderia acontecer. |
+| **2-3** | **Deterioração:** A situação piora significativamente. |
+| **4-6** | **Alívio:** A situação melhora ou se resolve favoravelmente. |
 
-## Viagem â€” Tabelas do Mestre
+## Viagem — Tabelas do Mestre
 
-### ENCONTROS DE REGIÃƒO
+### ENCONTROS DE REGIÃO
 
-Ao terminar uma fase em **RegiÃµes Selvagens**, role:
+Ao terminar uma fase em **Regiões Selvagens**, role:
 
-| ENCONTROS DE REGIÃƒO |  |
+| ENCONTROS DE REGIÃO |  |
 | :---- | :---- |
-| **1** | Encontre o prÃ³ximo **AugÃºrio (Omen)** de um **Mito (Myth)** aleatÃ³rio neste Reino. |
-| **2-3** | Encontre o prÃ³ximo **AugÃºrio (Omen)** do **Mito** mais prÃ³ximo. |
-| **4-6** | Encontre o **Ponto de Interesse (Landmark)** do HexÃ¡gono.**Caso contrÃ¡rio:** Tudo limpo (sem encontros). |
+| **1** | Encontre o próximo **Augúrio (Omen)** de um **Mito (Myth)** aleatório neste Reino. |
+| **2-3** | Encontre o próximo **Augúrio (Omen)** do **Mito** mais próximo. |
+| **4-6** | Encontre o **Ponto de Interesse (Landmark)** do Hexágono.**Caso contrário:** Tudo limpo (sem encontros). |
 
 ### OUTRAS TABELAS DE VIAGEM
 
-Viajantes que se encontrarem vagando sem senso de direÃ§Ã£o, ou cercados por escuridÃ£o ou nÃ©voa, devem rolar quando tentarem se mover para um novo HexÃ¡gono.
+Viajantes que se encontrarem vagando sem senso de direção, ou cercados por escuridão ou névoa, devem rolar quando tentarem se mover para um novo Hexágono.
 
-*Quando a Comitiva viaja Ã  noite sem guia/luz, ou sob nÃ©voa espessa, role 1d6:*
+*Quando a Comitiva viaja à noite sem guia/luz, ou sob névoa espessa, role 1d6:*
 
-| VIAJANDO Ã€S CEGAS |  |
+| VIAJANDO ÀS CEGAS |  |
 | :---- | :---- |
-| **1** | **CÃ­rculo Vicioso:** VocÃªs perdem o senso de direÃ§Ã£o e voltam exatamente para o **HexÃ¡gono de onde partiram**. A Fase do dia Ã© desperdiÃ§ada. |
-| **2-3** | **Desvio:** VocÃªs derivam para um HexÃ¡gono adjacente indesejado. Role **1d6**: (1-3) Esquerda, (4-6) Direita do destino pretendido. |
-| **4-6** | **DeterminaÃ§Ã£o:** VocÃªs conseguem manter o rumo e progridem conforme planejado, apesar das dificuldades. |
+| **1** | **Círculo Vicioso:** Vocês perdem o senso de direção e voltam exatamente para o **Hexágono de onde partiram**. A Fase do dia é desperdiçada. |
+| **2-3** | **Desvio:** Vocês derivam para um Hexágono adjacente indesejado. Role **1d6**: (1-3) Esquerda, (4-6) Direita do destino pretendido. |
+| **4-6** | **Determinação:** Vocês conseguem manter o rumo e progridem conforme planejado, apesar das dificuldades. |
 
-*Em SantuÃ¡rio, o clima nÃ£o Ã© apenas um incÃ´modo, Ã© uma extensÃ£o do Inferno. Role 1d6:*
+*Em Santuário, o clima não é apenas um incômodo, é uma extensão do Inferno. Role 1d6:*
 
-| CLIMA IMPLACÃVEL |  |
+| CLIMA IMPLACÁVEL |  |
 | :---- | :---- |
-| **1** | **Tempestade Infernal / Nevasca de Sangue:** Clima extremo. Ã‰ impossÃ­vel sair do HexÃ¡gono atual. NinguÃ©m consegue realizar um **Descanso Longo** devido ao frio ou ventos uivantes. |
-| **2-3** | **AmeaÃ§a Iminente:** O cÃ©u escurece e o ar fica pesado. Se este resultado for rolado duas vezes consecutivas, o clima se torna **ImplacÃ¡vel** (como o resultado 1). |
-| **4-6** | **CÃ©u Limpo:** Tempo firme para viagem (dentro dos padrÃµes sombrios de SantuÃ¡rio). |
+| **1** | **Tempestade Infernal / Nevasca de Sangue:** Clima extremo. É impossível sair do Hexágono atual. Ninguém consegue realizar um **Descanso Longo** devido ao frio ou ventos uivantes. |
+| **2-3** | **Ameaça Iminente:** O céu escurece e o ar fica pesado. Se este resultado for rolado duas vezes consecutivas, o clima se torna **Implacável** (como o resultado 1). |
+| **4-6** | **Céu Limpo:** Tempo firme para viagem (dentro dos padrões sombrios de Santuário). |
 
-*Ao chegar em uma vila, acampamento de refugiados ou posto avanÃ§ado. Role 1d6:*
+*Ao chegar em uma vila, acampamento de refugiados ou posto avançado. Role 1d6:*
 
 | HUMOR LOCAL |  |
 | :---- | :---- |
-| **1** | **Sob o Jugo do Mal:** O local estÃ¡ ocupado por uma presenÃ§a demonÃ­aca, um culto ativo ou sofreu um massacre recente. O medo Ã© absoluto. |
-| **2-3** | **DeclÃ­nio Acentuado:** HÃ¡ um sentimento de desesperanÃ§a. Os recursos sÃ£o escassos, as pessoas estÃ£o doentes ou a corrupÃ§Ã£o estÃ¡ comeÃ§ando a se enraizar nos coraÃ§Ãµes. |
-| **4-6** | **Relativa Calmaria:** O humor Ã© aceitÃ¡vel. Os locais sÃ£o cautelosos, mas as defesas ainda resistem e a vida segue seu curso penoso. |
+| **1** | **Sob o Jugo do Mal:** O local está ocupado por uma presença demoníaca, um culto ativo ou sofreu um massacre recente. O medo é absoluto. |
+| **2-3** | **Declínio Acentuado:** Há um sentimento de desesperança. Os recursos são escassos, as pessoas estão doentes ou a corrupção está começando a se enraizar nos corações. |
+| **4-6** | **Relativa Calmaria:** O humor é aceitável. Os locais são cautelosos, mas as defesas ainda resistem e a vida segue seu curso penoso. |
 
 ---
 

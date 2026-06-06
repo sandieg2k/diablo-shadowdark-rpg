@@ -1,6 +1,6 @@
 # Cenários
 
-Módulos de aventura prontos para jogar no mundo de Santuário.
+Os 8 módulos de aventura disponíveis:
 
 - [O Senhor da Mentira](senhor-da-mentira.md)
 - [Baluarte dos Lobos de Ferro](baluarte-dos-lobos-de-ferro.md)
