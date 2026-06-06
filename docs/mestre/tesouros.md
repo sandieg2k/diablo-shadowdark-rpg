@@ -533,8 +533,102 @@ Cada arma única tem efeitos fixos — não recebem Prefixos ou Sufixos adiciona
 | 23 | **The Butcher's Cleaver** | D1 | Machado de Guerra | Guerreiro · Bárbaro | Ao matar um inimigo, o próximo ataque neste turno é uma Ação Livre (◇) |
 | 24 | **Black River** | D4 | Foice | Necromante | Ossos Explosivos \+1d6 Necrótico; ao matar, todos os lacaios curam 2 PV |
 
-### Sets *(a definir)*
+### Sets
 
-Sets canônicos da franquia serão adicionados em sessão futura. Cada set terá bônus progressivos conforme o número de peças equipadas.
+Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada peça já tem afixos fixos próprios (funciona como um item Lendário), e equipar múltiplas peças desbloqueia bônus progressivos poderosos.
+
+> **Como distribuir:** entregue as peças separadamente ao longo de uma campanha — uma por dungeon, uma por boss, uma como recompensa de missão. Nunca entregue o set completo de uma vez.
+
+---
+
+#### Immortal King *(Bárbaro — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Stone Crusher** | Maul (2d8) | \+2 Ataque, \+2 Dano; ao matar durante Fúria, próximo ataque tem Vantagem |
+| **Soul Cage** | Peitoral — Placa Completa | \+2 CA, RD 4 Físico |
+| **Pillar** | Perneiras — Placa | \+1 CA; mover não provoca ataques de oportunidade durante Fúria |
+| **Forge** | Luvas — Placa | \+2 Ataque; Turbilhão custa 1 Mana a menos |
+| **Will** | Elmo — Placa | \+1 CA; recupera 1 HP por acerto durante Fúria |
+
+**Bônus de Set:**
+- *2 peças:* Ganha RD 2 enquanto em Fúria
+- *5 peças:* Fúria não concede mais Vantagem aos inimigos contra você
+
+---
+
+#### Tal Rasha's Wrappings *(Mago · Arcanista — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Adjudication** | Amuleto | \+2 CON; Sobrecarga Sanguínea custa 1 HP por ponto (não 1d4) |
+| **Bane** | Elmo — Couro | \+1 CA, \+2 INT |
+| **Lidless Wall** | Peitoral — Brunea | Mestria Elemental explode também no penúltimo valor (d6: 5–6; d8: 7–8; d10: 9–10) |
+| **Wrapping** | Perneiras — Brunea | \+1 CA; \+1d4 dano ao elemento da Afinidade Elemental |
+
+**Bônus de Set:**
+- *2 peças:* \+1 em todos os testes de conjuração
+- *4 peças:* Afinidade Elemental aplica-se aos 3 elementos simultaneamente — Vantagem com Fogo, Gelo e Relâmpago
+
+---
+
+#### Natalya's Odium *(Assassina · Renegada — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Soul** | Adaga (1d4) | \+2 Ataque, Finesse; acertos acumulam 1 Carga extra (máx 4 em vez de 3) |
+| **Shadow** | Peitoral — Couro | \+2 CA; Ataque Furtivo \+1d6 extra |
+| **Totem** | Elmo — Couro | \+1 CA, \+2 DES |
+| **Mark** | Botas — Couro | \+1 CA; mover não provoca ataques de oportunidade |
+
+**Bônus de Set:**
+- *2 peças:* Finalizadores com 3+ Cargas custam 0 Mana
+- *4 peças:* Finalizadores com 3 Cargas tornam-se Ação Livre (◇) — você ataca com ◈ e ainda usa o Finalizador no mesmo turno
+
+---
+
+#### Trang-Oul's Avatar *(Necromante — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Guise** | Elmo — Couro Reforçado | \+1 CA, \+2 INT; \+1 em conjuração enquanto tiver 3+ lacaios |
+| **Scales** | Peitoral — Couro Reforçado | \+2 CA, RD 2 Físico; Armadura de Ossos ativa com 1+ lacaio (não mais 3+) |
+| **Wing** | Perneiras — Couro Reforçado | \+1 CA; lacaios ganham \+2 HP máximo e \+1 dano |
+| **Claws** | Luvas — Couro Reforçado | Feitiços de Necrótico/Veneno \+1d4; ao matar com feitiço, refunde 1 Mana |
+| **Girth** | Cinto | 4 slots; \+2 limite de lacaios; Levantar Mortos ergue 1d4+1 esqueletos |
+
+**Bônus de Set:**
+- *2 peças:* Levantar Mortos não precisa de cadáveres próximos — ergue esqueletos do chão mesmo sem corpos
+- *5 peças:* Lacaios irradiam Maldizar — inimigos Adjacentes a qualquer lacaio seu sofrem \+2 de dano de todas as fontes
+
+---
+
+#### M'avina's Battle Hymn *(Amazona — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **True Sight** | Elmo — Couro | \+1 CA, \+2 DES; inimigos não se beneficiam de cobertura contra seus ataques de arco |
+| **Embellished Bow** | Arco Longo (1d8) | \+2 Ataque; acertos causam \+1d4 Gelo gratuitamente |
+| **Tenet** | Cinto | 4 slots; primeiro disparo de arco por turno causa \+1d4 extra |
+| **Caster** | Luvas — Couro | \+1 Ataque com arco; Flechas Múltiplas custa 1 Mana por alvo |
+
+**Bônus de Set:**
+- *2 peças:* Crítico com arco em 18–20 natural
+- *4 peças:* Flechas Múltiplas atinge todos os inimigos em Próximo — vira AoE real
+
+---
+
+#### Griswold's Legacy *(Paladino · Cruzado — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Honor** | Espada Longa (1d8) | \+2 Ataque; Golpe Sagrado causa Nível\+2 Radiante em vez de Nível |
+| **Heart** | Peitoral — Placa Completa | \+2 CA, RD 3 Físico; Aura de Resistência dá \+2 CA em vez de \+1 |
+| **Valor** | Elmo — Meia-Placa | \+1 CA, \+2 CAR; Aura de Fanatismo dá \+2 Ataque em vez de \+1 |
+| **Redemption** | Escudo | \+3 CA, Quebrável; ao quebrar: pulso Radiante (2d8, todos Adjacentes) |
+
+**Bônus de Set:**
+- *2 peças:* Pode ter 2 Auras ativas simultaneamente
+- *4 peças:* Golpe Sagrado não custa Mana — gratuito em todo acerto
 
 ---
