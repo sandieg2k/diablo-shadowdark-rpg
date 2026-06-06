@@ -190,6 +190,37 @@ O sistema tem **9 tipos** (auditoria completa feita em todos os arquivos, commit
 - **Nível 5–7 (Pesadelo):** –5 em todas as Resistências
 - **Nível 8–10 (Inferno):** –10 em todas as Resistências
 
+### Convenções de Formatação das Classes ✅
+
+Padrões estabelecidos durante a revisão do Goal 6 (todas as 18 classes):
+
+**Formato de escalonamento de habilidades:**
+`**Nome (◈ + X Mana):** Descrição. Gaste +X Mana para cada [dado/efeito] extra.`
+- Sempre um espaço entre o nome/tag e o `(◈...`: `**Golpe (Feitiço) (◈ + 2 Mana):**`
+
+**Custo de ultimates (slot 19):** toda habilidade de nível 19 custa **◈◈◈** obrigatoriamente.
+
+**Escopo temporal:** `por cena` — nunca "por combate" ou "por encontro".
+
+**ATK de lacaios e invocações:** `ATK: mesmo bônus do [Classe]` — padrão universal para todas as classes com summons (Bárbaro, Caçador de Demônios, Druida, Feiticeiro, Necromante, Warlock).
+
+**DC de Salvaguardas:** `DC 10 + Mod. [Atributo Primário]` — padrão. Exceção: habilidades que ficam mais fáceis com experiência usam `DC 15 − Nível` (ex: Levantar Mortos do Necromante, Transmutar do Druida).
+
+**Condição prostrado:** **caído** — nunca "Prone" (termo em inglês).
+
+**Zonas no texto:** sem aspas — `Próximo`, `Distante`, `Adjacente` (nunca `"Próximo"`).
+
+**Tipos de dano:** sempre com inicial maiúscula — `Fogo`, `Gelo`, `Relâmpago`, `Veneno`, `Necrótico`, `Radiante`, `Psíquico`, `Arcano`, `Físico`. Nunca "fogo", "raio", "sombrio".
+
+**Decisões específicas de classes:**
+- **Assassina:** Cargas de Combo = desconto de −1 Mana nos Finalizadores (não são recurso separado).
+- **Mago:** Afinidade Elemental escolhida no nível 1 (Fogo, Gelo ou Relâmpago). Ultimate = **Parede de Fogo** (Firewall) — Meteoro é exclusivo do Arcanista.
+- **Mago:** slot "Casca de Gelo" (renomeado de "Armadura de Gelo" para evitar colisão).
+- **Monge:** slot "Defesa Contrária" (renomeado de "Mantra de Retribuição" para evitar colisão com slot 9).
+- **Necromante:** slot "Ossificação" (renomeado de "Armadura de Ossos").
+- **Paladino:** nomes de habilidades baseados nos skills canônicos do D2/D4 quando possível (ex: **Vingança** = Vengeance D2, **Setas Sagradas** = Holy Bolts D2).
+- **Renegada:** Ataque Furtivo usa apenas `(⟁)` sem custo de Mana.
+
 ### Tabela de Tesouros d100 — LdM ✅
 
 Distribuição atual (Cap. 2 Tesouros):
