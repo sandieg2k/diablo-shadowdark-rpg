@@ -792,7 +792,7 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 ### **Habilidades de Classe**
 
 * **Punhos de Ferro:** Seus ataques desarmados causam 1d6 de dano Físico e são considerados armas mágicas.  
-* **Defesa Iluminada:** Enquanto não usar armaduras médias, pesadas ou escudo, sua AC é **10 \+ Mod. de Destreza \+ Mod. de Sabedoria**.  
+* **Defesa Iluminada:** Enquanto não usar armaduras médias, pesadas ou escudo, sua AC é **10 \+ Mod. Primário × 2**.  
 * **Espírito em Fluxo:** Você ganha 1 de Mana sempre que acertar um ataque (limite de ganho por turno igual ao seu Modificador de Sabedoria).   
 * **Alcance Mortal (◈ \+):** Gaste 1 Mana e lance um projétil de força em direção a inimigos perto. Para cada 1 Mana adicional, lance um projétil extra. Se lançar 3 projéteis, durante um turno, em um mesmo inimigo, o alvo é arremessado para longe.  
 ---
@@ -855,7 +855,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 ### **Habilidades de Classe**
 
 * **O Comandante da Horda:** Você controla até **Mod. Primário + Nível** esqueletos. Use ◈ para agir com todos durante seu turno (Mover, Atacar). Usam o Atributo Primário nos testes. Duram até zerar o HP. **Esqueleto:** CA 12 · HP = Nível · Dano: 1d4 Físico  
-* **Levantar Mortos (Feitiço) (◈ \+ 1 Mana):** Como uma ação, role **Atributo** para erguer esqueletos de cadáveres próximos. Se passar, você ergue 1d4 esqueletos de uma vez (até o seu limite).  
+* **Levantar Mortos (Feitiço) (◈ \+ 1 Mana):** Como uma ação, role o **Atributo Primário** para erguer esqueletos de cadáveres próximos. Se passar, você ergue 1d4 esqueletos de uma vez (até o seu limite).  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
 ---
 
