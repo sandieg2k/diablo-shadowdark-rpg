@@ -24,7 +24,7 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
   font:
-    text: Cinzel
+    text: Crimson Pro
     code: Roboto Mono
   features:
     - navigation.tabs
