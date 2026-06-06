@@ -1150,6 +1150,20 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Vidala's Rig *(Amazona — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Vidala's Barb** | Arco Longo (1d8) | \+2 Ataque; Fúria dos Raios causa \+1d6 Relâmpago extra |
+| **Vidala's Ambush** | Peitoral — Couro | \+1 CA; Evasão — *sem o talento:* set concede acesso; *com o talento:* funciona também contra ataques diretos (não só área) |
+| **Vidala's Fetlock** | Perneiras — Couro | \+1 CA; após usar Esquiva Ativa, seu próximo ataque de arco tem Vantagem |
+
+**Bônus de Set:**
+- *2 peças:* Fúria dos Raios e flechas elementais (Flecha de Fogo, Flecha de Gelo) custam 1 Mana a menos
+- *3 peças:* Uma vez por cena, Fúria dos Raios pode ser usada como ◇ (reação) — disparada automaticamente quando um inimigo entrar no alcance Distante ou te atacar à distância
+
+---
+
 #### Griswold's Legacy *(Paladino · Cruzado — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
