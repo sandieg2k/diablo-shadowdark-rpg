@@ -539,6 +539,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 > **Como distribuir:** entregue as peças separadamente ao longo de uma campanha — uma por dungeon, uma por boss, uma como recompensa de missão. Nunca entregue o set completo de uma vez.
 
+> **Regra de Acesso por Peça:** quando o afixo de uma peça menciona uma habilidade de talento, aplica-se automaticamente: **sem o talento** — o jogador passa a ter acesso à habilidade enquanto estiver com a peça equipada; **com o talento** — a peça melhora ou amplifica a habilidade existente.
+
 ---
 
 #### Immortal King *(Bárbaro — 5 peças)*
