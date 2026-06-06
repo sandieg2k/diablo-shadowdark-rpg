@@ -330,37 +330,40 @@ O atributo primário de uma classe determina quatro coisas no sistema:
 
 | Classe | Atributo Principal | Mana / DC | Mecânica exclusiva que usa o atributo | Lacaio usa | ⚠️ Observação |
 |---|---|---|---|---|---|
-| **Amazona** | DEX ou FOR | ✅ | DEX: ataques com haste (Polivalente) e dano da Valkíria | DEX hardcoded | Valkíria hardcoded em DEX — problema se build FOR |
+| **Amazona** | DEX ou FOR | ✅ | DEX: ataques com haste (Polivalente) e dano da Valkíria | Mod. Primário ✅ | Corrigido — Valkíria usa Mod. Primário |
 | **Arcanista** | INT | ✅ | CA alternativa (INT em vez de DES); cargas arcanas | N/A | Integração forte — INT afeta CA, Mana, DC e dano |
-| **Assassina** | DES | ✅ | Ataques e dano com garras/adagas | N/A | "DES e INT" no texto — INT não aparece em nenhuma mecânica |
-| **Bárbaro** | FOR ou CON | ✅ | CON: Nervos de Aço (CON na CA); FOR: ataques/dano | N/A | Incentiva investir nos dois — diluição do primário |
+| **Assassina** | DES | ✅ | Ataques e dano com garras/adagas | N/A | Corrigido — "DES e INT" → "DES" |
+| **Bárbaro** | FOR ou CON | ✅ | CON: Nervos de Aço (CON na CA passivo); FOR: ataques/dano | N/A | ⚠️ MAD suave — CA incentiva CON mesmo com FOR primário |
 | **Caçador de Demônios** | DES | ✅ | Ataques e dano à distância | DES ✓ | Consistente |
-| **Cavaleiro de Sangue** | FOR ou CON | ✅ | FOR: ataques/dano com lança; CON: durabilidade | N/A | Consistente |
-| **Cruzado** | FOR ou SAB | ✅ | FOR: ataques/dano; SAB: conjuração (Magia Divina fixa em SAB) | N/A | Magia Divina usa SAB fixo — se build FOR, spells ficam em atributo separado |
+| **Cavaleiro de Sangue** | FOR ou CON | ✅ | FOR: ataques/dano com lança; CON: durabilidade passiva | N/A | SAD com opções — OK |
+| **Cruzado** | FOR ou SAB | ✅ | FOR: ataques/dano; SAB: conjuração (Magia Divina fixa em SAB) | N/A | Penalidade intencional para builds FOR que queiram spells |
 | **Druida** | SAB | ✅ | Transmutar (rolagem de SAB); lacaios usam SAB | SAB ✓ | Consistente |
-| **Natispirito** | DES ou SAB | ✅ | DES: ataques com haste; SAB: feitiços | N/A | Dual sem lacaios — OK |
-| **Feiticeiro** | CAR ou INT | ✅ | Lacaios usam CAR hardcoded; feitiços de área | CAR hardcoded | Se build INT, lacaios usam o atributo errado |
-| **Guerreiro** | FOR ou CON | ✅ | FOR: ataques/dano; CON: resistência | N/A | Consistente |
+| **Natispirito** | DES ou SAB | ✅ | DES: ataques com haste; SAB: feitiços | N/A | SAD com dois estilos — OK |
+| **Feiticeiro** | CAR ou INT | ✅ | Lacaios usam Atributo Primário; feitiços de área | Atributo Primário ✅ | Corrigido |
+| **Guerreiro** | FOR ou CON | ✅ | FOR: ataques/dano; CON: resistência | N/A | SAD com opções — OK |
 | **Mago** | INT | ✅ | Afinidade elemental; Sobrecarga Sanguínea; Mestria Elemental | N/A | Integração forte |
-| **Monge** | DES ou SAB | ✅ | CA = 10 + DES + SAB (usa os dois); Espírito em Fluxo usa SAB | N/A | Único que usa ambos na CA simultaneamente |
-| **Necromante** | INT ou SAB | ✅ | Limite de lacaios = Mod. INT + Nível (hardcoded); lacaios usam INT | INT hardcoded | Se build SAB, limite de esqueletos ainda usa INT — problema grave |
-| **Paladino** | FOR ou CAR | ✅ | FOR: ataques/dano; CAR: conjuração (Magia Divina fixa em CAR) | N/A | Igual ao Cruzado — Magia Divina usa CAR fixo |
-| **Renegada** | DES e INT | ✅ | DES: ataques e dano; INT: não aparece em nenhuma mecânica | N/A | "e" em vez de "ou" — INT sem função definida |
+| **Monge** | DES ou SAB | ✅ | CA = 10 + DES + SAB (usa ambos); Espírito em Fluxo usa SAB | N/A | ⚠️ MAD duro — CA exige os dois atributos altos simultaneamente |
+| **Necromante** | INT ou SAB | ✅ | Limite de lacaios = Mod. Primário + Nível; lacaios usam Primário | Atributo Primário ✅ | Corrigido |
+| **Paladino** | FOR ou CAR | ✅ | FOR: ataques/dano; CAR: conjuração (Magia Divina fixa em CAR) | N/A | Penalidade intencional para builds FOR que queiram spells |
+| **Renegada** | DES | ✅ | Ataques e dano com garras/adagas | N/A | Corrigido — INT removido |
 | **Sacerdote** | SAB | ✅ | Conjuração e cura via Oração Purificadora | N/A | Consistente |
-| **Warlock** | INT ou CAR | ✅ | Arma flutuante usa INT ou CAR; lacaios usam INT hardcoded | INT hardcoded | Se build CAR, lacaios usam o atributo errado |
+| **Warlock** | INT ou CAR | ✅ | Arma flutuante usa INT ou CAR; lacaios usam Atributo Primário | Atributo Primário ✅ | Corrigido |
 
 ---
 
-### Problemas de consistência identificados
+### Problemas de consistência — status
 
-| # | Classe | Problema | Impacto |
+| # | Classe | Problema original | Status |
 |---|---|---|---|
-| 1 | **Renegada** | "DES **e** INT" — INT não tem função mecânica na classe | Jogador investiu em INT sem retorno |
-| 2 | **Necromante** | Limite de lacaios hardcoded em INT (`Mod. INT + Nível`) — build SAB perde metade da identidade | Alto — build SAB tem poucos lacaios |
-| 3 | **Warlock** | Lacaios hardcoded em INT — build CAR perde sinergia | Médio — a arma flutuante compensa |
-| 4 | **Feiticeiro** | Lacaios hardcoded em CAR — build INT perde sinergia | Médio |
-| 5 | **Amazona** | Valkíria hardcoded em DEX — build FOR usa atributo secundário no lacaio | Baixo — ultimate de 1 uso |
-| 6 | **Cruzado / Paladino** | Magia Divina hardcoded (SAB/CAR respectivamente) — separa builds híbridos | Baixo — spells são secundários |
+| 1 | **Renegada** | "DES e INT" — INT sem função mecânica | ✅ Resolvido — apenas DES |
+| 2 | **Necromante** | Limite de lacaios hardcoded em INT | ✅ Resolvido — usa Mod. Primário |
+| 3 | **Warlock** | Lacaios e Maestria hardcoded em INT | ✅ Resolvido — usa Atributo Primário |
+| 4 | **Feiticeiro** | Lacaios hardcoded em CAR | ✅ Resolvido — usa Atributo Primário |
+| 5 | **Amazona** | Valkíria hardcoded em DEX | ✅ Resolvido — usa Mod. Primário |
+| 6 | **Cruzado / Paladino** | Magia Divina hardcoded (SAB/CAR) | ✅ Mantido — penalidade intencional |
+| 7 | **Necromante** | "role Atributo" em Levantar Mortos — qual atributo? | ⚠️ Pendente |
+| 8 | **Monge** | CA = 10 + DES + SAB — MAD obrigatório | ⚠️ Decisão de design pendente |
+| 9 | **Bárbaro** | Nervos de Aço usa CON passivo — MAD suave | ⚠️ Decisão de design pendente |
 
 ---
 
