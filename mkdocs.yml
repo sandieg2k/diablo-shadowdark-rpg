@@ -1,0 +1,98 @@
+site_name: Diablo RPG
+site_description: Sistema de RPG de mesa homebrew inspirado na franquia Diablo
+site_author: Paulo Souza
+site_url: https://felipe1072-git.github.io/diablo-shadowdark-rpg/
+repo_url: https://github.com/Felipe1072-git/diablo-shadowdark-rpg
+repo_name: Felipe1072-git/diablo-shadowdark-rpg
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+    - scheme: default
+      primary: deep orange
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tables
+    - toc.follow
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - def_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
+  - Livro do Jogador:
+    - Introdução: jogador/introducao.md
+    - Jogando o Jogo: jogador/o-jogo.md
+    - Criando seu Personagem: jogador/criando-personagem.md
+    - Origens: jogador/origens.md
+    - Talentos: jogador/talentos.md
+    - Arsenal: jogador/arsenal.md
+    - Resistências: jogador/resistencias.md
+  - Classes:
+    - Visão Geral: classes/index.md
+    - Amazona: classes/amazona.md
+    - Arcanista: classes/arcanista.md
+    - Assassina: classes/assassina.md
+    - Bárbaro: classes/barbaro.md
+    - Caçador de Demônios: classes/cacador-de-demonios.md
+    - Cavaleiro de Sangue: classes/cavaleiro-de-sangue.md
+    - Cruzado: classes/cruzado.md
+    - Druida: classes/druida.md
+    - Feiticeiro: classes/feiticeiro.md
+    - Guerreiro: classes/guerreiro.md
+    - Mago: classes/mago.md
+    - Monge: classes/monge.md
+    - Natispirito: classes/natispirito.md
+    - Necromante: classes/necromante.md
+    - Paladino: classes/paladino.md
+    - Renegada: classes/renegada.md
+    - Sacerdote: classes/sacerdote.md
+    - Warlock: classes/warlock.md
+  - Livro do Mestre:
+    - Encontros: mestre/encontros.md
+    - Tesouros e Itens: mestre/tesouros.md
+    - Registro de Campanha: mestre/registro-campanha.md
+    - Template de Cenário: mestre/template-cenario.md
+  - Criaturas: criaturas.md
+  - Cenários:
+    - Índice: cenarios/index.md
+    - O Senhor da Mentira: cenarios/senhor-da-mentira.md
+    - Baluarte dos Lobos de Ferro: cenarios/baluarte-dos-lobos-de-ferro.md
+    - A Torre Esquecida: cenarios/a-torre-esquecida.md
+    - O Abatedouro Profano: cenarios/o-abatedouro-profano.md
+    - O Monarca Louco: cenarios/o-monarca-louco.md
+    - O Carcereiro das Cinzas: cenarios/o-carcereiro-das-cinzas.md
+    - Sarcófago Escarlate: cenarios/sarcofago-escarlate.md
+    - O Resgate: cenarios/o-resgate.md
+  - Glossário: glossario.md
