@@ -1272,6 +1272,75 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Bul-Kathos' Children *(Guerreiro — 2 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Bul-Kathos' Sacred Charge** | Espada Montante (2d10) | \+2 Ataque, Brutal; Mestria em Armas: o bônus de \+1d4 sobe para \+1d6 ao acertar com Vantagem |
+| **Bul-Kathos' Tribal Guardian** | Espada Longa (1d8) | \+2 Ataque, Finesse; ao usar ambas as espadas do set, Mestria em Armas aplica-se às duas |
+
+**Bônus de Set:**
+- *2 peças:* ao atacar com ambas as espadas no mesmo turno, o segundo ataque também tem Vantagem se o primeiro acertou
+
+---
+
+#### Cleglaw's Brace *(Guerreiro — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Cleglaw's Tooth** | Espada Curta (1d6) | \+2 Ataque, Finesse; Golpe de Escudo — *sem o talento:* set concede acesso; *com o talento:* o alvo derrubado também perde a ação de movimento no próximo turno |
+| **Cleglaw's Claw** | Luvas | \+1 ataque; Postura Defensiva — *sem o talento:* set concede acesso; *com o talento:* custa apenas ◈ (em vez de ◈◈) |
+| **Cleglaw's Pincers** | Escudo | \+2 CA, Quebrável; ao derrubar um inimigo com Golpe de Escudo, todos os Adjacentes a ele fazem SAL. DES (DC 10 \+ Mod. FOR) ou também caem |
+
+**Bônus de Set:**
+- *2 peças:* Golpe de Escudo e Postura Defensiva custam 0 Mana
+- *3 peças:* ao usar Postura Defensiva, o bônus de CA aplica-se também a 1 aliado Adjacente de sua escolha
+
+---
+
+#### Isenhart's Armory *(Guerreiro — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Isenhart's Horns** | Elmo | \+2 CA; Ataque Brutal — *sem o talento:* set concede acesso; *com o talento:* crítico em 18–20 natural |
+| **Isenhart's Case** | Peitoral (Pesada) | \+3 CA, RD 2; Mestre de Armadura — *sem o talento:* set concede acesso; *com o talento:* RD sobe para 3 |
+| **Isenhart's Parry** | Escudo | \+2 CA, Quebrável; Segunda Chance — *sem o talento:* set concede acesso; *com o talento:* custa 0 Mana |
+| **Isenhart's Lightbrand** | Espada Longa (1d8) | \+2 Ataque; no crítico, causa \+2d6 Físico extra |
+
+**Bônus de Set:**
+- *2 peças:* ao usar armadura pesada, você ignora Desvantagem causada por terreno difícil
+- *4 peças:* uma vez por cena, quando sofrer um crítico, reduza-o para acerto normal (o aço absorve o impacto)
+
+---
+
+#### Sigon's Complete Steel *(Guerreiro — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Sigon's Visor** | Elmo | \+2 CA; Provocação — *sem o talento:* set concede acesso; *com o talento:* afeta inimigos Distante (em vez de só Próximo) |
+| **Sigon's Shelter** | Peitoral (Pesada) | \+3 CA, RD 2; enquanto sob Provocação ativa, você tem RD 1 adicional |
+| **Sigon's Sabot** | Perneiras | \+1 CA; Carnificína — *sem o talento:* set concede acesso; *com o talento:* o ataque extra custa 0 Mana |
+| **Sigon's Wrap** | Cinto | 4 slots; Fôlego Renovado — *sem o talento:* set concede acesso; *com o talento:* cura 1d10 \+ Nível \+ Mod. CON |
+| **Sigon's Gage** | Luvas | \+2 ataque; ao matar inimigo sob Provocação, todos os Adjacentes fazem SAL. SAB (DC 10 \+ Mod. FOR) ou ficam com medo por 1 rodada |
+
+**Bônus de Set:**
+- *2 peças:* enquanto sob Provocação ativa, Carnificína não tem limite de ataques encadeados por turno
+- *5 peças:* Provocação torna-se Ação Livre (◇) — ative-a sem gastar ◈ e ainda use o turno inteiro para atacar
+
+---
+
+#### Bul-Kathos' Oath *(Guerreiro — 2 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Bul-Kathos' Warrior Blood** | Maul (2d8) | \+2 Ataque, Brutal; Veterano de Ferro — *sem o talento:* set concede acesso com 1d4 rodadas e dano máximo; *com o talento:* dura 1d4\+2 rodadas |
+| **Bul-Kathos' Solemn Vow** | Machado Grande (2d8) | \+2 Ataque, Trespassar; Carga Heróica — *sem o talento:* set concede acesso; *com o talento:* se matar o alvo, custa 0 Mana e pode ser repetida no mesmo turno como ◇ |
+
+**Bônus de Set:**
+- *2 peças:* durante Veterano de Ferro, Carga Heróica torna-se Ação Livre (◇) — avance sobre um inimigo E ainda use o turno completo para atacar
+
+---
+
 #### M'avina's Battle Hymn *(Amazona — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
