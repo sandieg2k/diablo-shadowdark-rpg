@@ -496,3 +496,45 @@ Um Item de Set faz parte de um conjunto nomeado. As peças equipadas isoladament
 
 ---
 
+## Itens Únicos e Sets
+
+Itens Únicos e Sets são **recompensas narrativas exclusivas** — nunca rolados aleatoriamente na tabela de tesouros. O Mestre os distribui em momentos de significado: ao derrotar um boss icônico, completar uma missão épica ou como recompensa de um NPC importante.
+
+> **Princípio:** a raridade desses itens vem da história, não do dado. Um jogador que recebe *The Grandfather* sabe que ganhou algo que nenhum outro grupo provavelmente terá.
+
+### Armas Únicas
+
+Cada arma única tem efeitos fixos — não recebem Prefixos ou Sufixos adicionais.
+
+| # | Nome | Jogo | Tipo | Classe Temática | Efeito |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| 1 | **The Grandfather** | D2/D4 | Espada Montante | Guerreiro · Bárbaro | \+4 dano fixo em todos os ataques; críticos causam \+2d6 Físico adicional |
+| 2 | **Windforce** | D2 | Arco Longo | Amazona | Acertos empurram o alvo 1 zona; crítico: alvo cai Deitado |
+| 3 | **Doombringer** | D2/D4 | Espada Longa | Guerreiro | \+1d6 Necrótico por acerto; alvos abaixo de metade do PV sofrem \+1d6 extra |
+| 4 | **Schaefer's Hammer** | D2 | Martelo de Guerra | Bárbaro | Críticos disparam raio em cone Próximo (1d8 Relâmpago, DES DC 13 nega) |
+| 5 | **Death's Web** | D2 | Cajado | Feiticeiro · Necromante | Feitiços de Veneno \+2d4; DC de feitiços de Veneno \+2 |
+| 6 | **Titan's Revenge** | D2 | Azagaia | Amazona | Retorna automaticamente após arremesso; acertos à distância contam como C.a.C. para efeitos de classe |
+| 7 | **Azurewrath** | D2 | Espada Longa | Paladino · Cruzado | \+1d6 Radiante; Mortos-Vivos e Demônios têm Desvantagem na Salvaguarda |
+| 8 | **Lightsabre** | D2 | Rapieira | Geral | 1×/turno ao acertar: aliado Próximo recupera 1 Mana |
+| 9 | **Bartuc's Cut-Throat** | D2 | Garra | Assassina | Ataque Furtivo \+1d6 extra; 1×/cena sem custo de Mana |
+| 10 | **The Oculus** | D2 | Orbe | Mago · Arcanista | Ao conjurar, role 1d6 — em 6 o feitiço não consome Mana |
+| 11 | **Thunderstroke** | D2 | Azagaia | Amazona | Arremesso em linha reta atravessa todos os inimigos no caminho (1d10 Relâmpago cada) |
+| 12 | **Hand of Blessed Light** | D2 | Cetro | Paladino · Sacerdote | Golpe Sagrado 1×/cena sem custo de Mana; \+1d8 Radiante contra mortos-vivos |
+| 13 | **Wizardspike** | D2 | Adaga | Mago · Feiticeiro | Regenera 1 Mana/turno (só consciente); \+1 à DC de todos os feitiços |
+| 14 | **Fleshripper** | D2 | Adaga | Assassina · Renegada | Acertos causam sangramento: 1d4 Físico/turno por 3 turnos (acumula) |
+| 15 | **Buriza-Do Kyanon** | D2 | Besta Pesada | Caçador de Demônios | Projéteis perfuram todos os inimigos em linha reta; \+1d6 Gelo por acerto |
+| 16 | **Arm of King Leoric** | D2 | Cajado | Necromante | Ao matar um inimigo, invocar 1 Esqueleto gratuitamente (não usa slot de lacaio) |
+| 17 | **The Reaper's Toll** | D2 | Foice de Guerra | Cavaleiro de Sangue | Acertos roubam 1d4 PV; 15% de chance de aplicar Lentidão por 1d4 turnos |
+| 18 | **Ribcracker** | D2 | Cajado | Druida · Natispirito | \+2d6 Físico; críticos disparam Relâmpago em cone Próximo (1d8) |
+| 19 | **Won Khim Lau** | D3 | Cestus/Punho | Monge | Golpes com ◈ único causam \+1d6 Relâmpago; Rajada de Vento empurra 1 zona extra |
+| 20 | **Fate of the Fell** | D3 | Mangual | Cruzado | Ataques de ◈◈ atingem automaticamente todos os inimigos Adjacentes |
+| 21 | **Kuko Shakaku** | D2 | Arco Curto | Renegada | Acertos causam \+1d6 Fogo; em 18+ natural, explode (1d6 Fogo em todos Adjacentes ao alvo) |
+| 22 | **Mang Song's Lesson** | D2 | Cajado | Warlock · Mago | Todas as habilidades custam 1 Mana a menos (mínimo 1) |
+| 23 | **The Butcher's Cleaver** | D1 | Machado de Guerra | Guerreiro · Bárbaro | Ao matar um inimigo, o próximo ataque neste turno é uma Ação Livre (◇) |
+| 24 | **Black River** | D4 | Foice | Necromante | Ossos Explosivos \+1d6 Necrótico; ao matar, todos os lacaios curam 2 PV |
+
+### Sets *(a definir)*
+
+Sets canônicos da franquia serão adicionados em sessão futura. Cada set terá bônus progressivos conforme o número de peças equipadas.
+
+---
