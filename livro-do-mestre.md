@@ -1212,6 +1212,66 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Hsaru's Defense *(Cruzado — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Hsaru's Iron Stay** | Cinto | 4 slots; ataque de escudo (Mestre do Escudo) causa 1d6 em vez de 1d4 |
+| **Hsaru's Iron Heel** | Perneiras | \+1 CA; Esmagar com Escudo — *sem o talento:* set concede acesso; *com o talento:* o alvo derrubado também fica atordoado até o início do próximo turno (Desvantagem em testes) |
+| **Hsaru's Iron Fist** | Escudo | \+3 CA, Quebrável; Punição — *sem o talento:* set concede acesso; *com o talento:* causa \+1d8 Radiante em vez de \+1d6 |
+
+**Bônus de Set:**
+- *2 peças:* o bônus de CA extra do Mestre do Escudo sobe para \+2 (em vez de \+1)
+- *3 peças:* ao usar ataque de escudo, o empurrão automaticamente derruba o alvo (sem salvaguarda)
+
+---
+
+#### Roland's Legacy *(Cruzado — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Roland's Visage** | Elmo | \+2 CA; Investida de Corcel — *sem o talento:* set concede acesso; *com o talento:* custa 1 Mana a menos |
+| **Roland's Bearing** | Peitoral (Pesada) | \+3 CA, RD 2; ao usar Investida de Corcel, inimigos que você passar Adjacente sofrem 1d8 Físico |
+| **Roland's Grasp** | Luvas | \+2 ataque; Espada Cadente — *sem o talento:* set concede acesso; *com o talento:* pode ser usada como Ação Livre (◇) após Investida de Corcel |
+| **Roland's Stride** | Perneiras | \+1 CA; após usar Espada Cadente, seu próximo ataque de escudo custa 0 Mana |
+| **Roland's Determination** | Cinto | 4 slots; Investida de Corcel não gasta ação de movimento — você ainda pode se mover normalmente no turno |
+
+**Bônus de Set:**
+- *2 peças:* Investida de Corcel torna-se ◈ sem restrição de movimento (não consome seu deslocamento do turno)
+- *5 peças:* Espada Cadente torna-se Ação Livre (◇) uma vez por cena — use ◈◈ para dois ataques normais e ainda caia sobre os inimigos
+
+---
+
+#### Seeker of the Light *(Cruzado — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Seeker's Helm** | Elmo | \+2 CA; Martelo Abençoado — *sem o talento:* set concede acesso; *com o talento:* dura \+1d4 rodadas |
+| **Seeker's Pauldrons** | Peitoral (Pesada) | \+3 CA, RD 2; enquanto Martelo Abençoado estiver ativo, feitiços de Radiante custam 1 Mana a menos |
+| **Seeker's Gloves** | Luvas | \+2 ataque; Julgamento — *sem o talento:* set concede acesso; *com o talento:* imobiliza até 3 inimigos de uma vez pelo mesmo custo |
+| **Seeker's Greaves** | Perneiras | \+1 CA; inimigos imobilizados por Julgamento recebem dano do Martelo Abençoado automaticamente no início de cada turno |
+
+**Bônus de Set:**
+- *2 peças:* Martelo Abençoado passa a girar em Próximo (em vez de só Adjacente)
+- *4 peças:* Martelo Abençoado torna-se Ação Livre (◇) — conjure-o sem gastar ◈ e ainda ataque normalmente no mesmo turno
+
+---
+
+#### Aegis of Valor *(Cruzado — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Valor's Crown** | Elmo | \+2 CA; Fúria Sagrada — *sem o talento:* set concede acesso; *com o talento:* dura 1d4 rodadas (em vez de 1 rodada) |
+| **Valor's Heart** | Peitoral (Pesada) | \+3 CA, RD 3; Campeão de Akarat — *sem o talento:* set concede acesso; *com o talento:* a regeneração sobe para 2d10 HP/turno |
+| **Valor's Gauntlets** | Luvas | \+2 ataque; enquanto Campeão de Akarat estiver ativo, todos os ataques causam \+1d6 Radiante extra |
+| **Valor's Greaves** | Perneiras | \+1 CA; ao usar Fúria Sagrada, Campeão de Akarat custa 4 Mana a menos neste turno |
+
+**Bônus de Set:**
+- *2 peças:* Fúria Sagrada e Campeão de Akarat podem estar ativos simultaneamente
+- *4 peças:* enquanto Campeão de Akarat estiver ativo, Fúria Sagrada torna-se Ação Livre (◇) — cada turno você pode atacar E ativar Fúria Sagrada sem custo de ação
+
+---
+
 #### M'avina's Battle Hymn *(Amazona — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
