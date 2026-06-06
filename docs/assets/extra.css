@@ -5,8 +5,7 @@
 
 /* Corpo: Crimson Pro é serifada, fica bem em tamanho ligeiramente maior */
 .md-content p,
-.md-content li,
-.md-content td {
+.md-content li {
   font-size: 1.05rem;
   line-height: 1.8;
 }
