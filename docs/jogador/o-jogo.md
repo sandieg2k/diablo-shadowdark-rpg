@@ -96,35 +96,27 @@ Os **Pontos de Vida (PV)** representam quanto punição um personagem aguenta an
 
 ## O Fluxo do Combate
 
-No mundo de **Santuário**, a hesitação é uma sentença de morte. Enquanto as hordas do Inferno Ardente avançam, um herói não é medido apenas por sua força, mas pela rapidez com que executa suas ações sob pressão.
+No mundo de **Santuário**, a hesitação é uma sentença de morte. Diferente de outros sistemas, aqui não há distinção rígida entre "Ação Bônus", "Ação de Movimento" ou "Ação Principal" — tudo o que você faz em combate consome seus **Pontos de Ação (◈)**.
 
-Diferente de outros sistemas de RPG, aqui não há uma distinção rígida entre "Ação Bônus", "Ação de Movimento" ou "Ação Principal". Tudo o que você faz em combate consome o seu fôlego, sua concentração e sua energia vital — aqui chamada simplesmente de **Pontos de Ação**.
-
-### A Gramática do Combate
-
-Cada rodada, você recebe **3 Pontos de Ação (◈◈◈)**. Você pode gastá-los como desejar: três ataques, três movimentos, ou uma combinação de habilidades.
-
----
+Cada rodada você recebe **3 Pontos de Ação (◈◈◈)** e pode gastá-los como desejar: três ataques, três movimentos, ou qualquer combinação de habilidades.
 
 ### Os Ícones de Ação
 
 Use estes símbolos como referência rápida em suas fichas e tabelas:
 
-* **◈ Uma Ação:** O esforço básico. Atacar, mover-se ou usar um item simples.  
-* **◈◈ Duas Ações:** Um esforço concentrado. Magias complexas ou manobras pesadas.  
-* **◈◈◈ Três Ações:** Um esforço total. Habilidades "Ultimate" que consomem todo o seu turno.  
-* **◇ Ação Livre:** Ações instantâneas que não consomem seu fôlego (limite de 1 por turno).  
+* **◈ Uma Ação:** O esforço básico. Atacar, mover-se ou usar um item simples.
+* **◈◈ Duas Ações:** Um esforço concentrado. Magias complexas ou manobras pesadas.
+* **◈◈◈ Três Ações:** Um esforço total. Habilidades Ultimate que consomem todo o turno.
+* **◇ Ação Livre:** Ações instantâneas que não consomem fôlego (limite de 1 por turno).
 * **⟁ Reação:** Uma ação realizada fora do seu turno em resposta a um gatilho.
 
 ---
 
-### Os Pontos de Ação (Action Points)
+### Os Pontos de Ação
 
-Cada personagem possui, por padrão, **3 Pontos de Ação** no início de seu turno. Estes pontos representam sua capacidade de agir em um intervalo de tempo frenético.
+Cada personagem começa seu turno com **3 Pontos de Ação**. Qualquer ponto não utilizado é perdido ao fim do turno — a não ser que seja reservado para Reações (ver abaixo). No início do turno seguinte, os 3 pontos são totalmente recuperados.
 
-Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é perdido (a menos que seja usado para Reações, como descrito abaixo), e você recupera seus **3 Pontos** no início do seu próximo turno.
-
-**Regra de Ouro:** Não existem "Ataques Extras" automáticos por nível. Se você deseja atacar mais de uma vez, deve gastar os **Pontos de Ação** necessários para isso.
+**Regra de Ouro:** Não existem "Ataques Extras" automáticos por nível. Para atacar mais de uma vez por turno, basta gastar os Pontos de Ação necessários.
 
 ---
 
@@ -146,44 +138,45 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 | **Preparar** | **custo da ação** | Ação | Declara uma ação e um gatilho. Se o gatilho ocorrer antes do seu próximo turno, a ação dispara automaticamente. Se não ocorrer, o custo é perdido. |
 | **Troca Rápida** | ◇ | Livre | Troca uma arma leve ou solta algo no chão (1× por turno). |
 | **Esquiva** | **⟁** | Reação | \+3 na CA contra um ataque, ou Vantagem em um teste de DES. |
-| **Sacrifício** | **⟁** | Reação | Anula todo o dano de um ataque. Um item equipado à sua escolha é destruído (Comum) ou desativado (Mágico+). |
+| **Sacrifício** | **⟁** | Reação | Anula todo o dano de um ataque. Um item equipado à sua escolha é destruído (Normal) ou desativado (Mágico+). |
 | **Ataque de Oportunidade** | **⟁** | Reação | Quando um inimigo Adjacente tenta se mover, você o ataca antes que ele saia. |
 | **Cobertura** | **⟁** ou **⟁⟁** | Reação | Protege um aliado Próximo. Gaste ⟁ se já estiver Adjacente, ou ⟁⟁ se precisar se mover até ele. **Ataque:** redirecionado a você — o atacante rola contra sua CA. **Área:** o aliado não sofre dano; você toma o total (sua parte \+ a dele). |
 
-
 ---
 
-### Dinâmicas de Combate
+## Dinâmicas de Combate
+
+Os Pontos de Ação criam uma tensão constante entre atacar, se mover e se defender. Cada decisão tem um custo — e guardar pontos para reagir pode ser tão importante quanto atacar.
 
 ### O Foco Ofensivo
 
-Um guerreiro pode optar por gastar todos os seus **3 Pontos de Ação** para desferir três golpes consecutivos com seu machado contra um lorde demoníaco. No entanto, ele terminará seu turno imóvel e vulnerável, sem pontos para se reposicionar ou desviar.
+Um guerreiro pode gastar seus **3 Pontos de Ação** em três golpes consecutivos. Ele termina o turno imóvel e sem pontos de reação — poderoso, mas vulnerável.
 
 ### A Postura Defensiva
 
-Um herói cauteloso pode gastar **1 Ação** para se aproximar, **1 Ação** para atacar e guardar o último **1 Ação** para a ação de **Esquivar**. Isso simula a prontidão de combate, garantindo que ele esteja preparado para os golpes que virão.
+Um herói cauteloso pode gastar **1 Ação** para se aproximar, **1 Ação** para atacar e guardar o último ponto para usar uma **Esquiva (⟁)** durante o turno dos inimigos.
 
-### A Reação de Bloqueio
+### Reações
 
-Para realizar uma **Reação (⟁)**, você deve obrigatoriamente terminar o seu turno com pelo menos **1 Ponto de Ação reservado**.
+Para usar uma **Reação (⟁)**, você precisa terminar seu turno com pelo menos **1 Ponto de Ação reservado**.
 
-**Exemplo:** Se você usar ◈◈ para atacar duas vezes e decidir não usar seu terceiro ponto, você "guarda" esse ponto para usar como uma **Esquiva** ou **Aparar** durante o turno dos monstros. Se você gastar os ◈◈◈ no seu turno, você estará completamente indefeso.
+**Exemplo:** Se você usar ◈◈ para atacar duas vezes e guardar o terceiro ponto, pode gastar esse ponto como **Esquiva** durante o turno dos monstros. Se gastar os três ◈◈◈, você fica completamente indefeso.
 
 ---
 
 ### A Regra do Sacrifício
 
-Quando um golpe reduziria você a 0 PV, você pode usar sua Reação (**⟁**) para realizar um **Sacrifício de Equipamento**.
+Quando um golpe reduziria você a 0 PV, você pode usar sua Reação (**⟁**) para um **Sacrifício de Equipamento**:
 
-1. Você não sofre o dano.  
-2. Sua arma, escudo ou armadura é **destruída** (se for comum) ou **desativada** (se for mágica/lendária).  
-3. O item torna-se lixo inútil até que um ferreiro mestre o repare.
+1. Você não sofre o dano.
+2. Sua arma, escudo ou armadura é **destruída** (se for Normal) ou **desativada** (se for Mágica ou melhor).
+3. O item torna-se inutilizável até que um ferreiro o repare.
 
 ---
 
-### Ações Livres e Gatilhos
+### Ações Livres
 
-Ações Livres (**◇**) não custam pontos, mas só podem ser usadas uma vez por turno. Geralmente são usadas para gritos de guerra, soltar itens ou ativar habilidades passivas que não requerem esforço físico.
+Ações Livres (**◇**) não custam pontos, mas só podem ser usadas **uma vez por turno**. Geralmente envolvem soltar um item, trocar uma arma leve ou ativar habilidades passivas que não requerem esforço físico.
 
 ---
 
