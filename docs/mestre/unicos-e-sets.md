@@ -4,7 +4,7 @@ Itens Únicos e Sets são **recompensas narrativas exclusivas** — nunca rolado
 
 > **Princípio:** a raridade desses itens vem da história, não do dado. Um jogador que recebe *The Grandfather* sabe que ganhou algo que nenhum outro grupo provavelmente terá.
 
-## Armas Únicas
+## Armas Únicas { .unique-title }
 
 Cada arma única tem efeitos fixos — não recebem Prefixos ou Sufixos adicionais.
 

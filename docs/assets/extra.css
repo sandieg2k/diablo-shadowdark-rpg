@@ -68,6 +68,21 @@ h1, h2, h3, h4 {
   background-color: rgba(74, 229, 74, 0.02);
 }
 
+/* Tabela de únicos — nome do item em dourado */
+.md-typeset .unique-table td:nth-child(2) strong {
+  color: #c8a840;
+}
+
+/* Tabela de únicos — zebra striping sutil */
+.md-typeset .unique-table tr:nth-child(even) td {
+  background-color: rgba(200, 168, 64, 0.04);
+}
+
+/* Tabela de únicos — borda inferior do header em dourado */
+.md-typeset .unique-table th {
+  border-bottom: 1px solid rgba(200, 168, 64, 0.3) !important;
+}
+
 /* Bônus de Set — admonition customizado */
 .md-typeset .admonition.set-bonus {
   border-color: #4ae54a;
