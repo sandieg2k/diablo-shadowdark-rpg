@@ -97,7 +97,20 @@ nav:
     - Loot de Bosses: mestre/loot-de-bosses.md
     - Registro de Campanha: mestre/registro-campanha.md
     - Template de Cenário: mestre/template-cenario.md
-  - Criaturas: criaturas.md
+  - Criaturas:
+    - Índice: criaturas/index.md
+    - Bioma 1 — Gramados (Tristram): criaturas/bioma1.md
+    - Bioma 2 — Pântanos (Kurast): criaturas/bioma2.md
+    - Bioma 3 — Deserto (Lut Gholein): criaturas/bioma3.md
+    - Bioma 4 — Selva (Toraja): criaturas/bioma4.md
+    - Bioma 5 — Inferno: criaturas/bioma5.md
+    - Andariel: criaturas/andariel.md
+    - Duriel: criaturas/duriel.md
+    - Azmodan: criaturas/azmodan.md
+    - Belial: criaturas/belial.md
+    - Mephisto: criaturas/mephisto.md
+    - Baal: criaturas/baal.md
+    - Diablo: criaturas/diablo.md
   - 🎲 Rolador: mestre/rolador-tesouros.md
   - Glossário: glossario.md
   - Patch Notes: patch-notes.md
