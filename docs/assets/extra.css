@@ -50,12 +50,12 @@ h1, h2, h3, h4 {
   padding-left: 0.5em;
 }
 
-/* Tabelas de set — cabeçalho verde escuro */
+/* Tabelas de set — cabeçalho discreto */
 .md-typeset .set-table th {
-  background-color: rgba(74, 229, 74, 0.08) !important;
-  color: rgba(74, 229, 74, 0.75) !important;
+  background-color: rgba(74, 229, 74, 0.06) !important;
   font-weight: 700;
   letter-spacing: 0.02em;
+  border-bottom: 1px solid rgba(74, 229, 74, 0.3) !important;
 }
 
 /* Tabelas de set — nome da peça em verde */
