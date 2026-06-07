@@ -4,7 +4,7 @@ Itens Únicos e Sets são **recompensas narrativas exclusivas** — nunca rolado
 
 > **Princípio:** a raridade desses itens vem da história, não do dado. Um jogador que recebe *The Grandfather* sabe que ganhou algo que nenhum outro grupo provavelmente terá.
 
-### Armas Únicas
+## Armas Únicas
 
 Cada arma única tem efeitos fixos — não recebem Prefixos ou Sufixos adicionais.
 
@@ -35,7 +35,7 @@ Cada arma única tem efeitos fixos — não recebem Prefixos ou Sufixos adiciona
 | 23 | **The Butcher's Cleaver** | D1 | Machado de Guerra | Guerreiro · Bárbaro | Ao matar um inimigo, o próximo ataque neste turno é uma Ação Livre (◇) |
 | 24 | **Black River** | D4 | Foice | Necromante | Ossos Explosivos \+1d6 Necrótico; ao matar, todos os lacaios curam 2 PV |
 
-### Sets
+## Sets
 
 Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada peça já tem afixos fixos próprios (funciona como um item Lendário), e equipar múltiplas peças desbloqueia bônus progressivos poderosos.
 
@@ -44,6 +44,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 > **Regra de Acesso por Peça:** quando o afixo de uma peça menciona uma habilidade de talento, aplica-se automaticamente: **sem o talento** — o jogador passa a ter acesso à habilidade enquanto estiver com a peça equipada; **com o talento** — a peça melhora ou amplifica a habilidade existente.
 
 ---
+
+### Bárbaro
 
 #### Immortal King *(Bárbaro — 5 peças)*
 
@@ -139,6 +141,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Monge
+
 #### Raiment of a Thousand Storms *(Monge — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -215,6 +219,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Natispirito
+
 #### Hwanin's Majesty *(Natispirito — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -229,6 +235,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *4 peças:* enquanto 2+ Guardiões estiverem ativos, Voo da Águia custa 0 Mana uma vez por cena
 
 ---
+
+### Druida
 
 #### Aldur's Watchtower *(Druida — 4 peças)*
 
@@ -258,6 +266,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *3 peças:* você pode ter 1 Lobo/Corvo Espiritual e 1 Urso Espiritual ativos simultaneamente
 
 ---
+
+### Feiticeiro
 
 #### Jade Harvester *(Feiticeiro — 4 peças)*
 
@@ -321,6 +331,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Caçador de Demônios
+
 #### Tancred's Battlegear *(Caçador de Demônios — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -382,6 +394,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *4 peças:* Tiro Rápido torna-se Ação Livre (◇) — use ◈◈ para dois ataques normais e ◇ para Tiro Rápido no mesmo turno
 
 ---
+
+### Mago
 
 #### Arcanna's Tricks *(Mago — 4 peças)*
 
@@ -459,6 +473,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Arcanista
+
 #### Cathan's Traps *(Arcanista — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -503,6 +519,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Assassina
+
 #### Natalya's Odium *(Assassina · Renegada — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -517,6 +535,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *4 peças:* Finalizadores com 3 Cargas tornam-se Ação Livre (◇) — você ataca com ◈ e ainda usa o Finalizador no mesmo turno
 
 ---
+
+### Renegada
 
 #### Death's Disguise *(Renegada — 3 peças)*
 
@@ -547,6 +567,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Cavaleiro de Sangue
+
 #### Sazabi's Grand Tribute *(Cavaleiro de Sangue — 3 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -576,6 +598,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Warlock
+
 #### Infernal Tools *(Warlock — 3 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -604,6 +628,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *4 peças:* Forma Demoníaca custa 4 Mana a menos (4 Mana em vez de 8) e dura 1d4\+2 rodadas
 
 ---
+
+### Necromante
 
 #### Trang-Oul's Avatar *(Necromante — 5 peças)*
 
@@ -683,6 +709,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Cruzado
+
 #### Hsaru's Defense *(Cruzado — 3 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -742,6 +770,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *4 peças:* enquanto Campeão de Akarat estiver ativo, Fúria Sagrada torna-se Ação Livre (◇) — cada turno você pode atacar E ativar Fúria Sagrada sem custo de ação
 
 ---
+
+### Guerreiro
 
 #### Bul-Kathos' Children *(Guerreiro — 2 peças)*
 
@@ -812,6 +842,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+### Amazona
+
 #### M'avina's Battle Hymn *(Amazona — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -840,6 +872,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *3 peças:* Uma vez por cena, Fúria dos Raios pode ser usada como ◇ (reação) — disparada automaticamente quando um inimigo entrar no alcance Distante ou te atacar à distância
 
 ---
+
+### Paladino
 
 #### Griswold's Legacy *(Paladino · Cruzado — 4 peças)*
 
@@ -899,6 +933,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 - *4 peças:* Avatar da Justiça pode ser ativado sem custo de Mana uma vez por descanso longo
 
 ---
+
+### Sacerdote
 
 #### Civerb's Vestments *(Sacerdote — 3 peças)*
 
