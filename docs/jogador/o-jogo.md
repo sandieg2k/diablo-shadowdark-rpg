@@ -232,29 +232,22 @@ Diferente dos Pontos de Vida, o Mana é influenciado pela força mental do heró
 
 **Mana Máximo** \= 10 \+ Modificador de Atributo Primário \+ Nível
 
-* *Atributo Primário:* **INT** para Arcanistas, **SAB** para Druidas/Amazonas, **FOR** para Bárbaros (Fúria), etc.
+* *Atributo Primário:* **INT** para Arcanistas, **SAB** para Druidas, **DES** ou **FOR** para Amazonas, **FOR** para Bárbaros, etc. Cada classe lista o seu atributo primário na própria ficha.
 
 ---
 
 ### 2. Gastando Mana — A Intensidade do Golpe
 
-O Mana é gasto em conjunto com os Pontos de Ação (**PA**). Existem três formas principais de utilizar este recurso:
+O Mana é gasto em conjunto com os Pontos de Ação (**PA**). Existem duas formas principais de utilizar este recurso:
 
 #### A. Habilidades de Classe e Magias
 
 Toda habilidade especial listada em sua classe possui um custo de Mana.
 
-* **Exemplo:** *Flecha de Gelo (Amazon)* – Custo: **◈** \+ 2 Mana.  
+* **Exemplo:** *Flecha de Gelo (Amazona)* – Custo: **◈** \+ 2 Mana.  
 * **Exemplo:** *Teleporte (Arcanista)* – Custo: **◈◈** \+ 4 Mana.
 
-#### B. Potencializar Ação (Empower)
-
-Algumas habilidades de classe permitem você infundir Mana em uma ação básica para torná-la superior. Você decide usar o Mana **após** rolar o dado de ataque, mas antes do mestre descrever o resultado.
-
-* *Ataque Brutal (Bárbaro)* **(2 Mana):** Adiciona \+1d6 de dano do tipo da arma.  
-* **Movimento Veloz (1 Mana):** Ao gastar **◈** para mover, você pode se mover uma distância **Distante** em vez de **Próximo**.
-
-#### C. Salvaguardas de Emergência
+#### B. Salvaguardas de Emergência
 
 O Mana pode ser queimado para evitar desastres.
 
@@ -270,7 +263,7 @@ Diferente do PA, o Mana **não se recupera** entre os turnos.
 1. **Descanso Curto (1 hora):** Recupera uma quantidade de Mana igual ao seu Nível \+ Modificador de Atributo.  
 2. **Descanso Longo (8 horas):** Recupera o Mana totalmente.  
 3. **Poções de Mana:** Recuperam Mana instantaneamente (Custo: **◈**).  
-4. **O Roubo de Mana (Mana steal):** Armas com o afixo *Vampírico* ou *Espiritual* recuperam 1 de Mana sempre que você desfere um **Golpe Fatal** ou um **Crítico**.
+4. **Talento Roubo de Mana:** Personagens com este talento recuperam 1 Mana sempre que desferirem um **Golpe Fatal** ou um **Crítico**.
 
 #### O Estado de Burnout (Exaustão)
 
@@ -295,9 +288,9 @@ Se o seu Mana chegar a **0**, você entra em um estado de fadiga profunda:
 
 O **Bárbaro** está cercado por 3 Caídos.
 
-1. Ele gasta **◈** para usar *Redemoinho* (Custo: 3 Mana). Ele acerta todos ao redor.  
-2. Ele vê que o Chefe Caído vai fugir, então gasta **◈**  **(Movimento)** para alcançá-lo.  
-3. Ele gasta seu último **◈** para um *Ataque Berserk* (Custo: 2 Mana). Como ele quer garantir a morte do Chefe, ele gasta 2 Mana adicionais para rolar \+1d10 de força extra, para um total de dano da arma \+ 2d10 força no ataque.
+1. Ele gasta **◈** para usar *Turbilhão* (Custo: 3 Mana). Ele acerta todos ao redor.  
+2. Ele vê que o Chefe Caído vai fugir, então gasta **◈** **(Movimento)** para alcançá-lo.  
+3. Ele gasta seu último **◈** para *Berserk* (Custo: 2 Mana). Como quer garantir a morte do Chefe, gasta 2 Mana adicionais para rolar \+2d10 Físico extra.
 
 **Total do Turno:** 3 PA gastos, 7 Mana consumidos.
 
