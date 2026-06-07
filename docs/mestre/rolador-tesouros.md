@@ -17,7 +17,7 @@ Defina o nível médio do grupo e clique em **Rolar**. O rolador percorre todas 
   <button onclick="rolarTesouro({forceCategoria:'equip'})" class="roll-btn roll-btn-cat">⚔️ Equipamento</button>
   <button onclick="rolarTesouro({forceCategoria:'joia'})" class="roll-btn roll-btn-cat">💍 Joia/Especial</button>
 </div>
-<div class="roller-controls" style="margin-top:0.25rem;">
+<div class="roller-controls dev-only" style="margin-top:0.25rem;">
   <button onclick="rolarTesouro({forceSet:true})" class="roll-btn roll-btn-test">🧪 Testar Set</button>
   <button onclick="rolarTesouro({forceCaprichoso:true})" class="roll-btn roll-btn-test">🧪 Testar Caprichoso</button>
 </div>

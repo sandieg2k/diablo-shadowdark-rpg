@@ -1,3 +1,70 @@
+// --- Modo Desenvolvedor ---
+(function () {
+  var DEV_KEY = "diablo-rpg-dev-mode";
+
+  function applyDevMode(active) {
+    document.body.classList.toggle("dev-mode", active);
+  }
+
+  function injectDevButton() {
+    // Evita injetar duas vezes (SPA navigation)
+    if (document.getElementById("dev-mode-toggle")) return;
+
+    var header = document.querySelector(".md-header__inner");
+    if (!header) return;
+
+    var btn = document.createElement("button");
+    btn.id = "dev-mode-toggle";
+    btn.title = "Modo Desenvolvedor";
+    btn.textContent = "DEV";
+    btn.style.cssText = [
+      "background: transparent",
+      "border: 1px solid rgba(255,255,255,0.25)",
+      "color: rgba(255,255,255,0.45)",
+      "border-radius: 3px",
+      "padding: 2px 7px",
+      "font-size: 0.68rem",
+      "font-family: monospace",
+      "cursor: pointer",
+      "letter-spacing: 0.06em",
+      "margin-left: 8px",
+      "transition: all 0.2s",
+      "vertical-align: middle"
+    ].join(";");
+
+    var isActive = localStorage.getItem(DEV_KEY) === "1";
+    applyDevMode(isActive);
+    if (isActive) btn.style.color = "#ff8c00";
+    if (isActive) btn.style.borderColor = "#ff8c00";
+
+    btn.addEventListener("click", function () {
+      isActive = !isActive;
+      localStorage.setItem(DEV_KEY, isActive ? "1" : "0");
+      applyDevMode(isActive);
+      btn.style.color = isActive ? "#ff8c00" : "rgba(255,255,255,0.45)";
+      btn.style.borderColor = isActive ? "#ff8c00" : "rgba(255,255,255,0.25)";
+    });
+
+    // Insere antes do botão de tema (último filho)
+    var title = header.querySelector(".md-header__title");
+    if (title && title.nextSibling) {
+      header.insertBefore(btn, title.nextSibling);
+    } else {
+      header.appendChild(btn);
+    }
+  }
+
+  // MkDocs Material usa SPA — reinjecta no navigate
+  document.addEventListener("DOMContentLoaded", function () {
+    injectDevButton();
+    applyDevMode(localStorage.getItem(DEV_KEY) === "1");
+  });
+  document.addEventListener("DOMContentSwitch", function () {
+    injectDevButton();
+    applyDevMode(localStorage.getItem(DEV_KEY) === "1");
+  });
+})();
+
 document.addEventListener("DOMContentLoaded", function () {
 
   // --- Tabelas de set (h4 com .set-title) ---
