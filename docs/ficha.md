@@ -47,10 +47,12 @@
         <div class="ficha-form-group">
           <label>Título Ativo</label>
           <select id="form-titulo"></select>
+          <p id="form-titulo-preview" class="form-efeito-preview"></p>
         </div>
         <div class="ficha-form-group">
           <label>Antecedente</label>
           <select id="form-antecedente"></select>
+          <p id="form-antecedente-preview" class="form-efeito-preview"></p>
         </div>
       </div>
     </div>

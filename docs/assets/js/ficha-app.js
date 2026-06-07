@@ -196,6 +196,14 @@
   }
 
   // ───── View: Criação/Edição ─────
+  function atualizarPreviewEfeito(selectId, previewId, lista) {
+    const sel = document.getElementById(selectId);
+    const prev = document.getElementById(previewId);
+    if (!sel || !prev) return;
+    const obj = lista.find(x => x.id === sel.value);
+    prev.textContent = obj ? obj.efeito : '';
+  }
+
   function renderizarFormulario() {
     const p = personagemAtual;
     setValue('form-nome', p.nome);
@@ -211,6 +219,8 @@
             `<option value="${t.id}" ${t.id === p.titulo ? 'selected' : ''}>${t.nome}</option>`
           ).join('')}</optgroup>`
         ).join('');
+      atualizarPreviewEfeito('form-titulo', 'form-titulo-preview', TITULOS);
+      selTitulo.onchange = () => atualizarPreviewEfeito('form-titulo', 'form-titulo-preview', TITULOS);
     }
 
     // Antecedente — select simples
@@ -220,6 +230,8 @@
         ANTECEDENTES.map(a =>
           `<option value="${a.id}" ${a.id === p.antecedente ? 'selected' : ''}>${a.nome}</option>`
         ).join('');
+      atualizarPreviewEfeito('form-antecedente', 'form-antecedente-preview', ANTECEDENTES);
+      selAnte.onchange = () => atualizarPreviewEfeito('form-antecedente', 'form-antecedente-preview', ANTECEDENTES);
     }
     setValue('form-notas', p.notas);
 
