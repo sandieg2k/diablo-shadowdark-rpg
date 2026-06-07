@@ -686,6 +686,26 @@
     const eqBody = document.getElementById('ficha-equipamento-body');
     if (eqBody) {
       eqBody.innerHTML = Object.entries(eqNomes).map(([slot, nome]) => {
+        const invItemId = p.equipadoSlots && p.equipadoSlots[slot];
+        const invItem = invItemId && typeof getInventarioItem === 'function' ? getInventarioItem(invItemId) : null;
+
+        if (invItem) {
+          const qualStyle = MOCHILA_QUAL_STYLE[invItem.qualidade] || 'color:#aaa';
+          const afixosSummary = (invItem.afixos || []).map(af =>
+            `<div style="font-size:.72rem;color:#777;line-height:1.35">${esc(af.efeito)}</div>`
+          ).join('');
+          return `<tr>
+            <td class="ficha-slot-nome">${nome}</td>
+            <td><div class="slot-item-card">
+              <div style="${qualStyle};font-weight:700;font-size:.85rem">${esc(invItem.nome)}</div>
+              ${invItem.infoBase ? `<div style="font-size:.71rem;color:#555;margin-bottom:.1rem">${esc(invItem.infoBase)}</div>` : ''}
+              ${afixosSummary}
+              <button class="ficha-btn ficha-btn-secondary" style="font-size:.7rem;padding:.1rem .4rem;margin-top:.3rem"
+                onclick="window._fichaDesequipar('${invItem.id}')">Desequipar</button>
+            </div></td>
+          </tr>`;
+        }
+
         let input;
         if (armorSlotsView.includes(slot)) {
           const opts = ARMADURA_OPTS.map(o =>
@@ -700,7 +720,6 @@
         return `<tr><td class="ficha-slot-nome">${nome}</td><td>${input}</td></tr>`;
       }).join('');
 
-      // Armor selects → recalcular CA ao mudar
       armorSlotsView.forEach(slot => {
         const sel = document.getElementById('inline-eq-' + slot);
         if (sel) sel.onchange = () => { p.equipamento[slot] = sel.value; recalcularStats(); };
@@ -796,10 +815,10 @@
     if (!p || typeof getInventario !== 'function') { panel.innerHTML = ''; return; }
 
     const inv = getInventario();
-    const mochila = inv.filter(i => !i.equipadoPor || i.equipadoPor === p.id);
+    const mochila = inv.filter(i => !i.equipadoPor);
 
     if (mochila.length === 0) {
-      panel.innerHTML = '<p class="ficha-empty-small">Inventário vazio. Role itens no <a href="../mestre/rolador-tesouros/">Rolador de Tesouros</a> e salve-os aqui.</p>';
+      panel.innerHTML = '<p class="ficha-empty-small">Mochila vazia. Role itens no <a href="../mestre/rolador-tesouros/">Rolador de Tesouros</a> e salve-os aqui. Itens equipados aparecem no painel de Equipamento acima.</p>';
       return;
     }
 

@@ -303,6 +303,15 @@
   50% { opacity: .65; }
 }
 
+/* ─── Slot item card (equipamento de inventário) ─── */
+.slot-item-card {
+  padding: .35rem .5rem;
+  background: #0d1a0d;
+  border: 1px solid #27ae60;
+  border-radius: 4px;
+  line-height: 1.4;
+}
+
 /* ─── Mochila ─── */
 .mochila-item {
   padding: .5rem .6rem;

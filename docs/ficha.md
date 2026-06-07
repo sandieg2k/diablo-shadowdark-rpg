@@ -286,7 +286,7 @@
   <!-- Mochila & Inventário -->
   <div class="ficha-panel">
     <h3>🎒 Mochila &amp; Inventário</h3>
-    <p style="font-size:.8rem;color:#666;margin:0 0 .6rem">Itens salvos no Rolador de Tesouros aparecem aqui. Clique em <b>Equipar</b> para associar um item a um slot do personagem — os bônus de afixos serão aplicados automaticamente.</p>
+    <p style="font-size:.8rem;color:#666;margin:0 0 .6rem">Itens disponíveis para equipar. Salve itens no <a href="../mestre/rolador-tesouros/">Rolador de Tesouros</a> para que apareçam aqui. Ao equipar, o item sobe para o painel de <b>Equipamento</b> e os bônus de afixos são aplicados automaticamente.</p>
     <div id="ficha-mochila-body"></div>
   </div>
 
