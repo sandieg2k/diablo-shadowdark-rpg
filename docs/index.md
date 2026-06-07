@@ -13,5 +13,5 @@ O sistema é baseado em mecânicas d20/Shadowdark e abrange 18 classes, regras d
 - **[Livro do Jogador](jogador/introducao.md)** — Introdução, regras de jogo, arsenal, resistências, criação de personagem, origens e talentos
 - **[Classes](classes/index.md)** — As 18 classes de Santuário
 - **[Livro do Mestre](mestre/encontros.md)** — Encontros, tesouros, registro de campanha e template de cenário
-- **[Criaturas](criaturas.md)** — Apêndice A: Bestiário
+- **[Criaturas](criaturas/index.md)** — Apêndice A: Bestiário
 - **[Glossário](glossario.md)** — Apêndice B: Termos e definições

@@ -1,4 +1,4 @@
-# Patch Notes — v1.0 Playtest
+# Patch Notes — v1.1 Playtest
 
 ---
 
