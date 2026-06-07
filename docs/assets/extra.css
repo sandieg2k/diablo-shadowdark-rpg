@@ -115,6 +115,42 @@ h1, h2, h3, h4 {
   mask-image: var(--md-admonition-icon--tip);
 }
 
+/* ===== Modo claro — ajustes de contraste ===== */
+
+[data-md-color-scheme="default"] .set-title {
+  color: #1e7a1e !important;
+  border-left-color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .set-table td:first-child strong {
+  color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .set-table th {
+  border-bottom-color: rgba(30, 122, 30, 0.4) !important;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.set-bonus {
+  border-color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.set-bonus > .admonition-title {
+  background-color: rgba(30, 122, 30, 0.1);
+  color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.set-bonus > .admonition-title::before {
+  background-color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .unique-table td:nth-child(2) strong {
+  color: #8a6010;
+}
+
+[data-md-color-scheme="default"] .md-typeset .unique-table th {
+  border-bottom-color: rgba(138, 96, 16, 0.4) !important;
+}
+
 /* Nome do site na barra superior */
 .md-header__title {
   font-weight: 700;
