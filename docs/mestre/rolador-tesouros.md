@@ -9,6 +9,15 @@ Defina o nível médio do grupo e clique em **Rolar**. O rolador percorre todas 
   <input type="number" id="nd-input" min="1" max="10" value="1">
   <button onclick="rolarTesouro()" class="roll-btn">🎲 Rolar Tesouro</button>
   <button onclick="rolarTesouro()" class="roll-btn roll-btn-sec">🔁 Rolar Novamente</button>
+</div>
+<div class="roller-controls" style="margin-top:0.5rem;">
+  <span style="font-size:0.82rem;color:var(--md-default-fg-color--light);margin-right:4px;">Rolar categoria:</span>
+  <button onclick="rolarTesouro({forceCategoria:'ouro'})" class="roll-btn roll-btn-cat">💰 Ouro</button>
+  <button onclick="rolarTesouro({forceCategoria:'pocao'})" class="roll-btn roll-btn-cat">🧪 Poção</button>
+  <button onclick="rolarTesouro({forceCategoria:'equip'})" class="roll-btn roll-btn-cat">⚔️ Equipamento</button>
+  <button onclick="rolarTesouro({forceCategoria:'joia'})" class="roll-btn roll-btn-cat">💍 Joia/Especial</button>
+</div>
+<div class="roller-controls" style="margin-top:0.25rem;">
   <button onclick="rolarTesouro({forceSet:true})" class="roll-btn roll-btn-test">🧪 Testar Set</button>
   <button onclick="rolarTesouro({forceCaprichoso:true})" class="roll-btn roll-btn-test">🧪 Testar Caprichoso</button>
 </div>
@@ -37,6 +46,8 @@ Defina o nível médio do grupo e clique em **Rolar**. O rolador percorre todas 
 .roll-btn-sec:hover { background: #777; }
 .roll-btn-test { background: #2a6b2a; font-size: 0.85rem; padding: 6px 14px; }
 .roll-btn-test:hover { background: #3a8f3a; }
+.roll-btn-cat { background: #3a5a7a; font-size: 0.88rem; padding: 6px 14px; }
+.roll-btn-cat:hover { background: #4a7aa0; }
 .result-card {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 8px; padding: 1rem 1.2rem; margin-top: 1rem;
@@ -479,8 +490,15 @@ window.rolarTesouro = function(opts = {}) {
     logs.push(step(`<span style="color:#3a8f3a;">🧪 MODO TESTE — forçando Caprichoso</span>`));
   }
 
-  const base = opts.forceSet || opts.forceCaprichoso ? 20 : d(20);
-  logs.push(step(`<span class="dice">🎲 Tesouro Base d20 = ${base}</span>`));
+  // forceCategoria: pula o d20 base e cai direto na categoria
+  let base;
+  if (opts.forceCategoria === 'ouro')  { base = 12; logs.push(step(`<span style="color:#f0c040;">💰 Categoria forçada: Ouro</span>`)); }
+  else if (opts.forceCategoria === 'pocao') { base = 8; logs.push(step(`<span style="color:#4a9edd;">🧪 Categoria forçada: Poção</span>`)); }
+  else if (opts.forceCategoria === 'equip') { base = 20; logs.push(step(`<span style="color:#ff8c00;">⚔️ Categoria forçada: Equipamento</span>`)); }
+  else if (opts.forceCategoria === 'joia')  { base = 20; opts._forceJoia = true; logs.push(step(`<span style="color:#4ae54a;">💍 Categoria forçada: Joia/Especial</span>`)); }
+  else { base = opts.forceSet || opts.forceCaprichoso ? 20 : d(20); }
+
+  if (!opts.forceCategoria) logs.push(step(`<span class="dice">🎲 Tesouro Base d20 = ${base}</span>`));
 
   if (base <= 6) {
     finalHtml = `<div>💀 <b>Nada</b> — apenas poeira e ossos.</div>`;
@@ -503,7 +521,7 @@ window.rolarTesouro = function(opts = {}) {
     finalHtml = `<div>💰 <b>${total} moedas de ouro</b></div>`;
 
   } else {
-    const dr = opts.forceSet || opts.forceCaprichoso ? 20 : d(100);
+    const dr = opts.forceSet || opts.forceCaprichoso ? 20 : opts._forceJoia ? (89 + d(12) - 1) : d(100);
     logs.push(step(`<span class="dice">🎲 Equipamento d100 = ${dr}</span>`));
 
     let nomeBase = "", infoItem = "", qual, setHandled = false;
