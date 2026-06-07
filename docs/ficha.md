@@ -95,20 +95,20 @@
       </div>
     </div>
 
-    <!-- Equipamento -->
+    <!-- Proteção -->
     <div class="ficha-form-section">
-      <h3>Armadura e Escudo</h3>
-      <div class="ficha-form-row">
+      <h3>Proteção</h3>
+      <div class="ficha-form-row" style="margin-bottom:.8rem">
         <div class="ficha-form-group">
-          <label>Armadura</label>
-          <select id="form-armadura">
-            <option value="">Sem armadura</option>
-            <option value="Couro">Couro (CA 13, Leve)</option>
-            <option value="Couro Reforçado">Couro Reforçado (CA 14, Leve)</option>
-            <option value="Brunea">Brunea (CA 15, Média)</option>
-            <option value="Cota de Malha">Cota de Malha (CA 16, Média)</option>
-            <option value="Meia-Placa">Meia-Placa (CA 17, Pesada)</option>
-            <option value="Placa Completa">Placa Completa (CA 18, Pesada)</option>
+          <label>Equipar Set Completo</label>
+          <select id="form-set-completo">
+            <option value="">— Atalho de Set —</option>
+            <option value="Couro">Set Couro (CA 13, Leve)</option>
+            <option value="Couro Reforçado">Set Couro Reforçado (CA 14, Leve, RD 1)</option>
+            <option value="Brunea">Set Brunea (CA 15, Média, RD 1)</option>
+            <option value="Cota de Malha">Set Cota de Malha (CA 16, Média, RD 2)</option>
+            <option value="Meia-Placa">Set Meia-Placa (CA 17, Pesada, RD 2)</option>
+            <option value="Placa Completa">Set Placa Completa (CA 18, Pesada, RD 3)</option>
           </select>
         </div>
         <div class="ficha-form-group">
@@ -121,20 +121,29 @@
           </select>
         </div>
       </div>
+      <div class="ficha-form-row">
+        <div class="ficha-form-group"><label>Peitoral</label><select id="form-eq-peito"></select></div>
+        <div class="ficha-form-group"><label>Perneiras</label><select id="form-eq-perneiras"></select></div>
+        <div class="ficha-form-group"><label>Elmo</label><select id="form-eq-elmo"></select></div>
+        <div class="ficha-form-group"><label>Luvas</label><select id="form-eq-luvas"></select></div>
+        <div class="ficha-form-group"><label>Botas</label><select id="form-eq-botas"></select></div>
+      </div>
+      <p id="form-ca-preview" style="margin:.6rem 0 0;font-size:.85rem;color:#aaa"></p>
     </div>
 
-    <!-- Slots de equipamento -->
+    <!-- Armas e Acessórios -->
     <div class="ficha-form-section">
-      <h3>Equipamento Inicial</h3>
+      <h3>Armas e Acessórios</h3>
       <div class="ficha-form-row">
-        <div class="ficha-form-group"><label>Arma 1</label><input type="text" id="form-eq-arma1" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Arma 2</label><input type="text" id="form-eq-arma2" placeholder="—"></div>
+        <div class="ficha-form-group">
+          <label>Arma 1</label>
+          <input type="text" id="form-eq-arma1" list="datalist-armas" placeholder="—" autocomplete="off">
+        </div>
+        <div class="ficha-form-group">
+          <label>Arma 2</label>
+          <input type="text" id="form-eq-arma2" list="datalist-armas" placeholder="—" autocomplete="off">
+        </div>
         <div class="ficha-form-group"><label>Especial de Classe</label><input type="text" id="form-eq-especial" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Elmo</label><input type="text" id="form-eq-elmo" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Peito</label><input type="text" id="form-eq-peito" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Luvas</label><input type="text" id="form-eq-luvas" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Perneiras</label><input type="text" id="form-eq-perneiras" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Botas</label><input type="text" id="form-eq-botas" placeholder="—"></div>
         <div class="ficha-form-group"><label>Amuleto</label><input type="text" id="form-eq-amuleto" placeholder="—"></div>
         <div class="ficha-form-group"><label>Anel 1</label><input type="text" id="form-eq-anel1" placeholder="—"></div>
         <div class="ficha-form-group"><label>Anel 2</label><input type="text" id="form-eq-anel2" placeholder="—"></div>
@@ -217,6 +226,7 @@
       <div class="recurso-item"><div class="recurso-label">Vida (PV)</div><div class="recurso-valor pv" id="ficha-pv-display">—</div></div>
       <div class="recurso-item"><div class="recurso-label">Mana</div><div class="recurso-valor mana" id="ficha-mana-display">—</div></div>
       <div class="recurso-item"><div class="recurso-label">CA</div><div class="recurso-valor ca" id="ficha-ca-display">—</div></div>
+      <div class="recurso-item"><div class="recurso-label">RD Física</div><div class="recurso-valor" id="ficha-rd-display" style="color:#3498db">—</div></div>
       <div class="recurso-item"><div class="recurso-label">ATK Bônus</div><div class="recurso-valor atk" id="ficha-atk-display">—</div></div>
     </div>
     <!-- Armadura / Escudo editáveis inline -->
@@ -305,4 +315,5 @@
   </div>
 </div>
 
+<datalist id="datalist-armas"></datalist>
 </div>

@@ -50,7 +50,15 @@
     try {
       const raw = localStorage.getItem('diablo-rpg-fichas');
       personagens = raw ? JSON.parse(raw) : [];
-      personagens.forEach(p => { if (!p.condicoes) p.condicoes = []; });
+      personagens.forEach(p => {
+        if (!p.condicoes) p.condicoes = [];
+        // Migrar save antigo (armadura única → peças individuais)
+        if (p.armadura && !p.equipamento.peito) {
+          ['elmo','peito','luvas','perneiras','botas'].forEach(s => {
+            if (!p.equipamento[s]) p.equipamento[s] = p.armadura;
+          });
+        }
+      });
     } catch(e) { personagens = []; }
   }
 
@@ -131,7 +139,16 @@
       renderizarFicha();
       mostrarToast('💤 Descansado! PV e Mana restaurados.');
     });
-    on('form-classe', 'change', atualizarAtribPrimarioSelect);
+    on('form-classe', 'change', () => {
+      atualizarAtribPrimarioSelect();
+      const clsId = getValue('form-classe');
+      const classItem = ITENS_CLASSE[clsId] || '';
+      const especialEl = document.getElementById('form-eq-especial');
+      if (especialEl && (!especialEl.value || Object.values(ITENS_CLASSE).includes(especialEl.value))) {
+        especialEl.value = classItem;
+      }
+      atualizarCaPreviewForm();
+    });
     on('btn-rolar-atributos', 'click', rolarAtributos);
 
     // Auto-save com debounce na view da ficha
@@ -196,6 +213,27 @@
   }
 
   // ───── View: Criação/Edição ─────
+  // ─── Preview CA no formulário ───
+  function atualizarCaPreviewForm() {
+    const cls = getClasse(getValue('form-classe')) || { id: '' };
+    const attrs = {};
+    ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => { attrs[a] = parseInt(getValue('form-' + a)) || 10; });
+    const equip = {};
+    ['elmo','peito','luvas','perneiras','botas'].forEach(s => { equip[s] = getValue('form-eq-' + s) || ''; });
+    const escudo = getValue('form-escudo') || '';
+    const ca = calcCAFromEquip(cls, attrs, equip, escudo);
+    const rd = calcRDFisico(equip);
+    const info = ARMADURA_INFO[equip.peito] || null;
+    const tipoStr = info ? info.tipo : 'Sem armadura';
+    const ruido = info && info.ruido ? ' · <span style="color:#e67e22">Ruído</span>' : '';
+    const reqFor = info && info.reqFOR ? ` · FOR mín. ${info.reqFOR}` : '';
+    const prev = document.getElementById('form-ca-preview');
+    if (prev) prev.innerHTML =
+      `<span style="color:#27ae60">CA calculada: <strong>${ca}</strong></span>` +
+      ` &nbsp; <span style="color:#aaa">${tipoStr}${reqFor}</span>${ruido}` +
+      (rd > 0 ? ` &nbsp; <span style="color:#3498db">RD ${rd} Física</span>` : '');
+  }
+
   function atualizarPreviewEfeito(selectId, previewId, lista) {
     const sel = document.getElementById(selectId);
     const prev = document.getElementById(previewId);
@@ -247,13 +285,62 @@
       setValue('form-' + a, p.attrs[a]);
       atualizarMod(a);
       const el = document.getElementById('form-' + a);
-      if (el) el.oninput = () => atualizarMod(a);
+      if (el) el.oninput = () => { atualizarMod(a); atualizarCaPreviewForm(); };
     });
 
-    setValue('form-armadura', p.armadura);
+    // Escudo
     setValue('form-escudo', p.escudo);
-    Object.keys(p.equipamento).forEach(slot => setValue('form-eq-' + slot, p.equipamento[slot]));
+    const escFrm = document.getElementById('form-escudo');
+    if (escFrm) escFrm.onchange = () => atualizarCaPreviewForm();
+
+    // Peças de armadura
+    const armorSlotsFrm = ['elmo','peito','luvas','perneiras','botas'];
+    armorSlotsFrm.forEach(slot => {
+      const sel = document.getElementById('form-eq-' + slot);
+      if (!sel) return;
+      if (!sel.children.length) {
+        sel.innerHTML = ARMADURA_OPTS.map(o => `<option value="${o.v}">${o.l}</option>`).join('');
+      }
+      sel.value = p.equipamento[slot] || '';
+      sel.onchange = () => atualizarCaPreviewForm();
+    });
+
+    // Atalho de set completo
+    const setCompEl = document.getElementById('form-set-completo');
+    if (setCompEl) {
+      setCompEl.value = '';
+      setCompEl.onchange = () => {
+        const tipo = setCompEl.value;
+        if (!tipo) return;
+        armorSlotsFrm.forEach(s => { setValue('form-eq-' + s, tipo); });
+        setCompEl.value = '';
+        atualizarCaPreviewForm();
+      };
+    }
+
+    // Datalist de armas (preencher uma vez)
+    const dl = document.getElementById('datalist-armas');
+    if (dl && !dl.children.length) {
+      dl.innerHTML = ARMAS_LISTA.map(a => `<option value="${a}">`).join('');
+    }
+
+    // Especial de Classe auto-fill
+    const especialEl = document.getElementById('form-eq-especial');
+    if (especialEl) {
+      const classItem = ITENS_CLASSE[p.classe] || '';
+      if (!especialEl.value || Object.values(ITENS_CLASSE).includes(especialEl.value)) {
+        especialEl.value = classItem;
+      }
+    }
+
+    // Demais slots de equipamento
+    Object.keys(p.equipamento).filter(s => !armorSlotsFrm.includes(s)).forEach(slot => {
+      setValue('form-eq-' + slot, p.equipamento[slot] || '');
+    });
     Object.keys(p.resistencias).forEach(tipo => setValue('form-res-' + tipo, p.resistencias[tipo]));
+
+    // Preview inicial de CA
+    atualizarCaPreviewForm();
 
     const titulo = document.getElementById('form-titulo-pagina');
     if (titulo) titulo.textContent = modoEdicao ? 'Editar Personagem' : 'Novo Personagem';
@@ -299,7 +386,6 @@
     if (p.titulo && !TITULOS.find(t => t.id === p.titulo)) p.titulo = '';
     if (p.antecedente && !ANTECEDENTES.find(a => a.id === p.antecedente)) p.antecedente = '';
     p.notas = getValue('form-notas') || '';
-    p.armadura = getValue('form-armadura') || '';
     p.escudo = getValue('form-escudo') || '';
     ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
       p.attrs[a] = parseInt(getValue('form-' + a)) || 10;
@@ -311,12 +397,14 @@
     if (p.manaAtual === 0 || p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
     p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
     if (p.pvAtual === 0 || p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
-    p.ca = calcCABase(cls || { id: p.classe }, p.attrs, p.armadura) + escudoBonus(p.escudo);
-    p.atk = mod(primAttrVal);
 
+    // Salvar todos os slots de equipamento
     Object.keys(p.equipamento).forEach(slot => {
       p.equipamento[slot] = getValue('form-eq-' + slot) || '';
     });
+
+    p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo);
+    p.atk = mod(primAttrVal);
     Object.keys(p.resistencias).forEach(tipo => {
       p.resistencias[tipo] = parseInt(getValue('form-res-' + tipo)) || 0;
     });
@@ -346,9 +434,7 @@
     const xpEl = document.getElementById('inline-xp');
     if (xpEl) p.xp = parseInt(xpEl.value) || 0;
 
-    const armEl = document.getElementById('inline-armadura');
     const escEl = document.getElementById('inline-escudo');
-    if (armEl) p.armadura = armEl.value;
     if (escEl) p.escudo = escEl.value;
 
     const pvEl = document.getElementById('inline-pv-atual');
@@ -388,15 +474,25 @@
 
     p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
     p.manaMax = calcManaMax(p.nivel, primAttrVal);
-    p.ca = calcCABase(cls || { id: p.classe }, p.attrs, p.armadura) + escudoBonus(p.escudo);
+    p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo);
     p.atk = mod(primAttrVal);
     if (p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
     if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
 
+    const rdFisicoCalc = calcRDFisico(p.equipamento);
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
     setText('ficha-ca-display', p.ca);
+    setText('ficha-rd-display', rdFisicoCalc > 0 ? rdFisicoCalc : '—');
     setText('ficha-atk-display', `${p.atk >= 0 ? '+' : ''}${p.atk} + bônus de arma`);
+
+    // Atualizar resumo de armadura no painel
+    const peito = p.equipamento.peito || '';
+    const infoArm = ARMADURA_INFO[peito];
+    const armSumEl = document.getElementById('ficha-armadura-summary');
+    if (armSumEl) {
+      armSumEl.textContent = infoArm ? `${infoArm.tipo}${infoArm.ruido ? ' · Ruído' : ''}${infoArm.reqFOR ? ` · FOR mín. ${infoArm.reqFOR}` : ''}` : 'Sem armadura';
+    }
 
     ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
       const modEl = document.getElementById('attr-mod-display-' + a);
@@ -460,6 +556,8 @@
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
     setText('ficha-ca-display', p.ca);
+    const rdInit = calcRDFisico(p.equipamento);
+    setText('ficha-rd-display', rdInit > 0 ? rdInit : '—');
     setText('ficha-atk-display', `${p.atk >= 0 ? '+' : ''}${p.atk} + bônus de arma`);
 
     // PV / Mana com botões ±
@@ -505,14 +603,13 @@
     });
 
     // Armadura / Escudo inline
+    const rdFisicoInit = calcRDFisico(p.equipamento);
+    const peitoInit = p.equipamento.peito || '';
+    const infoInit = ARMADURA_INFO[peitoInit];
+    const tipoInitStr = infoInit ? `${infoInit.tipo}${infoInit.ruido ? ' · Ruído' : ''}${infoInit.reqFOR ? ` · FOR ${infoInit.reqFOR}` : ''}` : 'Sem armadura';
     setHTML('ficha-armadura-inline', `
-      <div style="display:flex;gap:.8rem;flex-wrap:wrap;align-items:center">
-        <div class="recurso-inline">
-          <label>Armadura:</label>
-          <select id="inline-armadura" class="ficha-input-inline" style="max-width:220px">
-            ${ARMADURAS_OPT.map(a => `<option value="${esc(a.v)}" ${p.armadura===a.v?'selected':''}>${esc(a.l)}</option>`).join('')}
-          </select>
-        </div>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center;font-size:.85rem">
+        <span style="color:#aaa">Armadura: <strong id="ficha-armadura-summary" style="color:#ccc">${tipoInitStr}</strong></span>
         <div class="recurso-inline">
           <label>Escudo:</label>
           <select id="inline-escudo" class="ficha-input-inline" style="max-width:200px">
@@ -520,9 +617,7 @@
           </select>
         </div>
       </div>`);
-    const armSel = document.getElementById('inline-armadura');
     const escSel = document.getElementById('inline-escudo');
-    if (armSel) armSel.onchange = () => { p.armadura = armSel.value; recalcularStats(); };
     if (escSel) escSel.onchange = () => { p.escudo = escSel.value; recalcularStats(); };
 
     // Atributos editáveis
@@ -572,18 +667,34 @@
 
     // Equipamento
     const eqNomes = {
-      elmo:'Elmo', peito:'Peito', luvas:'Luvas', perneiras:'Perneiras', botas:'Botas',
-      especial:'Especial de Classe', amuleto:'Amuleto', anel1:'Anel 1', anel2:'Anel 2',
-      arma1:'Arma 1', arma2:'Arma 2', cinto:'Cinto'
+      arma1:'Arma 1', arma2:'Arma 2', especial:'Especial de Classe',
+      elmo:'Elmo', peito:'Peitoral', luvas:'Luvas', perneiras:'Perneiras', botas:'Botas',
+      amuleto:'Amuleto', anel1:'Anel 1', anel2:'Anel 2', cinto:'Cinto'
     };
+    const armorSlotsView = ['elmo','peito','luvas','perneiras','botas'];
+    const weaponSlotsView = ['arma1','arma2'];
     const eqBody = document.getElementById('ficha-equipamento-body');
     if (eqBody) {
-      eqBody.innerHTML = Object.entries(eqNomes).map(([slot, nome]) =>
-        `<tr>
-          <td class="ficha-slot-nome">${nome}</td>
-          <td><input type="text" class="ficha-input-inline" id="inline-eq-${slot}" value="${esc(p.equipamento[slot] || '')}" placeholder="—"></td>
-        </tr>`
-      ).join('');
+      eqBody.innerHTML = Object.entries(eqNomes).map(([slot, nome]) => {
+        let input;
+        if (armorSlotsView.includes(slot)) {
+          const opts = ARMADURA_OPTS.map(o =>
+            `<option value="${esc(o.v)}" ${(p.equipamento[slot]||'')=== o.v ? 'selected':''}>${esc(o.l)}</option>`
+          ).join('');
+          input = `<select class="ficha-input-inline" id="inline-eq-${slot}" style="width:100%">${opts}</select>`;
+        } else if (weaponSlotsView.includes(slot)) {
+          input = `<input type="text" class="ficha-input-inline" id="inline-eq-${slot}" value="${esc(p.equipamento[slot]||'')}" placeholder="—" list="datalist-armas" autocomplete="off">`;
+        } else {
+          input = `<input type="text" class="ficha-input-inline" id="inline-eq-${slot}" value="${esc(p.equipamento[slot]||'')}" placeholder="—">`;
+        }
+        return `<tr><td class="ficha-slot-nome">${nome}</td><td>${input}</td></tr>`;
+      }).join('');
+
+      // Armor selects → recalcular CA ao mudar
+      armorSlotsView.forEach(slot => {
+        const sel = document.getElementById('inline-eq-' + slot);
+        if (sel) sel.onchange = () => { p.equipamento[slot] = sel.value; recalcularStats(); };
+      });
     }
 
     // Resistências com total ao vivo
@@ -747,7 +858,7 @@
     p.pvAtual = Math.min(p.pvAtual + hpGanho, p.pvMax);
     p.manaMax = calcManaMax(p.nivel, primAttrVal);
     if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
-    p.ca = calcCABase(cls, p.attrs, p.armadura) + escudoBonus(p.escudo);
+    p.ca = calcCAFromEquip(cls, p.attrs, p.equipamento, p.escudo);
     p.atk = mod(primAttrVal);
     p.atualizadoEm = new Date().toISOString();
 

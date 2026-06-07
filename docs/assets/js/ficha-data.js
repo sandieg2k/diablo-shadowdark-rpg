@@ -597,6 +597,99 @@ const CLASSES = [
   }
 ];
 
+// ─── Equipamentos ───
+const ARMADURA_INFO = {
+  'Couro':           { tipo: 'Leve',   rdFisico: 0, reqFOR: 0,  ruido: false },
+  'Couro Reforçado': { tipo: 'Leve',   rdFisico: 1, reqFOR: 0,  ruido: false },
+  'Brunea':          { tipo: 'Média',  rdFisico: 1, reqFOR: 11, ruido: false },
+  'Cota de Malha':   { tipo: 'Média',  rdFisico: 2, reqFOR: 11, ruido: false },
+  'Meia-Placa':      { tipo: 'Pesada', rdFisico: 2, reqFOR: 13, ruido: true  },
+  'Placa Completa':  { tipo: 'Pesada', rdFisico: 3, reqFOR: 13, ruido: true  },
+};
+
+// Bônus de CA por slot e tipo de armadura
+const ARMADURA_PECAS = {
+  '':                { elmo: 0, peito: 0, luvas: 0, perneiras: 0, botas: 0 },
+  'Couro':           { elmo: 0, peito: 2, luvas: 0, perneiras: 1, botas: 0 },
+  'Couro Reforçado': { elmo: 1, peito: 2, luvas: 0, perneiras: 1, botas: 0 },
+  'Brunea':          { elmo: 1, peito: 2, luvas: 0, perneiras: 2, botas: 0 },
+  'Cota de Malha':   { elmo: 1, peito: 2, luvas: 1, perneiras: 2, botas: 0 },
+  'Meia-Placa':      { elmo: 1, peito: 3, luvas: 1, perneiras: 2, botas: 0 },
+  'Placa Completa':  { elmo: 1, peito: 3, luvas: 1, perneiras: 2, botas: 1 },
+};
+
+const ARMADURA_OPTS = [
+  { v: '',                l: 'Sem peça' },
+  { v: 'Couro',           l: 'Couro' },
+  { v: 'Couro Reforçado', l: 'Couro Reforçado' },
+  { v: 'Brunea',          l: 'Brunea' },
+  { v: 'Cota de Malha',   l: 'Cota de Malha' },
+  { v: 'Meia-Placa',      l: 'Meia-Placa' },
+  { v: 'Placa Completa',  l: 'Placa Completa' },
+];
+
+const ITENS_CLASSE = {
+  'amazona':          'Aljava de Batalha',
+  'arcanista':        'Orbe Arcano',
+  'assassina':        'Kit de Armadilhas',
+  'barbaro':          'Totem Ancestral',
+  'cacador-demonios': 'Aljava Sombria',
+  'cavaleiro-sangue': 'Cálice de Sangue',
+  'cruzado':          'Filogênio Sagrado',
+  'druida':           'Totem Druídico',
+  'feiticeiro':       'Mojo',
+  'guerreiro':        'Pedra de Afiação',
+  'mago':             'Tomo de Magias',
+  'monge':            'Faixa Sagrada',
+  'natispirito':      'Cristal de Espírito',
+  'necromante':       'Filogênio',
+  'paladino':         'Relíquia',
+  'renegada':         'Carcaj de Sombra',
+  'sacerdote':        'Símbolo Sagrado',
+  'warlock':          'Grimório',
+};
+
+const ARMAS_LISTA = [
+  'Porrete (1d4 · Leve)',
+  'Adaga (1d4 · Leve, Finesse, Arremesso)',
+  'Foice / Sickle (1d4 · Leve, Finesse)',
+  'Katar / Garra (1d4 · Leve, Finesse, Sangramento)',
+  'Martelo Leve (1d4 · Leve, Arremesso)',
+  'Varinha (1d4 · Foco Mágico)',
+  'Machado de Mão (1d6 · Leve, Arremesso)',
+  'Cimitarra (1d6 · Leve, Finesse)',
+  'Espada Curta (1d6 · Leve, Finesse)',
+  'Maça (1d6 · Arremesso)',
+  'Tridente (1d6 · Versátil 1d8, Arremesso)',
+  'Cestus / Punho (1d6 · Leve, Inapreensível)',
+  'Espada Longa (1d8 · Versátil 1d10)',
+  'Machado de Guerra (1d8 · Versátil 1d10)',
+  'Maça Grande (1d8)',
+  'Mangual (1d8 · Imparável)',
+  'Estrela da Manhã (1d8 · Penetrante)',
+  'Martelo de Guerra (1d8 · Versátil 1d10)',
+  'Rapieira (1d8 · Finesse)',
+  'Picareta de Guerra (1d8 · Penetrante)',
+  'Cajado (1d6 · 2H, Foco Mágico, Haste)',
+  'Lança (1d8 · 2H, Haste, Arremesso)',
+  'Alabarda (1d10 · 2H, Haste)',
+  'Glaive (1d10 · 2H, Haste, Trespassar)',
+  'Pica (1d10 · 2H, Haste)',
+  'Foice de Guerra (1d10 · 2H, Finesse, Trespassar)',
+  'Machado Grande (2d8 · 2H, Trespassar)',
+  'Maul / Marreta (2d8 · 2H)',
+  'Lança de Montaria (1d12 · 2H, Haste, Pesada)',
+  'Espada Montante (2d10 · 2H, Brutal, Pesada)',
+  'Funda (1d4 · Alcance Curto)',
+  'Dardos (1d4 · Arremesso Curto)',
+  'Azagaia (1d6 · Arremesso Próximo)',
+  'Faca de Arremesso (1d4 · Leve, Arremesso Próximo)',
+  'Arco Curto (1d6 · Distante, 2H)',
+  'Arco Longo (1d8 · Distante, 2H)',
+  'Besta Leve (1d8 · Distante, Carga)',
+  'Besta Pesada (1d10 · Distante, Carga, 2H)',
+];
+
 const TITULOS = [
   // Origem
   { id: 'khanduras',       nome: 'O Sobrevivente de Khanduras',      grupo: 'Origem',       efeito: 'Nascido nas Sombras: Vantagem em testes para resistir a Medo ou Loucura. Caso falhe, pode rolar novamente.' },
@@ -666,41 +759,45 @@ function calcPVMax(nivel, dv, conVal) {
   return dv + (nivel - 1) * (Math.floor(dv / 2) + 1 + modCON) + modCON;
 }
 
-// Calcular CA base (sem armadura especial)
+// CA baseada em peças individuais de armadura
+function calcCAFromEquip(cls, attrs, equip, escudo) {
+  const peito = (equip && equip.peito) ? equip.peito : '';
+  const info = ARMADURA_INFO[peito];
+  const tipo = info ? info.tipo : '';
+  const desMod = mod(attrs.DES || 10);
+
+  if (!peito) {
+    // Sem armadura: regras especiais de classe
+    let base = 10 + desMod;
+    if (cls && cls.id === 'arcanista') base = 10 + mod(attrs.INT || 10);
+    else if (cls && cls.id === 'monge') base = 10 + mod(attrs.DES || 10) + mod(attrs.SAB || 10);
+    else if (cls && cls.id === 'barbaro') base = 10 + mod(attrs.DES || 10) + mod(attrs.CON || 10);
+    return base + escudoBonus(escudo);
+  }
+
+  let ca = 10;
+  ['elmo', 'peito', 'luvas', 'perneiras', 'botas'].forEach(slot => {
+    const pType = (equip && equip[slot]) ? equip[slot] : '';
+    ca += ((ARMADURA_PECAS[pType] || {})[slot]) || 0;
+  });
+
+  if (tipo === 'Leve') ca += desMod;
+  else if (tipo === 'Média') ca += Math.min(desMod, 2);
+  // Pesada: sem DES
+
+  return ca + escudoBonus(escudo);
+}
+
+// Retorna a RD Física baseada no peitoral equipado
+function calcRDFisico(equip) {
+  const peito = (equip && equip.peito) ? equip.peito : '';
+  return (ARMADURA_INFO[peito] && ARMADURA_INFO[peito].rdFisico) || 0;
+}
+
+// Mantido para compatibilidade com saves antigos
 function calcCABase(classe, attrs, armaduraEquipada) {
-  const armaduras = {
-    "": 10,
-    "Sem armadura": 10,
-    "Couro": 13,
-    "Couro Reforçado": 14,
-    "Brunea": 15,
-    "Cota de Malha": 16,
-    "Meia-Placa": 17,
-    "Placa Completa": 18,
-  };
-  const baseCA = armaduras[armaduraEquipada] || 10;
-  const modDES = mod(attrs.DES);
-
-  // Classes com CA especial sem armadura
-  if (!armaduraEquipada || armaduraEquipada === "Sem armadura" || armaduraEquipada === "") {
-    if (classe.id === "arcanista") return 10 + mod(attrs.INT);
-    if (classe.id === "monge") return 10 + mod(attrs.DES) + mod(attrs.SAB);
-    if (classe.id === "barbaro") return 10 + mod(attrs.DES) + mod(attrs.CON);
-  }
-
-  // Armadura Leve: +DES completo
-  if (["Couro", "Couro Reforçado"].includes(armaduraEquipada)) {
-    return baseCA + modDES;
-  }
-  // Armadura Média: +DES máx +2
-  if (["Brunea", "Cota de Malha"].includes(armaduraEquipada)) {
-    return baseCA + Math.min(modDES, 2);
-  }
-  // Armadura Pesada: sem DES
-  if (["Meia-Placa", "Placa Completa"].includes(armaduraEquipada)) {
-    return baseCA;
-  }
-  return baseCA + modDES;
+  const fakeEquip = { peito: armaduraEquipada || '', elmo: '', luvas: '', perneiras: '', botas: '' };
+  return calcCAFromEquip(classe, attrs, fakeEquip, '');
 }
 
 // Bônus de escudo na CA
