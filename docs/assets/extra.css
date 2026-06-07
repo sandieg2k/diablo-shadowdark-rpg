@@ -52,8 +52,8 @@ h1, h2, h3, h4 {
 
 /* Tabelas de set — cabeçalho verde escuro */
 .md-typeset .set-table th {
-  background-color: #1a3320 !important;
-  color: #4ae54a !important;
+  background-color: rgba(74, 229, 74, 0.08) !important;
+  color: rgba(74, 229, 74, 0.75) !important;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
 
 /* Tabelas de set — zebra striping sutil */
 .md-typeset .set-table tr:nth-child(even) td {
-  background-color: rgba(74, 229, 74, 0.04);
+  background-color: rgba(74, 229, 74, 0.02);
 }
 
 /* Bônus de Set — admonition customizado */
