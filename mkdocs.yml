@@ -87,6 +87,8 @@ nav:
   - Livro do Mestre:
     - Encontros: mestre/encontros.md
     - Tesouros e Itens: mestre/tesouros.md
+    - Afixos: mestre/afixos.md
+    - Itens Únicos e Sets: mestre/unicos-e-sets.md
     - 🎲 Rolador de Tesouros: mestre/rolador-tesouros.md
     - Registro de Campanha: mestre/registro-campanha.md
     - Template de Cenário: mestre/template-cenario.md
