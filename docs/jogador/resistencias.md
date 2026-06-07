@@ -107,21 +107,21 @@ O Mestre revela imunidades e vulnerabilidades quando os personagens as identific
 ---
 
 
-## Tabela 1 — Matriz de Resistência do Personagem (RD por Tipo)
+## Tabela 1 — Matriz de Resistência do Personagem
 
-Esta tabela é o Painel de Personagem para rastrear a Redução de Dano (RD) para cada tipo de ataque.
+**Fórmula:** Mod. Atributo / Armadura **+** Bônus de Itens **=** RD Total
 
-| Categoria | Tipo de Dano | Atributo Base (Modificador) | Bônus de Itemização/Feitiço | RD Total (Valor Final na Matriz) |
+| Categoria | Tipo de Dano | Mod. Atributo / Armadura | + Bônus de Itens | = RD Total |
 | :---- | :---- | :---- | :---- | :---- |
-| **A. Física** | Físico (Corte, Perfuração, Impacto) | *(armadura + itens)* | \+ | \= |
-| **B. Elementais** | 🔥 Fogo | Inteligência | \+ | \= |
-|  | ❄️ Gelo | Inteligência | \+ | \= |
-|  | ⚡ Relâmpago | Inteligência | \+ | \= |
-|  | ☣️ Veneno | Constituição | \+ | \= |
-| **C. Sobrenatural** | 💀 Necrótico | Sabedoria | \+ | \= |
-|  | 🧠 Psíquico | Sabedoria | \+ | \= |
-|  | ✨ Radiante | Carisma | \+ | \= |
-|  | 🔮 Arcano | Carisma | \+ | \= |
+| **A. Física** | Físico (Corte, Perfuração, Impacto) | *(armadura + itens)* | | |
+| **B. Elementais** | 🔥 Fogo | INT | | |
+|  | ❄️ Gelo | INT | | |
+|  | ⚡ Relâmpago | INT | | |
+|  | ☣️ Veneno | CON | | |
+| **C. Sobrenatural** | 💀 Necrótico | SAB | | |
+|  | 🧠 Psíquico | SAB | | |
+|  | ✨ Radiante | CAR | | |
+|  | 🔮 Arcano | CAR | | |
 
 ---
 
