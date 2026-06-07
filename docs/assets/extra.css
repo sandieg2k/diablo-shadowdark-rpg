@@ -43,6 +43,13 @@ h1, h2, h3, h4 {
   }
 }
 
+/* Sets — título verde no estilo Diablo */
+.set-title {
+  color: #4ae54a !important;
+  border-left: 3px solid #4ae54a;
+  padding-left: 0.5em;
+}
+
 /* Nome do site na barra superior */
 .md-header__title {
   font-weight: 700;

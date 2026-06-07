@@ -47,9 +47,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Bárbaro
 
-![Immortal King](../../assets/sets/immortal-king-barbaro.png)
-
-#### Immortal King *(Bárbaro — 5 peças)*
+#### Immortal King *(D2/D3 · Bárbaro — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -65,7 +63,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Berserker's Arsenal *(Bárbaro — 3 peças)*
+#### Berserker's Arsenal *(D2 · Bárbaro — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -79,7 +77,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Raekor's *(Bárbaro — 5 peças)*
+#### Raekor's *(D3 · Bárbaro — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -95,7 +93,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Wrath of the Wastes *(Bárbaro — 5 peças)*
+#### Wrath of the Wastes *(D3 · Bárbaro — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -111,7 +109,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Might of the Earth *(Bárbaro — 5 peças)*
+#### Might of the Earth *(D3 · Bárbaro — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -127,7 +125,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Horde of the Ninety Savages *(Bárbaro — 5 peças)*
+#### Horde of the Ninety Savages *(D3 · Bárbaro — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -145,7 +143,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Monge
 
-#### Raiment of a Thousand Storms *(Monge — 4 peças)*
+#### Raiment of a Thousand Storms *(D3 · Monge — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -160,7 +158,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Sunwuko's Guile *(Monge — 4 peças)*
+#### Sunwuko's Guile *(D3 · Monge — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -175,7 +173,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Inna's Mantra *(Monge — 5 peças)*
+#### Inna's Mantra *(D3 · Monge — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -191,7 +189,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Uliana's Stratagem *(Monge — 4 peças)*
+#### Uliana's Stratagem *(D3 · Monge — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -206,7 +204,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Patterns of Justice *(Monge — 4 peças)*
+#### Patterns of Justice *(D3 · Monge — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -223,7 +221,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Natispirito
 
-#### Hwanin's Majesty *(Natispirito — 4 peças)*
+#### Hwanin's Majesty *(D2 · Natispirito — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -240,7 +238,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Druida
 
-#### Aldur's Watchtower *(Druida — 4 peças)*
+#### Aldur's Watchtower *(D2 · Druida — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -255,7 +253,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Cow King's Leathers *(Druida — 3 peças)*
+#### Cow King's Leathers *(D2 · Druida — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -271,7 +269,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Feiticeiro
 
-#### Jade Harvester *(Feiticeiro — 4 peças)*
+#### Jade Harvester *(D3 · Feiticeiro — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -286,7 +284,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Zunimassa's Haunt *(Feiticeiro — 5 peças)*
+#### Zunimassa's Haunt *(D3 · Feiticeiro — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -302,7 +300,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Helltooth Harness *(Feiticeiro — 4 peças)*
+#### Helltooth Harness *(D3 · Feiticeiro — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -317,7 +315,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Arachyr's Carapace *(Feiticeiro — 5 peças)*
+#### Arachyr's Carapace *(D3 · Feiticeiro — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -335,7 +333,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Caçador de Demônios
 
-#### Tancred's Battlegear *(Caçador de Demônios — 4 peças)*
+#### Tancred's Battlegear *(D2 · Caçador de Demônios — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -350,7 +348,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Marauder's *(Caçador de Demônios — 5 peças)*
+#### Marauder's *(D3 · Caçador de Demônios — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -366,7 +364,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Unhallowed Essence *(Caçador de Demônios — 5 peças)*
+#### Unhallowed Essence *(D3 · Caçador de Demônios — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -382,7 +380,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Gears of Dreadlands *(Caçador de Demônios — 4 peças)*
+#### Gears of Dreadlands *(D3 · Caçador de Demônios — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -399,7 +397,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Mago
 
-#### Arcanna's Tricks *(Mago — 4 peças)*
+#### Arcanna's Tricks *(D2 · Mago — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -414,7 +412,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Firebird's Finery *(Mago — 4 peças)*
+#### Firebird's Finery *(D3 · Mago — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -429,7 +427,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Delsere's Magnum Opus *(Mago — 5 peças)*
+#### Delsere's Magnum Opus *(D3 · Mago — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -445,7 +443,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Typhon's Veil *(Mago — 4 peças)*
+#### Typhon's Veil *(D3 · Mago — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -460,7 +458,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Tal Rasha's Wrappings *(Mago · Arcanista — 4 peças)*
+#### Tal Rasha's Wrappings *(D2/D3 · Mago · Arcanista — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -477,7 +475,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Arcanista
 
-#### Cathan's Traps *(Arcanista — 4 peças)*
+#### Cathan's Traps *(D2 · Arcanista — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -492,7 +490,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Naj's Ancient Vestige *(Arcanista — 3 peças)*
+#### Naj's Ancient Vestige *(D2 · Arcanista — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -506,7 +504,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Vyr's Amazing Arcana *(Arcanista — 4 peças)*
+#### Vyr's Amazing Arcana *(D3 · Arcanista — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -523,7 +521,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Assassina
 
-#### Natalya's Odium *(Assassina · Renegada — 4 peças)*
+#### Natalya's Odium *(D2 · Assassina · Renegada — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -540,7 +538,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Renegada
 
-#### Death's Disguise *(Renegada — 3 peças)*
+#### Death's Disguise *(D2 · Renegada — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -554,7 +552,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Shadow's Mantle *(Renegada — 4 peças)*
+#### Shadow's Mantle *(D3 · Renegada — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -571,7 +569,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Cavaleiro de Sangue
 
-#### Sazabi's Grand Tribute *(Cavaleiro de Sangue — 3 peças)*
+#### Sazabi's Grand Tribute *(D2 · Cavaleiro de Sangue — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -585,7 +583,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Thorns of the Invoker *(Cavaleiro de Sangue — 4 peças)*
+#### Thorns of the Invoker *(D3 · Cavaleiro de Sangue — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -602,7 +600,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Warlock
 
-#### Infernal Tools *(Warlock — 3 peças)*
+#### Infernal Tools *(D2 · Warlock — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -616,7 +614,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Orphan's Call *(Warlock — 4 peças)*
+#### Orphan's Call *(D2 · Warlock — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -633,7 +631,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Necromante
 
-#### Trang-Oul's Avatar *(Necromante — 5 peças)*
+#### Trang-Oul's Avatar *(D2/D3 · Necromante — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -649,7 +647,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Sander's Folly *(Necromante — 4 peças)*
+#### Sander's Folly *(D2 · Necromante — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -664,7 +662,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Bones of Rathma *(Necromante — 5 peças)*
+#### Bones of Rathma *(D3 · Necromante — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -680,7 +678,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Pestilence Master's Shroud *(Necromante — 4 peças)*
+#### Pestilence Master's Shroud *(D3 · Necromante — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -695,7 +693,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Grace of Inarius *(Necromante — 5 peças)*
+#### Grace of Inarius *(D3 · Necromante — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -713,7 +711,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Cruzado
 
-#### Hsaru's Defense *(Cruzado — 3 peças)*
+#### Hsaru's Defense *(D2 · Cruzado — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -727,7 +725,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Roland's Legacy *(Cruzado — 5 peças)*
+#### Roland's Legacy *(D3 · Cruzado — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -743,7 +741,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Seeker of the Light *(Cruzado — 4 peças)*
+#### Seeker of the Light *(D3 · Cruzado — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -758,7 +756,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Aegis of Valor *(Cruzado — 4 peças)*
+#### Aegis of Valor *(D3 · Cruzado — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -775,7 +773,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Guerreiro
 
-#### Bul-Kathos' Children *(Guerreiro — 2 peças)*
+#### Bul-Kathos' Children *(D2 · Guerreiro — 2 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -787,7 +785,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Cleglaw's Brace *(Guerreiro — 3 peças)*
+#### Cleglaw's Brace *(D2 · Guerreiro — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -801,7 +799,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Isenhart's Armory *(Guerreiro — 4 peças)*
+#### Isenhart's Armory *(D2 · Guerreiro — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -816,7 +814,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Sigon's Complete Steel *(Guerreiro — 5 peças)*
+#### Sigon's Complete Steel *(D2 · Guerreiro — 5 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -832,7 +830,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Bul-Kathos' Oath *(Guerreiro — 2 peças)*
+#### Bul-Kathos' Oath *(D3 · Guerreiro — 2 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -846,7 +844,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Amazona
 
-#### M'avina's Battle Hymn *(Amazona — 4 peças)*
+#### M'avina's Battle Hymn *(D2 · Amazona — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -861,7 +859,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Vidala's Rig *(Amazona — 3 peças)*
+#### Vidala's Rig *(D2 · Amazona — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -877,7 +875,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Paladino
 
-#### Griswold's Legacy *(Paladino · Cruzado — 4 peças)*
+#### Griswold's Legacy *(D1/D2 · Paladino · Cruzado — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -892,7 +890,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Milabrega's Regalia *(Paladino — 4 peças)*
+#### Milabrega's Regalia *(D2 · Paladino — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -907,7 +905,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Angelic Raiment *(Paladino — 3 peças)*
+#### Angelic Raiment *(D2 · Paladino — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -921,7 +919,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Armor of Akkhan *(Paladino — 4 peças)*
+#### Armor of Akkhan *(D3 · Paladino — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -938,7 +936,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Sacerdote
 
-#### Civerb's Vestments *(Sacerdote — 3 peças)*
+#### Civerb's Vestments *(D2 · Sacerdote — 3 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
@@ -952,7 +950,7 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
-#### Heaven's Brethren *(Sacerdote — 4 peças)*
+#### Heaven's Brethren *(D2 · Sacerdote — 4 peças)*{ .set-title }
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
