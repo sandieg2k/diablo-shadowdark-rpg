@@ -767,7 +767,7 @@
         const tc = total > 0 ? 'res-pos' : total < 0 ? 'res-neg' : 'res-zero';
         return `<tr>
           <td>${nome}</td>
-          <td class="ficha-val" id="res-mod-${tipo}">${modAttr !== null ? modAttr : '—'}</td>
+          <td class="ficha-val" id="res-mod-${tipo}" style="color:#e67e22;font-size:.8rem">${modAttr !== null ? (modAttr >= 0 ? '+'+modAttr : modAttr) : '—'}</td>
           <td><input type="number" class="ficha-input-inline ficha-input-small" id="inline-res-${tipo}" value="${val}" min="-20" max="50"></td>
           <td class="ficha-val" style="color:#4a9edd;font-size:.8rem">${rdItem > 0 ? '+'+rdItem : '—'}</td>
           <td class="ficha-val ficha-total-rd ${tc}" id="res-total-${tipo}">${total}</td>

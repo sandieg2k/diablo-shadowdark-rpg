@@ -268,7 +268,7 @@
     <div class="ficha-panel">
       <h3>Matriz de Resistência</h3>
       <table class="ficha-table" id="res-table">
-        <thead><tr><th>Tipo</th><th title="Modificador do atributo base">Mod.</th><th title="Bônus manual">± Base</th><th title="RD de itens equipados" style="color:#4a9edd">🛡 Itens</th><th>= Total</th></tr></thead>
+        <thead><tr><th>Tipo</th><th title="Modificador do atributo base" style="color:#e67e22">⚄ Atrib.</th><th title="Bônus manual">± Base</th><th title="RD de itens equipados" style="color:#4a9edd">🛡 Itens</th><th>= Total</th></tr></thead>
         <tbody id="ficha-resistencias-body"></tbody>
       </table>
     </div>
