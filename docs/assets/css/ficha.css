@@ -128,10 +128,7 @@
 .ficha-form { display: flex; flex-direction: column; gap: 1.2rem; }
 .ficha-form-section { background: var(--md-code-bg-color, #1a1a1a); border-radius: 6px; padding: 1.2rem; }
 .ficha-form-section h3 { margin: 0 0 .9rem; font-size: 1rem; color: #e74c3c; border-bottom: 1px solid #333; padding-bottom: .4rem; }
-.ficha-form-row { display: grid; grid-template-columns: 1fr; gap: .8rem; }
-@media (min-width: 768px) {
-  .ficha-form-row { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
-}
+.ficha-form-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: .8rem; }
 .ficha-form-group { display: flex; flex-direction: column; gap: .3rem; }
 .ficha-form-group label { font-size: .8rem; color: #aaa; text-transform: uppercase; letter-spacing: .05em; }
 .ficha-form-group input,
@@ -576,10 +573,6 @@
   .notas-bestiario-row { grid-template-columns: 1fr 1fr auto; }
   .notas-bestiario-row input:nth-child(3) { display: none; }
 
-  /* Formulário de criação: coluna única no mobile */
-  .ficha-form-row { grid-template-columns: 1fr; }
-  .ficha-form-row [style*="grid-column:span 2"],
-  .ficha-form-row [style*="grid-column: span 2"] { grid-column: span 1; }
 }
 
 /* ─── Mobile — botões ± touch-friendly ─── */
