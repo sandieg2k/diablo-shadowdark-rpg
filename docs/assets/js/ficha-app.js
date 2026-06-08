@@ -647,19 +647,19 @@
       <div class="recursos-atuais-row">
         <div class="recurso-inline">
           <label>PV atual:</label>
-          <button onclick="window._fichaPVDelta(-5)" type="button" class="btn-pm">-5</button>
+          <button onclick="window._fichaPVDelta(-5)" type="button" class="btn-pm btn-pm-5">-5</button>
           <button onclick="window._fichaPVDelta(-1)" type="button" class="btn-pm">-1</button>
           <input type="number" id="inline-pv-atual" class="ficha-input-small" min="0" max="${p.pvMax}" value="${p.pvAtual}">
           <button onclick="window._fichaPVDelta(1)" type="button" class="btn-pm">+1</button>
-          <button onclick="window._fichaPVDelta(5)" type="button" class="btn-pm">+5</button>
+          <button onclick="window._fichaPVDelta(5)" type="button" class="btn-pm btn-pm-5">+5</button>
         </div>
         <div class="recurso-inline">
           <label>Mana atual:</label>
-          <button onclick="window._fichaManaDelta(-5)" type="button" class="btn-pm">-5</button>
+          <button onclick="window._fichaManaDelta(-5)" type="button" class="btn-pm btn-pm-5">-5</button>
           <button onclick="window._fichaManaDelta(-1)" type="button" class="btn-pm">-1</button>
           <input type="number" id="inline-mana-atual" class="ficha-input-small" min="0" max="${p.manaMax}" value="${p.manaAtual}">
           <button onclick="window._fichaManaDelta(1)" type="button" class="btn-pm">+1</button>
-          <button onclick="window._fichaManaDelta(5)" type="button" class="btn-pm">+5</button>
+          <button onclick="window._fichaManaDelta(5)" type="button" class="btn-pm btn-pm-5">+5</button>
         </div>
       </div>`);
 

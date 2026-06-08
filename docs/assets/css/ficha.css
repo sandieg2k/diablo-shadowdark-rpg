@@ -403,6 +403,23 @@
   flex-wrap: wrap;
 }
 
+/* ─── Mobile geral: padding reduzido ─── */
+@media (max-width: 560px) {
+  #ficha-app { padding: 0 .5rem; }
+  .ficha-panel { padding: .65rem .7rem; }
+  .ficha-panel h3 { font-size: .8rem; }
+}
+
+/* ─── Mobile — cabeçalho da ficha ─── */
+@media (max-width: 560px) {
+  .ficha-cabecalho-grid {
+    grid-template-columns: 1fr;
+  }
+  .ficha-cabecalho-grid > div:last-child {
+    text-align: left !important;
+  }
+}
+
 /* ─── Mobile — ação compacta ─── */
 @media (max-width: 560px) {
   .ficha-view-header { flex-direction: column; align-items: stretch; }
@@ -413,28 +430,77 @@
     gap: .3rem;
   }
   .ficha-view-actions .ficha-btn {
-    font-size: .78rem;
-    padding: .35rem .25rem;
+    font-size: .72rem;
+    padding: .3rem .15rem;
     justify-content: center;
   }
+}
+
+/* ─── Mobile — recursos grid ─── */
+@media (max-width: 560px) {
+  .recursos-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+  }
+  .recurso-valor { font-size: 1.1rem; }
+  .recurso-label { font-size: .68rem; }
+}
+
+/* ─── Mobile — PV/Mana atuais ─── */
+@media (max-width: 560px) {
+  .recursos-atuais-row { gap: .5rem; }
+  .recurso-inline { flex-wrap: wrap; gap: .25rem; }
+  .recurso-inline label { width: 100%; font-size: .75rem; margin-bottom: .1rem; }
+  /* Esconde botões ±5 em tela pequena para não sobrecarregar */
+  .btn-pm-5 { display: none; }
 }
 
 /* ─── Mobile — botões ± touch-friendly ─── */
 @media (pointer: coarse), (max-width: 560px) {
   .btn-pm {
-    min-width: 40px;
-    min-height: 40px;
-    padding: .4rem .55rem;
-    font-size: .9rem;
+    min-width: 38px;
+    min-height: 38px;
+    padding: .35rem .45rem;
+    font-size: .88rem;
     font-weight: 700;
   }
-  .ficha-input-small { width: 70px; font-size: 1rem; }
+  .ficha-input-small { width: 60px; font-size: .95rem; }
 }
 
 /* ─── Mobile — tabela de resistências ─── */
 @media (max-width: 540px) {
   #res-table th:nth-child(2),
   #res-table td:nth-child(2) { display: none; }
+}
+
+/* ─── Mobile — tabela de equipamento ─── */
+@media (max-width: 560px) {
+  .ficha-table td.ficha-slot-nome { width: 80px; font-size: .78rem; }
+  .slot-item-card { padding: .25rem .35rem; }
+  .slot-item-card > div { font-size: .78rem; }
+}
+
+/* ─── Mobile — mochila ─── */
+@media (max-width: 560px) {
+  .mochila-item > div:first-child { flex-direction: column; align-items: flex-start !important; }
+  .mochila-item > div:first-child > div:last-child { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .3rem; }
+}
+
+/* ─── Mobile — notas ─── */
+@media (max-width: 560px) {
+  .notas-objetivo-row {
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto;
+  }
+  .notas-objetivo-row input[type="checkbox"] { grid-row: 1; }
+  .notas-objetivo-row .notas-input:not(.notas-recompensa) { grid-row: 1; grid-column: 2; }
+  .notas-objetivo-row .notas-del-btn { grid-row: 1; }
+  .notas-objetivo-row .notas-recompensa { grid-row: 2; grid-column: 2 / 4; }
+}
+
+/* ─── Mobile — formulário de criação ─── */
+@media (max-width: 480px) {
+  .ficha-form-row { grid-template-columns: 1fr 1fr; }
 }
 
 /* ─── Formulário colapsável ─── */
