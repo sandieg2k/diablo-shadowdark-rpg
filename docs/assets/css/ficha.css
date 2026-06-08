@@ -278,6 +278,21 @@
 .btn-pm:hover { background: #3a3a3a; border-color: #c0392b; color: #fff; }
 .btn-pm:active { transform: scale(.95); }
 
+/* Botões ± embutidos nos cards de PV/Mana */
+.recurso-item-editavel { gap: .3rem; }
+.recurso-valor-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .25rem;
+}
+.btn-pm-inline {
+  padding: .15rem .4rem;
+  font-size: .75rem;
+  opacity: .7;
+}
+.btn-pm-inline:hover { opacity: 1; }
+
 /* ─── Condições ─── */
 .condicao-badge {
   padding: .3rem .75rem;
@@ -549,7 +564,7 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
   #view-lista, #view-criacao, #view-levelup { display: none !important; }
   #view-ficha { display: block !important; }
   /* Controles interativos não imprimem */
-  .btn-pm, #btn-descansar, #ficha-recursos-atuais, #ficha-mochila-panel, #ficha-bonus-row { display: none !important; }
+  .btn-pm, #btn-descansar, #ficha-mochila-panel, #ficha-bonus-row { display: none !important; }
   #ficha-lacaios-panel { break-inside: avoid; }
   /* Condições: só as ativas imprimem */
   .condicao-badge:not(.ativo) { display: none !important; }

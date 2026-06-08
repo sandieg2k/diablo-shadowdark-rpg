@@ -174,16 +174,28 @@
         <div id="ficha-antecedente-efeito" style="margin-top:.2rem;font-size:.78rem;color:#999;max-width:260px;line-height:1.4"></div>
       </div>
     </div>
-    <!-- PV / Mana atuais com botões ± -->
-    <div id="ficha-recursos-atuais" style="margin-top:.8rem"></div>
   </div>
 
   <!-- Recursos principais -->
   <div class="ficha-panel">
     <h3>Recursos</h3>
     <div class="recursos-grid">
-      <div class="recurso-item"><div class="recurso-label">Vida (PV)</div><div class="recurso-valor pv" id="ficha-pv-display">—</div></div>
-      <div class="recurso-item"><div class="recurso-label">Mana</div><div class="recurso-valor mana" id="ficha-mana-display">—</div></div>
+      <div class="recurso-item recurso-item-editavel">
+        <div class="recurso-label">Vida (PV)</div>
+        <div class="recurso-valor-row">
+          <button onclick="window._fichaPVDelta(-1)" type="button" class="btn-pm btn-pm-inline">-1</button>
+          <div class="recurso-valor pv" id="ficha-pv-display">—</div>
+          <button onclick="window._fichaPVDelta(1)" type="button" class="btn-pm btn-pm-inline">+1</button>
+        </div>
+      </div>
+      <div class="recurso-item recurso-item-editavel">
+        <div class="recurso-label">Mana</div>
+        <div class="recurso-valor-row">
+          <button onclick="window._fichaManaDelta(-1)" type="button" class="btn-pm btn-pm-inline">-1</button>
+          <div class="recurso-valor mana" id="ficha-mana-display">—</div>
+          <button onclick="window._fichaManaDelta(1)" type="button" class="btn-pm btn-pm-inline">+1</button>
+        </div>
+      </div>
       <div class="recurso-item"><div class="recurso-label">CA</div><div class="recurso-valor ca" id="ficha-ca-display">—</div></div>
       <div class="recurso-item"><div class="recurso-label">RD Física</div><div class="recurso-valor" id="ficha-rd-display" style="color:#3498db">—</div></div>
       <div class="recurso-item"><div class="recurso-label" id="lbl-atk-bonus">ATK Bônus</div><div class="recurso-valor atk" id="ficha-atk-display">—</div></div>

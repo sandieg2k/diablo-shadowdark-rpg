@@ -198,11 +198,7 @@
     window._fichaPVDelta = function(delta) {
       const p = personagemAtual;
       if (!p) return;
-      const el = document.getElementById('inline-pv-atual');
-      if (!el) return;
-      const newVal = Math.max(0, Math.min(p.pvMax, (parseInt(el.value) || 0) + delta));
-      el.value = newVal;
-      p.pvAtual = newVal;
+      p.pvAtual = Math.max(0, Math.min(p.pvMax, (p.pvAtual || 0) + delta));
       setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
       const idx = personagens.findIndex(x => x.id === p.id);
       if (idx >= 0) personagens[idx] = p;
@@ -212,11 +208,7 @@
     window._fichaManaDelta = function(delta) {
       const p = personagemAtual;
       if (!p) return;
-      const el = document.getElementById('inline-mana-atual');
-      if (!el) return;
-      const newVal = Math.max(0, Math.min(p.manaMax, (parseInt(el.value) || 0) + delta));
-      el.value = newVal;
-      p.manaAtual = newVal;
+      p.manaAtual = Math.max(0, Math.min(p.manaMax, (p.manaAtual || 0) + delta));
       setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
       const idx = personagens.findIndex(x => x.id === p.id);
       if (idx >= 0) personagens[idx] = p;
@@ -654,26 +646,6 @@
     const conjLblI = document.getElementById('lbl-conj-bonus');
     if (conjLblI) conjLblI.textContent = `Conjuração (${p.atribConj || p.atribPrimario || 'FOR'})`;
 
-    // PV / Mana com botões ±
-    setHTML('ficha-recursos-atuais', `
-      <div class="recursos-atuais-row">
-        <div class="recurso-inline">
-          <label>PV atual:</label>
-          <button onclick="window._fichaPVDelta(-5)" type="button" class="btn-pm btn-pm-5">-5</button>
-          <button onclick="window._fichaPVDelta(-1)" type="button" class="btn-pm">-1</button>
-          <input type="number" id="inline-pv-atual" class="ficha-input-small" min="0" max="${p.pvMax}" value="${p.pvAtual}">
-          <button onclick="window._fichaPVDelta(1)" type="button" class="btn-pm">+1</button>
-          <button onclick="window._fichaPVDelta(5)" type="button" class="btn-pm btn-pm-5">+5</button>
-        </div>
-        <div class="recurso-inline">
-          <label>Mana atual:</label>
-          <button onclick="window._fichaManaDelta(-5)" type="button" class="btn-pm btn-pm-5">-5</button>
-          <button onclick="window._fichaManaDelta(-1)" type="button" class="btn-pm">-1</button>
-          <input type="number" id="inline-mana-atual" class="ficha-input-small" min="0" max="${p.manaMax}" value="${p.manaAtual}">
-          <button onclick="window._fichaManaDelta(1)" type="button" class="btn-pm">+1</button>
-          <button onclick="window._fichaManaDelta(5)" type="button" class="btn-pm btn-pm-5">+5</button>
-        </div>
-      </div>`);
 
 
     // Atributos editáveis
