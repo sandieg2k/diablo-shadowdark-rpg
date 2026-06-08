@@ -757,7 +757,9 @@
     };
     const resBody = document.getElementById('ficha-resistencias-body');
     if (resBody) {
-      const rdItens = itemBonusLoad.rdPorTipo || {};
+      const rdItens = Object.assign({}, itemBonusLoad.rdPorTipo || {});
+      const rdArmadura = calcRDFisico(p.equipamento, p.items);
+      if (rdArmadura > 0) rdItens['Fisico'] = (rdItens['Fisico'] || 0) + rdArmadura;
       resBody.innerHTML = Object.entries(resNomes).map(([tipo, nome]) => {
         const val = p.resistencias[tipo] || 0;
         const attrBase = getAtribResistencia(tipo);
