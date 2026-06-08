@@ -72,6 +72,7 @@
         if (!p.atribAtk) p.atribAtk = '';
         if (!p.atribConj) p.atribConj = '';
         if (!p.notasEstruturadas) p.notasEstruturadas = { objetivos:[], npcs:'', missaoPrincipal:'', facoes:[], missoesSecundarias:'', rumores:'', bestiario:[] };
+        if (p._arma2BloqueadaPor === undefined) p._arma2BloqueadaPor = null;
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
           ['elmo','peito','luvas','perneiras','botas'].forEach(s => {
@@ -710,6 +711,12 @@
     const eqBody = document.getElementById('ficha-equipamento-body');
     if (eqBody) {
       eqBody.innerHTML = Object.entries(eqNomes).map(([slot, nome]) => {
+        // Arma2 bloqueada por arma 2H equipada na arma1
+        if (slot === 'arma2' && p._arma2BloqueadaPor) {
+          const arma2H = (p.items || []).find(i => i.id === p._arma2BloqueadaPor);
+          if (arma2H) return `<tr><td class="ficha-slot-nome">${nome}</td><td><span style="color:#666;font-size:.82rem">2H — ${esc(arma2H.nome)}</span></td></tr>`;
+        }
+
         const eqItem = (p.items || []).find(i => i.equipadoEm === slot);
 
         if (eqItem) {
@@ -1124,13 +1131,15 @@
         if (grp) grp.style.display = armorSlots.includes(slotSel.value) ? '' : 'none';
         const atribGrp = document.getElementById('item-form-atributo-group');
         if (atribGrp) atribGrp.style.display = slotSel.value === 'arma' ? '' : 'none';
+        const dMaosGrp = document.getElementById('item-form-duasmaos-group');
+        if (dMaosGrp) dMaosGrp.style.display = slotSel.value === 'arma' ? '' : 'none';
       };
       return;
     }
 
     const mochila = (p.items || []).filter(i => !i.equipadoEm);
     const limiteSlots = mod(p.attrs.FOR || 10) + (p.nivel || 1);
-    const slotsUsados = mochila.length;
+    const slotsUsados = mochila.reduce((acc, i) => acc + (i.duasMaos ? 2 : 1), 0);
     const sobrecarga = slotsUsados > limiteSlots;
     const capStyle = sobrecarga ? 'color:#e74c3c;font-weight:700' : slotsUsados >= limiteSlots ? 'color:#e67e22;font-weight:600' : 'color:#888';
     const capHTML = `<div style="font-size:.82rem;margin-bottom:.5rem;${capStyle}">
@@ -1155,10 +1164,10 @@
       if (item.bonusRDTodos)  bonusTexts.push(`RD Todos +${item.bonusRDTodos}`);
       if (item.bonusManaMax)  bonusTexts.push(`Mana ${item.bonusManaMax > 0 ? '+' : ''}${item.bonusManaMax}`);
 
-      const multiSlots = item.slotTipo === 'arma' ? ['arma1','arma2'] : item.slotTipo === 'anel' ? ['anel1','anel2'] : null;
+      const multiSlots = item.slotTipo === 'arma' ? (item.duasMaos ? ['arma1'] : ['arma1','arma2']) : item.slotTipo === 'anel' ? ['anel1','anel2'] : null;
       let equipBtns;
       if (multiSlots) {
-        const labels = item.slotTipo === 'arma' ? ['Arma 1','Arma 2'] : ['Anel 1','Anel 2'];
+        const labels = item.slotTipo === 'arma' ? (item.duasMaos ? ['Arma 1 (2H)'] : ['Arma 1','Arma 2']) : ['Anel 1','Anel 2'];
         equipBtns = multiSlots.map((s, i) =>
           `<button class="ficha-btn ficha-btn-primary" style="font-size:.75rem;padding:.15rem .5rem"
             onclick="window._fichaEquipar('${s}','${item.id}')">Equipar (${labels[i]})</button>`
@@ -1234,6 +1243,10 @@
           <label>Atributo de Ataque</label>
           <select id="item-form-atributo">${atribOpts}</select>
         </div>
+        <div class="ficha-form-group" id="item-form-duasmaos-group" style="${isArma ? '' : 'display:none'}">
+          <label>Duas Mãos</label>
+          <div style="padding:.4rem 0"><label style="display:flex;align-items:center;gap:.4rem;cursor:pointer"><input type="checkbox" id="item-form-duas-maos" ${v('duasMaos') ? 'checked' : ''}> Arma de 2 mãos (ocupa 2 slots)</label></div>
+        </div>
         <div class="ficha-form-group">
           <label>Info Base <small style="color:#666">(ex: 1d8)</small></label>
           <input type="text" id="item-form-info-base" value="${esc(v('infoBase'))}" placeholder="—">
@@ -1262,11 +1275,19 @@
     const p = personagemAtual;
     if (!p || !p.items) return;
     const armorSlots = ['elmo','peito','luvas','perneiras','botas'];
+    // Liberar slot atual ocupado por outro item
     p.items.forEach(i => { if (i.equipadoEm === slotKey) i.equipadoEm = null; });
     const item = p.items.find(i => i.id === itemId);
     if (item) {
       item.equipadoEm = slotKey;
       if (armorSlots.includes(slotKey) && item.tipoArmadura) p.equipamento[slotKey] = item.tipoArmadura;
+      // Arma 2H: libera arma2 e bloqueia com referência
+      if (item.duasMaos && slotKey === 'arma1') {
+        p.items.forEach(i => { if (i.equipadoEm === 'arma2') i.equipadoEm = null; });
+        p._arma2BloqueadaPor = itemId;
+      } else if (slotKey === 'arma1' || slotKey === 'arma2') {
+        p._arma2BloqueadaPor = null;
+      }
     }
     const idx = personagens.findIndex(x => x.id === p.id);
     if (idx >= 0) personagens[idx] = p;
@@ -1283,6 +1304,7 @@
     const item = p.items.find(i => i.id === itemId);
     if (item) {
       if (armorSlots.includes(item.equipadoEm) && item.tipoArmadura) p.equipamento[item.equipadoEm] = '';
+      if (item.duasMaos && p._arma2BloqueadaPor === itemId) p._arma2BloqueadaPor = null;
       item.equipadoEm = null;
     }
     const idx = personagens.findIndex(x => x.id === p.id);
@@ -1344,6 +1366,7 @@
       nome, qualidade: getValue('item-form-qualidade') || 'Normal',
       slotTipo, tipoArmadura,
       atributo: slotTipo === 'arma' ? (getValue('item-form-atributo') || '') : '',
+      duasMaos: slotTipo === 'arma' ? !!(document.getElementById('item-form-duas-maos')?.checked) : false,
       equipadoEm: existente ? existente.equipadoEm : null,
       infoBase: getValue('item-form-info-base').trim(),
       nomeAfixo: getValue('item-form-nome-afixo').trim(),
