@@ -268,6 +268,8 @@
 .ficha-table td { padding: .3rem .5rem; border-bottom: 1px solid #2a2a2a; }
 #res-table td:first-child, #res-table th:first-child { white-space: nowrap; }
 #res-table th { white-space: nowrap; }
+.res-extra-cell { text-align: center; width: 54px; padding: .2rem .3rem !important; }
+.res-extra-input { width: 44px !important; text-align: center; padding: .15rem .2rem !important; }
 .ficha-table td.ficha-val { text-align: center; font-weight: 700; width: 50px; }
 .ficha-table td.ficha-mod { text-align: center; width: 50px; color: #e74c3c; }
 .ficha-table td.ficha-mod.neg { color: #3498db; }
@@ -717,6 +719,10 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
   .notas-facao-card { background: #eef2ff !important; border-color: #b0c4de !important; }
   details.notas-section { display: block !important; }
   details.notas-section > summary { list-style: none !important; }
+
+  /* ── Matriz: coluna Extra — só imprime se != 0 ── */
+  .res-extra-cell.extra-zero input { visibility: hidden; border: none !important; background: transparent !important; }
+  .res-extra-cell.extra-nz input { border: 1px solid #aaa !important; background: #fff !important; color: #000 !important; }
 
   /* ── Mochila ── */
   #ficha-mochila-panel { break-inside: avoid; }
