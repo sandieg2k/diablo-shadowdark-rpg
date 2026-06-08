@@ -640,15 +640,36 @@ window.rolarTesouro = function(opts = {}) {
       else if (dr <= 96) { slotTipo = 'cinto'; }
       else { slotTipo = 'especial'; }
 
+      // Pré-computar bônus estruturados a partir dos afixos
+      const bonusCalc = { bonusCA:0, bonusATK:0, bonusDano:0, bonusRDFisico:0, bonusRDTodos:0, bonusManaMax:0 };
+      afixosData.forEach(function(a) {
+        const e = a.efeito;
+        let m;
+        m = e.match(/\+(\d+) de CA/);              if (m) bonusCalc.bonusCA      += parseInt(m[1]);
+        m = e.match(/\+3 Ataque[,;]? \+3 Dano/);  if (m) { bonusCalc.bonusATK += 3; bonusCalc.bonusDano += 3; }
+        else {
+          m = e.match(/\+3 nos testes de Ataque/); if (m) bonusCalc.bonusATK += 3;
+          m = e.match(/\+(\d+) no Dano/);          if (m) bonusCalc.bonusDano  += parseInt(m[1]);
+        }
+        m = e.match(/\+(\d+) RD em TODOS/);        if (m) bonusCalc.bonusRDTodos += parseInt(m[1]);
+        m = e.match(/Mana máximo \+(\d+)/);        if (m) bonusCalc.bonusManaMax += parseInt(m[1]);
+      });
+
+      const nomeAfixoStr = afixosData.map(a => a.titulo || a.nome).join(' / ');
+
       window._itemAtual = {
         nome: nomeCompleto,
         slotTipo: slotTipo,
-        tipoBase: nomeBase,
         tipoArmadura: dr <= 39 ? nomeBase : null,
         qualidade: qNome,
         infoBase: typeof infoItem === 'string' ? infoItem.replace(/<[^>]+>/g,'').trim() : '',
-        afixos: afixosData,
-        bonusStats: typeof parseBonusStats === 'function' ? parseBonusStats(afixosData) : {}
+        nomeAfixo: nomeAfixoStr,
+        bonusCA:       bonusCalc.bonusCA,
+        bonusATK:      bonusCalc.bonusATK,
+        bonusDano:     bonusCalc.bonusDano,
+        bonusRDFisico: bonusCalc.bonusRDFisico,
+        bonusRDTodos:  bonusCalc.bonusRDTodos,
+        bonusManaMax:  bonusCalc.bonusManaMax
       };
 
       finalHtml = `
@@ -664,9 +685,8 @@ window.rolarTesouro = function(opts = {}) {
   }
 
   const salvarBtn = window._itemAtual
-    ? `<div class="salvar-item-row">
-        <span style="font-size:0.82rem;color:#888;">Adicionar ao inventário global:</span>
-        <button id="btn-salvar-item" onclick="window.salvarItemAtual(this)" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">💾 Salvar no Inventário</button>
+    ? `<div class="salvar-item-row" id="salvar-row">
+        <button onclick="window.prepararSalvar()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">💾 Salvar no Personagem</button>
       </div>`
     : '';
 
@@ -684,19 +704,61 @@ window.limparTesouro = function() {
   window._itemAtual = null;
 };
 
-window.salvarItemAtual = function(btn) {
+function salvarEmPersonagem(id) {
   if (!window._itemAtual) return;
-  if (typeof adicionarAoInventario !== 'function') {
-    alert('Erro: abra a página de Fichas pelo menos uma vez para inicializar o inventário.');
+  let personagens;
+  try { personagens = JSON.parse(localStorage.getItem('diablo-rpg-fichas') || '[]'); }
+  catch(e) { personagens = []; }
+  const idx = personagens.findIndex(function(p) { return p.id === id; });
+  if (idx < 0) { alert('Personagem não encontrado.'); return; }
+  if (!personagens[idx].items) personagens[idx].items = [];
+
+  const item = Object.assign({}, window._itemAtual);
+  item.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
+  item.equipadoEm = null;
+  personagens[idx].items.push(item);
+  localStorage.setItem('diablo-rpg-fichas', JSON.stringify(personagens));
+
+  window._itemAtual = null;
+  const row = document.getElementById('salvar-row');
+  if (row) row.innerHTML = `<span style="color:#27ae60;font-weight:bold">✓ Salvo em ${personagens[idx].nome || 'Sem nome'}!</span>`;
+}
+
+window.prepararSalvar = function() {
+  if (!window._itemAtual) return;
+  let personagens;
+  try { personagens = JSON.parse(localStorage.getItem('diablo-rpg-fichas') || '[]'); }
+  catch(e) { personagens = []; }
+
+  if (personagens.length === 0) {
+    alert('Nenhum personagem encontrado. Crie um personagem na página de Fichas primeiro.');
     return;
   }
-  adicionarAoInventario(Object.assign({}, window._itemAtual));
-  window._itemAtual = null;
-  if (btn) {
-    btn.textContent = '✓ Salvo!';
-    btn.disabled = true;
-    btn.style.background = '#555';
+  if (personagens.length === 1) {
+    salvarEmPersonagem(personagens[0].id);
+    return;
   }
+
+  const opts = personagens.map(function(p) {
+    return '<option value="' + p.id + '">' + (p.nome || 'Sem nome') + ' — ' + (p.classe || '') + ' Nv ' + (p.nivel || 1) + '</option>';
+  }).join('');
+  const row = document.getElementById('salvar-row');
+  if (!row) return;
+  row.innerHTML =
+    '<span style="font-size:0.82rem;color:#888;margin-right:6px">Adicionar a qual personagem?</span>' +
+    '<select id="sel-personagem-rolador" style="padding:5px 8px;background:#1a1a1a;border:1px solid #444;border-radius:4px;color:#eee;font-family:inherit">' + opts + '</select>' +
+    ' <button onclick="window.confirmarSalvarRolador()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">✔ Confirmar</button>' +
+    ' <button onclick="window.cancelarSalvarRolador()" class="roll-btn roll-btn-sec" style="font-size:0.85rem;padding:5px 10px;">Cancelar</button>';
+};
+
+window.confirmarSalvarRolador = function() {
+  const sel = document.getElementById('sel-personagem-rolador');
+  if (sel) salvarEmPersonagem(sel.value);
+};
+
+window.cancelarSalvarRolador = function() {
+  const row = document.getElementById('salvar-row');
+  if (row) row.innerHTML = '<button onclick="window.prepararSalvar()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">💾 Salvar no Personagem</button>';
 };
 
 })();
