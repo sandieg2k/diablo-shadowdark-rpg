@@ -258,7 +258,7 @@
   </div>
 
   <!-- Equipamento + Resistências -->
-  <div class="ficha-equip-resist-row">
+  <div>
     <div class="ficha-panel">
       <h3>Equipamento</h3>
       <table class="ficha-table">
