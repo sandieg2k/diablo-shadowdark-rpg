@@ -306,9 +306,6 @@
       if (el) el.oninput = () => { atualizarMod(a); atualizarCaPreviewForm(); };
     });
 
-    // Escudo
-    setValue('form-escudo', p.escudo);
-
     Object.keys(p.resistencias).forEach(tipo => setValue('form-res-' + tipo, p.resistencias[tipo]));
 
     const titulo = document.getElementById('form-titulo-pagina');
@@ -357,7 +354,6 @@
     if (p.titulo && !TITULOS.find(t => t.id === p.titulo)) p.titulo = '';
     if (p.antecedente && !ANTECEDENTES.find(a => a.id === p.antecedente)) p.antecedente = '';
     p.notas = getValue('form-notas') || '';
-    p.escudo = getValue('form-escudo') || '';
     ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
       p.attrs[a] = parseInt(getValue('form-' + a)) || 10;
     });
@@ -600,23 +596,6 @@
       };
     });
 
-    // Armadura / Escudo inline
-    const rdFisicoInit = calcRDFisico(p.equipamento);
-    const peitoInit = p.equipamento.peito || '';
-    const infoInit = ARMADURA_INFO[peitoInit];
-    const tipoInitStr = infoInit ? `${infoInit.tipo}${infoInit.ruido ? ' · Ruído' : ''}${infoInit.reqFOR ? ` · FOR ${infoInit.reqFOR}` : ''}` : 'Sem armadura';
-    setHTML('ficha-armadura-inline', `
-      <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center;font-size:.85rem">
-        <span style="color:#aaa">Armadura: <strong id="ficha-armadura-summary" style="color:#ccc">${tipoInitStr}</strong></span>
-        <div class="recurso-inline">
-          <label>Escudo:</label>
-          <select id="inline-escudo" class="ficha-input-inline" style="max-width:200px">
-            ${ESCUDOS_OPT.map(e => `<option value="${esc(e.v)}" ${p.escudo===e.v?'selected':''}>${esc(e.l)}</option>`).join('')}
-          </select>
-        </div>
-      </div>`);
-    const escSel = document.getElementById('inline-escudo');
-    if (escSel) escSel.onchange = () => { p.escudo = escSel.value; recalcularStats(); };
 
     // Atributos editáveis
     const attrNomes = { FOR:'Força', DES:'Destreza', CON:'Constituição', INT:'Inteligência', SAB:'Sabedoria', CAR:'Carisma' };
@@ -658,7 +637,7 @@
     const eqNomes = {
       arma1:'Arma 1', arma2:'Arma 2', especial:'Especial de Classe',
       elmo:'Elmo', peito:'Peitoral', luvas:'Luvas', perneiras:'Perneiras', botas:'Botas',
-      amuleto:'Amuleto', anel1:'Anel 1', anel2:'Anel 2', cinto:'Cinto'
+      escudo:'Escudo', amuleto:'Amuleto', anel1:'Anel 1', anel2:'Anel 2', cinto:'Cinto'
     };
     const armorSlotsView = ['elmo','peito','luvas','perneiras','botas'];
     const weaponSlotsView = ['arma1','arma2'];
@@ -1029,8 +1008,8 @@
   // ───── Inventário / Mochila ─────
   const MOCHILA_SLOT_NOMES = {
     arma:'Arma', peito:'Peitoral', elmo:'Elmo', luvas:'Luvas',
-    perneiras:'Perneiras', botas:'Botas', anel:'Anel', amuleto:'Amuleto',
-    cinto:'Cinto', especial:'Especial de Classe'
+    perneiras:'Perneiras', botas:'Botas', escudo:'Escudo',
+    anel:'Anel', amuleto:'Amuleto', cinto:'Cinto', especial:'Especial de Classe'
   };
   const MOCHILA_QUAL_STYLE = {
     'Normal':'color:#aaa', 'Mágico':'color:#4a9edd', 'Mágica':'color:#4a9edd',
@@ -1112,7 +1091,7 @@
     const armorSlots = ['peito','elmo','luvas','perneiras','botas'];
     const slotOpts = [
       ['arma','Arma'],['peito','Peitoral'],['elmo','Elmo'],['luvas','Luvas'],
-      ['perneiras','Perneiras'],['botas','Botas'],['anel','Anel'],
+      ['perneiras','Perneiras'],['botas','Botas'],['escudo','Escudo'],['anel','Anel'],
       ['amuleto','Amuleto'],['cinto','Cinto'],['especial','Especial de Classe']
     ].map(([val, lbl]) => `<option value="${val}" ${v('slotTipo','arma')===val?'selected':''}>${lbl}</option>`).join('');
     const qualOpts = ['Normal','Mágico','Raro','Lendário','Único','Set'].map(q =>

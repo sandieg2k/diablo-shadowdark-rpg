@@ -95,22 +95,6 @@
       </div>
     </div>
 
-    <!-- Escudo -->
-    <div class="ficha-form-section">
-      <h3>Escudo inicial</h3>
-      <p style="font-size:.82rem;color:#666;margin:0 0 .8rem">Armaduras são adicionadas via Mochila na ficha do personagem.</p>
-      <div class="ficha-form-row">
-        <div class="ficha-form-group">
-          <label>Escudo</label>
-          <select id="form-escudo">
-            <option value="">Sem escudo</option>
-            <option value="Broquel">Broquel (+1 CA)</option>
-            <option value="Escudo">Escudo (+2 CA)</option>
-            <option value="Escudo de Torre">Escudo de Torre (+3 CA)</option>
-          </select>
-        </div>
-      </div>
-    </div>
 
     <!-- Resistências iniciais (colapsável) -->
     <details class="ficha-form-section">
