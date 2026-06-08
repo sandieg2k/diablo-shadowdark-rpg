@@ -528,6 +528,9 @@
     setText('ficha-ca-display', p.ca);
     const rdTotal = rdFisicoCalc + (itemBonus.rdFisico || 0) + (itemBonus.rdTodos || 0);
     setText('ficha-rd-display', rdTotal > 0 ? rdTotal : '—');
+    const danoTotal = itemBonus.dano || 0;
+    const danoEl = document.getElementById('ficha-dano-display');
+    if (danoEl) danoEl.textContent = danoTotal > 0 ? `+${danoTotal}` : danoTotal < 0 ? `${danoTotal}` : '—';
     const atkTotal  = p.atk + (p.bonusAtkExtra || 0);
     const conjTotal = (p.conjBase || 0) + (p.bonusConjuracao || 0);
     setText('ficha-atk-display', `${atkTotal >= 0 ? '+' : ''}${atkTotal}`);
@@ -624,6 +627,9 @@
     setText('ficha-ca-display', p.ca);
     const rdInit = calcRDFisico(p.equipamento, p.items);
     setText('ficha-rd-display', rdInit > 0 ? rdInit : '—');
+    const danoInit = itemBonusLoad.dano || 0;
+    const danoElI = document.getElementById('ficha-dano-display');
+    if (danoElI) danoElI.textContent = danoInit > 0 ? `+${danoInit}` : danoInit < 0 ? `${danoInit}` : '—';
     const atkTotalInit  = p.atk + (p.bonusAtkExtra || 0);
     const conjTotalInit = p.conjBase + (p.bonusConjuracao || 0);
     setText('ficha-atk-display', `${atkTotalInit >= 0 ? '+' : ''}${atkTotalInit}`);
@@ -1123,7 +1129,15 @@
     }
 
     const mochila = (p.items || []).filter(i => !i.equipadoEm);
-    const addBtn = `<div style="margin-bottom:.8rem"><button class="ficha-btn ficha-btn-primary" onclick="window._fichaNovoItem()" type="button">+ Novo Item</button></div>`;
+    const limiteSlots = mod(p.attrs.FOR || 10) + (p.nivel || 1);
+    const slotsUsados = mochila.length;
+    const sobrecarga = slotsUsados > limiteSlots;
+    const capStyle = sobrecarga ? 'color:#e74c3c;font-weight:700' : slotsUsados >= limiteSlots ? 'color:#e67e22;font-weight:600' : 'color:#888';
+    const capHTML = `<div style="font-size:.82rem;margin-bottom:.5rem;${capStyle}">
+      Slots: ${slotsUsados} / ${limiteSlots} (Mod FOR ${mod(p.attrs.FOR || 10) >= 0 ? '+' : ''}${mod(p.attrs.FOR || 10)} + Nível ${p.nivel || 1})
+      ${sobrecarga ? ' ⚠ Sobrecarregado — dobro de ações para mover' : ''}
+    </div>`;
+    const addBtn = `<div style="margin-bottom:.8rem">${capHTML}<button class="ficha-btn ficha-btn-primary" onclick="window._fichaNovoItem()" type="button">+ Novo Item</button></div>`;
 
     if (mochila.length === 0) {
       panel.innerHTML = addBtn + '<p class="ficha-empty-small">Mochila vazia. Use o botão acima para adicionar itens ao personagem.</p>';

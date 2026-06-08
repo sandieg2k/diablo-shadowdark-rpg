@@ -188,6 +188,7 @@
       <div class="recurso-item"><div class="recurso-label">RD Física</div><div class="recurso-valor" id="ficha-rd-display" style="color:#3498db">—</div></div>
       <div class="recurso-item"><div class="recurso-label" id="lbl-atk-bonus">ATK Bônus</div><div class="recurso-valor atk" id="ficha-atk-display">—</div></div>
       <div class="recurso-item"><div class="recurso-label" id="lbl-conj-bonus">Bônus Conjuração</div><div class="recurso-valor" id="ficha-conj-display" style="color:#9b59b6;font-size:1rem">—</div></div>
+      <div class="recurso-item"><div class="recurso-label">Bônus de Dano</div><div class="recurso-valor" id="ficha-dano-display" style="color:#e67e22;font-size:1rem">—</div></div>
     </div>
     <!-- Bônus manuais (ATK extra, Conjuração) -->
     <div id="ficha-bonus-row" class="recursos-grid" style="margin-top:.6rem;border-top:1px solid #222;padding-top:.6rem"></div>
