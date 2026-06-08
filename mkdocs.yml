@@ -117,4 +117,6 @@ nav:
   - 🎲 Rolador: mestre/rolador-tesouros.md
   - 🧙 Fichas: ficha.md
   - Glossário: glossario.md
-  - Patch Notes: patch-notes.md
+  - Patch Notes:
+    - v1.2 — Fichas Rework: patch-notes/v1-2.md
+    - v1.1 — Site + Classes: patch-notes/v1-1.md
