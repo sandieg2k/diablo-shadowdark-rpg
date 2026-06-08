@@ -1,5 +1,12 @@
 # 🧙 Gerador de Fichas
 
+<style>
+@media (max-width: 767px) {
+  .ficha-form-row { grid-template-columns: 1fr !important; }
+  .ficha-form-row > * { grid-column: span 1 !important; }
+}
+</style>
+
 <div id="ficha-app">
 
 <!-- ════════════════════════════════ LISTA ════════════════════════════════ -->
