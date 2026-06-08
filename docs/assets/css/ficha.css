@@ -638,7 +638,9 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
   #view-lista, #view-criacao, #view-levelup { display: none !important; }
   #view-ficha { display: block !important; }
   /* Controles interativos não imprimem */
-  .btn-pm, #btn-descansar, #ficha-mochila-panel, #ficha-bonus-row { display: none !important; }
+  .btn-pm, .btn-pm-inline, .recurso-btns,
+  .btn-edit-talento, .ficha-btn-icon,
+  #btn-descansar, #ficha-mochila-panel, #ficha-bonus-row { display: none !important; }
   #ficha-lacaios-panel { break-inside: avoid; }
   /* Condições: só as ativas imprimem */
   .condicao-badge:not(.ativo) { display: none !important; }
@@ -660,6 +662,11 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
   .ficha-habilidade { background: #f5f5f5; border-left-color: #8b1a1a; }
   .nivel-pip.ativo { background: #8b1a1a; color: #fff; border-color: #8b1a1a; }
   .recurso-valor { color: #000 !important; }
+  .res-pos, .ficha-total-rd.res-pos { color: #1a7a3a !important; }
+  .res-neg, .ficha-total-rd.res-neg { color: #c0392b !important; }
+  .res-zero, .ficha-total-rd.res-zero { color: #888 !important; }
+  [style*="color:#e67e22"] { color: #b35a00 !important; }
+  [style*="color:#4a9edd"] { color: #1a6fa8 !important; }
 
   body { font-size: 11pt; }
   .ficha-two-col { grid-template-columns: 1fr 1fr; }
