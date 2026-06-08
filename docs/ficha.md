@@ -151,9 +151,9 @@
       </div>
     </div>
 
-    <!-- Resistências iniciais -->
-    <div class="ficha-form-section">
-      <h3>Bônus de Resistência Inicial <small style="font-weight:400;color:#888">(itens/talentos)</small></h3>
+    <!-- Resistências iniciais (colapsável) -->
+    <details class="ficha-form-section">
+      <summary>Bônus de Resistência Inicial <small style="font-weight:400;color:#888">(itens/talentos — normalmente 0 na criação)</small></summary>
       <div class="ficha-form-row">
         <div class="ficha-form-group"><label>Físico</label><input type="number" id="form-res-Fisico" value="0" min="0"></div>
         <div class="ficha-form-group"><label>🔥 Fogo</label><input type="number" id="form-res-Fogo" value="0" min="0"></div>
@@ -165,7 +165,7 @@
         <div class="ficha-form-group"><label>🧠 Psíquico</label><input type="number" id="form-res-Psiquico" value="0" min="0"></div>
         <div class="ficha-form-group"><label>🔮 Arcano</label><input type="number" id="form-res-Arcano" value="0" min="0"></div>
       </div>
-    </div>
+    </details>
 
     <!-- Talento Inicial -->
     <div class="ficha-form-section" id="form-talento-section">
@@ -241,7 +241,7 @@
   <!-- Condições -->
   <div class="ficha-panel">
     <h3>Condições</h3>
-    <div id="ficha-condicoes-body" style="display:flex;gap:.5rem;flex-wrap:wrap;min-height:2rem"></div>
+    <div id="ficha-condicoes-body" style="min-height:2rem"></div>
   </div>
 
   <!-- Atributos + Habilidades -->
@@ -278,7 +278,7 @@
     </div>
     <div class="ficha-panel">
       <h3>Matriz de Resistência</h3>
-      <table class="ficha-table">
+      <table class="ficha-table" id="res-table">
         <thead><tr><th>Tipo</th><th title="Modificador do atributo base">Mod.</th><th title="Bônus de itens">+ Itens</th><th>= Total</th></tr></thead>
         <tbody id="ficha-resistencias-body"></tbody>
       </table>
@@ -292,7 +292,7 @@
   </div>
 
   <!-- Mochila & Inventário -->
-  <div class="ficha-panel">
+  <div class="ficha-panel" id="ficha-mochila-panel">
     <h3>🎒 Mochila &amp; Inventário</h3>
     <p style="font-size:.8rem;color:#666;margin:0 0 .6rem">Itens do personagem. Adicione manualmente ou via <a href="../mestre/rolador-tesouros/">Rolador de Tesouros</a>. Ao equipar, os bônus são aplicados automaticamente.</p>
     <div id="ficha-mochila-body"></div>
