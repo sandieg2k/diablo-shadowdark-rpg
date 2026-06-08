@@ -309,6 +309,8 @@
 /* Layout 2 colunas para a ficha */
 .ficha-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 @media (max-width: 640px) { .ficha-two-col { grid-template-columns: 1fr; } }
+.ficha-equip-resist-row { display: grid; grid-template-columns: 3fr 2fr; gap: 1rem; }
+@media (max-width: 640px) { .ficha-equip-resist-row { grid-template-columns: 1fr; } }
 
 /* ─── Level Up view ─── */
 .levelup-container { max-width: 600px; margin: 0 auto; }
@@ -597,8 +599,8 @@
 
 /* ─── Mobile — tabela de resistências ─── */
 @media (max-width: 540px) {
-  #res-table th:nth-child(2),
-  #res-table td:nth-child(2) { display: none; }
+  #res-table th:nth-child(4),
+  #res-table td:nth-child(4) { display: none; }
 }
 
 /* ─── Formulário colapsável ─── */
