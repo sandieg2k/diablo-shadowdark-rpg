@@ -266,6 +266,8 @@
 /* Tabela de atributos */
 .ficha-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
 .ficha-table td { padding: .3rem .5rem; border-bottom: 1px solid #2a2a2a; }
+#res-table td:first-child, #res-table th:first-child { white-space: nowrap; }
+#res-table th { white-space: nowrap; }
 .ficha-table td.ficha-val { text-align: center; font-weight: 700; width: 50px; }
 .ficha-table td.ficha-mod { text-align: center; width: 50px; color: #e74c3c; }
 .ficha-table td.ficha-mod.neg { color: #3498db; }
