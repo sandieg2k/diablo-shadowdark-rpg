@@ -705,7 +705,7 @@
 
     // Equipamento
     const eqNomes = {
-      arma1:'Arma 1', arma2:'Arma 2', especial:'Especial de Classe',
+      arma1:'Arma 1', arma2:'Arma 2', especial:'Especial',
       elmo:'Elmo', peito:'Peitoral', luvas:'Luvas', perneiras:'Perneiras', botas:'Botas',
       escudo:'Escudo', amuleto:'Amuleto', anel1:'Anel 1', anel2:'Anel 2', cinto:'Cinto'
     };
