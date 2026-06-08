@@ -37,6 +37,14 @@
           <select id="form-atrib-primario"></select>
         </div>
         <div class="ficha-form-group">
+          <label>Atrib. de Ataque</label>
+          <select id="form-atrib-atk"></select>
+        </div>
+        <div class="ficha-form-group">
+          <label>Atrib. de Conjuração</label>
+          <select id="form-atrib-conj"></select>
+        </div>
+        <div class="ficha-form-group">
           <label>Nível</label>
           <input type="number" id="form-nivel" min="1" max="10" value="1">
         </div>
@@ -178,8 +186,8 @@
       <div class="recurso-item"><div class="recurso-label">Mana</div><div class="recurso-valor mana" id="ficha-mana-display">—</div></div>
       <div class="recurso-item"><div class="recurso-label">CA</div><div class="recurso-valor ca" id="ficha-ca-display">—</div></div>
       <div class="recurso-item"><div class="recurso-label">RD Física</div><div class="recurso-valor" id="ficha-rd-display" style="color:#3498db">—</div></div>
-      <div class="recurso-item"><div class="recurso-label">ATK Bônus</div><div class="recurso-valor atk" id="ficha-atk-display">—</div></div>
-      <div class="recurso-item"><div class="recurso-label">Bônus Conjuração</div><div class="recurso-valor" id="ficha-conj-display" style="color:#9b59b6;font-size:1rem">—</div></div>
+      <div class="recurso-item"><div class="recurso-label" id="lbl-atk-bonus">ATK Bônus</div><div class="recurso-valor atk" id="ficha-atk-display">—</div></div>
+      <div class="recurso-item"><div class="recurso-label" id="lbl-conj-bonus">Bônus Conjuração</div><div class="recurso-valor" id="ficha-conj-display" style="color:#9b59b6;font-size:1rem">—</div></div>
     </div>
     <!-- Bônus manuais (ATK extra, Conjuração) -->
     <div id="ficha-bonus-row" class="recursos-atuais-row" style="margin-top:.6rem"></div>

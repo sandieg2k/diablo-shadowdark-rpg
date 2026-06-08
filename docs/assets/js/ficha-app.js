@@ -69,6 +69,8 @@
         if (!p.lacaios) p.lacaios = [];
         if (p.bonusAtkExtra === undefined) p.bonusAtkExtra = 0;
         if (p.bonusConjuracao === undefined) p.bonusConjuracao = 0;
+        if (!p.atribAtk) p.atribAtk = '';
+        if (!p.atribConj) p.atribConj = '';
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
           ['elmo','peito','luvas','perneiras','botas'].forEach(s => {
@@ -91,7 +93,7 @@
       attrs: { FOR: 10, DES: 10, CON: 10, INT: 10, SAB: 10, CAR: 10 },
       pvMax: 0, pvAtual: 0, manaMax: 0, manaAtual: 0,
       ca: 10, atk: 0, armadura: '', escudo: '',
-      bonusAtkExtra: 0, bonusConjuracao: 0,
+      bonusAtkExtra: 0, bonusConjuracao: 0, atribAtk: '', atribConj: '',
       equipamento: { elmo:'', peito:'', luvas:'', perneiras:'', botas:'',
                      especial:'', amuleto:'', anel1:'', anel2:'',
                      arma1:'', arma2:'', cinto:'' },
@@ -328,6 +330,14 @@
     selPrimario.innerHTML = cls.atribPrimario.map(a =>
       `<option value="${a}" ${a === (personagemAtual?.atribPrimario || cls.atribPrimario[0]) ? 'selected' : ''}>${a}</option>`
     ).join('');
+    // Populate atrib selects for ATK and Conjuração
+    const ATTRS = ['FOR','DES','CON','INT','SAB','CAR'];
+    const selAtk  = document.getElementById('form-atrib-atk');
+    const selConj = document.getElementById('form-atrib-conj');
+    if (selAtk) selAtk.innerHTML = `<option value="">— (mesmo que Primário)</option>` +
+      ATTRS.map(a => `<option value="${a}" ${a === personagemAtual?.atribAtk ? 'selected' : ''}>${a}</option>`).join('');
+    if (selConj) selConj.innerHTML = `<option value="">— (não usa)</option>` +
+      ATTRS.map(a => `<option value="${a}" ${a === personagemAtual?.atribConj ? 'selected' : ''}>${a}</option>`).join('');
   }
 
   function atualizarMod(attr) {
@@ -351,6 +361,8 @@
     p.nome = getValue('form-nome') || 'Sem nome';
     p.classe = getValue('form-classe') || 'amazona';
     p.atribPrimario = getValue('form-atrib-primario') || '';
+    p.atribAtk  = getValue('form-atrib-atk')  || '';
+    p.atribConj = getValue('form-atrib-conj') || '';
     p.nivel = parseInt(getValue('form-nivel')) || 1;
     p.xp = parseInt(getValue('form-xp')) || 0;
     p.titulo = getValue('form-titulo') || '';
@@ -463,10 +475,13 @@
     const cls = getClasse(p.classe);
     const primAttrVal = p.attrs[p.atribPrimario] || p.attrs['FOR'] || 10;
 
+    const atkAttrVal  = p.atribAtk  ? (p.attrs[p.atribAtk]  || 10) : primAttrVal;
+    const conjAttrVal = p.atribConj ? (p.attrs[p.atribConj] || 10) : primAttrVal;
     p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
     p.manaMax = calcManaMax(p.nivel, primAttrVal);
     p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo, p.items || []);
-    p.atk = mod(primAttrVal);
+    p.atk = mod(atkAttrVal);
+    p.conjBase = mod(conjAttrVal);
 
     // Bônus de itens equipados
     const itemBonus = calcBonusFromItems(p.items || []);
@@ -483,10 +498,16 @@
     setText('ficha-ca-display', p.ca);
     const rdTotal = rdFisicoCalc + (itemBonus.rdFisico || 0) + (itemBonus.rdTodos || 0);
     setText('ficha-rd-display', rdTotal > 0 ? rdTotal : '—');
-    const atkTotal = p.atk + (p.bonusAtkExtra || 0);
+    const atkTotal  = p.atk + (p.bonusAtkExtra || 0);
+    const conjTotal = (p.conjBase || 0) + (p.bonusConjuracao || 0);
     setText('ficha-atk-display', `${atkTotal >= 0 ? '+' : ''}${atkTotal}`);
     const conjEl = document.getElementById('ficha-conj-display');
-    if (conjEl) conjEl.textContent = `${(p.bonusConjuracao||0) >= 0 ? '+' : ''}${p.bonusConjuracao||0}`;
+    if (conjEl) conjEl.textContent = `${conjTotal >= 0 ? '+' : ''}${conjTotal}`;
+    // Labels dinâmicos com o atributo escolhido
+    const atkLbl = document.getElementById('lbl-atk-bonus');
+    if (atkLbl) atkLbl.textContent = p.atribAtk ? `ATK (${p.atribAtk})` : 'ATK Bônus';
+    const conjLbl = document.getElementById('lbl-conj-bonus');
+    if (conjLbl) conjLbl.textContent = p.atribConj ? `Conjuração (${p.atribConj})` : 'Bônus Conjuração';
 
     // Atualizar resumo de armadura no painel
     const peito = p.equipamento.peito || '';
@@ -568,7 +589,14 @@
     setText('ficha-ca-display', p.ca);
     const rdInit = calcRDFisico(p.equipamento, p.items);
     setText('ficha-rd-display', rdInit > 0 ? rdInit : '—');
-    setText('ficha-atk-display', `${p.atk >= 0 ? '+' : ''}${p.atk} + bônus de arma`);
+    const atkTotalInit  = p.atk + (p.bonusAtkExtra || 0);
+    const conjTotalInit = (p.conjBase || 0) + (p.bonusConjuracao || 0);
+    setText('ficha-atk-display', `${atkTotalInit >= 0 ? '+' : ''}${atkTotalInit}`);
+    setText('ficha-conj-display', `${conjTotalInit >= 0 ? '+' : ''}${conjTotalInit}`);
+    const atkLblI = document.getElementById('lbl-atk-bonus');
+    if (atkLblI) atkLblI.textContent = p.atribAtk ? `ATK (${p.atribAtk})` : 'ATK Bônus';
+    const conjLblI = document.getElementById('lbl-conj-bonus');
+    if (conjLblI) conjLblI.textContent = p.atribConj ? `Conjuração (${p.atribConj})` : 'Bônus Conjuração';
 
     // PV / Mana com botões ±
     setHTML('ficha-recursos-atuais', `
@@ -598,17 +626,23 @@
         const max = parseInt(targetEl.max) || 999;
         const newVal = Math.max(0, Math.min(max, (parseInt(targetEl.value) || 0) + parseInt(btn.dataset.delta)));
         targetEl.value = newVal;
+        // Dispara oninput para que handlers específicos de cada campo atuem
+        targetEl.dispatchEvent(new Event('input'));
         if (btn.dataset.target === 'inline-pv-atual') {
           p.pvAtual = newVal;
           setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
-        } else {
+          const idx = personagens.findIndex(x => x.id === p.id);
+          if (idx >= 0) personagens[idx] = p;
+          salvarPersonagens();
+          mostrarToast('✓ Salvo');
+        } else if (btn.dataset.target === 'inline-mana-atual') {
           p.manaAtual = newVal;
           setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
+          const idx = personagens.findIndex(x => x.id === p.id);
+          if (idx >= 0) personagens[idx] = p;
+          salvarPersonagens();
+          mostrarToast('✓ Salvo');
         }
-        const idx = personagens.findIndex(x => x.id === p.id);
-        if (idx >= 0) personagens[idx] = p;
-        salvarPersonagens();
-        mostrarToast('✓ Salvo');
       };
     });
 
@@ -675,7 +709,7 @@
             <td class="ficha-slot-nome">${nome}</td>
             <td><div class="slot-item-card">
               <div style="${qualStyle};font-weight:700;font-size:.85rem">${esc(eqItem.nome)}${eqItem.nomeAfixo ? ` <span style="color:#888;font-weight:400;font-size:.85em">${esc(eqItem.nomeAfixo)}</span>` : ''}</div>
-              ${eqItem.infoBase ? `<div style="font-size:.71rem;color:#666;margin-bottom:.1rem">${esc(eqItem.infoBase)}${eqItem.atributo ? ` · <span style="color:#e67e22">${esc(eqItem.atributo)}</span>` : ''}</div>` : (eqItem.atributo ? `<div style="font-size:.71rem;color:#e67e22;margin-bottom:.1rem">${esc(eqItem.atributo)}</div>` : '')}
+              ${(eqItem.infoBase || eqItem.atributo) ? `<div style="font-size:.78rem;color:#bbb;margin-bottom:.1rem">${eqItem.infoBase ? esc(eqItem.infoBase) : ''}${eqItem.atributo ? ` <span style="color:#e67e22">${esc(eqItem.atributo)}</span>` : ''}</div>` : ''}
               ${bonusTexts.length ? `<div style="font-size:.72rem;color:#4a9edd;margin-top:.1rem">${bonusTexts.join(' · ')}</div>` : ''}
               <button class="ficha-btn ficha-btn-secondary" style="font-size:.7rem;padding:.1rem .4rem;margin-top:.3rem"
                 onclick="window._fichaDesequipar('${eqItem.id}')">Desequipar</button>
