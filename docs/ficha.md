@@ -95,22 +95,11 @@
       </div>
     </div>
 
-    <!-- Proteção -->
+    <!-- Escudo -->
     <div class="ficha-form-section">
-      <h3>Proteção</h3>
-      <div class="ficha-form-row" style="margin-bottom:.8rem">
-        <div class="ficha-form-group">
-          <label>Equipar Set Completo</label>
-          <select id="form-set-completo">
-            <option value="">— Atalho de Set —</option>
-            <option value="Couro">Set Couro (CA 13, Leve)</option>
-            <option value="Couro Reforçado">Set Couro Reforçado (CA 14, Leve, RD 1)</option>
-            <option value="Brunea">Set Brunea (CA 15, Média, RD 1)</option>
-            <option value="Cota de Malha">Set Cota de Malha (CA 16, Média, RD 2)</option>
-            <option value="Meia-Placa">Set Meia-Placa (CA 17, Pesada, RD 2)</option>
-            <option value="Placa Completa">Set Placa Completa (CA 18, Pesada, RD 3)</option>
-          </select>
-        </div>
+      <h3>Escudo inicial</h3>
+      <p style="font-size:.82rem;color:#666;margin:0 0 .8rem">Armaduras são adicionadas via Mochila na ficha do personagem.</p>
+      <div class="ficha-form-row">
         <div class="ficha-form-group">
           <label>Escudo</label>
           <select id="form-escudo">
@@ -121,14 +110,6 @@
           </select>
         </div>
       </div>
-      <div class="ficha-form-row">
-        <div class="ficha-form-group"><label>Peitoral</label><select id="form-eq-peito"></select></div>
-        <div class="ficha-form-group"><label>Perneiras</label><select id="form-eq-perneiras"></select></div>
-        <div class="ficha-form-group"><label>Elmo</label><select id="form-eq-elmo"></select></div>
-        <div class="ficha-form-group"><label>Luvas</label><select id="form-eq-luvas"></select></div>
-        <div class="ficha-form-group"><label>Botas</label><select id="form-eq-botas"></select></div>
-      </div>
-      <p id="form-ca-preview" style="margin:.6rem 0 0;font-size:.85rem;color:#aaa"></p>
     </div>
 
     <!-- Resistências iniciais (colapsável) -->

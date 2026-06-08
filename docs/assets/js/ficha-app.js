@@ -308,38 +308,8 @@
 
     // Escudo
     setValue('form-escudo', p.escudo);
-    const escFrm = document.getElementById('form-escudo');
-    if (escFrm) escFrm.onchange = () => atualizarCaPreviewForm();
-
-    // Peças de armadura
-    const armorSlotsFrm = ['elmo','peito','luvas','perneiras','botas'];
-    armorSlotsFrm.forEach(slot => {
-      const sel = document.getElementById('form-eq-' + slot);
-      if (!sel) return;
-      if (!sel.children.length) {
-        sel.innerHTML = ARMADURA_OPTS.map(o => `<option value="${o.v}">${o.l}</option>`).join('');
-      }
-      sel.value = p.equipamento[slot] || '';
-      sel.onchange = () => atualizarCaPreviewForm();
-    });
-
-    // Atalho de set completo
-    const setCompEl = document.getElementById('form-set-completo');
-    if (setCompEl) {
-      setCompEl.value = '';
-      setCompEl.onchange = () => {
-        const tipo = setCompEl.value;
-        if (!tipo) return;
-        armorSlotsFrm.forEach(s => { setValue('form-eq-' + s, tipo); });
-        setCompEl.value = '';
-        atualizarCaPreviewForm();
-      };
-    }
 
     Object.keys(p.resistencias).forEach(tipo => setValue('form-res-' + tipo, p.resistencias[tipo]));
-
-    // Preview inicial de CA
-    atualizarCaPreviewForm();
 
     const titulo = document.getElementById('form-titulo-pagina');
     if (titulo) titulo.textContent = modoEdicao ? 'Editar Personagem' : 'Novo Personagem';
@@ -399,10 +369,7 @@
     p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
     if (p.pvAtual === 0 || p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
 
-    // Salvar só slots de armadura (outros são editados diretamente na ficha)
-    ['elmo','peito','luvas','perneiras','botas'].forEach(slot => {
-      p.equipamento[slot] = getValue('form-eq-' + slot) || '';
-    });
+    // Slots de equipamento são gerenciados pela Mochila; formulário não os toca
 
     p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo, p.items || []);
     p.atk = mod(primAttrVal);
@@ -721,19 +688,7 @@
           </tr>`;
         }
 
-        const currentVal = p.equipamento[slot] || '';
-        const armorInfo = armorSlotsView.includes(slot) && currentVal ? ARMADURA_INFO[currentVal] : null;
-
-        let cellContent;
-        if (armorInfo) {
-          const infoStr = `${armorInfo.tipo}${armorInfo.reqFOR ? ` · FOR ${armorInfo.reqFOR}` : ''}${armorInfo.ruido ? ' · Ruído' : ''}`;
-          cellContent = `<div class="slot-base-card"><strong style="color:#ccc;font-size:.85rem">${esc(currentVal)}</strong> <span style="color:#555;font-size:.78em">${infoStr}</span></div>`;
-        } else if (currentVal) {
-          cellContent = `<div class="slot-base-card"><span style="color:#aaa;font-size:.85rem">${esc(currentVal)}</span></div>`;
-        } else {
-          cellContent = `<span style="color:#3a3a3a;font-size:.85rem">—</span>`;
-        }
-        return `<tr><td class="ficha-slot-nome">${nome}</td><td>${cellContent}</td></tr>`;
+        return `<tr><td class="ficha-slot-nome">${nome}</td><td><span style="color:#3a3a3a;font-size:.85rem">—</span></td></tr>`;
       }).join('');
 
     }
