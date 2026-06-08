@@ -1178,13 +1178,13 @@
       }
 
       return `<div class="mochila-item">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;flex-wrap:wrap">
-          <div style="flex:1;min-width:0">
+        <div class="mochila-item-row">
+          <div class="mochila-item-info">
             <div style="${qualStyle};font-weight:700;font-size:.9rem">${esc(item.nome)}${item.nomeAfixo ? ` <span style="color:#888;font-weight:400">${esc(item.nomeAfixo)}</span>` : ''}</div>
             <div style="font-size:.73rem;color:#666;margin-bottom:.15rem">${esc(item.qualidade)} · ${esc(slotNome)}${item.infoBase ? ' · ' + esc(item.infoBase) : ''}${item.atributo ? ` · <span style="color:#e67e22">${esc(item.atributo)}</span>` : ''}</div>
             ${bonusTexts.length ? `<div style="font-size:.75rem;color:#4a9edd">${bonusTexts.join(' &nbsp;·&nbsp; ')}</div>` : ''}
           </div>
-          <div style="display:flex;gap:.3rem;align-items:center;flex-wrap:wrap;flex-shrink:0">
+          <div class="mochila-item-acoes">
             ${equipBtns}
             <button class="ficha-btn ficha-btn-secondary" style="font-size:.75rem;padding:.15rem .4rem"
               onclick="window._fichaEditarItem('${item.id}')" title="Editar">✏</button>

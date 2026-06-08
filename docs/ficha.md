@@ -166,7 +166,7 @@
         <div id="ficha-classe-display" style="color:#aaa;font-size:.9rem;margin-top:.2rem"></div>
         <div id="ficha-nivel-display" style="margin-top:.5rem"></div>
       </div>
-      <div style="text-align:right;font-size:.85rem;color:#888">
+      <div class="ficha-cabecalho-lado-direito">
         <div>XP: <span id="ficha-xp-wrapper"></span></div>
         <div style="margin-top:.3rem">Título: <strong id="ficha-titulo-display" style="color:#e74c3c"></strong></div>
         <div id="ficha-titulo-efeito" style="margin-top:.2rem;font-size:.78rem;color:#999;max-width:260px;line-height:1.4"></div>

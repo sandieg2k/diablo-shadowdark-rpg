@@ -403,25 +403,45 @@
   flex-wrap: wrap;
 }
 
-/* ─── Mobile geral: padding reduzido ─── */
-@media (max-width: 560px) {
-  #ficha-app { padding: 0 .5rem; }
-  .ficha-panel { padding: .65rem .7rem; }
-  .ficha-panel h3 { font-size: .8rem; }
+/* ─── Cabeçalho lado direito (XP, Título, Antecedente) ─── */
+.ficha-cabecalho-lado-direito {
+  text-align: right;
+  font-size: .85rem;
+  color: #888;
 }
 
-/* ─── Mobile — cabeçalho da ficha ─── */
-@media (max-width: 560px) {
-  .ficha-cabecalho-grid {
-    grid-template-columns: 1fr;
-  }
-  .ficha-cabecalho-grid > div:last-child {
-    text-align: left !important;
-  }
+/* ─── Mochila: layout de item ─── */
+.mochila-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+.mochila-item-info { flex: 1; min-width: 0; }
+.mochila-item-acoes {
+  display: flex;
+  gap: .3rem;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
 }
 
-/* ─── Mobile — ação compacta ─── */
+/* ══════════════════════════════
+   RESPONSIVE — MOBILE (≤ 560px)
+   ══════════════════════════════ */
 @media (max-width: 560px) {
+
+  /* Padding geral */
+  #ficha-app { padding: 0 .4rem; }
+  .ficha-panel { padding: .6rem .65rem; margin-bottom: .6rem; }
+  .ficha-panel h3 { font-size: .78rem; }
+
+  /* Cabeçalho da ficha: empilha verticalmente */
+  .ficha-cabecalho-grid { grid-template-columns: 1fr; }
+  .ficha-cabecalho-lado-direito { text-align: left; margin-top: .4rem; }
+
+  /* Action buttons: 4 colunas, fonte menor */
   .ficha-view-header { flex-direction: column; align-items: stretch; }
   #btn-voltar-lista { align-self: flex-start; }
   .ficha-view-actions {
@@ -430,77 +450,68 @@
     gap: .3rem;
   }
   .ficha-view-actions .ficha-btn {
-    font-size: .72rem;
-    padding: .3rem .15rem;
+    font-size: .7rem;
+    padding: .3rem .1rem;
     justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
-}
 
-/* ─── Mobile — recursos grid ─── */
-@media (max-width: 560px) {
-  .recursos-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: .5rem;
+  /* Recursos: 3 colunas */
+  .recursos-grid { grid-template-columns: repeat(3, 1fr) !important; gap: .4rem; }
+  .recurso-valor { font-size: 1rem; }
+  .recurso-label { font-size: .65rem; }
+
+  /* PV/Mana atuais */
+  .recursos-atuais-row { gap: .4rem; flex-direction: column; }
+  .recurso-inline { flex-wrap: nowrap; gap: .2rem; width: 100%; }
+  .recurso-inline label { min-width: 80px; font-size: .78rem; color: #888; }
+  .btn-pm-5 { display: none !important; }
+
+  /* Tabela de equipamento */
+  .ficha-table td.ficha-slot-nome { width: 72px; font-size: .76rem; padding: .25rem .3rem; }
+  .slot-item-card { padding: .2rem .3rem; }
+  .slot-item-card > div { font-size: .76rem !important; }
+
+  /* Mochila: nome e botões empilham */
+  .mochila-item-row { flex-direction: column; gap: .3rem; }
+  .mochila-item-acoes { flex-wrap: wrap; width: 100%; }
+  .mochila-item-acoes .ficha-btn { font-size: .75rem; padding: .25rem .5rem; }
+
+  /* Notas: objetivo em 2 linhas */
+  .notas-objetivo-row {
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto;
   }
-  .recurso-valor { font-size: 1.1rem; }
-  .recurso-label { font-size: .68rem; }
-}
+  .notas-objetivo-row .notas-recompensa {
+    grid-row: 2;
+    grid-column: 2 / 4;
+  }
+  /* Bestiário: 3 colunas se tornam truncados — esconde situação */
+  .notas-bestiario-row { grid-template-columns: 1fr 1fr auto; }
+  .notas-bestiario-row input:nth-child(3) { display: none; }
 
-/* ─── Mobile — PV/Mana atuais ─── */
-@media (max-width: 560px) {
-  .recursos-atuais-row { gap: .5rem; }
-  .recurso-inline { flex-wrap: wrap; gap: .25rem; }
-  .recurso-inline label { width: 100%; font-size: .75rem; margin-bottom: .1rem; }
-  /* Esconde botões ±5 em tela pequena para não sobrecarregar */
-  .btn-pm-5 { display: none; }
+  /* Formulário de criação */
+  .ficha-form-row { grid-template-columns: 1fr 1fr; }
 }
 
 /* ─── Mobile — botões ± touch-friendly ─── */
 @media (pointer: coarse), (max-width: 560px) {
   .btn-pm {
-    min-width: 38px;
+    min-width: 36px;
     min-height: 38px;
-    padding: .35rem .45rem;
+    padding: .3rem .4rem;
     font-size: .88rem;
     font-weight: 700;
   }
-  .ficha-input-small { width: 60px; font-size: .95rem; }
+  .ficha-input-small { width: 58px; font-size: .95rem; }
 }
 
 /* ─── Mobile — tabela de resistências ─── */
 @media (max-width: 540px) {
   #res-table th:nth-child(2),
   #res-table td:nth-child(2) { display: none; }
-}
-
-/* ─── Mobile — tabela de equipamento ─── */
-@media (max-width: 560px) {
-  .ficha-table td.ficha-slot-nome { width: 80px; font-size: .78rem; }
-  .slot-item-card { padding: .25rem .35rem; }
-  .slot-item-card > div { font-size: .78rem; }
-}
-
-/* ─── Mobile — mochila ─── */
-@media (max-width: 560px) {
-  .mochila-item > div:first-child { flex-direction: column; align-items: flex-start !important; }
-  .mochila-item > div:first-child > div:last-child { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .3rem; }
-}
-
-/* ─── Mobile — notas ─── */
-@media (max-width: 560px) {
-  .notas-objetivo-row {
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: auto auto;
-  }
-  .notas-objetivo-row input[type="checkbox"] { grid-row: 1; }
-  .notas-objetivo-row .notas-input:not(.notas-recompensa) { grid-row: 1; grid-column: 2; }
-  .notas-objetivo-row .notas-del-btn { grid-row: 1; }
-  .notas-objetivo-row .notas-recompensa { grid-row: 2; grid-column: 2 / 4; }
-}
-
-/* ─── Mobile — formulário de criação ─── */
-@media (max-width: 480px) {
-  .ficha-form-row { grid-template-columns: 1fr 1fr; }
 }
 
 /* ─── Formulário colapsável ─── */
