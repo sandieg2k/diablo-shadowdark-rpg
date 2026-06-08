@@ -486,6 +486,8 @@ window.rolarTesouro = function(opts = {}) {
   const nd = Math.max(1, Math.min(10, parseInt(document.getElementById('nd-input').value) || 1));
   const logs = [];
   let finalHtml = "";
+  window._itemAtual = null;
+  window._setAtual = null;
 
   // Modo de teste: força cenários específicos
   if (opts.forceSet) {
@@ -557,10 +559,12 @@ window.rolarTesouro = function(opts = {}) {
       } else {
         // Set completo — rola cada peça individualmente
         const pecasDoSet = ["Peitoral", "Perneiras", "Elmo", "Luvas", "Botas"];
+        const slotPorPeca = { Peitoral:'peito', Perneiras:'perneiras', Elmo:'elmo', Luvas:'luvas', Botas:'botas' };
         const qualIndiv = { q: qual.q.replace(' (Set)', ''), css: qual.css, pref: qual.pref, suf: qual.suf };
         let setHtml = `<div style="font-size:0.85rem;color:var(--md-default-fg-color--light);margin-bottom:0.5rem;">🎒 <b>Set completo de ${arm.nome}</b> — peças roladas individualmente</div>`;
+        const pecasSalvar = [];
         for (const peca of pecasDoSet) {
-          const { html: afixoP, prefTitulos: ptP, sufTitulos: stP } = afixos(qualIndiv, nd, logs);
+          const { html: afixoP, prefTitulos: ptP, sufTitulos: stP, afixosData: adP } = afixos(qualIndiv, nd, logs);
           const bonus = PECA_CA[arm.nome]?.[peca] ?? 0;
           const pecaInfo = peca === "Peitoral"
             ? `${arm.tipo} · CA base: ${caBase(arm.tipo)} · CA completa: ${arm.ca} — Peitoral (+${bonus})`
@@ -571,7 +575,32 @@ window.rolarTesouro = function(opts = {}) {
             <div style="font-size:1rem;font-weight:bold;" class="${qualIndiv.css}">${nomeP}</div>
             <div style="font-size:0.82rem;color:var(--md-default-fg-color--light);">${pecaInfo}</div>
             ${afixoP}</div>`;
+          const bonusC = { bonusCA:0, bonusATK:0, bonusDano:0, bonusRDFisico:0, bonusRDTodos:0, bonusManaMax:0 };
+          adP.forEach(function(a) {
+            const e = a.efeito; let m;
+            m = e.match(/\+(\d+) de CA/);             if (m) bonusC.bonusCA      += parseInt(m[1]);
+            m = e.match(/\+3 Ataque[,;]? \+3 Dano/); if (m) { bonusC.bonusATK += 3; bonusC.bonusDano += 3; }
+            else {
+              m = e.match(/\+3 nos testes de Ataque/);if (m) bonusC.bonusATK += 3;
+              m = e.match(/\+(\d+) no Dano/);         if (m) bonusC.bonusDano  += parseInt(m[1]);
+            }
+            m = e.match(/\+(\d+) RD em TODOS/);       if (m) bonusC.bonusRDTodos += parseInt(m[1]);
+            m = e.match(/Mana máximo \+(\d+)/);       if (m) bonusC.bonusManaMax += parseInt(m[1]);
+          });
+          pecasSalvar.push({
+            nome: nomeP,
+            slotTipo: slotPorPeca[peca],
+            tipoArmadura: arm.nome,
+            qualidade: qualIndiv.q,
+            infoBase: pecaInfo,
+            prefixos: adP.filter(function(a){return a.tipo==='Prefixo';}).map(function(a){return {nome:a.nome,efeito:a.efeito};}),
+            sufixoNome:   (adP.find(function(a){return a.tipo==='Sufixo';}) || {}).nome  || '',
+            sufixoEfeito: (adP.find(function(a){return a.tipo==='Sufixo';}) || {}).efeito || '',
+            bonusCA: bonusC.bonusCA, bonusATK: bonusC.bonusATK, bonusDano: bonusC.bonusDano,
+            bonusRDFisico: bonusC.bonusRDFisico, bonusRDTodos: bonusC.bonusRDTodos, bonusManaMax: bonusC.bonusManaMax
+          });
         }
+        window._setAtual = pecasSalvar;
         finalHtml = `<div>🗡️ <span class="${qual.css}" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;">${qual.q}</span>${setHtml}</div>`;
         setHandled = true;
       }
@@ -679,14 +708,12 @@ window.rolarTesouro = function(opts = {}) {
           ${infoHtml}
           ${afixoHtml}
         </div>`;
-    } else {
-      window._itemAtual = null;
     }
   }
 
-  const salvarBtn = window._itemAtual
+  const salvarBtn = (window._itemAtual || window._setAtual)
     ? `<div class="salvar-item-row" id="salvar-row">
-        <button onclick="window.prepararSalvar()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">💾 Salvar no Personagem</button>
+        <button onclick="window.prepararSalvar()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">💾 ${window._setAtual ? 'Salvar ' + window._setAtual.length + ' peças no Personagem' : 'Salvar no Personagem'}</button>
       </div>`
     : '';
 
@@ -702,10 +729,11 @@ window.rolarTesouro = function(opts = {}) {
 window.limparTesouro = function() {
   document.getElementById("resultado-tesouro").innerHTML = "";
   window._itemAtual = null;
+  window._setAtual = null;
 };
 
 function salvarEmPersonagem(id) {
-  if (!window._itemAtual) return;
+  if (!window._itemAtual && !window._setAtual) return;
   let personagens;
   try { personagens = JSON.parse(localStorage.getItem('diablo-rpg-fichas') || '[]'); }
   catch(e) { personagens = []; }
@@ -713,19 +741,32 @@ function salvarEmPersonagem(id) {
   if (idx < 0) { alert('Personagem não encontrado.'); return; }
   if (!personagens[idx].items) personagens[idx].items = [];
 
-  const item = Object.assign({}, window._itemAtual);
-  item.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
-  item.equipadoEm = null;
-  personagens[idx].items.push(item);
-  localStorage.setItem('diablo-rpg-fichas', JSON.stringify(personagens));
-
-  window._itemAtual = null;
-  const row = document.getElementById('salvar-row');
-  if (row) row.innerHTML = `<span style="color:#27ae60;font-weight:bold">✓ Salvo em ${personagens[idx].nome || 'Sem nome'}!</span>`;
+  if (window._setAtual) {
+    window._setAtual.forEach(function(piece) {
+      const item = Object.assign({}, piece);
+      item.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
+      item.equipadoEm = null;
+      personagens[idx].items.push(item);
+    });
+    const n = window._setAtual.length;
+    window._setAtual = null;
+    localStorage.setItem('diablo-rpg-fichas', JSON.stringify(personagens));
+    const row = document.getElementById('salvar-row');
+    if (row) row.innerHTML = `<span style="color:#27ae60;font-weight:bold">✓ ${n} peças salvas em ${personagens[idx].nome || 'Sem nome'}!</span>`;
+  } else {
+    const item = Object.assign({}, window._itemAtual);
+    item.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
+    item.equipadoEm = null;
+    personagens[idx].items.push(item);
+    localStorage.setItem('diablo-rpg-fichas', JSON.stringify(personagens));
+    window._itemAtual = null;
+    const row = document.getElementById('salvar-row');
+    if (row) row.innerHTML = `<span style="color:#27ae60;font-weight:bold">✓ Salvo em ${personagens[idx].nome || 'Sem nome'}!</span>`;
+  }
 }
 
 window.prepararSalvar = function() {
-  if (!window._itemAtual) return;
+  if (!window._itemAtual && !window._setAtual) return;
   let personagens;
   try { personagens = JSON.parse(localStorage.getItem('diablo-rpg-fichas') || '[]'); }
   catch(e) { personagens = []; }
@@ -738,6 +779,7 @@ window.prepararSalvar = function() {
     salvarEmPersonagem(personagens[0].id);
     return;
   }
+  const labelSalvar = window._setAtual ? 'Salvar ' + window._setAtual.length + ' peças' : 'Salvar';
 
   const opts = personagens.map(function(p) {
     return '<option value="' + p.id + '">' + (p.nome || 'Sem nome') + ' — ' + (p.classe || '') + ' Nv ' + (p.nivel || 1) + '</option>';
@@ -747,7 +789,7 @@ window.prepararSalvar = function() {
   row.innerHTML =
     '<span style="font-size:0.82rem;color:#888;margin-right:6px">Adicionar a qual personagem?</span>' +
     '<select id="sel-personagem-rolador" style="padding:5px 8px;background:#1a1a1a;border:1px solid #444;border-radius:4px;color:#eee;font-family:inherit">' + opts + '</select>' +
-    ' <button onclick="window.confirmarSalvarRolador()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">✔ Confirmar</button>' +
+    ' <button onclick="window.confirmarSalvarRolador()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">✔ ' + labelSalvar + '</button>' +
     ' <button onclick="window.cancelarSalvarRolador()" class="roll-btn roll-btn-sec" style="font-size:0.85rem;padding:5px 10px;">Cancelar</button>';
 };
 
@@ -758,7 +800,8 @@ window.confirmarSalvarRolador = function() {
 
 window.cancelarSalvarRolador = function() {
   const row = document.getElementById('salvar-row');
-  if (row) row.innerHTML = '<button onclick="window.prepararSalvar()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">💾 Salvar no Personagem</button>';
+  const lbl = window._setAtual ? '💾 Salvar ' + window._setAtual.length + ' peças no Personagem' : '💾 Salvar no Personagem';
+  if (row) row.innerHTML = '<button onclick="window.prepararSalvar()" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">' + lbl + '</button>';
 };
 
 })();
