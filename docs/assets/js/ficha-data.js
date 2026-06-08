@@ -786,9 +786,7 @@ function calcCAFromEquip(cls, attrs, equip, escudo, items) {
 
   let ca = 10;
   ['elmo', 'peito', 'luvas', 'perneiras', 'botas'].forEach(slot => {
-    // Armor is a single item (equipped to 'peito'). If a slot has no specific
-    // item, fall back to the peito armor type so the full set CA is calculated.
-    const pType = getArmorTipo(slot) || peito;
+    const pType = getArmorTipo(slot);
     ca += ((ARMADURA_PECAS[pType] || {})[slot]) || 0;
   });
 
@@ -800,7 +798,13 @@ function calcCAFromEquip(cls, attrs, equip, escudo, items) {
 }
 
 // Retorna a RD Física baseada no peitoral equipado
-function calcRDFisico(equip) {
+function calcRDFisico(equip, items) {
+  // Sistema novo: busca item equipado no slot peito com tipoArmadura
+  if (Array.isArray(items)) {
+    var it = items.find(function(i) { return i.equipadoEm === 'peito' && i.tipoArmadura; });
+    if (it) return (ARMADURA_INFO[it.tipoArmadura] && ARMADURA_INFO[it.tipoArmadura].rdFisico) || 0;
+  }
+  // Fallback: sistema legado (equip.peito = string)
   const peito = (equip && equip.peito) ? equip.peito : '';
   return (ARMADURA_INFO[peito] && ARMADURA_INFO[peito].rdFisico) || 0;
 }

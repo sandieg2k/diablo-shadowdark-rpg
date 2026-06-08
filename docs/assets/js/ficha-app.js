@@ -472,7 +472,7 @@
     if (p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
     if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
 
-    const rdFisicoCalc = calcRDFisico(p.equipamento);
+    const rdFisicoCalc = calcRDFisico(p.equipamento, p.items);
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
     setText('ficha-ca-display', p.ca);
@@ -550,7 +550,7 @@
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
     setText('ficha-ca-display', p.ca);
-    const rdInit = calcRDFisico(p.equipamento);
+    const rdInit = calcRDFisico(p.equipamento, p.items);
     setText('ficha-rd-display', rdInit > 0 ? rdInit : '—');
     setText('ficha-atk-display', `${p.atk >= 0 ? '+' : ''}${p.atk} + bônus de arma`);
 
