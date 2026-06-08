@@ -765,7 +765,8 @@ function calcCAFromEquip(cls, attrs, equip, escudo, items) {
   function getArmorTipo(slot) {
     if (Array.isArray(items)) {
       var it = items.find(function(i) { return i.equipadoEm === slot && i.tipoArmadura; });
-      if (it) return it.tipoArmadura;
+      // items é autoritativo: se existe, não usa equip como fallback (evita stale data)
+      return it ? it.tipoArmadura : '';
     }
     return (equip && equip[slot]) ? equip[slot] : '';
   }
