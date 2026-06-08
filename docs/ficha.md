@@ -159,21 +159,26 @@
   </div>
 
   <!-- Cabeçalho da ficha -->
-  <div class="ficha-panel">
-    <div class="ficha-cabecalho-grid">
-      <div>
-        <div id="ficha-nome-display"></div>
-        <div id="ficha-classe-display" style="color:#aaa;font-size:.9rem;margin-top:.2rem"></div>
-        <div id="ficha-nivel-display" style="margin-top:.5rem"></div>
+  <div class="ficha-panel ficha-cabecalho-panel">
+    <div id="ficha-nome-display"></div>
+    <div id="ficha-classe-display" class="cab-classe"></div>
+    <div class="cab-nivel-row">
+      <div id="ficha-nivel-display"></div>
+      <div class="cab-xp">XP: <span id="ficha-xp-wrapper"></span></div>
+    </div>
+    <hr class="cab-divider">
+    <div class="cab-badge-row">
+      <div class="cab-badge">
+        <span class="cab-badge-label">Título</span>
+        <strong id="ficha-titulo-display" class="cab-badge-nome"></strong>
       </div>
-      <div class="ficha-cabecalho-lado-direito">
-        <div>XP: <span id="ficha-xp-wrapper"></span></div>
-        <div style="margin-top:.3rem">Título: <strong id="ficha-titulo-display" style="color:#e74c3c"></strong></div>
-        <div id="ficha-titulo-efeito" style="margin-top:.2rem;font-size:.78rem;color:#999;max-width:260px;line-height:1.4"></div>
-        <div style="margin-top:.4rem">Antecedente: <strong id="ficha-antecedente-display" style="color:#aaa"></strong></div>
-        <div id="ficha-antecedente-efeito" style="margin-top:.2rem;font-size:.78rem;color:#999;max-width:260px;line-height:1.4"></div>
+      <div class="cab-badge">
+        <span class="cab-badge-label">Antecedente</span>
+        <strong id="ficha-antecedente-display" class="cab-badge-nome cab-badge-nome-ant"></strong>
       </div>
     </div>
+    <div id="ficha-titulo-efeito" class="cab-efeito"></div>
+    <div id="ficha-antecedente-efeito" class="cab-efeito" style="margin-top:.5rem"></div>
   </div>
 
   <!-- Recursos principais -->

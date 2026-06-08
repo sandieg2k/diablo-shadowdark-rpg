@@ -145,12 +145,36 @@
 }
 
 /* Cabeçalho principal da ficha */
-.ficha-cabecalho-grid {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 1rem 2rem;
-  align-items: start;
+/* legado — mantido para compatibilidade, não é mais usado no cabeçalho */
+.ficha-cabecalho-grid { display: block; }
+
+/* ─── Cabeçalho reestruturado ─── */
+.ficha-cabecalho-panel { display: flex; flex-direction: column; gap: 0; }
+.cab-classe { color: #aaa; font-size: .88rem; margin-top: .25rem; }
+.cab-nivel-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin-top: .5rem;
 }
+.cab-xp { font-size: .88rem; color: #aaa; }
+.cab-divider {
+  border: none;
+  border-top: 1px solid #333;
+  margin: .7rem 0 .6rem;
+}
+.cab-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
+}
+.cab-badge { display: flex; align-items: baseline; gap: .4rem; }
+.cab-badge-label { font-size: .78rem; color: #666; text-transform: uppercase; letter-spacing: .04em; }
+.cab-badge-nome { color: #e74c3c; }
+.cab-badge-nome-ant { color: #aaa; }
+.cab-efeito { font-size: .8rem; color: #888; line-height: 1.5; margin-top: .35rem; }
 .ficha-nome-grande { font-size: 1.5rem; font-weight: 700; color: #e74c3c; }
 .ficha-sub { font-size: .85rem; color: #888; }
 .nivel-barra { display: flex; gap: 3px; margin-top: .3rem; }
@@ -418,12 +442,6 @@
   flex-wrap: wrap;
 }
 
-/* ─── Cabeçalho lado direito (XP, Título, Antecedente) ─── */
-.ficha-cabecalho-lado-direito {
-  text-align: right;
-  font-size: .85rem;
-  color: #888;
-}
 
 /* ─── Mochila: layout de item ─── */
 .mochila-item-row {
@@ -452,9 +470,8 @@
   .ficha-panel { padding: .6rem .65rem; margin-bottom: .6rem; }
   .ficha-panel h3 { font-size: .78rem; }
 
-  /* Cabeçalho da ficha: empilha verticalmente */
-  .ficha-cabecalho-grid { grid-template-columns: 1fr; }
-  .ficha-cabecalho-lado-direito { text-align: left; margin-top: .4rem; }
+  /* Cabeçalho: badge-row em coluna no mobile */
+  .cab-badge-row { flex-direction: column; gap: .3rem; }
 
   /* Action buttons: 4 colunas, fonte menor */
   .ficha-view-header { flex-direction: column; align-items: stretch; }
