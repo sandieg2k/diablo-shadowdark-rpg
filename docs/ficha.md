@@ -168,17 +168,21 @@
     </div>
     <hr class="cab-divider">
     <div class="cab-badge-row">
-      <div class="cab-badge">
-        <span class="cab-badge-label">Título</span>
-        <strong id="ficha-titulo-display" class="cab-badge-nome"></strong>
+      <div class="cab-bloco">
+        <div class="cab-badge">
+          <span class="cab-badge-label">Título</span>
+          <strong id="ficha-titulo-display" class="cab-badge-nome"></strong>
+        </div>
+        <div id="ficha-titulo-efeito" class="cab-efeito"></div>
       </div>
-      <div class="cab-badge">
-        <span class="cab-badge-label">Antecedente</span>
-        <strong id="ficha-antecedente-display" class="cab-badge-nome cab-badge-nome-ant"></strong>
+      <div class="cab-bloco">
+        <div class="cab-badge">
+          <span class="cab-badge-label">Antecedente</span>
+          <strong id="ficha-antecedente-display" class="cab-badge-nome cab-badge-nome-ant"></strong>
+        </div>
+        <div id="ficha-antecedente-efeito" class="cab-efeito"></div>
       </div>
     </div>
-    <div id="ficha-titulo-efeito" class="cab-efeito"></div>
-    <div id="ficha-antecedente-efeito" class="cab-efeito" style="margin-top:.5rem"></div>
   </div>
 
   <!-- Recursos principais -->
