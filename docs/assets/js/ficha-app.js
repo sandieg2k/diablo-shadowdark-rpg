@@ -724,41 +724,18 @@
         const currentVal = p.equipamento[slot] || '';
         const armorInfo = armorSlotsView.includes(slot) && currentVal ? ARMADURA_INFO[currentVal] : null;
 
-        let input;
-        if (armorSlotsView.includes(slot)) {
-          const opts = ARMADURA_OPTS.map(o =>
-            `<option value="${esc(o.v)}" ${currentVal === o.v ? 'selected':''}>${esc(o.l)}</option>`
-          ).join('');
-          input = `<select class="ficha-input-inline" id="inline-eq-${slot}" style="width:100%">${opts}</select>`;
-        } else if (weaponSlotsView.includes(slot)) {
-          input = `<input type="text" class="ficha-input-inline" id="inline-eq-${slot}" value="${esc(currentVal)}" placeholder="—" list="datalist-armas" autocomplete="off">`;
-        } else {
-          input = `<input type="text" class="ficha-input-inline" id="inline-eq-${slot}" value="${esc(currentVal)}" placeholder="—">`;
-        }
-
-        // Slot com valor: mostrar card base (consistente com cards de inventário)
-        if (currentVal && !armorSlotsView.includes(slot)) {
-          return `<tr><td class="ficha-slot-nome">${nome}</td><td>
-            <div class="slot-base-card">
-              <div class="slot-base-label">${esc(currentVal)}</div>
-              ${input}
-            </div></td></tr>`;
-        }
+        let cellContent;
         if (armorInfo) {
           const infoStr = `${armorInfo.tipo}${armorInfo.reqFOR ? ` · FOR ${armorInfo.reqFOR}` : ''}${armorInfo.ruido ? ' · Ruído' : ''}`;
-          return `<tr><td class="ficha-slot-nome">${nome}</td><td>
-            <div class="slot-base-card">
-              <div class="slot-base-label"><strong>${esc(currentVal)}</strong> <span style="color:#555;font-size:.78em">${infoStr}</span></div>
-              ${input}
-            </div></td></tr>`;
+          cellContent = `<div class="slot-base-card"><strong style="color:#ccc;font-size:.85rem">${esc(currentVal)}</strong> <span style="color:#555;font-size:.78em">${infoStr}</span></div>`;
+        } else if (currentVal) {
+          cellContent = `<div class="slot-base-card"><span style="color:#aaa;font-size:.85rem">${esc(currentVal)}</span></div>`;
+        } else {
+          cellContent = `<span style="color:#3a3a3a;font-size:.85rem">—</span>`;
         }
-        return `<tr><td class="ficha-slot-nome">${nome}</td><td>${input}</td></tr>`;
+        return `<tr><td class="ficha-slot-nome">${nome}</td><td>${cellContent}</td></tr>`;
       }).join('');
 
-      armorSlotsView.forEach(slot => {
-        const sel = document.getElementById('inline-eq-' + slot);
-        if (sel) sel.onchange = () => { p.equipamento[slot] = sel.value; recalcularStats(); };
-      });
     }
 
     // Resistências com total ao vivo

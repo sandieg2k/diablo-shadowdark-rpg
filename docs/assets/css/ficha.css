@@ -320,16 +320,13 @@
 
 /* ─── Slot base card (equipamento base sem item de inventário) ─── */
 .slot-base-card {
-  padding: .35rem .5rem;
+  padding: .3rem .5rem;
   background: #111;
-  border: 1px solid #2e2e2e;
+  border: 1px solid #222;
   border-radius: 4px;
-  line-height: 1.4;
-}
-.slot-base-label {
-  font-size: .82rem;
-  color: #aaa;
-  margin-bottom: .25rem;
+  line-height: 1.5;
+  display: inline-block;
+  min-width: 80px;
 }
 
 /* ─── Formulário inline de item ─── */
