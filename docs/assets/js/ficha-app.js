@@ -66,6 +66,9 @@
         if (!p.condicoes) p.condicoes = [];
         if (!p.equipadoSlots) p.equipadoSlots = {};
         if (!p.items) p.items = [];
+        if (!p.lacaios) p.lacaios = [];
+        if (p.bonusAtkExtra === undefined) p.bonusAtkExtra = 0;
+        if (p.bonusConjuracao === undefined) p.bonusConjuracao = 0;
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
           ['elmo','peito','luvas','perneiras','botas'].forEach(s => {
@@ -88,11 +91,13 @@
       attrs: { FOR: 10, DES: 10, CON: 10, INT: 10, SAB: 10, CAR: 10 },
       pvMax: 0, pvAtual: 0, manaMax: 0, manaAtual: 0,
       ca: 10, atk: 0, armadura: '', escudo: '',
+      bonusAtkExtra: 0, bonusConjuracao: 0,
       equipamento: { elmo:'', peito:'', luvas:'', perneiras:'', botas:'',
                      especial:'', amuleto:'', anel1:'', anel2:'',
                      arma1:'', arma2:'', cinto:'' },
       equipadoSlots: {},
       items: [],
+      lacaios: [],
       resistencias: { Fisico:0, Fogo:0, Gelo:0, Relampago:0, Veneno:0,
                       Necrotico:0, Radiante:0, Psiquico:0, Arcano:0 },
       condicoes: [], talentos: [], notas: '',
@@ -478,7 +483,10 @@
     setText('ficha-ca-display', p.ca);
     const rdTotal = rdFisicoCalc + (itemBonus.rdFisico || 0) + (itemBonus.rdTodos || 0);
     setText('ficha-rd-display', rdTotal > 0 ? rdTotal : '—');
-    setText('ficha-atk-display', `${p.atk >= 0 ? '+' : ''}${p.atk} + bônus de arma`);
+    const atkTotal = p.atk + (p.bonusAtkExtra || 0);
+    setText('ficha-atk-display', `${atkTotal >= 0 ? '+' : ''}${atkTotal}`);
+    const conjEl = document.getElementById('ficha-conj-display');
+    if (conjEl) conjEl.textContent = `${(p.bonusConjuracao||0) >= 0 ? '+' : ''}${p.bonusConjuracao||0}`;
 
     // Atualizar resumo de armadura no painel
     const peito = p.equipamento.peito || '';
@@ -497,6 +505,7 @@
       }
     });
 
+    function resColorClass(v) { return v > 0 ? 'res-pos' : v < 0 ? 'res-neg' : 'res-zero'; }
     Object.keys(p.resistencias).forEach(tipo => {
       const attrBase = getAtribResistencia(tipo);
       const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : null;
@@ -505,7 +514,9 @@
       const totalEl = document.getElementById('res-total-' + tipo);
       if (totalEl) {
         const bonus = parseInt(document.getElementById('inline-res-' + tipo)?.value) || 0;
-        totalEl.textContent = modAttr !== null ? modAttr + bonus : bonus;
+        const total = modAttr !== null ? modAttr + bonus : bonus;
+        totalEl.textContent = total;
+        totalEl.className = 'ficha-val ficha-total-rd ' + resColorClass(total);
       }
     });
 
@@ -664,7 +675,7 @@
             <td class="ficha-slot-nome">${nome}</td>
             <td><div class="slot-item-card">
               <div style="${qualStyle};font-weight:700;font-size:.85rem">${esc(eqItem.nome)}${eqItem.nomeAfixo ? ` <span style="color:#888;font-weight:400;font-size:.85em">${esc(eqItem.nomeAfixo)}</span>` : ''}</div>
-              ${eqItem.infoBase ? `<div style="font-size:.71rem;color:#555;margin-bottom:.1rem">${esc(eqItem.infoBase)}</div>` : ''}
+              ${eqItem.infoBase ? `<div style="font-size:.71rem;color:#666;margin-bottom:.1rem">${esc(eqItem.infoBase)}${eqItem.atributo ? ` · <span style="color:#e67e22">${esc(eqItem.atributo)}</span>` : ''}</div>` : (eqItem.atributo ? `<div style="font-size:.71rem;color:#e67e22;margin-bottom:.1rem">${esc(eqItem.atributo)}</div>` : '')}
               ${bonusTexts.length ? `<div style="font-size:.72rem;color:#4a9edd;margin-top:.1rem">${bonusTexts.join(' · ')}</div>` : ''}
               <button class="ficha-btn ficha-btn-secondary" style="font-size:.7rem;padding:.1rem .4rem;margin-top:.3rem"
                 onclick="window._fichaDesequipar('${eqItem.id}')">Desequipar</button>
@@ -690,11 +701,12 @@
         const attrBase = getAtribResistencia(tipo);
         const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : null;
         const total = modAttr !== null ? modAttr + val : val;
+        const tc = total > 0 ? 'res-pos' : total < 0 ? 'res-neg' : 'res-zero';
         return `<tr>
           <td>${nome}</td>
           <td class="ficha-val" id="res-mod-${tipo}">${modAttr !== null ? modAttr : '—'}</td>
           <td><input type="number" class="ficha-input-inline ficha-input-small" id="inline-res-${tipo}" value="${val}" min="-20" max="50"></td>
-          <td class="ficha-val ficha-total-rd" id="res-total-${tipo}">${total}</td>
+          <td class="ficha-val ficha-total-rd ${tc}" id="res-total-${tipo}">${total}</td>
         </tr>`;
       }).join('');
       Object.keys(p.resistencias).forEach(tipo => {
@@ -703,8 +715,12 @@
           const attrBase = getAtribResistencia(tipo);
           const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : null;
           const bonus = parseInt(bonusEl.value) || 0;
+          const total = modAttr !== null ? modAttr + bonus : bonus;
           const totalEl = document.getElementById('res-total-' + tipo);
-          if (totalEl) totalEl.textContent = modAttr !== null ? modAttr + bonus : bonus;
+          if (totalEl) {
+            totalEl.textContent = total;
+            totalEl.className = 'ficha-val ficha-total-rd ' + (total > 0 ? 'res-pos' : total < 0 ? 'res-neg' : 'res-zero');
+          }
         };
       });
     }
@@ -758,7 +774,30 @@
     if (btnLvl) btnLvl.disabled = p.nivel >= 10;
     verificarAlertaXP();
 
+    // Bônus extras (ATK e Conjuração) — inline editáveis
+    const bonusRow = document.getElementById('ficha-bonus-row');
+    if (bonusRow) {
+      bonusRow.innerHTML = `
+        <div class="recurso-inline">
+          <label style="color:#888;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em">Bônus ATK extra</label>
+          <button class="btn-pm" data-target="inline-bonus-atk" data-delta="-1" type="button">-1</button>
+          <input type="number" id="inline-bonus-atk" class="ficha-input-small" value="${p.bonusAtkExtra||0}" style="width:55px;text-align:center;padding:.2rem .3rem;background:#111;border:1px solid #333;border-radius:3px;color:#eee;font-size:.9rem">
+          <button class="btn-pm" data-target="inline-bonus-atk" data-delta="1" type="button">+1</button>
+        </div>
+        <div class="recurso-inline">
+          <label style="color:#888;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em">Bônus Conjuração</label>
+          <button class="btn-pm" data-target="inline-bonus-conj" data-delta="-1" type="button">-1</button>
+          <input type="number" id="inline-bonus-conj" class="ficha-input-small" value="${p.bonusConjuracao||0}" style="width:55px;text-align:center;padding:.2rem .3rem;background:#111;border:1px solid #333;border-radius:3px;color:#eee;font-size:.9rem">
+          <button class="btn-pm" data-target="inline-bonus-conj" data-delta="1" type="button">+1</button>
+        </div>`;
+      const atkEl = document.getElementById('inline-bonus-atk');
+      if (atkEl) atkEl.oninput = () => { p.bonusAtkExtra = parseInt(atkEl.value) || 0; recalcularStats(); salvarPersonagens(); };
+      const conjEl2 = document.getElementById('inline-bonus-conj');
+      if (conjEl2) conjEl2.oninput = () => { p.bonusConjuracao = parseInt(conjEl2.value) || 0; recalcularStats(); salvarPersonagens(); };
+    }
+
     renderizarMochila();
+    renderizarLacaios();
 
     _isRendering = false;
   }
@@ -1035,6 +1074,8 @@
         const armorSlots = ['peito','elmo','luvas','perneiras','botas'];
         const grp = document.getElementById('item-form-tipo-armadura-group');
         if (grp) grp.style.display = armorSlots.includes(slotSel.value) ? '' : 'none';
+        const atribGrp = document.getElementById('item-form-atributo-group');
+        if (atribGrp) atribGrp.style.display = slotSel.value === 'arma' ? '' : 'none';
       };
       return;
     }
@@ -1075,7 +1116,7 @@
         <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;flex-wrap:wrap">
           <div style="flex:1;min-width:0">
             <div style="${qualStyle};font-weight:700;font-size:.9rem">${esc(item.nome)}${item.nomeAfixo ? ` <span style="color:#888;font-weight:400">${esc(item.nomeAfixo)}</span>` : ''}</div>
-            <div style="font-size:.73rem;color:#666;margin-bottom:.15rem">${esc(item.qualidade)} · ${esc(slotNome)}${item.infoBase ? ' · ' + esc(item.infoBase) : ''}</div>
+            <div style="font-size:.73rem;color:#666;margin-bottom:.15rem">${esc(item.qualidade)} · ${esc(slotNome)}${item.infoBase ? ' · ' + esc(item.infoBase) : ''}${item.atributo ? ` · <span style="color:#e67e22">${esc(item.atributo)}</span>` : ''}</div>
             ${bonusTexts.length ? `<div style="font-size:.75rem;color:#4a9edd">${bonusTexts.join(' &nbsp;·&nbsp; ')}</div>` : ''}
           </div>
           <div style="display:flex;gap:.3rem;align-items:center;flex-wrap:wrap;flex-shrink:0">
@@ -1094,6 +1135,10 @@
     const item = _itemEditandoId ? (personagemAtual?.items || []).find(i => i.id === _itemEditandoId) : null;
     const v = (field, def = '') => item != null && item[field] != null ? item[field] : def;
     const armorSlots = ['peito','elmo','luvas','perneiras','botas'];
+    const isArma = v('slotTipo','arma') === 'arma';
+    const atribOpts = ['','FOR','DES','CON','INT','SAB','CAR'].map(a =>
+      `<option value="${a}" ${v('atributo','')===a?'selected':''}>${a || '— (padrão da classe)'}</option>`
+    ).join('');
     const slotOpts = [
       ['arma','Arma'],['peito','Peitoral'],['elmo','Elmo'],['luvas','Luvas'],
       ['perneiras','Perneiras'],['botas','Botas'],['escudo','Escudo'],['anel','Anel'],
@@ -1128,6 +1173,10 @@
         <div class="ficha-form-group" id="item-form-tipo-armadura-group" style="${showArmor ? '' : 'display:none'}">
           <label>Tipo de Armadura Base</label>
           <select id="item-form-tipo-armadura">${armorTypeOpts}</select>
+        </div>
+        <div class="ficha-form-group" id="item-form-atributo-group" style="${isArma ? '' : 'display:none'}">
+          <label>Atributo de Ataque</label>
+          <select id="item-form-atributo">${atribOpts}</select>
         </div>
         <div class="ficha-form-group">
           <label>Info Base <small style="color:#666">(ex: 1d8)</small></label>
@@ -1238,6 +1287,7 @@
       id: editandoId || (Date.now().toString(36) + Math.random().toString(36).slice(2, 5)),
       nome, qualidade: getValue('item-form-qualidade') || 'Normal',
       slotTipo, tipoArmadura,
+      atributo: slotTipo === 'arma' ? (getValue('item-form-atributo') || '') : '',
       equipadoEm: existente ? existente.equipadoEm : null,
       infoBase: getValue('item-form-info-base').trim(),
       nomeAfixo: getValue('item-form-nome-afixo').trim(),
@@ -1271,6 +1321,85 @@
   window._fichaEditarItem = editarItem;
   window._fichaCancelarItem = cancelarItem;
   window._fichaSalvarItem = salvarItemDoForm;
+
+  // ───── Lacaios & Pets ─────
+  function renderizarLacaios() {
+    const p = personagemAtual;
+    const panel = document.getElementById('ficha-lacaios-panel');
+    if (!panel) return;
+    if (!p || !p.lacaios || p.lacaios.length === 0) {
+      panel.style.display = 'none';
+      return;
+    }
+    panel.style.display = '';
+    const body = document.getElementById('ficha-lacaios-body');
+    if (!body) return;
+    body.innerHTML = p.lacaios.map(lac => `
+      <div class="lacaio-card" id="lacaio-${lac.id}">
+        <div class="lacaio-nome">${esc(lac.nome)}</div>
+        <div class="lacaio-stats">
+          <span title="CA">🛡 ${lac.ca || '—'}</span>
+          <span title="ATK">⚔ ${lac.atk || '—'}</span>
+          <span title="Dano">💥 ${esc(lac.dano) || '—'}</span>
+        </div>
+        <div class="lacaio-hp-row">
+          <span style="color:#888;font-size:.8rem">PV</span>
+          <button class="btn-pm" onclick="window._fichaLacaioHP('${lac.id}',-1)" type="button">-1</button>
+          <span id="lac-pv-${lac.id}" style="color:#e74c3c;font-weight:700;min-width:32px;text-align:center">${lac.pvAtual}/${lac.pvMax}</span>
+          <button class="btn-pm" onclick="window._fichaLacaioHP('${lac.id}',1)" type="button">+1</button>
+          <button class="ficha-btn ficha-btn-danger" style="font-size:.7rem;padding:.1rem .35rem;margin-left:.4rem"
+            onclick="window._fichaLacaioDel('${lac.id}')" title="Remover lacaio">✕</button>
+        </div>
+      </div>`).join('');
+  }
+
+  function adicionarLacaio() {
+    const p = personagemAtual;
+    if (!p) return;
+    const nome = prompt('Nome do lacaio / pet:');
+    if (!nome) return;
+    const pvMax = parseInt(prompt('PV máximo:', '10')) || 10;
+    const ca    = parseInt(prompt('CA:', '10')) || 10;
+    const atk   = prompt('Bônus de ataque (ex: +3):', '+0') || '+0';
+    const dano  = prompt('Dano (ex: 1d6 Físico):', '1d6 Físico') || '1d6 Físico';
+    if (!p.lacaios) p.lacaios = [];
+    p.lacaios.push({ id: Date.now().toString(36), nome, pvMax, pvAtual: pvMax, ca, atk, dano });
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+    salvarPersonagens();
+    const panel = document.getElementById('ficha-lacaios-panel');
+    if (panel) panel.style.display = '';
+    renderizarLacaios();
+    mostrarToast('Lacaio adicionado!');
+  }
+
+  function lacaioHP(id, delta) {
+    const p = personagemAtual;
+    if (!p || !p.lacaios) return;
+    const lac = p.lacaios.find(l => l.id === id);
+    if (!lac) return;
+    lac.pvAtual = Math.max(0, Math.min(lac.pvMax, (lac.pvAtual || 0) + delta));
+    const el = document.getElementById('lac-pv-' + id);
+    if (el) el.textContent = `${lac.pvAtual}/${lac.pvMax}`;
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+    salvarPersonagens();
+  }
+
+  function deletarLacaio(id) {
+    const p = personagemAtual;
+    if (!p || !p.lacaios) return;
+    p.lacaios = p.lacaios.filter(l => l.id !== id);
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+    salvarPersonagens();
+    renderizarLacaios();
+    mostrarToast('Lacaio removido.');
+  }
+
+  window._fichaAddLacaio = adicionarLacaio;
+  window._fichaLacaioHP  = lacaioHP;
+  window._fichaLacaioDel = deletarLacaio;
 
   function getAtribResistencia(tipo) {
     return {

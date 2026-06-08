@@ -299,6 +299,26 @@
 .cond-desc-item { font-size: .78rem; color: #cc8888; line-height: 1.4; }
 .cond-desc-item strong { color: #ffbbbb; }
 
+/* ─── Cores da matriz de resistência ─── */
+.res-pos  { color: #27ae60 !important; }
+.res-zero { color: #555    !important; }
+.res-neg  { color: #e74c3c !important; }
+
+/* ─── Lacaios & Pets ─── */
+.lacaio-card {
+  background: #111;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: .6rem .8rem;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+}
+.lacaio-nome { font-weight: 700; color: #e74c3c; font-size: .95rem; }
+.lacaio-stats { display: flex; gap: .8rem; font-size: .82rem; color: #aaa; }
+.lacaio-hp-row { display: flex; align-items: center; gap: .3rem; font-size: .85rem; }
+
 /* ─── Level Up pronto ─── */
 .levelup-ready {
   animation: lvl-pulse 1.2s ease-in-out infinite;
@@ -431,7 +451,8 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
   #view-lista, #view-criacao, #view-levelup { display: none !important; }
   #view-ficha { display: block !important; }
   /* Controles interativos não imprimem */
-  .btn-pm, #btn-descansar, #ficha-recursos-atuais, #ficha-mochila-panel { display: none !important; }
+  .btn-pm, #btn-descansar, #ficha-recursos-atuais, #ficha-mochila-panel, #ficha-bonus-row { display: none !important; }
+  #ficha-lacaios-panel { break-inside: avoid; }
   /* Condições: só as ativas imprimem */
   .condicao-badge:not(.ativo) { display: none !important; }
   .cond-descricao { display: none !important; }

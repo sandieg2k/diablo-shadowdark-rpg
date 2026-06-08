@@ -145,6 +145,7 @@
       <button id="btn-editar-ficha" class="ficha-btn ficha-btn-secondary">✏ Editar</button>
       <button id="btn-exportar" class="ficha-btn ficha-btn-secondary">⬇ Exportar</button>
       <button id="btn-imprimir" class="ficha-btn ficha-btn-secondary">🖨 Imprimir</button>
+      <button class="ficha-btn ficha-btn-secondary" onclick="window._fichaAddLacaio()" type="button">🐺 Lacaio</button>
       <button id="btn-excluir-ficha" class="ficha-btn ficha-btn-danger">✕ Excluir</button>
     </div>
   </div>
@@ -178,9 +179,12 @@
       <div class="recurso-item"><div class="recurso-label">CA</div><div class="recurso-valor ca" id="ficha-ca-display">—</div></div>
       <div class="recurso-item"><div class="recurso-label">RD Física</div><div class="recurso-valor" id="ficha-rd-display" style="color:#3498db">—</div></div>
       <div class="recurso-item"><div class="recurso-label">ATK Bônus</div><div class="recurso-valor atk" id="ficha-atk-display">—</div></div>
+      <div class="recurso-item"><div class="recurso-label">Bônus Conjuração</div><div class="recurso-valor" id="ficha-conj-display" style="color:#9b59b6;font-size:1rem">—</div></div>
     </div>
+    <!-- Bônus manuais (ATK extra, Conjuração) -->
+    <div id="ficha-bonus-row" class="recursos-atuais-row" style="margin-top:.6rem"></div>
     <!-- Armadura / Escudo editáveis inline -->
-    <div id="ficha-armadura-inline" style="margin-top:.6rem"></div>
+    <div id="ficha-armadura-inline" style="margin-top:.4rem"></div>
   </div>
 
   <!-- Condições -->
@@ -234,6 +238,15 @@
   <div class="ficha-panel">
     <h3>Notas</h3>
     <textarea id="ficha-notas-input" class="ficha-input-inline" rows="4" placeholder="Objetivos, NPCs, missões em andamento…" style="width:100%;resize:vertical"></textarea>
+  </div>
+
+  <!-- Lacaios & Pets -->
+  <div class="ficha-panel" id="ficha-lacaios-panel" style="display:none">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem">
+      <h3 style="margin:0">Lacaios &amp; Pets</h3>
+      <button class="ficha-btn ficha-btn-danger" style="font-size:.8rem;padding:.2rem .7rem" onclick="window._fichaAddLacaio()" type="button">+ Adicionar</button>
+    </div>
+    <div id="ficha-lacaios-body" style="display:flex;flex-wrap:wrap;gap:.6rem"></div>
   </div>
 
   <!-- Mochila & Inventário -->
