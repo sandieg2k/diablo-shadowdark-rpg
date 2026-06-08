@@ -786,7 +786,9 @@ function calcCAFromEquip(cls, attrs, equip, escudo, items) {
 
   let ca = 10;
   ['elmo', 'peito', 'luvas', 'perneiras', 'botas'].forEach(slot => {
-    const pType = getArmorTipo(slot);
+    // Armor is a single item (equipped to 'peito'). If a slot has no specific
+    // item, fall back to the peito armor type so the full set CA is calculated.
+    const pType = getArmorTipo(slot) || peito;
     ca += ((ARMADURA_PECAS[pType] || {})[slot]) || 0;
   });
 
