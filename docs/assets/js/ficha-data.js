@@ -983,7 +983,7 @@ var _TIPO_KEY_MAP = {'Físico':'Fisico','Fogo':'Fogo','Gelo':'Gelo','Relâmpago'
 var _ALL_RES_KEYS = ['Fisico','Fogo','Gelo','Relampago','Veneno','Necrotico','Radiante','Psiquico','Arcano'];
 
 function calcBonusFromItems(items) {
-  var bonus = { ca: 0, atk: 0, dano: 0, manaMax: 0, rdPorTipo: {} };
+  var bonus = { ca: 0, atk: 0, dano: 0, manaMax: 0, rdPorTipo: {}, atributos: {FOR:0,DES:0,CON:0,INT:0,SAB:0,CAR:0} };
   _ALL_RES_KEYS.forEach(function(k){ bonus.rdPorTipo[k] = 0; });
   if (!items) return bonus;
   items.forEach(function(item) {
@@ -992,6 +992,10 @@ function calcBonusFromItems(items) {
     bonus.atk    += item.bonusATK     || 0;
     bonus.dano   += item.bonusDano    || 0;
     bonus.manaMax+= item.bonusManaMax || 0;
+    Object.entries(item.bonusAtributos || {}).forEach(function(entry) {
+      var a = entry[0], v = entry[1];
+      if (bonus.atributos[a] !== undefined) bonus.atributos[a] += (v || 0);
+    });
     // bonusRD[] — novo formato
     (item.bonusRD || []).forEach(function(r) {
       if (!r.tipo || !r.valor) return;

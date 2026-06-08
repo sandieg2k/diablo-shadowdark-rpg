@@ -95,6 +95,8 @@
             if (item.bonusRDFisico) item.bonusRD.push({tipo:'Físico', valor: item.bonusRDFisico});
             if (item.bonusRDTodos)  item.bonusRD.push({tipo:'Todos',  valor: item.bonusRDTodos});
           }
+          // bonusAtributos — novo campo
+          if (!item.bonusAtributos) item.bonusAtributos = {};
         });
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
@@ -529,18 +531,24 @@
     const p = personagemAtual;
     if (!p) return;
     const cls = getClasse(p.classe);
-    const primAttrVal = p.attrs[p.atribPrimario] || p.attrs['FOR'] || 10;
 
-    const atkAttrVal  = p.atribAtk  ? (p.attrs[p.atribAtk]  || 10) : primAttrVal;
-    const conjAttrVal = p.atribConj ? (p.attrs[p.atribConj] || 10) : primAttrVal;
-    p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
+    // Bônus de itens equipados (calculado antes para usar atributos efetivos)
+    const itemBonus = calcBonusFromItems(p.items || []);
+
+    // Atributos efetivos = base + bônus de itens equipados
+    const attrsEf = {};
+    ['FOR','DES','CON','INT','SAB','CAR'].forEach(function(a) {
+      attrsEf[a] = (p.attrs[a] || 10) + ((itemBonus.atributos && itemBonus.atributos[a]) || 0);
+    });
+
+    const primAttrVal = attrsEf[p.atribPrimario] || attrsEf['FOR'] || 10;
+    const atkAttrVal  = p.atribAtk  ? (attrsEf[p.atribAtk]  || 10) : primAttrVal;
+    const conjAttrVal = p.atribConj ? (attrsEf[p.atribConj] || 10) : primAttrVal;
+    p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, attrsEf.CON);
     p.manaMax = calcManaMax(p.nivel, primAttrVal);
-    p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo, p.items || []);
+    p.ca = calcCAFromEquip(cls || { id: p.classe }, attrsEf, p.equipamento, p.escudo, p.items || []);
     p.atk = mod(atkAttrVal);
     p.conjBase = mod(conjAttrVal);
-
-    // Bônus de itens equipados
-    const itemBonus = calcBonusFromItems(p.items || []);
     p.ca += itemBonus.ca;
     p.atk += itemBonus.atk;
     p.manaMax += itemBonus.manaMax;
@@ -730,6 +738,7 @@
           if (eqItem.bonusDano)     bonusTexts.push(`Dano ${eqItem.bonusDano > 0 ? '+' : ''}${eqItem.bonusDano}`);
           (eqItem.bonusRD||[]).forEach(r=>{ if(r.valor) bonusTexts.push(`RD ${r.tipo} +${r.valor}`); });
           if (eqItem.bonusManaMax)  bonusTexts.push(`Mana ${eqItem.bonusManaMax > 0 ? '+' : ''}${eqItem.bonusManaMax}`);
+          Object.entries(eqItem.bonusAtributos||{}).forEach(function([a,v]){ if(v) bonusTexts.push(`${a} ${v>0?'+':''}${v}`); });
           return `<tr>
             <td class="ficha-slot-nome">${nome}</td>
             <td><div class="slot-item-card">
@@ -1271,6 +1280,7 @@
       if (item.bonusDano)     bonusTexts.push(`Dano ${item.bonusDano > 0 ? '+' : ''}${item.bonusDano}`);
       (item.bonusRD||[]).forEach(r=>{ if(r.valor) bonusTexts.push(`RD ${r.tipo} +${r.valor}`); });
       if (item.bonusManaMax)  bonusTexts.push(`Mana ${item.bonusManaMax > 0 ? '+' : ''}${item.bonusManaMax}`);
+      Object.entries(item.bonusAtributos||{}).forEach(function([a,v]){ if(v) bonusTexts.push(`${a} ${v>0?'+':''}${v}`); });
 
       const multiSlots = item.slotTipo === 'arma' ? (item.duasMaos ? ['arma1'] : ['arma1','arma2']) : item.slotTipo === 'anel' ? ['anel1','anel2'] : null;
       let equipBtns;
@@ -1398,6 +1408,10 @@
         <div class="ficha-form-group"><label>Bônus Dano</label><input type="number" id="item-form-bonus-dano" value="${v('bonusDano',0)}" min="-20" max="20"></div>
         <div class="ficha-form-group"><label>Mana Máx</label><input type="number" id="item-form-bonus-mana-max" value="${v('bonusManaMax',0)}" min="-20" max="50"></div>
       </div>
+      <div style="margin-top:.4rem">
+        <label style="font-size:.8rem;color:#aaa;text-transform:uppercase;letter-spacing:.05em">Bônus de Atributos</label>
+        <div class="ficha-form-row" style="margin-top:.3rem;flex-wrap:wrap;gap:.3rem">${['FOR','DES','CON','INT','SAB','CAR'].map(a=>`<div class="ficha-form-group" style="flex:0 0 auto;min-width:70px"><label style="font-size:.78rem">${a}</label><input type="number" id="item-form-bonus-atr-${a}" value="${(v('bonusAtributos',{})[a])||0}" min="-10" max="20" style="width:100%"></div>`).join('')}</div>
+      </div>
       <div style="margin-top:.6rem">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.3rem">
           <label style="margin:0;font-size:.8rem;color:#aaa;text-transform:uppercase;letter-spacing:.05em">Resistência a Dano (RD) <small style="color:#555;text-transform:none">por tipo</small></label>
@@ -1518,7 +1532,15 @@
       bonusATK: parseInt(getValue('item-form-bonus-atk')) || 0,
       bonusDano: parseInt(getValue('item-form-bonus-dano')) || 0,
       bonusRD: (window._editingRDs||[]).filter(r=>r.tipo && r.valor),
-      bonusManaMax: parseInt(getValue('item-form-bonus-mana-max')) || 0
+      bonusManaMax: parseInt(getValue('item-form-bonus-mana-max')) || 0,
+      bonusAtributos: (function() {
+        const ba = {};
+        ['FOR','DES','CON','INT','SAB','CAR'].forEach(function(a) {
+          const val = parseInt(document.getElementById('item-form-bonus-atr-' + a)?.value) || 0;
+          if (val !== 0) ba[a] = val;
+        });
+        return ba;
+      })()
     };
     if (editandoId) {
       const idx = p.items.findIndex(i => i.id === editandoId);
