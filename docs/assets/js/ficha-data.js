@@ -911,9 +911,9 @@ function calcManaMax(nivel, atribPrimVal) {
 
 // Calcular PV máximo (média do DV + CON por nível)
 function calcPVMax(nivel, dv, conVal) {
-  // Nível 1: máximo do dado; demais: média (+1) + CON
+  // Nível 1: máximo do dado + modCON; demais níveis: média sem CON
   const modCON = mod(conVal);
-  return dv + (nivel - 1) * (Math.floor(dv / 2) + 1 + modCON) + modCON;
+  return dv + modCON + (nivel - 1) * (Math.floor(dv / 2) + 1);
 }
 
 // CA baseada em peças individuais de armadura
