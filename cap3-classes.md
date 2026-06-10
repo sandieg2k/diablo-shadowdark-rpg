@@ -524,7 +524,7 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **12** | **Leis da Esperança (◈ \+ 2 Mana por Rodada):** Você e aliados Próximo recuperam 1d4 de HP no início de cada rodada. |
 | **13** | **Leis da Justiça (Passiva):** Você e aliados Próximo ganham \+1 na CA enquanto você estiver consciente. |
 | **14** | **Espada Cadente (◈◈ \+ 2 Mana):** Salte para "Distante" e caia causando 2d8 de dano Radiante em área (Próximo do impacto). Gaste +2 Mana para cada dado extra. |
-| **15** | **Provocar (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Force inimigos Próximo a atacarem apenas você no próximo turno (Teste de SAB ou CAR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
+| **15** | **Escudo Abençoado (Feitiço) (◈◈ \+ 2 Mana):** Arremesse seu escudo em um alvo Próximo. Ele ricocheia para até 2 inimigos adicionais Próximo do impacto anterior, causando 1d8 de dano Radiante em cada um (uma rolagem de ataque por alvo). Gaste +2 Mana para cada alvo extra além dos 3 iniciais. |
 | **16** | **Fúria Sagrada (◈ \+ 3 Mana por Rodada):** Seus ataques agora causam \+2d6 de dano Radiante por 1 rodada. |
 | **17** | **Consagração (Feitiço) (◈ \+ 4 Mana):** Santifique o chão Próximo por 1d4 rodadas. Aliados na área têm Vantagem em testes e ataques. |
 | **18** | **Fervor (Passiva):** Você pode usar uma arma de duas mãos em uma mão se estiver usando um escudo na outra. |
