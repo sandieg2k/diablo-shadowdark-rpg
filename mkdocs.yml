@@ -93,6 +93,7 @@ nav:
     - Sacerdote: classes/sacerdote.md
     - Warlock: classes/warlock.md
   - Livro do Mestre:
+    - Pontos do Medo: mestre/pontos-do-medo.md
     - Encontros: mestre/encontros.md
     - Tesouros e Itens: mestre/tesouros.md
     - Afixos: mestre/afixos.md
