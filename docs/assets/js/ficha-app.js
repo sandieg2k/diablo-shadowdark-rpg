@@ -1713,6 +1713,8 @@
           <button class="btn-pm" onclick="window._fichaLacaioHP('${lac.id}',-1)" type="button">-1</button>
           <span id="lac-pv-${lac.id}" style="color:#e74c3c;font-weight:700;min-width:32px;text-align:center">${lac.pvAtual}/${lac.pvMax}</span>
           <button class="btn-pm" onclick="window._fichaLacaioHP('${lac.id}',1)" type="button">+1</button>
+          <button class="ficha-btn ficha-btn-edit" style="font-size:.7rem;padding:.1rem .35rem;margin-left:.4rem"
+            onclick="window._fichaLacaioEdit('${lac.id}')" title="Editar lacaio">✏</button>
           <button class="ficha-btn ficha-btn-danger" style="font-size:.7rem;padding:.1rem .35rem;margin-left:.4rem"
             onclick="window._fichaLacaioDel('${lac.id}')" title="Remover lacaio">✕</button>
         </div>
@@ -1763,8 +1765,33 @@
     mostrarToast('Lacaio removido.');
   }
 
+  function editarLacaio(id) {
+    const p = personagemAtual;
+    if (!p || !p.lacaios) return;
+    const lac = p.lacaios.find(l => l.id === id);
+    if (!lac) return;
+
+    const nome = prompt('Nome do lacaio / pet:', lac.nome);
+    if (!nome) return;
+    const pvMax = parseInt(prompt('PV máximo:', lac.pvMax)) || 10;
+    const ca    = parseInt(prompt('CA:', lac.ca)) || 10;
+    const atk   = prompt('Bônus de ataque (ex: +3):', lac.atk) || '+0';
+    const dano  = prompt('Dano (ex: 1d6 Físico):', lac.dano) || '1d6 Físico';
+    lac.nome = nome;
+    lac.pvMax = pvMax;
+    lac.ca = ca;
+    lac.atk = atk;
+    lac.dano = dano;
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+    salvarPersonagens();
+    renderizarLacaios();
+    mostrarToast('Lacaio editado!');
+  }
+
   window._fichaAddLacaio = adicionarLacaio;
   window._fichaLacaioHP  = lacaioHP;
+  window._fichaLacaioEdit = editarLacaio;
   window._fichaLacaioDel = deletarLacaio;
 
   // ───── Notas Estruturadas ─────

@@ -28,6 +28,7 @@
 .ficha-btn-secondary{ background: #555; color: #eee; }
 .ficha-btn-success  { background: #27ae60; color: #fff; }
 .ficha-btn-danger   { background: #6c2a2a; color: #ddd; }
+.ficha-btn-edit   { background: #27ae60; color: #ddd; }
 .ficha-btn-icon     { background: transparent; border: none; color: #888; cursor: pointer; font-size: .8rem; padding: .15rem .3rem; }
 .ficha-btn-icon:hover { color: #c0392b; }
 
