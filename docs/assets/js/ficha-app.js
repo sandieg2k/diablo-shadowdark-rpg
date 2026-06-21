@@ -212,7 +212,7 @@
       const p = personagemAtual;
       if (!p) return;
       p.pvAtual = Math.max(0, Math.min(p.pvMax, (p.pvAtual || 0) + delta));
-      setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.pvMax}</span>`);
+      setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max" onclick="_fichaPVSetMax()" title="Clique para editar PV máximo" style="cursor:pointer;text-decoration:underline dotted">${p.pvMax}</span>`);
       const idx = personagens.findIndex(x => x.id === p.id);
       if (idx >= 0) personagens[idx] = p;
       salvarPersonagens();
@@ -222,11 +222,37 @@
       const p = personagemAtual;
       if (!p) return;
       p.manaAtual = Math.max(0, Math.min(p.manaMax, (p.manaAtual || 0) + delta));
-      setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.manaMax}</span>`);
+      setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max" onclick="_fichaManaSetMax()" title="Clique para editar Mana máximo" style="cursor:pointer;text-decoration:underline dotted">${p.manaMax}</span>`);
       const idx = personagens.findIndex(x => x.id === p.id);
       if (idx >= 0) personagens[idx] = p;
       salvarPersonagens();
       mostrarToast('✓ Salvo');
+    };
+    window._fichaPVSetMax = function() {
+      const p = personagemAtual;
+      if (!p) return;
+      const novo = parseInt(prompt('Novo PV máximo:', p.pvMax));
+      if (isNaN(novo) || novo < 1) return;
+      p.pvMax = novo;
+      if (p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
+      setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max" onclick="_fichaPVSetMax()" title="Clique para editar PV máximo" style="cursor:pointer;text-decoration:underline dotted">${p.pvMax}</span>`);
+      const idx = personagens.findIndex(x => x.id === p.id);
+      if (idx >= 0) personagens[idx] = p;
+      salvarPersonagens();
+      mostrarToast('PV máximo atualizado!');
+    };
+    window._fichaManaSetMax = function() {
+      const p = personagemAtual;
+      if (!p) return;
+      const novo = parseInt(prompt('Novo Mana máximo:', p.manaMax));
+      if (isNaN(novo) || novo < 0) return;
+      p.manaMax = novo;
+      if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
+      setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max" onclick="_fichaManaSetMax()" title="Clique para editar Mana máximo" style="cursor:pointer;text-decoration:underline dotted">${p.manaMax}</span>`);
+      const idx = personagens.findIndex(x => x.id === p.id);
+      if (idx >= 0) personagens[idx] = p;
+      salvarPersonagens();
+      mostrarToast('Mana máximo atualizado!');
     };
 
     // Auto-save com debounce na view da ficha
@@ -557,8 +583,8 @@
     if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
 
     const rdFisicoCalc = calcRDFisico(p.equipamento, p.items);
-    setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.pvMax}</span>`);
-    setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.manaMax}</span>`);
+    setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max" onclick="_fichaPVSetMax()" title="Clique para editar PV máximo" style="cursor:pointer;text-decoration:underline dotted">${p.pvMax}</span>`);
+    setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max" onclick="_fichaManaSetMax()" title="Clique para editar Mana máximo" style="cursor:pointer;text-decoration:underline dotted">${p.manaMax}</span>`);
     setText('ficha-ca-display', p.ca);
     const rdFisicoTotal = rdFisicoCalc + (itemBonus.rdPorTipo?.Fisico || 0);
     setText('ficha-rd-display', rdFisicoTotal > 0 ? rdFisicoTotal : '—');
@@ -656,8 +682,8 @@
     salvarPersonagens();
 
     // Recursos
-    setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.pvMax}</span>`);
-    setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.manaMax}</span>`);
+    setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max" onclick="_fichaPVSetMax()" title="Clique para editar PV máximo" style="cursor:pointer;text-decoration:underline dotted">${p.pvMax}</span>`);
+    setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max" onclick="_fichaManaSetMax()" title="Clique para editar Mana máximo" style="cursor:pointer;text-decoration:underline dotted">${p.manaMax}</span>`);
     setText('ficha-ca-display', p.ca);
     const rdInit = calcRDFisico(p.equipamento, p.items);
     setText('ficha-rd-display', rdInit > 0 ? rdInit : '—');
